@@ -1,0 +1,5266 @@
+[
+  {
+    "lat": 44.703776,
+    "lon": -71.292318,
+    "radius": 6.392241379310345,
+    "color": "#3c4f8aff",
+    "tooltip": "UN.PARIS   34.5GRPW \u2022 113 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.978444,
+    "lon": -72.482611,
+    "radius": 5.4655172413793105,
+    "color": "#45337fff",
+    "tooltip": "UN.JAY_VT  46  KCW \u2022 70 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.663639,
+    "lon": -72.122972,
+    "radius": 5.228448275862069,
+    "color": "#472b7aff",
+    "tooltip": "UN.SHEFIELD34.5SHEF \u2022 59 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "LD.POWERSVL115 \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "LD.CHSTERME46 \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "LD.KEENE_RD46 \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 4.862068965517241,
+    "color": "#481f71ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 42 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 4.538793103448276,
+    "color": "#481567ff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 27 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.517241379310345,
+    "color": "#481467ff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 26 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.517241379310345,
+    "color": "#481467ff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 26 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.495689655172414,
+    "color": "#481366ff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 25 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.495689655172414,
+    "color": "#481366ff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 25 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.495689655172414,
+    "color": "#481366ff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 25 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.531793,
+    "lon": -70.522901,
+    "radius": 4.431034482758621,
+    "color": "#471163ff",
+    "tooltip": "LD.RUMFD_IP34.5 \u2022 22 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.531793,
+    "lon": -70.522901,
+    "radius": 4.431034482758621,
+    "color": "#471163ff",
+    "tooltip": "UN.RUMFD_IP18.0RUMF \u2022 22 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "UN.ROXBURY 34.5RCHW \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.537316,
+    "lon": -70.544609,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "LD.RUMFORD 12.5 \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.550598,
+    "lon": -70.543197,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "UN.RUMFD_FL11.5RUMH \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "UN.ROXBURY 34.5ROXW \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "UN.ROXBURY 34.5AZIS \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "LD.ROXBURY 34.5 \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "UN.9DRAGONS115 BOIS \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "LD.9DRAGONS115 \u2022 8 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 41.474462,
+    "lon": -73.056529,
+    "radius": 4.107758620689655,
+    "color": "#450558ff",
+    "tooltip": "LD.S_NAUGTK13.8 \u2022 7 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 43.828167,
+    "lon": -71.640167,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "LD.BEEBE   34.5 \u2022 5 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 43.691333,
+    "lon": -71.637667,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "UN.ASHLAND 34.5BRID \u2022 5 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.01134,
+    "lon": -71.676967,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "LD.N_WODSTK34.5 \u2022 5 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 43.691333,
+    "lon": -71.637667,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "LD.ASHLAND 34.5 \u2022 5 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 43.828946,
+    "lon": -71.200606,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "UN.TAMWORTH115 TAMW \u2022 5 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.BERLN_NH22  BERP \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.BERLN_NH34.5 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.594173,
+    "lon": -71.494281,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.LOSTNATN34.5LOST \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.BERLN_NH34.5JERW \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.47084,
+    "lon": -71.176932,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.SMITH_HY6.9 SMTH \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.BERLN_NH22 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.417915,
+    "lon": -71.9839,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.STJHNSBY34.5 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.BERLN_NH13.8BURG \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.379273,
+    "lon": -71.608382,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.WHITEFLD34.5 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.BERLN_NH34.5GORH \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.53583,
+    "lon": -72.00528,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.LYNDONVL34.5 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.594173,
+    "lon": -71.494281,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.LOSTNATN34.5 \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.617944,
+    "lon": -71.226083,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "UN.PONTOOK 34.5PONT \u2022 4 neg hrs (DA, 2022)",
+    "layer": "2022 DA (top 48)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 14.0,
+    "color": "#fcffa4ff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 861 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 13.974937343358395,
+    "color": "#fcffa2ff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 859 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 13.62406015037594,
+    "color": "#f5f380ff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 831 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 10.140350877192983,
+    "color": "#e15635ff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 553 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 9.977443609022558,
+    "color": "#dc5139ff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 540 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 9.977443609022558,
+    "color": "#dc5139ff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 540 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "LD.CHSTERME46 \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "LD.POWERSVL115 \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 7.245614035087719,
+    "color": "#751a6dff",
+    "tooltip": "LD.KEENE_RD46 \u2022 322 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 5.804511278195489,
+    "color": "#380a61ff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 207 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 5.804511278195489,
+    "color": "#380a61ff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 207 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 206 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 206 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 5.7669172932330826,
+    "color": "#370a60ff",
+    "tooltip": "UN.GRAHAM  18.0MS1A \u2022 204 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 5.7669172932330826,
+    "color": "#370a60ff",
+    "tooltip": "LD.GRAHAM  46 \u2022 204 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 5.7669172932330826,
+    "color": "#370a60ff",
+    "tooltip": "LD.TUNK    34.5 \u2022 204 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 5.7669172932330826,
+    "color": "#370a60ff",
+    "tooltip": "UN.GRAHAM  46  MLFH \u2022 204 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 5.7669172932330826,
+    "color": "#370a60ff",
+    "tooltip": "UN.GRAHAM  18.0MS1B \u2022 204 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 5.754385964912281,
+    "color": "#360a60ff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 203 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 5.754385964912281,
+    "color": "#360a60ff",
+    "tooltip": "LD.BOGGY_BK44 \u2022 203 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.739069,
+    "lon": -68.824818,
+    "radius": 5.754385964912281,
+    "color": "#360a60ff",
+    "tooltip": "UN.CHEMICAL115 PERC \u2022 203 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 5.754385964912281,
+    "color": "#360a60ff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 203 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 5.741854636591478,
+    "color": "#360a5fff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 202 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 5.741854636591478,
+    "color": "#360a5fff",
+    "tooltip": "UN.BUCKSPRT18.0BCK4 \u2022 202 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 5.741854636591478,
+    "color": "#360a5fff",
+    "tooltip": "LD.BUCKSPRT34.5 \u2022 202 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 5.177944862155389,
+    "color": "#1d0b43ff",
+    "tooltip": "UN.PISGAH  34.5PSGW \u2022 157 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.703776,
+    "lon": -71.292318,
+    "radius": 5.0776942355889725,
+    "color": "#190b3dff",
+    "tooltip": "UN.PARIS   34.5GRPW \u2022 149 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.BERLN_NH34.5GORH \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "LD.BERLN_NH34.5 \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "LD.BERLN_NH22 \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.617944,
+    "lon": -71.226083,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.PONTOOK 34.5PONT \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.BERLN_NH22  BERP \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.BERLN_NH13.8BURG \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.BERLN_NH34.5JERW \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.47084,
+    "lon": -71.176932,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.SMITH_HY6.9 SMTH \u2022 90 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "UN.9DRAGONS115 BOIS \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.496498,
+    "lon": -70.336998,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "UN.LUDDN_LN34.5SADW \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "UN.ROXBURY 34.5RCHW \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.496498,
+    "lon": -70.336998,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "LD.LUDDN_LN34.5 \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "LD.9DRAGONS115 \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "LD.ROXBURY 34.5 \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "UN.ROXBURY 34.5AZIS \u2022 85 neg hrs (RT, 2022)",
+    "layer": "2022 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "LD.POWERSVL115 \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "LD.CHSTERME46 \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "LD.KEENE_RD46 \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.530172413793103,
+    "color": "#453580ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 73 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 5.293103448275862,
+    "color": "#462d7cff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 62 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.663639,
+    "lon": -72.122972,
+    "radius": 5.271551724137931,
+    "color": "#472d7bff",
+    "tooltip": "UN.SHEFIELD34.5SHEF \u2022 61 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.978444,
+    "lon": -72.482611,
+    "radius": 5.271551724137931,
+    "color": "#472d7bff",
+    "tooltip": "UN.JAY_VT  46  KCW \u2022 61 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.BIGELOW 115 STRA \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.HARRIS  13.2HAR3 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.HARRIS  13.2HAR2 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.HARRIS  13.2HAR1 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "LD.WYMAN_HY12.5 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.HARRIS  13.2HAR4 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.355389,
+    "lon": -70.541611,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.KIBBY   34.5KIBY \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "LD.BIGELOW 34.5 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.WYMAN_HY13.8WYM3 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.WYMAN_HY13.8WYM2 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.301724137931035,
+    "color": "#460c5fff",
+    "tooltip": "UN.WYMAN_HY13.8WYM1 \u2022 16 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 4.237068965517241,
+    "color": "#460a5cff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 13 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 4.2155172413793105,
+    "color": "#45095cff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 12 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.2155172413793105,
+    "color": "#45095cff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 12 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.2155172413793105,
+    "color": "#45095cff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 12 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 4.2155172413793105,
+    "color": "#45095cff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 12 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.2155172413793105,
+    "color": "#45095cff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 12 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.703776,
+    "lon": -71.292318,
+    "radius": 4.150862068965517,
+    "color": "#450659ff",
+    "tooltip": "UN.PARIS   34.5GRPW \u2022 9 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 41.474462,
+    "lon": -73.056529,
+    "radius": 4.107758620689655,
+    "color": "#450558ff",
+    "tooltip": "LD.S_NAUGTK13.8 \u2022 7 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.086206896551724,
+    "color": "#440457ff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 6 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.086206896551724,
+    "color": "#440457ff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 6 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 4.064655172413793,
+    "color": "#440356ff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 5 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 4.043103448275862,
+    "color": "#440255ff",
+    "tooltip": "LD.TUNK    34.5 \u2022 4 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.BOGGY_BK44 \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.MADISON 34.5 \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.CLIFTON 34.5PSGW \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.CLIFTON 34.5SLVW \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.MADISON 34.5MADB \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.MADISON 115  \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "AR.MADISON 34.5MADBD \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.MADISON 115 MADH \u2022 3 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.GRAHAM  46 \u2022 2 neg hrs (DA, 2023)",
+    "layer": "2023 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 7.671679197994988,
+    "color": "#87206bff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 356 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 7.659147869674185,
+    "color": "#86206bff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 355 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 7.659147869674185,
+    "color": "#86206bff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 355 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.160446,
+    "lon": -69.389022,
+    "radius": 6.531328320802005,
+    "color": "#57106dff",
+    "tooltip": "UN.BINGHAM 34.5BNGW \u2022 265 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "LD.POWERSVL115 \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "LD.CHSTERME46 \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "LD.KEENE_RD46 \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 6.017543859649123,
+    "color": "#410a67ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 224 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 5.754385964912281,
+    "color": "#360a60ff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 203 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 5.7293233082706765,
+    "color": "#350a5fff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 201 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 5.7293233082706765,
+    "color": "#350a5fff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 201 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.355389,
+    "lon": -70.541611,
+    "radius": 4.37593984962406,
+    "color": "#050315ff",
+    "tooltip": "UN.KIBBY   34.5KIBY \u2022 93 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.978444,
+    "lon": -72.482611,
+    "radius": 4.338345864661654,
+    "color": "#050314ff",
+    "tooltip": "UN.JAY_VT  46  KCW \u2022 90 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.663639,
+    "lon": -72.122972,
+    "radius": 4.325814536340852,
+    "color": "#040313ff",
+    "tooltip": "UN.SHEFIELD34.5SHEF \u2022 89 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.703776,
+    "lon": -71.292318,
+    "radius": 4.275689223057644,
+    "color": "#040211ff",
+    "tooltip": "UN.PARIS   34.5GRPW \u2022 85 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 4.075187969924812,
+    "color": "#010007ff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 69 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 4.037593984962406,
+    "color": "#000005ff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 66 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.GRAHAM  46  MLFH \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.GRAHAM  18.0MS1B \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.GRAHAM  18.0MS1A \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "LD.BOGGY_BK44 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "LD.GRAHAM  46 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.CLIFTON 34.5PSGW \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "LD.TUNK    34.5 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.025062656641604,
+    "color": "#000005ff",
+    "tooltip": "UN.CLIFTON 34.5SLVW \u2022 65 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.739069,
+    "lon": -68.824818,
+    "radius": 4.012531328320802,
+    "color": "#000004ff",
+    "tooltip": "UN.CHEMICAL115 PERC \u2022 64 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 4.012531328320802,
+    "color": "#000004ff",
+    "tooltip": "UN.BUCKSPRT18.0BCK4 \u2022 64 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 4.012531328320802,
+    "color": "#000004ff",
+    "tooltip": "LD.BUCKSPRT34.5 \u2022 64 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "LD.BERLN_NH34.5 \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "LD.BIGELOW 34.5 \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "AR.BERLN_NH22  BRLBD \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.BERLN_NH22  BERP \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.BERLN_NH13.8BURG \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.BERLN_NH34.5JERW \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM3 \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM2 \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.463,
+    "lon": -71.1797,
+    "radius": 4.0,
+    "color": "#000004ff",
+    "tooltip": "UN.BERLN_NH22  BRLB \u2022 63 neg hrs (RT, 2023)",
+    "layer": "2023 RT (top 49)"
+  },
+  {
+    "lat": 44.978444,
+    "lon": -72.482611,
+    "radius": 10.443965517241379,
+    "color": "#2db27dff",
+    "tooltip": "UN.JAY_VT  46  KCW \u2022 301 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.663639,
+    "lon": -72.122972,
+    "radius": 8.375,
+    "color": "#26818eff",
+    "tooltip": "UN.SHEFIELD34.5SHEF \u2022 205 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM3 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.BIGELOW 115 STRA \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM1 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.HARRIS  13.2HAR3 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.HARRIS  13.2HAR2 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.HARRIS  13.2HAR1 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "LD.WYMAN_HY12.5 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.355389,
+    "lon": -70.541611,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.KIBBY   34.5KIBY \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.HARRIS  13.2HAR4 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM2 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.4094827586206895,
+    "color": "#471063ff",
+    "tooltip": "LD.BIGELOW 34.5 \u2022 21 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "LD.CHSTERME46 \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "LD.POWERSVL115 \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "LD.KEENE_RD46 \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 4.323275862068965,
+    "color": "#460d60ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 17 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.661956,
+    "lon": -72.80545,
+    "radius": 4.129310344827586,
+    "color": "#450559ff",
+    "tooltip": "LD.BLACK_RK4.8 \u2022 8 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.531793,
+    "lon": -70.522901,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "LD.RUMFD_IP34.5 \u2022 3 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.531793,
+    "lon": -70.522901,
+    "radius": 4.021551724137931,
+    "color": "#440155ff",
+    "tooltip": "UN.RUMFD_IP18.0RUMF \u2022 3 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.866852,
+    "lon": -71.522176,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.PUTNM_PK12.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS7W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.JOHNSTON12.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.9DRAGONS115 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.550598,
+    "lon": -70.543197,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.RUMFD_FL11.5RUMH \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.550598,
+    "lon": -70.543197,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.RUMFD_FL11.5RFRB \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.ROXBURY 34.5ROXW \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.ROXBURY 34.5RCHW \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.ROXBURY 34.5AZIS \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.80259,
+    "lon": -71.51691,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.RISE    18.0RISE \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.8035,
+    "lon": -71.5238,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.RIDGEWOD13.8RIDG \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS6W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.627762,
+    "lon": -70.596375,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.ROXBURY 34.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS5W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS4W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS3W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS2W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JS1W \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.814454,
+    "lon": -71.474959,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.JOHNSTON23  JLF2 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.549482,
+    "lon": -70.540993,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "UN.9DRAGONS115 BOIS \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.756863,
+    "lon": -71.521817,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.W_CRNSTN12.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 44.537316,
+    "lon": -70.544609,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.RUMFORD 12.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 41.901223,
+    "lon": -71.53092,
+    "radius": 4.0,
+    "color": "#440154ff",
+    "tooltip": "LD.FARNPIKE12.5 \u2022 2 neg hrs (DA, 2024)",
+    "layer": "2024 DA (top 50)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "LD.CHSTERME46 \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "LD.POWERSVL115 \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 5.791979949874687,
+    "color": "#380a61ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 206 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.663639,
+    "lon": -72.122972,
+    "radius": 5.779448621553884,
+    "color": "#370a60ff",
+    "tooltip": "UN.SHEFIELD34.5SHEF \u2022 205 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 5.741854636591478,
+    "color": "#360a5fff",
+    "tooltip": "LD.KEENE_RD46 \u2022 202 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.978444,
+    "lon": -72.482611,
+    "radius": 5.2781954887218046,
+    "color": "#210b49ff",
+    "tooltip": "UN.JAY_VT  46  KCW \u2022 165 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.160446,
+    "lon": -69.389022,
+    "radius": 4.852130325814536,
+    "color": "#110930ff",
+    "tooltip": "UN.BINGHAM 34.5BNGW \u2022 131 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.7894736842105265,
+    "color": "#10082cff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 126 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.7894736842105265,
+    "color": "#10082cff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 126 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 4.7894736842105265,
+    "color": "#10082cff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 126 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 4.676691729323308,
+    "color": "#0c0726ff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 117 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.664160401002507,
+    "color": "#0c0625ff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 116 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 4.664160401002507,
+    "color": "#0c0625ff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 116 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.355389,
+    "lon": -70.541611,
+    "radius": 4.56390977443609,
+    "color": "#09051fff",
+    "tooltip": "UN.KIBBY   34.5KIBY \u2022 108 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 4.488721804511278,
+    "color": "#07041bff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 102 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.476190476190476,
+    "color": "#07041aff",
+    "tooltip": "UN.CLIFTON 34.5PSGW \u2022 101 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 4.476190476190476,
+    "color": "#07041aff",
+    "tooltip": "LD.TUNK    34.5 \u2022 101 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 4.476190476190476,
+    "color": "#07041aff",
+    "tooltip": "UN.CLIFTON 34.5SLVW \u2022 101 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 4.476190476190476,
+    "color": "#07041aff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 101 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 4.476190476190476,
+    "color": "#07041aff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 101 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.HARRIS  13.2HAR2 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.HARRIS  13.2HAR1 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.WYMAN_HY13.8WYM2 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.WYMAN_HY13.8WYM3 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.GRAHAM  46  MLFH \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.GRAHAM  18.0MS1A \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.GRAHAM  18.0MS1B \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.BIGELOW 115 STRA \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.HARRIS  13.2HAR4 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.GRAHAM  46 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.BOGGY_BK44 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.WYMAN_HY12.5 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "LD.BIGELOW 34.5 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.WYMAN_HY13.8WYM1 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 4.4636591478696745,
+    "color": "#07041aff",
+    "tooltip": "UN.HARRIS  13.2HAR3 \u2022 100 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 4.451127819548872,
+    "color": "#060419ff",
+    "tooltip": "UN.BUCKSPRT18.0BCK4 \u2022 99 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.739069,
+    "lon": -68.824818,
+    "radius": 4.451127819548872,
+    "color": "#060419ff",
+    "tooltip": "UN.CHEMICAL115 PERC \u2022 99 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 4.451127819548872,
+    "color": "#060419ff",
+    "tooltip": "LD.BUCKSPRT34.5 \u2022 99 neg hrs (RT, 2024)",
+    "layer": "2024 RT (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 14.0,
+    "color": "#fde725ff",
+    "tooltip": "UN.BASELINE34.5DNEW \u2022 466 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 13.267241379310345,
+    "color": "#cee11fff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 432 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 13.267241379310345,
+    "color": "#cee11fff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 432 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 13.116379310344827,
+    "color": "#c4e024ff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 425 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 12.599137931034482,
+    "color": "#a1da38ff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 401 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 12.599137931034482,
+    "color": "#a1da38ff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 401 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 12.599137931034482,
+    "color": "#a1da38ff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 401 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "LD.KEENE_RD44   \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "LD.POWERSVL115 \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "LD.CHSTERME46 \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 11.995689655172413,
+    "color": "#79d251ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 373 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 10.336206896551724,
+    "color": "#29b07fff",
+    "tooltip": "UN.MADISON 34.5MADB \u2022 296 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 10.336206896551724,
+    "color": "#29b07fff",
+    "tooltip": "UN.MADISON 115 MADH \u2022 296 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 10.336206896551724,
+    "color": "#29b07fff",
+    "tooltip": "AR.MADISON 34.5MADBD \u2022 296 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 10.336206896551724,
+    "color": "#29b07fff",
+    "tooltip": "LD.MADISON 115  \u2022 296 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 10.336206896551724,
+    "color": "#29b07fff",
+    "tooltip": "LD.MADISON 34.5 \u2022 296 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 9.581896551724139,
+    "color": "#1f9e89ff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 261 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 9.366379310344827,
+    "color": "#1f998aff",
+    "tooltip": "LD.TUNK    34.5 \u2022 251 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.9583,
+    "lon": -69.8853,
+    "radius": 9.107758620689655,
+    "color": "#20938cff",
+    "tooltip": "LD.EMBDEN  12.5 \u2022 239 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.9592,
+    "lon": -69.8711,
+    "radius": 9.107758620689655,
+    "color": "#20938cff",
+    "tooltip": "UN.WILLIAM 6.9 WILL \u2022 239 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "LD.BOGGY_BK46   \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "UN.CLIFTON 34.5PSGW \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 9.064655172413794,
+    "color": "#20928cff",
+    "tooltip": "UN.CLIFTON 34.5SLVW \u2022 237 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 8.78448275862069,
+    "color": "#228b8dff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 224 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 8.676724137931034,
+    "color": "#23898dff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 219 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 8.612068965517242,
+    "color": "#24878dff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 216 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.504310344827587,
+    "color": "#25848dff",
+    "tooltip": "UN.GRAHAM  46  MLFH \u2022 211 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.504310344827587,
+    "color": "#25848dff",
+    "tooltip": "UN.GRAHAM  18.0MS1A \u2022 211 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.739069,
+    "lon": -68.824818,
+    "radius": 8.504310344827587,
+    "color": "#25848dff",
+    "tooltip": "UN.CHEMICAL115 PERC \u2022 211 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.504310344827587,
+    "color": "#25848dff",
+    "tooltip": "LD.GRAHAM  46 \u2022 211 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.504310344827587,
+    "color": "#25848dff",
+    "tooltip": "UN.GRAHAM  18.0MS1B \u2022 211 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 8.375,
+    "color": "#26818eff",
+    "tooltip": "LD.BUCKSPRT34.5 \u2022 205 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 8.375,
+    "color": "#26818eff",
+    "tooltip": "UN.BUCKSPRT18.0BCK4 \u2022 205 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.310344827586206,
+    "color": "#277f8eff",
+    "tooltip": "UN.HARRIS  13.2HAR4 \u2022 202 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.310344827586206,
+    "color": "#277f8eff",
+    "tooltip": "UN.HARRIS  13.2HAR1 \u2022 202 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.310344827586206,
+    "color": "#277f8eff",
+    "tooltip": "UN.HARRIS  13.2HAR2 \u2022 202 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.310344827586206,
+    "color": "#277f8eff",
+    "tooltip": "UN.HARRIS  13.2HAR3 \u2022 202 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.310344827586206,
+    "color": "#277f8eff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 202 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.140361,
+    "lon": -69.84923,
+    "radius": 8.288793103448276,
+    "color": "#277f8eff",
+    "tooltip": "UN.CHASE_PD34.5WMRW \u2022 201 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 8.051724137931034,
+    "color": "#29798eff",
+    "tooltip": "UN.WYMAN_HY13.8WYM1 \u2022 190 neg hrs (DA, 2025)",
+    "layer": "2025 DA (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 12.822055137844611,
+    "color": "#f8cf3aff",
+    "tooltip": "UN.BASELINE34.5DNEW \u2022 767 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 11.543859649122808,
+    "color": "#fa900cff",
+    "tooltip": "UN.BULL_HL 34.5WEVW \u2022 665 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 11.543859649122808,
+    "color": "#fa900cff",
+    "tooltip": "UN.BULL_HL 34.5BLHW \u2022 665 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.722556,
+    "lon": -68.163833,
+    "radius": 11.543859649122808,
+    "color": "#fa900cff",
+    "tooltip": "UN.BULL_HL 34.5HANW \u2022 665 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.700424,
+    "lon": -67.957027,
+    "radius": 10.81704260651629,
+    "color": "#f1701fff",
+    "tooltip": "LD.DEBLOIS 34.5 \u2022 607 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 10.766917293233082,
+    "color": "#f06e21ff",
+    "tooltip": "UN.WASHNGTN34.5IND6 \u2022 603 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.675552,
+    "lon": -67.546241,
+    "radius": 10.766917293233082,
+    "color": "#f06e21ff",
+    "tooltip": "LD.WASHNGTN34.5 \u2022 603 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.STETSON 34.5STE2 \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "LD.CHSTERME46 \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "AR.POWERSVL115 MLNBD \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.483639,
+    "lon": -67.993639,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.STETSON 34.5STET \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.404111,
+    "lon": -68.364722,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.ROLLINS 34.5ROLL \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "LD.POWERSVL115 \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.397458,
+    "lon": -68.529335,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "LD.KEENE_RD44   \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.39729,
+    "lon": -68.525677,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.CHSTERME46  WENF \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.POWERSVL115 GNRT \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.618,
+    "lon": -68.578306,
+    "radius": 10.629072681704262,
+    "color": "#ed6826ff",
+    "tooltip": "UN.POWERSVL115 MLNB \u2022 592 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.6222,
+    "lon": -67.7979,
+    "radius": 8.398496240601503,
+    "color": "#a32c60ff",
+    "tooltip": "LD.HARRINGT34.5 \u2022 414 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.544019,
+    "lon": -68.108832,
+    "radius": 8.3734335839599,
+    "color": "#a22b61ff",
+    "tooltip": "LD.TUNK    34.5 \u2022 412 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 8.360902255639097,
+    "color": "#a12b61ff",
+    "tooltip": "UN.CLIFTON 34.5PSGW \u2022 411 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 8.360902255639097,
+    "color": "#a12b61ff",
+    "tooltip": "LD.ELLSWRTH34.5 \u2022 411 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.438907,
+    "lon": -68.374562,
+    "radius": 8.360902255639097,
+    "color": "#a12b61ff",
+    "tooltip": "LD.TRENTON 34.5 \u2022 411 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.7773,
+    "lon": -68.5234,
+    "radius": 8.360902255639097,
+    "color": "#a12b61ff",
+    "tooltip": "UN.CLIFTON 34.5SLVW \u2022 411 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.543655,
+    "lon": -68.430748,
+    "radius": 8.360902255639097,
+    "color": "#a12b61ff",
+    "tooltip": "UN.ELLSWRTH34.5ELLS \u2022 411 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.348370927318296,
+    "color": "#a12b61ff",
+    "tooltip": "LD.HARRIS  13.2 \u2022 410 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.348370927318296,
+    "color": "#a12b61ff",
+    "tooltip": "UN.HARRIS  13.2HAR1 \u2022 410 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.348370927318296,
+    "color": "#a12b61ff",
+    "tooltip": "UN.HARRIS  13.2HAR4 \u2022 410 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.348370927318296,
+    "color": "#a12b61ff",
+    "tooltip": "UN.HARRIS  13.2HAR3 \u2022 410 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.459145,
+    "lon": -69.864761,
+    "radius": 8.348370927318296,
+    "color": "#a12b61ff",
+    "tooltip": "UN.HARRIS  13.2HAR2 \u2022 410 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 46.050639,
+    "lon": -68.051917,
+    "radius": 8.31077694235589,
+    "color": "#9f2a62ff",
+    "tooltip": "UN.OAKFIELD34.5OAKW \u2022 407 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.24575,
+    "lon": -68.601833,
+    "radius": 8.31077694235589,
+    "color": "#9f2a62ff",
+    "tooltip": "UN.ENFLD_ME115 IND5 \u2022 407 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.140361,
+    "lon": -69.84923,
+    "radius": 8.285714285714285,
+    "color": "#9e2a62ff",
+    "tooltip": "UN.CHASE_PD34.5WMRW \u2022 405 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.03675,
+    "lon": -68.589889,
+    "radius": 8.273182957393484,
+    "color": "#9e2a63ff",
+    "tooltip": "UN.PASADMKG34.5PASW \u2022 404 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "UN.GRAHAM  18.0MS1A \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "UN.BUCKSPRT18.0BCK4 \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "UN.GRAHAM  46  MLFH \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.739069,
+    "lon": -68.824818,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "UN.CHEMICAL115 PERC \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "LD.GRAHAM  46 \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.824186,
+    "lon": -68.705434,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "UN.GRAHAM  18.0MS1B \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.5752,
+    "lon": -68.8063,
+    "radius": 8.260651629072681,
+    "color": "#9d2a63ff",
+    "tooltip": "LD.BUCKSPRT34.5 \u2022 403 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.577217,
+    "lon": -68.454008,
+    "radius": 8.12280701754386,
+    "color": "#982765ff",
+    "tooltip": "LD.BOGGY_BK46   \u2022 392 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.355389,
+    "lon": -70.541611,
+    "radius": 8.072681704260653,
+    "color": "#962766ff",
+    "tooltip": "UN.KIBBY   34.5KIBY \u2022 388 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "UN.BIGELOW 115 STRA \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM2 \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM3 \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.101612,
+    "lon": -70.353645,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "LD.BIGELOW 34.5 \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "LD.WYMAN_HY12.5 \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 45.071448,
+    "lon": -69.90279,
+    "radius": 7.9223057644110275,
+    "color": "#902468ff",
+    "tooltip": "UN.WYMAN_HY13.8WYM1 \u2022 376 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 44.781105,
+    "lon": -69.913812,
+    "radius": 7.909774436090226,
+    "color": "#902468ff",
+    "tooltip": "LD.MADISON 34.5 \u2022 375 neg hrs (RT, 2025)",
+    "layer": "2025 RT (top 49)"
+  },
+  {
+    "lat": 41.0534,
+    "lon": -73.5387,
+    "radius": 11.784533284505208,
+    "color": "#0047AB",
+    "tooltip": "Fairfield, CT \u2022 433.8 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 11.312506713867187,
+    "color": "#0047AB",
+    "tooltip": "Hartford, CT \u2022 398.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 14.928599853515625,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, CT \u2022 669.6 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 14.928599853515625,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, CT \u2022 669.6 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 6.71653335571289,
+    "color": "#0047AB",
+    "tooltip": "New Haven, CT \u2022 53.7 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 7.426266682942709,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 107.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 7.426266682942709,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 107.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -70.2995,
+    "radius": 6.070733334223429,
+    "color": "#0047AB",
+    "tooltip": "Barnstable, MA \u2022 5.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 9.066666666666666,
+    "color": "#0047AB",
+    "tooltip": "Berkshire, MA \u2022 230.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 8.195133412679036,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 164.6 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 8.195133412679036,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 164.6 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 17.931146806081138,
+    "color": "#0047AB",
+    "tooltip": "Hampden, MA \u2022 894.8 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 6.117973333994548,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, MA \u2022 8.8 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 6.117973333994548,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, MA \u2022 8.8 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 12.416533584594728,
+    "color": "#0047AB",
+    "tooltip": "Norfolk, MA \u2022 481.2 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.9584,
+    "lon": -70.6673,
+    "radius": 9.669842669169109,
+    "color": "#0047AB",
+    "tooltip": "Plymouth, MA \u2022 275.2 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "radius": 9.333333333333332,
+    "color": "#0047AB",
+    "tooltip": "Suffolk, MA \u2022 250.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 21.271584027608235,
+    "color": "#0047AB",
+    "tooltip": "Worcester, MA \u2022 1145.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Androscoggin, ME \u2022 20.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 46.6812,
+    "lon": -68.0159,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Aroostook, ME \u2022 2268.2 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.5434,
+    "lon": -68.4195,
+    "radius": 8.330666707356771,
+    "color": "#0047AB",
+    "tooltip": "Hancock, ME \u2022 174.8 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 9.126666666666667,
+    "color": "#0047AB",
+    "tooltip": "Knox, ME \u2022 234.5 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.293320126533509,
+    "color": "#0047AB",
+    "tooltip": "Oxford, ME \u2022 22.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 7.004266662597656,
+    "color": "#0047AB",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 7.004266662597656,
+    "color": "#0047AB",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 7.004266662597656,
+    "color": "#0047AB",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 6.48033332824707,
+    "color": "#0047AB",
+    "tooltip": "York, ME \u2022 36.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.0718,
+    "lon": -70.7626,
+    "radius": 14.058285319010416,
+    "color": "#0047AB",
+    "tooltip": "Rockingham, NH \u2022 604.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.1979,
+    "lon": -70.8737,
+    "radius": 6.2666667938232425,
+    "color": "#0047AB",
+    "tooltip": "Strafford, NH \u2022 20.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.3767,
+    "lon": -72.3462,
+    "radius": 6.066533330281575,
+    "color": "#0047AB",
+    "tooltip": "Sullivan, NH \u2022 5.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -71.4162,
+    "radius": 6.2899733225504555,
+    "color": "#0047AB",
+    "tooltip": "Kent, RI \u2022 21.7 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 7.459600016276042,
+    "color": "#0047AB",
+    "tooltip": "Providence, RI \u2022 109.5 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 6.7257999992370605,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 6.7257999992370605,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 6.7257999992370605,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.0153,
+    "lon": -73.1673,
+    "radius": 6.666666666666667,
+    "color": "#0047AB",
+    "tooltip": "Addison, VT \u2022 50.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.4196,
+    "lon": -72.0159,
+    "radius": 6.469333343505859,
+    "color": "#0047AB",
+    "tooltip": "Caledonia, VT \u2022 35.2 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.4759,
+    "lon": -73.2121,
+    "radius": 6.213333333333333,
+    "color": "#0047AB",
+    "tooltip": "Chittenden, VT \u2022 16.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 6.2573333231608075,
+    "color": "#0047AB",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 6.2573333231608075,
+    "color": "#0047AB",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 6.2573333231608075,
+    "color": "#0047AB",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 6.053893330891927,
+    "color": "#0047AB",
+    "tooltip": "Windham, VT \u2022 4.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 6.053893330891927,
+    "color": "#0047AB",
+    "tooltip": "Windham, VT \u2022 4.0 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 6.2573333231608075,
+    "color": "#0047AB",
+    "tooltip": "Windsor, VT \u2022 19.3 MW \u2022 2026",
+    "layer": "Queue totals 2026.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.0534,
+    "lon": -73.5387,
+    "radius": 9.543466695149739,
+    "color": "#0047AB",
+    "tooltip": "Fairfield, CT \u2022 265.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 20.37350128173828,
+    "color": "#0047AB",
+    "tooltip": "Hartford, CT \u2022 1078.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.8007,
+    "lon": -73.1212,
+    "radius": 8.491866760253906,
+    "color": "#0047AB",
+    "tooltip": "Litchfield, CT \u2022 186.9 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, CT \u2022 20.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, CT \u2022 20.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "New Haven, CT \u2022 1704.7 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 14.890760040283203,
+    "color": "#0047AB",
+    "tooltip": "New London, CT \u2022 666.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Berkshire, MA \u2022 20.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 3347.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 3347.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.5195,
+    "lon": -70.8967,
+    "radius": 9.277200037638346,
+    "color": "#0047AB",
+    "tooltip": "Essex, MA \u2022 245.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 45.0095,
+    "lon": -71.5418,
+    "radius": 9.277200037638346,
+    "color": "#0047AB",
+    "tooltip": "Essex, MA \u2022 245.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 10.117929331461589,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 10.117929331461589,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 10.117929331461589,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 23.959305419921876,
+    "color": "#0047AB",
+    "tooltip": "Hampden, MA \u2022 1346.9 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3251,
+    "lon": -72.6412,
+    "radius": 11.044079996744792,
+    "color": "#0047AB",
+    "tooltip": "Hampshire, MA \u2022 378.3 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Norfolk, MA \u2022 1935.5 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.9584,
+    "lon": -70.6673,
+    "radius": 12.97586669921875,
+    "color": "#0047AB",
+    "tooltip": "Plymouth, MA \u2022 523.2 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 23.059522450764973,
+    "color": "#0047AB",
+    "tooltip": "Worcester, MA \u2022 1279.5 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 8.381199951171876,
+    "color": "#0047AB",
+    "tooltip": "Androscoggin, ME \u2022 178.6 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 6.446666666666666,
+    "color": "#0047AB",
+    "tooltip": "Knox, ME \u2022 33.5 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.545466664632161,
+    "color": "#0047AB",
+    "tooltip": "Oxford, ME \u2022 40.9 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 6.928533325195312,
+    "color": "#0047AB",
+    "tooltip": "Somerset, ME \u2022 69.6 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.9337,
+    "lon": -72.2781,
+    "radius": 7.36,
+    "color": "#0047AB",
+    "tooltip": "Cheshire, NH \u2022 102.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.2081,
+    "lon": -71.5376,
+    "radius": 9.013333333333334,
+    "color": "#0047AB",
+    "tooltip": "Merrimack, NH \u2022 226.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -71.4162,
+    "radius": 6.533333333333333,
+    "color": "#0047AB",
+    "tooltip": "Kent, RI \u2022 40.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 20.69509297688802,
+    "color": "#0047AB",
+    "tooltip": "Providence, RI \u2022 1102.1 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 8.03673604329427,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 8.03673604329427,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 8.03673604329427,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.0153,
+    "lon": -73.1673,
+    "radius": 6.666666666666667,
+    "color": "#0047AB",
+    "tooltip": "Addison, VT \u2022 50.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.6106,
+    "lon": -72.9726,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Rutland, VT \u2022 20.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 7.346066691080729,
+    "color": "#0047AB",
+    "tooltip": "Windham, VT \u2022 101.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 7.346066691080729,
+    "color": "#0047AB",
+    "tooltip": "Windham, VT \u2022 101.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 23.133333333333333,
+    "color": "#0047AB",
+    "tooltip": "Windsor, VT \u2022 1285.0 MW \u2022 2027",
+    "layer": "Queue totals 2027.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 14.369484049479167,
+    "color": "#0047AB",
+    "tooltip": "Hartford, CT \u2022 627.7 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 7.666666666666666,
+    "color": "#0047AB",
+    "tooltip": "New Haven, CT \u2022 125.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 16.648400065104166,
+    "color": "#0047AB",
+    "tooltip": "New London, CT \u2022 798.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 14.333333333333334,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 625.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 14.333333333333334,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 625.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -70.2995,
+    "radius": 13.803999837239584,
+    "color": "#0047AB",
+    "tooltip": "Barnstable, MA \u2022 585.3 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 14.638666585286458,
+    "color": "#0047AB",
+    "tooltip": "Berkshire, MA \u2022 647.9 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 19.834000040690103,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 1037.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 19.834000040690103,
+    "color": "#0047AB",
+    "tooltip": "Bristol, MA \u2022 1037.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.5195,
+    "lon": -70.8967,
+    "radius": 12.057526652018229,
+    "color": "#0047AB",
+    "tooltip": "Essex, MA \u2022 454.3 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 45.0095,
+    "lon": -71.5418,
+    "radius": 12.057526652018229,
+    "color": "#0047AB",
+    "tooltip": "Essex, MA \u2022 454.3 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 12.220694478352865,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 12.220694478352865,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 12.220694478352865,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 9.360933430989583,
+    "color": "#0047AB",
+    "tooltip": "Hampden, MA \u2022 252.1 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, MA \u2022 1601.5 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 26.0,
+    "color": "#0047AB",
+    "tooltip": "Middlesex, MA \u2022 1601.5 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "radius": 10.074986572265626,
+    "color": "#0047AB",
+    "tooltip": "Suffolk, MA \u2022 305.6 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 19.306400146484375,
+    "color": "#0047AB",
+    "tooltip": "Worcester, MA \u2022 998.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Androscoggin, ME \u2022 20.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 46.6812,
+    "lon": -68.0159,
+    "radius": 14.175999755859376,
+    "color": "#0047AB",
+    "tooltip": "Aroostook, ME \u2022 613.2 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Knox, ME \u2022 20.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.533333333333333,
+    "color": "#0047AB",
+    "tooltip": "Oxford, ME \u2022 40.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8012,
+    "lon": -68.7778,
+    "radius": 7.1731999969482425,
+    "color": "#0047AB",
+    "tooltip": "Penobscot, ME \u2022 88.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 8.2,
+    "color": "#0047AB",
+    "tooltip": "Somerset, ME \u2022 165.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 6.549120000203451,
+    "color": "#0047AB",
+    "tooltip": "York, ME \u2022 41.2 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.9337,
+    "lon": -72.2781,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Cheshire, NH \u2022 20.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.2081,
+    "lon": -71.5376,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Merrimack, NH \u2022 20.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.0718,
+    "lon": -70.7626,
+    "radius": 8.205066731770833,
+    "color": "#0047AB",
+    "tooltip": "Rockingham, NH \u2022 165.4 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 8.0,
+    "color": "#0047AB",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 8.0,
+    "color": "#0047AB",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 8.0,
+    "color": "#0047AB",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 8.210133260091146,
+    "color": "#0047AB",
+    "tooltip": "Providence, RI \u2022 165.8 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8781,
+    "lon": -73.1968,
+    "radius": 6.266666666666667,
+    "color": "#0047AB",
+    "tooltip": "Bennington, VT \u2022 20.0 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 7.529333292643229,
+    "color": "#0047AB",
+    "tooltip": "Windsor, VT \u2022 114.7 MW \u2022 2028",
+    "layer": "Queue totals 2028.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 10.346666666666668,
+    "color": "#0047AB",
+    "tooltip": "Hartford, CT \u2022 326.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.8007,
+    "lon": -73.1212,
+    "radius": 7.888000081380208,
+    "color": "#0047AB",
+    "tooltip": "Litchfield, CT \u2022 141.6 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 7.377599995930989,
+    "color": "#0047AB",
+    "tooltip": "New London, CT \u2022 103.3 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 6.66878667195638,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 50.2 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 6.66878667195638,
+    "color": "#0047AB",
+    "tooltip": "Windham, CT \u2022 50.2 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 8.266666666666666,
+    "color": "#0047AB",
+    "tooltip": "Berkshire, MA \u2022 170.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 8.8,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 8.8,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 8.8,
+    "color": "#0047AB",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 8.866666666666667,
+    "color": "#0047AB",
+    "tooltip": "Hampden, MA \u2022 215.0 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 10.917546590169271,
+    "color": "#0047AB",
+    "tooltip": "Norfolk, MA \u2022 368.8 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.6591,
+    "lon": -70.2568,
+    "radius": 6.228000005086263,
+    "color": "#0047AB",
+    "tooltip": "Cumberland, ME \u2022 17.1 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 8.448000081380208,
+    "color": "#0047AB",
+    "tooltip": "Oxford, ME \u2022 183.6 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 7.910666707356771,
+    "color": "#0047AB",
+    "tooltip": "Somerset, ME \u2022 143.3 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 8.444234619140625,
+    "color": "#0047AB",
+    "tooltip": "York, ME \u2022 183.3 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 8.685733235677084,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 8.685733235677084,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 8.685733235677084,
+    "color": "#0047AB",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 2029",
+    "layer": "Queue totals 2029.0 \\u2014 All techs"
+  },
+  {
+    "lat": 41.0534,
+    "lon": -73.5387,
+    "radius": 11.784533284505208,
+    "color": "#1f77b4",
+    "tooltip": "Fairfield, CT \u2022 433.8 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 11.312506713867187,
+    "color": "#1f77b4",
+    "tooltip": "Hartford, CT \u2022 398.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 14.928599853515625,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, CT \u2022 669.6 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 14.928599853515625,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, CT \u2022 669.6 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 6.71653335571289,
+    "color": "#1f77b4",
+    "tooltip": "New Haven, CT \u2022 53.7 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 7.426266682942709,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 107.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 7.426266682942709,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 107.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -70.2995,
+    "radius": 6.070733334223429,
+    "color": "#1f77b4",
+    "tooltip": "Barnstable, MA \u2022 5.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 9.066666666666666,
+    "color": "#1f77b4",
+    "tooltip": "Berkshire, MA \u2022 230.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 8.195133412679036,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 164.6 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 8.195133412679036,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 164.6 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 17.931146806081138,
+    "color": "#1f77b4",
+    "tooltip": "Hampden, MA \u2022 894.8 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 6.117973333994548,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, MA \u2022 8.8 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 6.117973333994548,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, MA \u2022 8.8 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 12.416533584594728,
+    "color": "#1f77b4",
+    "tooltip": "Norfolk, MA \u2022 481.2 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.9584,
+    "lon": -70.6673,
+    "radius": 9.669842669169109,
+    "color": "#1f77b4",
+    "tooltip": "Plymouth, MA \u2022 275.2 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "radius": 9.333333333333332,
+    "color": "#1f77b4",
+    "tooltip": "Suffolk, MA \u2022 250.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 21.271584027608235,
+    "color": "#1f77b4",
+    "tooltip": "Worcester, MA \u2022 1145.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Androscoggin, ME \u2022 20.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 46.6812,
+    "lon": -68.0159,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Aroostook, ME \u2022 2268.2 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.5434,
+    "lon": -68.4195,
+    "radius": 8.330666707356771,
+    "color": "#1f77b4",
+    "tooltip": "Hancock, ME \u2022 174.8 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 9.126666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Knox, ME \u2022 234.5 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.293320126533509,
+    "color": "#1f77b4",
+    "tooltip": "Oxford, ME \u2022 22.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 7.004266662597656,
+    "color": "#1f77b4",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 7.004266662597656,
+    "color": "#1f77b4",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 7.004266662597656,
+    "color": "#1f77b4",
+    "tooltip": "Washington, ME \u2022 75.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 6.48033332824707,
+    "color": "#1f77b4",
+    "tooltip": "York, ME \u2022 36.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.0718,
+    "lon": -70.7626,
+    "radius": 14.058285319010416,
+    "color": "#1f77b4",
+    "tooltip": "Rockingham, NH \u2022 604.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.1979,
+    "lon": -70.8737,
+    "radius": 6.2666667938232425,
+    "color": "#1f77b4",
+    "tooltip": "Strafford, NH \u2022 20.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.3767,
+    "lon": -72.3462,
+    "radius": 6.066533330281575,
+    "color": "#1f77b4",
+    "tooltip": "Sullivan, NH \u2022 5.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -71.4162,
+    "radius": 6.2899733225504555,
+    "color": "#1f77b4",
+    "tooltip": "Kent, RI \u2022 21.7 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 7.459600016276042,
+    "color": "#1f77b4",
+    "tooltip": "Providence, RI \u2022 109.5 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 6.7257999992370605,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 6.7257999992370605,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 6.7257999992370605,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 54.4 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.0153,
+    "lon": -73.1673,
+    "radius": 6.666666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Addison, VT \u2022 50.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.4196,
+    "lon": -72.0159,
+    "radius": 6.469333343505859,
+    "color": "#1f77b4",
+    "tooltip": "Caledonia, VT \u2022 35.2 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.4759,
+    "lon": -73.2121,
+    "radius": 6.213333333333333,
+    "color": "#1f77b4",
+    "tooltip": "Chittenden, VT \u2022 16.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 6.2573333231608075,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 6.2573333231608075,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 6.2573333231608075,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, VT \u2022 19.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 6.053893330891927,
+    "color": "#1f77b4",
+    "tooltip": "Windham, VT \u2022 4.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 6.053893330891927,
+    "color": "#1f77b4",
+    "tooltip": "Windham, VT \u2022 4.0 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 6.2573333231608075,
+    "color": "#1f77b4",
+    "tooltip": "Windsor, VT \u2022 19.3 MW \u2022 Other \u2022 2026",
+    "layer": "Queue 2026.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.0534,
+    "lon": -73.5387,
+    "radius": 9.543466695149739,
+    "color": "#1f77b4",
+    "tooltip": "Fairfield, CT \u2022 265.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 20.37350128173828,
+    "color": "#1f77b4",
+    "tooltip": "Hartford, CT \u2022 1078.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.8007,
+    "lon": -73.1212,
+    "radius": 8.491866760253906,
+    "color": "#1f77b4",
+    "tooltip": "Litchfield, CT \u2022 186.9 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, CT \u2022 20.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, CT \u2022 20.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "New Haven, CT \u2022 1704.7 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 14.890760040283203,
+    "color": "#1f77b4",
+    "tooltip": "New London, CT \u2022 666.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Berkshire, MA \u2022 20.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 3347.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 3347.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.5195,
+    "lon": -70.8967,
+    "radius": 9.277200037638346,
+    "color": "#1f77b4",
+    "tooltip": "Essex, MA \u2022 245.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 45.0095,
+    "lon": -71.5418,
+    "radius": 9.277200037638346,
+    "color": "#1f77b4",
+    "tooltip": "Essex, MA \u2022 245.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 10.117929331461589,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 10.117929331461589,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 10.117929331461589,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 308.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 23.959305419921876,
+    "color": "#1f77b4",
+    "tooltip": "Hampden, MA \u2022 1346.9 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3251,
+    "lon": -72.6412,
+    "radius": 11.044079996744792,
+    "color": "#1f77b4",
+    "tooltip": "Hampshire, MA \u2022 378.3 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Norfolk, MA \u2022 1935.5 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.9584,
+    "lon": -70.6673,
+    "radius": 12.97586669921875,
+    "color": "#1f77b4",
+    "tooltip": "Plymouth, MA \u2022 523.2 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 23.059522450764973,
+    "color": "#1f77b4",
+    "tooltip": "Worcester, MA \u2022 1279.5 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 8.381199951171876,
+    "color": "#1f77b4",
+    "tooltip": "Androscoggin, ME \u2022 178.6 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 6.446666666666666,
+    "color": "#1f77b4",
+    "tooltip": "Knox, ME \u2022 33.5 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.545466664632161,
+    "color": "#1f77b4",
+    "tooltip": "Oxford, ME \u2022 40.9 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 6.928533325195312,
+    "color": "#1f77b4",
+    "tooltip": "Somerset, ME \u2022 69.6 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.9337,
+    "lon": -72.2781,
+    "radius": 7.36,
+    "color": "#1f77b4",
+    "tooltip": "Cheshire, NH \u2022 102.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.2081,
+    "lon": -71.5376,
+    "radius": 9.013333333333334,
+    "color": "#1f77b4",
+    "tooltip": "Merrimack, NH \u2022 226.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -71.4162,
+    "radius": 6.533333333333333,
+    "color": "#1f77b4",
+    "tooltip": "Kent, RI \u2022 40.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 20.69509297688802,
+    "color": "#1f77b4",
+    "tooltip": "Providence, RI \u2022 1102.1 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 8.03673604329427,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 8.03673604329427,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 8.03673604329427,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 152.8 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.0153,
+    "lon": -73.1673,
+    "radius": 6.666666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Addison, VT \u2022 50.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.6106,
+    "lon": -72.9726,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Rutland, VT \u2022 20.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 7.346066691080729,
+    "color": "#1f77b4",
+    "tooltip": "Windham, VT \u2022 101.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 7.346066691080729,
+    "color": "#1f77b4",
+    "tooltip": "Windham, VT \u2022 101.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 23.133333333333333,
+    "color": "#1f77b4",
+    "tooltip": "Windsor, VT \u2022 1285.0 MW \u2022 Other \u2022 2027",
+    "layer": "Queue 2027.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 14.369484049479167,
+    "color": "#1f77b4",
+    "tooltip": "Hartford, CT \u2022 627.7 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.3083,
+    "lon": -72.9279,
+    "radius": 7.666666666666666,
+    "color": "#1f77b4",
+    "tooltip": "New Haven, CT \u2022 125.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 16.648400065104166,
+    "color": "#1f77b4",
+    "tooltip": "New London, CT \u2022 798.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 14.333333333333334,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 625.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 14.333333333333334,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 625.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7001,
+    "lon": -70.2995,
+    "radius": 13.803999837239584,
+    "color": "#1f77b4",
+    "tooltip": "Barnstable, MA \u2022 585.3 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 14.638666585286458,
+    "color": "#1f77b4",
+    "tooltip": "Berkshire, MA \u2022 647.9 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6362,
+    "lon": -70.9342,
+    "radius": 19.834000040690103,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 1037.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.677,
+    "lon": -71.2662,
+    "radius": 19.834000040690103,
+    "color": "#1f77b4",
+    "tooltip": "Bristol, MA \u2022 1037.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.5195,
+    "lon": -70.8967,
+    "radius": 12.057526652018229,
+    "color": "#1f77b4",
+    "tooltip": "Essex, MA \u2022 454.3 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 45.0095,
+    "lon": -71.5418,
+    "radius": 12.057526652018229,
+    "color": "#1f77b4",
+    "tooltip": "Essex, MA \u2022 454.3 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 12.220694478352865,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 12.220694478352865,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 12.220694478352865,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 466.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 9.360933430989583,
+    "color": "#1f77b4",
+    "tooltip": "Hampden, MA \u2022 252.1 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5623,
+    "lon": -72.6506,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, MA \u2022 1601.5 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "radius": 26.0,
+    "color": "#1f77b4",
+    "tooltip": "Middlesex, MA \u2022 1601.5 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.3601,
+    "lon": -71.0589,
+    "radius": 10.074986572265626,
+    "color": "#1f77b4",
+    "tooltip": "Suffolk, MA \u2022 305.6 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2626,
+    "lon": -71.8023,
+    "radius": 19.306400146484375,
+    "color": "#1f77b4",
+    "tooltip": "Worcester, MA \u2022 998.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1004,
+    "lon": -70.2148,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Androscoggin, ME \u2022 20.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 46.6812,
+    "lon": -68.0159,
+    "radius": 14.175999755859376,
+    "color": "#1f77b4",
+    "tooltip": "Aroostook, ME \u2022 613.2 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.1031,
+    "lon": -69.1089,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Knox, ME \u2022 20.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 6.533333333333333,
+    "color": "#1f77b4",
+    "tooltip": "Oxford, ME \u2022 40.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8012,
+    "lon": -68.7778,
+    "radius": 7.1731999969482425,
+    "color": "#1f77b4",
+    "tooltip": "Penobscot, ME \u2022 88.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 8.2,
+    "color": "#1f77b4",
+    "tooltip": "Somerset, ME \u2022 165.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 6.549120000203451,
+    "color": "#1f77b4",
+    "tooltip": "York, ME \u2022 41.2 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.9337,
+    "lon": -72.2781,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Cheshire, NH \u2022 20.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.2081,
+    "lon": -71.5376,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Merrimack, NH \u2022 20.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.0718,
+    "lon": -70.7626,
+    "radius": 8.205066731770833,
+    "color": "#1f77b4",
+    "tooltip": "Rockingham, NH \u2022 165.4 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 8.0,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 8.0,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 8.0,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, NY \u2022 150.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.824,
+    "lon": -71.4128,
+    "radius": 8.210133260091146,
+    "color": "#1f77b4",
+    "tooltip": "Providence, RI \u2022 165.8 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8781,
+    "lon": -73.1968,
+    "radius": 6.266666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Bennington, VT \u2022 20.0 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.2984,
+    "lon": -72.482,
+    "radius": 7.529333292643229,
+    "color": "#1f77b4",
+    "tooltip": "Windsor, VT \u2022 114.7 MW \u2022 Other \u2022 2028",
+    "layer": "Queue 2028.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.7658,
+    "lon": -72.6734,
+    "radius": 10.346666666666668,
+    "color": "#1f77b4",
+    "tooltip": "Hartford, CT \u2022 326.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.8007,
+    "lon": -73.1212,
+    "radius": 7.888000081380208,
+    "color": "#1f77b4",
+    "tooltip": "Litchfield, CT \u2022 141.6 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.5243,
+    "lon": -72.0759,
+    "radius": 7.377599995930989,
+    "color": "#1f77b4",
+    "tooltip": "New London, CT \u2022 103.3 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.6998,
+    "lon": -72.157,
+    "radius": 6.66878667195638,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 50.2 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.8509,
+    "lon": -72.5579,
+    "radius": 6.66878667195638,
+    "color": "#1f77b4",
+    "tooltip": "Windham, CT \u2022 50.2 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.4501,
+    "lon": -73.2454,
+    "radius": 8.266666666666666,
+    "color": "#1f77b4",
+    "tooltip": "Berkshire, MA \u2022 170.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.587,
+    "lon": -72.5992,
+    "radius": 8.8,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.67,
+    "lon": -70.1517,
+    "radius": 8.8,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.8107,
+    "lon": -73.0835,
+    "radius": 8.8,
+    "color": "#1f77b4",
+    "tooltip": "Franklin, MA \u2022 210.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.1015,
+    "lon": -72.5898,
+    "radius": 8.866666666666667,
+    "color": "#1f77b4",
+    "tooltip": "Hampden, MA \u2022 215.0 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 42.2529,
+    "lon": -71.0023,
+    "radius": 10.917546590169271,
+    "color": "#1f77b4",
+    "tooltip": "Norfolk, MA \u2022 368.8 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.6591,
+    "lon": -70.2568,
+    "radius": 6.228000005086263,
+    "color": "#1f77b4",
+    "tooltip": "Cumberland, ME \u2022 17.1 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.5559,
+    "lon": -70.5445,
+    "radius": 8.448000081380208,
+    "color": "#1f77b4",
+    "tooltip": "Oxford, ME \u2022 183.6 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7656,
+    "lon": -69.7195,
+    "radius": 7.910666707356771,
+    "color": "#1f77b4",
+    "tooltip": "Somerset, ME \u2022 143.3 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 43.4926,
+    "lon": -70.4534,
+    "radius": 8.444234619140625,
+    "color": "#1f77b4",
+    "tooltip": "York, ME \u2022 183.3 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 41.446,
+    "lon": -71.5243,
+    "radius": 8.685733235677084,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.2601,
+    "lon": -72.5754,
+    "radius": 8.685733235677084,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  },
+  {
+    "lat": 44.7154,
+    "lon": -67.4611,
+    "radius": 8.685733235677084,
+    "color": "#1f77b4",
+    "tooltip": "Washington, RI \u2022 201.4 MW \u2022 Other \u2022 2029",
+    "layer": "Queue 2029.0 \\u2014 Other"
+  }
+]
