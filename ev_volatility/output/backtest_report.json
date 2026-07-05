@@ -1,0 +1,265 @@
+{
+  "n_events": 8,
+  "window": {
+    "pre_days": 90,
+    "post_days": 90,
+    "gap_days": 15
+  },
+  "aggregate": {
+    "hourly_std": {
+      "n": 8,
+      "mean_did_pct": 13.925644747605611,
+      "median_did_pct": 3.6033050897893872,
+      "mean_treated_pct": 52.41319823693698,
+      "share_increasing": 0.625
+    },
+    "daily_range": {
+      "n": 8,
+      "mean_did_pct": 22.774496637535528,
+      "median_did_pct": -2.9793916936992346,
+      "mean_treated_pct": 38.44439098177004,
+      "share_increasing": 0.375
+    },
+    "spike_share": {
+      "n": 8,
+      "mean_did_pct": 67.10832042719404,
+      "median_did_pct": 0.0,
+      "mean_treated_pct": 198.03674755820091,
+      "share_increasing": 0.375
+    }
+  },
+  "events": [
+    {
+      "event": "I-90 Corridor DCFC hub (Buffalo)",
+      "zone": "WEST",
+      "online": "2023-06",
+      "dcfc_ports": 12,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 6.435763637202735,
+          "treated_post": 15.650496352508585,
+          "treated_pct": 143.18009850515543,
+          "control_pct": 136.30138540197555,
+          "did_pct": 6.8787131031798765
+        },
+        "daily_range": {
+          "treated_pre": 13.500657894736841,
+          "treated_post": 28.16763157894736,
+          "treated_pct": 108.63895521660734,
+          "control_pct": 62.72877436405688,
+          "did_pct": 45.91018085255046
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.49451754385964913,
+          "treated_pct": 880.4347826086957,
+          "control_pct": 252.17391304347828,
+          "did_pct": 628.2608695652175
+        }
+      }
+    },
+    {
+      "event": "Thruway plaza DCFC (Syracuse)",
+      "zone": "CENTRL",
+      "online": "2023-09",
+      "dcfc_ports": 8,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 14.675518016962469,
+          "treated_post": 8.63255100352536,
+          "treated_pct": -41.17719733267636,
+          "control_pct": -35.17123182359223,
+          "did_pct": -6.0059655090841275
+        },
+        "daily_range": {
+          "treated_pre": 26.231184210526315,
+          "treated_post": 22.40473684210526,
+          "treated_pct": -14.587398486132921,
+          "control_pct": -11.682978229057559,
+          "did_pct": -2.904420257075362
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.01589041095890411,
+          "treated_pct": -68.49553305539011,
+          "control_pct": -39.130434782608695,
+          "did_pct": -29.365098272781417
+        }
+      }
+    },
+    {
+      "event": "Capital Region megasite (Albany)",
+      "zone": "CAPITL",
+      "online": "2023-11",
+      "dcfc_ports": 16,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 12.986805002678043,
+          "treated_post": 35.63695813598026,
+          "treated_pct": 174.40897225015289,
+          "control_pct": 163.5162688552945,
+          "did_pct": 10.892703394858387
+        },
+        "daily_range": {
+          "treated_pre": 28.70578947368421,
+          "treated_post": 30.824342105263153,
+          "treated_pct": 7.380227718597005,
+          "control_pct": 10.715724011341992,
+          "did_pct": -3.3354962927449874
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.21710526315789475,
+          "treated_pct": 330.4347826086957,
+          "control_pct": 419.5652173913044,
+          "did_pct": -89.13043478260869
+        }
+      }
+    },
+    {
+      "event": "Hudson Valley DCFC (Poughkeepsie)",
+      "zone": "HUD VL",
+      "online": "2024-03",
+      "dcfc_ports": 8,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 33.512628484179956,
+          "treated_post": 6.222568653037841,
+          "treated_pct": -81.43216770962839,
+          "control_pct": -79.57764976323728,
+          "did_pct": -1.8545179463911126
+        },
+        "daily_range": {
+          "treated_pre": 26.490921052631577,
+          "treated_post": 17.771842105263158,
+          "treated_pct": -32.91346091759341,
+          "control_pct": -28.570028369643936,
+          "did_pct": -4.343432547949476
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.0,
+          "treated_pct": -100.0,
+          "control_pct": -100.0,
+          "did_pct": 0.0
+        }
+      }
+    },
+    {
+      "event": "LI Expressway DCFC (Islip)",
+      "zone": "LONGIL",
+      "online": "2024-05",
+      "dcfc_ports": 10,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 8.76851937289855,
+          "treated_post": 39.77859288847265,
+          "treated_pct": 353.6523350956948,
+          "control_pct": 258.812331242479,
+          "did_pct": 94.84000385321582
+        },
+        "daily_range": {
+          "treated_pre": 20.66697368421053,
+          "treated_post": 78.9867105263158,
+          "treated_pct": 282.18808294443846,
+          "control_pct": 139.51649038283665,
+          "did_pct": 142.6715925616018
+        },
+        "spike_share": {
+          "treated_pre": 0.050466264399341744,
+          "treated_post": 0.4067982456140351,
+          "treated_pct": 706.0795671243326,
+          "control_pct": 626.7752431350114,
+          "did_pct": 79.30432398932123
+        }
+      }
+    },
+    {
+      "event": "NYC curbside fast-charge (Manhattan)",
+      "zone": "N.Y.C.",
+      "online": "2024-07",
+      "dcfc_ports": 20,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 13.910245253973212,
+          "treated_post": 11.474240621798268,
+          "treated_pct": -17.51230541013749,
+          "control_pct": -20.23556214614381,
+          "did_pct": 2.72325673600632
+        },
+        "daily_range": {
+          "treated_pre": 26.74763157894737,
+          "treated_post": 28.81131578947368,
+          "treated_pct": 7.715390442833092,
+          "control_pct": 11.054323949757059,
+          "did_pct": -3.3389335069239667
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.041666666666666664,
+          "treated_pct": -17.391304347826086,
+          "control_pct": 35.86956521739132,
+          "did_pct": -53.260869565217405
+        }
+      }
+    },
+    {
+      "event": "Rochester retail DCFC",
+      "zone": "GENESE",
+      "online": "2023-08",
+      "dcfc_ports": 8,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 15.526266852386785,
+          "treated_post": 10.431793196887655,
+          "treated_pct": -32.811967641249055,
+          "control_pct": -32.259578546736336,
+          "did_pct": -0.5523890945127192
+        },
+        "daily_range": {
+          "treated_pre": 25.04328947368421,
+          "treated_post": 21.66013157894737,
+          "treated_pct": -13.509239264641742,
+          "control_pct": -10.454876134318635,
+          "did_pct": -3.0543631303231074
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.02684931506849315,
+          "treated_pct": -46.768314472900535,
+          "control_pct": -47.82608695652174,
+          "did_pct": 1.057772483621207
+        }
+      }
+    },
+    {
+      "event": "Utica corridor DCFC",
+      "zone": "MHK VL",
+      "online": "2024-02",
+      "dcfc_ports": 6,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 25.91507855928114,
+          "treated_post": 5.441601066245382,
+          "treated_pct": -79.00218186181594,
+          "control_pct": -83.4855353053884,
+          "did_pct": 4.4833534435724545
+        },
+        "daily_range": {
+          "treated_pre": 26.072105263157894,
+          "treated_post": 16.332236842105264,
+          "treated_pct": -37.35742979994751,
+          "control_pct": -47.94827522109637,
+          "did_pct": 10.590845421148856
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.0,
+          "treated_pct": -100.0,
+          "control_pct": -100.0,
+          "did_pct": 0.0
+        }
+      }
+    }
+  ]
+}

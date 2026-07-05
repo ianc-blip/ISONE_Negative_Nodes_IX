@@ -1,0 +1,20 @@
+====================================================================================
+PLANNED EV FAST-CHARGING BY PRICED LOCATION (NYISO + ISO-NE)
+====================================================================================
+   # ISO    Zone    Sites  DCFC Large     MW  ProjVol  Nearest pnode
+   1 ISONE  NEMA        5    56     4   13.4   +27.9%  SUFFOLK, MA
+   2 NYISO  NORTH       4    50     3   11.3   +24.1%  
+   3 ISONE  CT          5    46     4   12.5   +27.9%  LD.S_NAUGTK13.8
+   4 NYISO  WEST        5    38     3    7.5   +24.1%  
+   5 NYISO  HUD VL      4    32     3    7.2   +24.1%  
+   6 ISONE  WCMA        4    32     3    8.6   +24.1%  HAMPSHIRE, MA
+   7 NYISO  LONGIL      4    26     2    5.8   +19.7%  
+   8 ISONE  ME          3    26     2    7.9   +19.7%  SOMERSET, ME
+   9 ISONE  SEMA        4    24     2    5.8   +19.7%  BRISTOL, MA
+  10 NYISO  CAPITL      5    24     1    3.2   +13.9%  
+  11 NYISO  DUNWOD      4    22     1    2.9   +13.9%  
+  12 NYISO  CENTRL      4    20     2    4.2   +19.7%  
+  13 NYISO  GENESE      3    16     2    2.8   +19.7%  
+  14 NYISO  N.Y.C.      4    14     2    3.7   +19.7%  
+  15 ISONE  NH          5    14     1    1.9   +13.9%  MERRIMACK, NH
+====================================================================================

@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_512cc24fdfc8eb027eaf32f50ddd1302 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position:fixed;bottom:20px;left:20px;z-index:9999;
+                background:white;padding:10px 12px;border:1px solid #999;
+                border-radius:6px;font:12px/1.4 sans-serif;max-width:320px;">
+      <b>Planned EV fast-charging → nodal volatility</b><br>
+      <span style="color:#1f77b4;">●</span> NYISO&nbsp;&nbsp;
+      <span style="color:#d62728;">●</span> ISO-NE<br>
+      Bubble size = planned DC-fast ports in that zone.<br><b>Backtest:</b> a large DCFC site is associated with <b>+13.9%</b> mean DiD change in hourly LBMP volatility (n=8).
+    </div>
+    
+            <div class="folium-map" id="map_512cc24fdfc8eb027eaf32f50ddd1302" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_512cc24fdfc8eb027eaf32f50ddd1302 = L.map(
+                "map_512cc24fdfc8eb027eaf32f50ddd1302",
+                {
+                    center: [42.6, -73.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ec395fce06fc35ea2075562f3b79004 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; OpenStreetMap contributors \u0026copy; CartoDB",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ec395fce06fc35ea2075562f3b79004.addTo(map_512cc24fdfc8eb027eaf32f50ddd1302);
+        
+    
+            var feature_group_31a5b929381d8d050e6f9b4bb993083f = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_9092447f92e398fc875b297d45e13259 = L.circleMarker(
+                [43.037731, -78.727703],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_9092447f92e398fc875b297d45e13259.bindTooltip(
+                `<div>
+                     <b>ChargePoint — WEST #1</b><br>8 DCFC / 0 L2 ports • 250 kW<br>planned • online 2026-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b08e0ccbd4638c95ca61e1ac10c9fd9 = L.circleMarker(
+                [42.819471, -78.994036],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_4b08e0ccbd4638c95ca61e1ac10c9fd9.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — WEST #2</b><br>2 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2025-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9434d4e0391dadd371d72f1392e510e6 = L.circleMarker(
+                [42.955746, -78.922319],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_9434d4e0391dadd371d72f1392e510e6.bindTooltip(
+                `<div>
+                     <b>Electrify America — WEST #3</b><br>20 DCFC / 4 L2 ports • 150 kW<br>under_construction • online 2026-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66fc8b38a01dab2abf962a3d83f5fbdd = L.circleMarker(
+                [42.709192, -78.868873],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_66fc8b38a01dab2abf962a3d83f5fbdd.bindTooltip(
+                `<div>
+                     <b>Flo — WEST #4</b><br>2 DCFC / 0 L2 ports • 62 kW<br>planned • online 2026-09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39dc4c79604d2c37a7a42a33b55891bd = L.circleMarker(
+                [42.773734, -78.823382],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_39dc4c79604d2c37a7a42a33b55891bd.bindTooltip(
+                `<div>
+                     <b>Francis Energy — WEST #5</b><br>6 DCFC / 4 L2 ports • 350 kW<br>planned • online 2025-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7414d2d6b11e705c56449fe6c287a3e = L.circleMarker(
+                [43.320824, -77.492038],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_d7414d2d6b11e705c56449fe6c287a3e.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — GENESE #6</b><br>8 DCFC / 2 L2 ports • 150 kW<br>under_construction • online 2027-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a63876e330148c8ed3d8c0fddf6a9511 = L.circleMarker(
+                [43.085879, -77.432574],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_a63876e330148c8ed3d8c0fddf6a9511.bindTooltip(
+                `<div>
+                     <b>ChargePoint — GENESE #7</b><br>6 DCFC / 4 L2 ports • 250 kW<br>planned • online 2025-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_580d155c06f543769e691dcfe045a551 = L.circleMarker(
+                [43.332333, -77.557076],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_580d155c06f543769e691dcfe045a551.bindTooltip(
+                `<div>
+                     <b>ChargePoint — GENESE #8</b><br>2 DCFC / 4 L2 ports • 50 kW<br>planned • online 2025-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_808219b6a0d5e76f4d9ffa5f7177bbf5 = L.circleMarker(
+                [43.031394, -76.255049],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_808219b6a0d5e76f4d9ffa5f7177bbf5.bindTooltip(
+                `<div>
+                     <b>EVgo — CENTRL #9</b><br>8 DCFC / 0 L2 ports • 350 kW<br>under_construction • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbf5ca2b85c309d1dcbd3549457056f2 = L.circleMarker(
+                [42.896885, -76.280207],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_bbf5ca2b85c309d1dcbd3549457056f2.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — CENTRL #10</b><br>8 DCFC / 2 L2 ports • 150 kW<br>planned • online 2025-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1674361c9a20288d8a8ed40e696fee93 = L.circleMarker(
+                [42.96661, -76.022729],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_1674361c9a20288d8a8ed40e696fee93.bindTooltip(
+                `<div>
+                     <b>Electrify America — CENTRL #11</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2025-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_002bcbff39067b9d74ddbfeff8100bee = L.circleMarker(
+                [42.886777, -76.056099],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_002bcbff39067b9d74ddbfeff8100bee.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — CENTRL #12</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2027-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5295b6339894a0b308dc4976fe3c064e = L.circleMarker(
+                [44.66404, -73.338598],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_5295b6339894a0b308dc4976fe3c064e.bindTooltip(
+                `<div>
+                     <b>ChargePoint — NORTH #13</b><br>16 DCFC / 2 L2 ports • 250 kW<br>planned • online 2026-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f32a4b3ff115ba2b8cac5f5df647855a = L.circleMarker(
+                [44.780996, -73.286704],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_f32a4b3ff115ba2b8cac5f5df647855a.bindTooltip(
+                `<div>
+                     <b>Electrify America — NORTH #14</b><br>12 DCFC / 4 L2 ports • 350 kW<br>planned • online 2026-12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3919f3cbde1563322b16a456f31c03df = L.circleMarker(
+                [44.57208, -73.339588],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_3919f3cbde1563322b16a456f31c03df.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — NORTH #15</b><br>20 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2027-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61ffe9737fde53feb4c32bae04cfc63b = L.circleMarker(
+                [44.619505, -73.397576],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_61ffe9737fde53feb4c32bae04cfc63b.bindTooltip(
+                `<div>
+                     <b>Electrify America — NORTH #16</b><br>2 DCFC / 6 L2 ports • 62 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f36cf328de02e98f4442fb329335713 = L.circleMarker(
+                [43.234729, -75.141643],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_5f36cf328de02e98f4442fb329335713.bindTooltip(
+                `<div>
+                     <b>Francis Energy — MHK VL #17</b><br>2 DCFC / 6 L2 ports • 50 kW<br>under_construction • online 2026-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_854c8c588e30d7420a08c347614bcfc7 = L.circleMarker(
+                [43.166839, -75.293671],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_854c8c588e30d7420a08c347614bcfc7.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — MHK VL #18</b><br>4 DCFC / 2 L2 ports • 62 kW<br>under_construction • online 2026-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d6e151e83a51377808cc8a2e0ab3b1e = L.circleMarker(
+                [42.992323, -75.106127],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_2d6e151e83a51377808cc8a2e0ab3b1e.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — MHK VL #19</b><br>4 DCFC / 2 L2 ports • 50 kW<br>planned • online 2025-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f130a25c75adf1a396f7faba061d3c08 = L.circleMarker(
+                [42.719983, -73.753345],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_f130a25c75adf1a396f7faba061d3c08.bindTooltip(
+                `<div>
+                     <b>Francis Energy — CAPITL #20</b><br>2 DCFC / 4 L2 ports • 150 kW<br>under_construction • online 2027-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3049ed3c463444c227475026ac0bd7bf = L.circleMarker(
+                [42.606149, -73.706106],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_3049ed3c463444c227475026ac0bd7bf.bindTooltip(
+                `<div>
+                     <b>Flo — CAPITL #21</b><br>2 DCFC / 0 L2 ports • 50 kW<br>under_construction • online 2027-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7897d9f9754865fc02f3a79035c9fef = L.circleMarker(
+                [42.549969, -73.73264],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_d7897d9f9754865fc02f3a79035c9fef.bindTooltip(
+                `<div>
+                     <b>Electrify America — CAPITL #22</b><br>16 DCFC / 0 L2 ports • 150 kW<br>planned • online 2025-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_878431115b09afd3b4cd99460da22aa9 = L.circleMarker(
+                [42.690238, -73.732173],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_878431115b09afd3b4cd99460da22aa9.bindTooltip(
+                `<div>
+                     <b>Red E — CAPITL #23</b><br>2 DCFC / 6 L2 ports • 150 kW<br>under_construction • online 2025-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a84ac16fb8b886dbdae0f8105bf51127 = L.circleMarker(
+                [42.662467, -73.784667],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_a84ac16fb8b886dbdae0f8105bf51127.bindTooltip(
+                `<div>
+                     <b>EVgo — CAPITL #24</b><br>2 DCFC / 4 L2 ports • 62 kW<br>under_construction • online 2026-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e01f2704f659d613083f74ca38479c92 = L.circleMarker(
+                [41.865508, -74.064907],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_e01f2704f659d613083f74ca38479c92.bindTooltip(
+                `<div>
+                     <b>Red E — HUD VL #25</b><br>4 DCFC / 0 L2 ports • 62 kW<br>planned • online 2025-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9b023a96eb2a8828152eda7a5dad83e = L.circleMarker(
+                [41.521133, -74.006679],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_e9b023a96eb2a8828152eda7a5dad83e.bindTooltip(
+                `<div>
+                     <b>EVgo — HUD VL #26</b><br>6 DCFC / 4 L2 ports • 150 kW<br>planned • online 2025-12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d5c104eb4b06cb9618b2fffcf2fae0b2 = L.circleMarker(
+                [41.553891, -74.065525],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_d5c104eb4b06cb9618b2fffcf2fae0b2.bindTooltip(
+                `<div>
+                     <b>Red E — HUD VL #27</b><br>6 DCFC / 2 L2 ports • 350 kW<br>planned • online 2026-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0332ace26f87ebe13cbbbef17f492ea3 = L.circleMarker(
+                [41.52985, -73.836539],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_0332ace26f87ebe13cbbbef17f492ea3.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — HUD VL #28</b><br>16 DCFC / 4 L2 ports • 250 kW<br>planned • online 2026-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac6848f2e0625b30d5cb72cb20b44f03 = L.circleMarker(
+                [41.14178, -73.724019],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_ac6848f2e0625b30d5cb72cb20b44f03.bindTooltip(
+                `<div>
+                     <b>Electrify America — MILLWD #29</b><br>2 DCFC / 4 L2 ports • 50 kW<br>under_construction • online 2026-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_787667355a19a1e72a4a776a42bb0577 = L.circleMarker(
+                [41.217435, -73.738233],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_787667355a19a1e72a4a776a42bb0577.bindTooltip(
+                `<div>
+                     <b>Francis Energy — MILLWD #30</b><br>4 DCFC / 6 L2 ports • 62 kW<br>planned • online 2025-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1d72a2d8b028e3c050d19113c8bfd9b = L.circleMarker(
+                [40.821997, -73.899718],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_d1d72a2d8b028e3c050d19113c8bfd9b.bindTooltip(
+                `<div>
+                     <b>Francis Energy — DUNWOD #32</b><br>16 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2026-11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ed2cd0ca941fc1243ad137133e833a8 = L.circleMarker(
+                [40.987139, -73.977385],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_6ed2cd0ca941fc1243ad137133e833a8.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — DUNWOD #33</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2025-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8a3d6f51875eeac285452d8875dc4e1 = L.circleMarker(
+                [40.966756, -73.898903],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_e8a3d6f51875eeac285452d8875dc4e1.bindTooltip(
+                `<div>
+                     <b>Electrify America — DUNWOD #34</b><br>2 DCFC / 2 L2 ports • 50 kW<br>planned • online 2027-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c38f4e7c2a2df572b41173137aab12f6 = L.circleMarker(
+                [41.028995, -73.944733],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_c38f4e7c2a2df572b41173137aab12f6.bindTooltip(
+                `<div>
+                     <b>Red E — DUNWOD #35</b><br>2 DCFC / 2 L2 ports • 150 kW<br>planned • online 2026-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f90567ff3f2538f16b6a084bef95f20d = L.circleMarker(
+                [40.540699, -74.006374],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_f90567ff3f2538f16b6a084bef95f20d.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — N.Y.C. #36</b><br>2 DCFC / 0 L2 ports • 62 kW<br>planned • online 2026-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2816506be3678ae0ee2d26f87d025557 = L.circleMarker(
+                [40.756464, -73.979254],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_2816506be3678ae0ee2d26f87d025557.bindTooltip(
+                `<div>
+                     <b>Flo — N.Y.C. #37</b><br>0 DCFC / 6 L2 ports • 50 kW<br>under_construction • online 2025-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9aff11544230d07e50cbe95cc2aa532c = L.circleMarker(
+                [40.614939, -74.132474],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_9aff11544230d07e50cbe95cc2aa532c.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — N.Y.C. #38</b><br>6 DCFC / 4 L2 ports • 350 kW<br>under_construction • online 2025-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb1f0a4e28357992d047b0a09cda35d8 = L.circleMarker(
+                [40.663686, -74.120895],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_cb1f0a4e28357992d047b0a09cda35d8.bindTooltip(
+                `<div>
+                     <b>Electrify America — N.Y.C. #39</b><br>6 DCFC / 2 L2 ports • 250 kW<br>planned • online 2026-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9283fc024b8a856975b8a84a727dda70 = L.circleMarker(
+                [40.854198, -73.111067],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_9283fc024b8a856975b8a84a727dda70.bindTooltip(
+                `<div>
+                     <b>Electrify America — LONGIL #41</b><br>2 DCFC / 0 L2 ports • 62 kW<br>under_construction • online 2025-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_afbc72c30a8ed3809b9711726898bbbe = L.circleMarker(
+                [40.79871, -72.991527],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_afbc72c30a8ed3809b9711726898bbbe.bindTooltip(
+                `<div>
+                     <b>Francis Energy — LONGIL #42</b><br>8 DCFC / 4 L2 ports • 150 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4edbc999cec7e2f140dd25afa5b613b2 = L.circleMarker(
+                [40.745767, -73.006045],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_4edbc999cec7e2f140dd25afa5b613b2.bindTooltip(
+                `<div>
+                     <b>ChargePoint — LONGIL #43</b><br>12 DCFC / 0 L2 ports • 350 kW<br>under_construction • online 2026-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb22ef3832bfeb16f6e9626f6987649d = L.circleMarker(
+                [40.778837, -73.15175],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_31a5b929381d8d050e6f9b4bb993083f);
+        
+    
+            circle_marker_eb22ef3832bfeb16f6e9626f6987649d.bindTooltip(
+                `<div>
+                     <b>Flo — LONGIL #44</b><br>4 DCFC / 2 L2 ports • 62 kW<br>under_construction • online 2027-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_31a5b929381d8d050e6f9b4bb993083f.addTo(map_512cc24fdfc8eb027eaf32f50ddd1302);
+        
+    
+            var feature_group_13c635fd81a76b6764ae55fbf112e27e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_2131186e20b3f02c0d4b6228c6d500a3 = L.circleMarker(
+                [44.550258, -69.311431],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_2131186e20b3f02c0d4b6228c6d500a3.bindTooltip(
+                `<div>
+                     <b>Electrify America — ME #45</b><br>16 DCFC / 2 L2 ports • 350 kW<br>under_construction • online 2027-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_746a21cb62b73e4dc1e7f903bec1bff3 = L.circleMarker(
+                [44.519341, -69.345954],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_746a21cb62b73e4dc1e7f903bec1bff3.bindTooltip(
+                `<div>
+                     <b>Electrify America — ME #46</b><br>2 DCFC / 2 L2 ports • 150 kW<br>under_construction • online 2026-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92dd74873ec1065a7b2cfcc171a12252 = L.circleMarker(
+                [44.747871, -69.350224],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_92dd74873ec1065a7b2cfcc171a12252.bindTooltip(
+                `<div>
+                     <b>ChargePoint — ME #47</b><br>8 DCFC / 2 L2 ports • 250 kW<br>under_construction • online 2025-09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6beacfd7188bd488b685dae3d4cbaffd = L.circleMarker(
+                [43.271071, -71.40103],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_6beacfd7188bd488b685dae3d4cbaffd.bindTooltip(
+                `<div>
+                     <b>Electrify America — NH #48</b><br>2 DCFC / 2 L2 ports • 62 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce11d093da7ba19e66a1205e34f3b63e = L.circleMarker(
+                [43.124374, -71.555138],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_ce11d093da7ba19e66a1205e34f3b63e.bindTooltip(
+                `<div>
+                     <b>Electrify America — NH #49</b><br>2 DCFC / 4 L2 ports • 150 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7f634fc7cc64a6297048542df98dd81f = L.circleMarker(
+                [43.034182, -71.662845],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_7f634fc7cc64a6297048542df98dd81f.bindTooltip(
+                `<div>
+                     <b>Electrify America — NH #50</b><br>2 DCFC / 2 L2 ports • 150 kW<br>planned • online 2025-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c5005891344bf207558af4453a24c53 = L.circleMarker(
+                [43.290424, -71.744057],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_7c5005891344bf207558af4453a24c53.bindTooltip(
+                `<div>
+                     <b>Red E — NH #51</b><br>0 DCFC / 4 L2 ports • 150 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_51f0204da5735d00fd32cdbfaec44f5b = L.circleMarker(
+                [43.015505, -71.640694],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_51f0204da5735d00fd32cdbfaec44f5b.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — NH #52</b><br>8 DCFC / 0 L2 ports • 150 kW<br>planned • online 2025-09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a9182538d38ffd0484c599d58fc0272f = L.circleMarker(
+                [43.91163, -72.6953],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_a9182538d38ffd0484c599d58fc0272f.bindTooltip(
+                `<div>
+                     <b>Flo — VT #53</b><br>4 DCFC / 6 L2 ports • 150 kW<br>planned • online 2025-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72b2e3764a120d44855c0c6ee1acf1ff = L.circleMarker(
+                [44.184509, -72.622896],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_72b2e3764a120d44855c0c6ee1acf1ff.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — VT #54</b><br>2 DCFC / 4 L2 ports • 150 kW<br>under_construction • online 2025-12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb05ee53dcf9a40159abefd5d778d59d = L.circleMarker(
+                [43.894171, -72.692096],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_fb05ee53dcf9a40159abefd5d778d59d.bindTooltip(
+                `<div>
+                     <b>Francis Energy — VT #55</b><br>0 DCFC / 6 L2 ports • 150 kW<br>planned • online 2026-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a3982abafe40422258360adc7a63165 = L.circleMarker(
+                [41.658353, -73.111562],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_6a3982abafe40422258360adc7a63165.bindTooltip(
+                `<div>
+                     <b>Red E — CT #56</b><br>12 DCFC / 2 L2 ports • 250 kW<br>under_construction • online 2025-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_989087c853b886308362497c142f1dd6 = L.circleMarker(
+                [41.587709, -73.092714],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_989087c853b886308362497c142f1dd6.bindTooltip(
+                `<div>
+                     <b>ChargePoint — CT #57</b><br>4 DCFC / 2 L2 ports • 50 kW<br>planned • online 2027-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d8e04a0acaf2f7d929ab51f7f4dc9e2 = L.circleMarker(
+                [41.738543, -72.935972],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_5d8e04a0acaf2f7d929ab51f7f4dc9e2.bindTooltip(
+                `<div>
+                     <b>EVgo — CT #58</b><br>12 DCFC / 2 L2 ports • 350 kW<br>planned • online 2026-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c27123886abae96b8064f2379bc7fdb2 = L.circleMarker(
+                [41.587462, -73.207502],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_c27123886abae96b8064f2379bc7fdb2.bindTooltip(
+                `<div>
+                     <b>ChargePoint — CT #59</b><br>12 DCFC / 2 L2 ports • 350 kW<br>under_construction • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c3439f77f7a4a0bfadb15a486838f26 = L.circleMarker(
+                [41.661994, -73.128733],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_6c3439f77f7a4a0bfadb15a486838f26.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — CT #60</b><br>6 DCFC / 4 L2 ports • 150 kW<br>planned • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f24660c596722f384c42b03c7cda5771 = L.circleMarker(
+                [41.414036, -71.442912],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_f24660c596722f384c42b03c7cda5771.bindTooltip(
+                `<div>
+                     <b>Francis Energy — RI #61</b><br>2 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2025-12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0e240a272d9669ecd743f375b9e741b = L.circleMarker(
+                [41.643647, -71.302707],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_a0e240a272d9669ecd743f375b9e741b.bindTooltip(
+                `<div>
+                     <b>ChargePoint — RI #62</b><br>2 DCFC / 4 L2 ports • 50 kW<br>under_construction • online 2027-04
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7d87d36ef87ca1b3ba624d79eb5ab2ee = L.circleMarker(
+                [41.51546, -71.599582],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_7d87d36ef87ca1b3ba624d79eb5ab2ee.bindTooltip(
+                `<div>
+                     <b>Red E — RI #63</b><br>2 DCFC / 6 L2 ports • 62 kW<br>under_construction • online 2026-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e2f662c99715ebfd7774b6e720d9be52 = L.circleMarker(
+                [41.53713, -71.322421],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_e2f662c99715ebfd7774b6e720d9be52.bindTooltip(
+                `<div>
+                     <b>Flo — RI #64</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2025-09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d4f01ae642a1cc0471f4f2b2bd36ea57 = L.circleMarker(
+                [41.691468, -70.888274],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_d4f01ae642a1cc0471f4f2b2bd36ea57.bindTooltip(
+                `<div>
+                     <b>Francis Energy — SEMA #65</b><br>8 DCFC / 2 L2 ports • 150 kW<br>planned • online 2025-09
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_560e94de91d3a95cd901500813312f8c = L.circleMarker(
+                [41.783365, -71.084604],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_560e94de91d3a95cd901500813312f8c.bindTooltip(
+                `<div>
+                     <b>Electrify America — SEMA #66</b><br>12 DCFC / 2 L2 ports • 350 kW<br>under_construction • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1727ef8ff1156cd3d8d05b85ff657ee6 = L.circleMarker(
+                [41.671481, -70.993387],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_1727ef8ff1156cd3d8d05b85ff657ee6.bindTooltip(
+                `<div>
+                     <b>EVgo — SEMA #67</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2027-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e72b5dbafbed98777615d341a2f5197 = L.circleMarker(
+                [41.835467, -71.031509],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_8e72b5dbafbed98777615d341a2f5197.bindTooltip(
+                `<div>
+                     <b>Francis Energy — SEMA #69</b><br>2 DCFC / 2 L2 ports • 150 kW<br>planned • online 2025-03
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_698ffbe9cffbcc15795423d90c31d0a3 = L.circleMarker(
+                [42.506047, -72.456649],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_698ffbe9cffbcc15795423d90c31d0a3.bindTooltip(
+                `<div>
+                     <b>Shell Recharge — WCMA #70</b><br>2 DCFC / 2 L2 ports • 62 kW<br>under_construction • online 2025-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6931e5c8dd84567b3f66920ebd047865 = L.circleMarker(
+                [42.316896, -72.757906],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_6931e5c8dd84567b3f66920ebd047865.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — WCMA #71</b><br>10 DCFC / 0 L2 ports • 150 kW<br>planned • online 2027-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f68e719dde5581bdcafdbb735f563536 = L.circleMarker(
+                [42.493726, -72.75203],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_f68e719dde5581bdcafdbb735f563536.bindTooltip(
+                `<div>
+                     <b>ChargePoint — WCMA #73</b><br>8 DCFC / 2 L2 ports • 350 kW<br>under_construction • online 2027-03
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f0e5df6f8b829b26c98a51bb3917ebf = L.circleMarker(
+                [42.216928, -72.486806],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_5f0e5df6f8b829b26c98a51bb3917ebf.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — WCMA #74</b><br>12 DCFC / 0 L2 ports • 350 kW<br>planned • online 2026-08
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b93c4aef964bed953adde613981e9616 = L.circleMarker(
+                [42.517345, -71.230423],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_b93c4aef964bed953adde613981e9616.bindTooltip(
+                `<div>
+                     <b>EVgo — NEMA #75</b><br>2 DCFC / 0 L2 ports • 50 kW<br>planned • online 2026-07
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_80b49c98f9f1e5839d6fa8c54ecdbdbb = L.circleMarker(
+                [42.328702, -71.033531],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_80b49c98f9f1e5839d6fa8c54ecdbdbb.bindTooltip(
+                `<div>
+                     <b>ChargePoint — NEMA #76</b><br>16 DCFC / 4 L2 ports • 350 kW<br>planned • online 2026-01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_889e94037dd620a3784a21b38d580a0b = L.circleMarker(
+                [42.270302, -71.091344],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_889e94037dd620a3784a21b38d580a0b.bindTooltip(
+                `<div>
+                     <b>Francis Energy — NEMA #77</b><br>6 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2026-10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_15bd446da5be1a59ece7888a1cacbcd8 = L.circleMarker(
+                [42.200979, -71.114289],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_15bd446da5be1a59ece7888a1cacbcd8.bindTooltip(
+                `<div>
+                     <b>Tesla Supercharger — NEMA #78</b><br>12 DCFC / 0 L2 ports • 150 kW<br>under_construction • online 2026-06
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44687e51ad4a598432d83ecc67979425 = L.circleMarker(
+                [42.461184, -71.224547],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(feature_group_13c635fd81a76b6764ae55fbf112e27e);
+        
+    
+            circle_marker_44687e51ad4a598432d83ecc67979425.bindTooltip(
+                `<div>
+                     <b>Electrify America — NEMA #79</b><br>20 DCFC / 2 L2 ports • 250 kW<br>planned • online 2026-02
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_13c635fd81a76b6764ae55fbf112e27e.addTo(map_512cc24fdfc8eb027eaf32f50ddd1302);
+        
+    
+            var feature_group_9d9db3aab84fcd64fbf0e8d085d287a1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_b8d34004ce6e2de03e337b4308b170f8 = L.circleMarker(
+                [42.3601, -71.0589],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_b8d34004ce6e2de03e337b4308b170f8.bindTooltip(
+                `<div>
+                     <b>#1 ISONE NEMA</b><br>5 sites • 56 DCFC ports • 4 large (5+)<br>13.4 MW planned<br><b>Projected vol uplift: +27.9%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c0c34265ca7cf62e03cd8205f8b265a = L.circleMarker(
+                [44.6995, -73.4529],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.75, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_5c0c34265ca7cf62e03cd8205f8b265a.bindTooltip(
+                `<div>
+                     <b>#2 NYISO NORTH</b><br>4 sites • 50 DCFC ports • 3 large (5+)<br>11.3 MW planned<br><b>Projected vol uplift: +24.1%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f49fb11e974f1ca211e819802acd5133 = L.circleMarker(
+                [41.6032, -73.0877],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.05, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_f49fb11e974f1ca211e819802acd5133.bindTooltip(
+                `<div>
+                     <b>#3 ISONE CT</b><br>5 sites • 46 DCFC ports • 4 large (5+)<br>12.5 MW planned<br><b>Projected vol uplift: +27.9%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a0bc915536f849fd5a5409714efe0ef = L.circleMarker(
+                [42.8864, -78.8784],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.649999999999999, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_5a0bc915536f849fd5a5409714efe0ef.bindTooltip(
+                `<div>
+                     <b>#4 NYISO WEST</b><br>5 sites • 38 DCFC ports • 3 large (5+)<br>7.5 MW planned<br><b>Projected vol uplift: +24.1%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2b3c8e4c113928e6b937efc38c8abb4 = L.circleMarker(
+                [41.7004, -73.921],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.6, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_f2b3c8e4c113928e6b937efc38c8abb4.bindTooltip(
+                `<div>
+                     <b>#5 NYISO HUD VL</b><br>4 sites • 32 DCFC ports • 3 large (5+)<br>7.2 MW planned<br><b>Projected vol uplift: +24.1%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d45d52ebf2dfaa3393b1c31751dfe98 = L.circleMarker(
+                [42.3601, -72.5898],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.6, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_2d45d52ebf2dfaa3393b1c31751dfe98.bindTooltip(
+                `<div>
+                     <b>#6 ISONE WCMA</b><br>4 sites • 32 DCFC ports • 3 large (5+)<br>8.6 MW planned<br><b>Projected vol uplift: +24.1%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a3677c036465b30fceab85145f59d5d = L.circleMarker(
+                [40.7891, -73.135],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.55, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_4a3677c036465b30fceab85145f59d5d.bindTooltip(
+                `<div>
+                     <b>#7 NYISO LONGIL</b><br>4 sites • 26 DCFC ports • 2 large (5+)<br>5.8 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c42cade5e90b37724be83c1b58cc736b = L.circleMarker(
+                [44.6939, -69.3819],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.55, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_c42cade5e90b37724be83c1b58cc736b.bindTooltip(
+                `<div>
+                     <b>#8 ISONE ME</b><br>3 sites • 26 DCFC ports • 2 large (5+)<br>7.9 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b28c61cab5af3af12c33a534e1118ec = L.circleMarker(
+                [41.7601, -70.9494],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_0b28c61cab5af3af12c33a534e1118ec.bindTooltip(
+                `<div>
+                     <b>#9 ISONE SEMA</b><br>4 sites • 24 DCFC ports • 2 large (5+)<br>5.8 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9035130d0f4775390ebbe7a4c2c3f0cc = L.circleMarker(
+                [42.6526, -73.7562],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_9035130d0f4775390ebbe7a4c2c3f0cc.bindTooltip(
+                `<div>
+                     <b>#10 NYISO CAPITL</b><br>5 sites • 24 DCFC ports • 1 large (5+)<br>3.2 MW planned<br><b>Projected vol uplift: +13.9%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a1ade30354ebb361f566a3ea08e4bed = L.circleMarker(
+                [40.9312, -73.8988],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.85, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_6a1ade30354ebb361f566a3ea08e4bed.bindTooltip(
+                `<div>
+                     <b>#11 NYISO DUNWOD</b><br>4 sites • 22 DCFC ports • 1 large (5+)<br>2.9 MW planned<br><b>Projected vol uplift: +13.9%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebd4c2fd01ca8343614d1bfd6baa2669 = L.circleMarker(
+                [43.0481, -76.1474],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.5, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_ebd4c2fd01ca8343614d1bfd6baa2669.bindTooltip(
+                `<div>
+                     <b>#12 NYISO CENTRL</b><br>4 sites • 20 DCFC ports • 2 large (5+)<br>4.2 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54dc75006b8a8087cc51a9c596d5fc48 = L.circleMarker(
+                [43.161, -77.6109],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.8, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_54dc75006b8a8087cc51a9c596d5fc48.bindTooltip(
+                `<div>
+                     <b>#13 NYISO GENESE</b><br>3 sites • 16 DCFC ports • 2 large (5+)<br>2.8 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f408784de2d9b8f35a4dd93761a45b07 = L.circleMarker(
+                [40.7128, -74.006],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.45, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_f408784de2d9b8f35a4dd93761a45b07.bindTooltip(
+                `<div>
+                     <b>#14 NYISO N.Y.C.</b><br>4 sites • 14 DCFC ports • 2 large (5+)<br>3.7 MW planned<br><b>Projected vol uplift: +19.7%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ae9c5494be9330d924e32a673738420a = L.circleMarker(
+                [43.1939, -71.5724],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.45, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_ae9c5494be9330d924e32a673738420a.bindTooltip(
+                `<div>
+                     <b>#15 ISONE NH</b><br>5 sites • 14 DCFC ports • 1 large (5+)<br>1.9 MW planned<br><b>Projected vol uplift: +13.9%</b>
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf22ab9099ee35a114544d3c8ca38736 = L.circleMarker(
+                [43.1009, -75.2327],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.75, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_cf22ab9099ee35a114544d3c8ca38736.bindTooltip(
+                `<div>
+                     <b>#16 NYISO MHK VL</b><br>3 sites • 10 DCFC ports • 0 large (5+)<br>0.6 MW planned
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a0b44ca0c18762ce24b22d146c323e5 = L.circleMarker(
+                [41.5801, -71.4774],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_7a0b44ca0c18762ce24b22d146c323e5.bindTooltip(
+                `<div>
+                     <b>#17 ISONE RI</b><br>4 sites • 8 DCFC ports • 0 large (5+)<br>0.6 MW planned
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fcd2f30a6b85ada9989f114a709d318d = L.circleMarker(
+                [41.2045, -73.829],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.05, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_fcd2f30a6b85ada9989f114a709d318d.bindTooltip(
+                `<div>
+                     <b>#18 NYISO MILLWD</b><br>2 sites • 6 DCFC ports • 0 large (5+)<br>0.3 MW planned
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_53824ba35f3b4db1d8ad0a940a1dc300 = L.circleMarker(
+                [44.0459, -72.7107],
+                {"bubblingMouseEvents": true, "color": "#222", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.05, "stroke": true, "weight": 1}
+            ).addTo(feature_group_9d9db3aab84fcd64fbf0e8d085d287a1);
+        
+    
+            circle_marker_53824ba35f3b4db1d8ad0a940a1dc300.bindTooltip(
+                `<div>
+                     <b>#19 ISONE VT</b><br>3 sites • 6 DCFC ports • 0 large (5+)<br>0.9 MW planned
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_9d9db3aab84fcd64fbf0e8d085d287a1.addTo(map_512cc24fdfc8eb027eaf32f50ddd1302);
+        
+    
+            var layer_control_2a8c2bc8bfdfdfa5717be8d0432d4d31_layers = {
+                base_layers : {
+                    "CartoDB Positron" : tile_layer_0ec395fce06fc35ea2075562f3b79004,
+                },
+                overlays :  {
+                    "NYISO \u2014 planned stations" : feature_group_31a5b929381d8d050e6f9b4bb993083f,
+                    "ISONE \u2014 planned stations" : feature_group_13c635fd81a76b6764ae55fbf112e27e,
+                    "Zone ranking (planned DCFC + projected volatility)" : feature_group_9d9db3aab84fcd64fbf0e8d085d287a1,
+                },
+            };
+            let layer_control_2a8c2bc8bfdfdfa5717be8d0432d4d31 = L.control.layers(
+                layer_control_2a8c2bc8bfdfdfa5717be8d0432d4d31_layers.base_layers,
+                layer_control_2a8c2bc8bfdfdfa5717be8d0432d4d31_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_512cc24fdfc8eb027eaf32f50ddd1302);
+
+        
+</script>
+</html>

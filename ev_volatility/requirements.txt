@@ -1,0 +1,4 @@
+folium>=0.14.0      # interactive Leaflet maps
+pandas>=2.0.0       # LMP panel + volatility math
+requests>=2.31.0    # NYISO / ISONE / PlugShare HTTP
+openpyxl>=3.1.0     # (optional) ISONE queue XLSX

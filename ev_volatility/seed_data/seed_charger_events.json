@@ -1,0 +1,66 @@
+[
+  {
+    "name": "I-90 Corridor DCFC hub (Buffalo)",
+    "iso": "NYISO",
+    "zone": "WEST",
+    "dcfc_ports": 12,
+    "max_kw": 350,
+    "online": "2023-06"
+  },
+  {
+    "name": "Thruway plaza DCFC (Syracuse)",
+    "iso": "NYISO",
+    "zone": "CENTRL",
+    "dcfc_ports": 8,
+    "max_kw": 250,
+    "online": "2023-09"
+  },
+  {
+    "name": "Capital Region megasite (Albany)",
+    "iso": "NYISO",
+    "zone": "CAPITL",
+    "dcfc_ports": 16,
+    "max_kw": 350,
+    "online": "2023-11"
+  },
+  {
+    "name": "Hudson Valley DCFC (Poughkeepsie)",
+    "iso": "NYISO",
+    "zone": "HUD VL",
+    "dcfc_ports": 8,
+    "max_kw": 250,
+    "online": "2024-03"
+  },
+  {
+    "name": "LI Expressway DCFC (Islip)",
+    "iso": "NYISO",
+    "zone": "LONGIL",
+    "dcfc_ports": 10,
+    "max_kw": 250,
+    "online": "2024-05"
+  },
+  {
+    "name": "NYC curbside fast-charge (Manhattan)",
+    "iso": "NYISO",
+    "zone": "N.Y.C.",
+    "dcfc_ports": 20,
+    "max_kw": 250,
+    "online": "2024-07"
+  },
+  {
+    "name": "Rochester retail DCFC",
+    "iso": "NYISO",
+    "zone": "GENESE",
+    "dcfc_ports": 8,
+    "max_kw": 350,
+    "online": "2023-08"
+  },
+  {
+    "name": "Utica corridor DCFC",
+    "iso": "NYISO",
+    "zone": "MHK VL",
+    "dcfc_ports": 6,
+    "max_kw": 150,
+    "online": "2024-02"
+  }
+]
