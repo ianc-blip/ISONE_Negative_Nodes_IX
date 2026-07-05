@@ -1,5 +1,5 @@
 {
-  "n_events": 8,
+  "n_events": 12,
   "window": {
     "pre_days": 90,
     "post_days": 90,
@@ -7,37 +7,106 @@
   },
   "aggregate": {
     "hourly_std": {
-      "n": 8,
-      "mean_did_pct": 13.925644747605611,
-      "median_did_pct": 3.6033050897893872,
-      "mean_treated_pct": 52.41319823693698,
-      "share_increasing": 0.625
+      "n": 12,
+      "mean_did_pct": 10.52047638285487,
+      "median_did_pct": 2.5379644787336204,
+      "mean_treated_pct": 48.227241998935,
+      "share_increasing": 0.6666666666666666
     },
     "daily_range": {
-      "n": 8,
-      "mean_did_pct": 22.774496637535528,
-      "median_did_pct": -2.9793916936992346,
-      "mean_treated_pct": 38.44439098177004,
-      "share_increasing": 0.375
+      "n": 12,
+      "mean_did_pct": 15.22432190055922,
+      "median_did_pct": -1.040877805416791,
+      "mean_treated_pct": 22.38791110775459,
+      "share_increasing": 0.4166666666666667
     },
     "spike_share": {
-      "n": 8,
-      "mean_did_pct": 67.10832042719404,
+      "n": 12,
+      "mean_did_pct": 45.302531536515204,
       "median_did_pct": 0.0,
-      "mean_treated_pct": 198.03674755820091,
-      "share_increasing": 0.375
+      "mean_treated_pct": 204.70887752101262,
+      "share_increasing": 0.4166666666666667
     },
     "mean_lbmp": {
-      "n": 8,
-      "mean_did_pct": 10.832263780345636,
-      "median_did_pct": 1.5380096639139538,
-      "mean_treated_pct": 16.23503342672563,
-      "share_increasing": 0.625
+      "n": 12,
+      "mean_did_pct": 7.229654176076778,
+      "median_did_pct": 0.3345201638500761,
+      "mean_treated_pct": 16.73774205177182,
+      "share_increasing": 0.6666666666666666
+    }
+  },
+  "by_iso": {
+    "NYISO": {
+      "n_events": 8,
+      "aggregate": {
+        "hourly_std": {
+          "n": 8,
+          "mean_did_pct": 13.925644747605611,
+          "median_did_pct": 3.6033050897893872,
+          "mean_treated_pct": 52.41319823693698,
+          "share_increasing": 0.625
+        },
+        "daily_range": {
+          "n": 8,
+          "mean_did_pct": 22.774496637535528,
+          "median_did_pct": -2.9793916936992346,
+          "mean_treated_pct": 38.44439098177004,
+          "share_increasing": 0.375
+        },
+        "spike_share": {
+          "n": 8,
+          "mean_did_pct": 67.10832042719404,
+          "median_did_pct": 0.0,
+          "mean_treated_pct": 198.03674755820091,
+          "share_increasing": 0.375
+        },
+        "mean_lbmp": {
+          "n": 8,
+          "mean_did_pct": 10.832263780345636,
+          "median_did_pct": 1.5380096639139538,
+          "mean_treated_pct": 16.23503342672563,
+          "share_increasing": 0.625
+        }
+      }
+    },
+    "ISONE": {
+      "n_events": 4,
+      "aggregate": {
+        "hourly_std": {
+          "n": 4,
+          "mean_did_pct": 3.7101396533533872,
+          "median_did_pct": 1.268129373632867,
+          "mean_treated_pct": 39.855329522931044,
+          "share_increasing": 0.75
+        },
+        "daily_range": {
+          "n": 4,
+          "mean_did_pct": 0.1239724266066009,
+          "median_did_pct": 0.12530490513129422,
+          "mean_treated_pct": -9.725048640276308,
+          "share_increasing": 0.5
+        },
+        "spike_share": {
+          "n": 4,
+          "mean_did_pct": 1.6909537551575262,
+          "median_did_pct": 0.005664337332156322,
+          "mean_treated_pct": 218.053137446636,
+          "share_increasing": 0.5
+        },
+        "mean_lbmp": {
+          "n": 4,
+          "mean_did_pct": 0.024434967539058938,
+          "median_did_pct": 0.04032298487245889,
+          "mean_treated_pct": 17.74315930186421,
+          "share_increasing": 0.75
+        }
+      }
     }
   },
   "events": [
     {
       "event": "I-90 Corridor DCFC hub (Buffalo)",
+      "iso": "NYISO",
       "zone": "WEST",
       "online": "2023-06",
       "dcfc_ports": 12,
@@ -74,6 +143,7 @@
     },
     {
       "event": "Thruway plaza DCFC (Syracuse)",
+      "iso": "NYISO",
       "zone": "CENTRL",
       "online": "2023-09",
       "dcfc_ports": 8,
@@ -110,6 +180,7 @@
     },
     {
       "event": "Capital Region megasite (Albany)",
+      "iso": "NYISO",
       "zone": "CAPITL",
       "online": "2023-11",
       "dcfc_ports": 16,
@@ -146,6 +217,7 @@
     },
     {
       "event": "Hudson Valley DCFC (Poughkeepsie)",
+      "iso": "NYISO",
       "zone": "HUD VL",
       "online": "2024-03",
       "dcfc_ports": 8,
@@ -182,6 +254,7 @@
     },
     {
       "event": "LI Expressway DCFC (Islip)",
+      "iso": "NYISO",
       "zone": "LONGIL",
       "online": "2024-05",
       "dcfc_ports": 10,
@@ -218,6 +291,7 @@
     },
     {
       "event": "NYC curbside fast-charge (Manhattan)",
+      "iso": "NYISO",
       "zone": "N.Y.C.",
       "online": "2024-07",
       "dcfc_ports": 20,
@@ -254,6 +328,7 @@
     },
     {
       "event": "Rochester retail DCFC",
+      "iso": "NYISO",
       "zone": "GENESE",
       "online": "2023-08",
       "dcfc_ports": 8,
@@ -290,6 +365,7 @@
     },
     {
       "event": "Utica corridor DCFC",
+      "iso": "NYISO",
       "zone": "MHK VL",
       "online": "2024-02",
       "dcfc_ports": 6,
@@ -321,6 +397,154 @@
           "treated_pct": -38.471829511868634,
           "control_pct": -45.56594632654215,
           "did_pct": 7.094116814673512
+        }
+      }
+    },
+    {
+      "event": "Boston Seaport Supercharger",
+      "iso": "ISONE",
+      "zone": "NEMA",
+      "online": "2024-01",
+      "dcfc_ports": 20,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 19.522161606078676,
+          "treated_post": 13.12670615960936,
+          "treated_pct": -32.75997594691534,
+          "control_pct": -32.94356247272015,
+          "did_pct": 0.18358652580481305
+        },
+        "daily_range": {
+          "treated_pre": 37.02,
+          "treated_post": 22.943289473684207,
+          "treated_pct": -38.02460974153375,
+          "control_pct": -38.00528587344912,
+          "did_pct": -0.01932386808463349
+        },
+        "spike_share": {
+          "treated_pre": 0.05041095890410959,
+          "treated_post": 0.010422380691168404,
+          "treated_pct": -79.32516873762789,
+          "control_pct": -79.3364974122922,
+          "did_pct": 0.011328674664312643
+        },
+        "mean_lbmp": {
+          "treated_pre": 37.148816438356164,
+          "treated_post": 30.7803291278113,
+          "treated_pct": -17.143176879168077,
+          "control_pct": -17.150322950480124,
+          "did_pct": 0.007146071312046587
+        }
+      }
+    },
+    {
+      "event": "Hartford CT retail DCFC",
+      "iso": "ISONE",
+      "zone": "CT",
+      "online": "2023-12",
+      "dcfc_ports": 8,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 14.638689080257983,
+          "treated_post": 33.72821823377779,
+          "treated_pct": 130.4046356122442,
+          "control_pct": 117.432635747728,
+          "did_pct": 12.971999864516192
+        },
+        "daily_range": {
+          "treated_pre": 30.37644736842106,
+          "treated_post": 33.566052631578955,
+          "treated_pct": 10.500257730842364,
+          "control_pct": 8.1925460919296,
+          "did_pct": 2.307711638912764
+        },
+        "spike_share": {
+          "treated_pre": 0.05041095890410959,
+          "treated_post": 0.20735052111903457,
+          "treated_pct": 311.320327219824,
+          "control_pct": 301.3069713086408,
+          "did_pct": 10.013355911183169
+        },
+        "mean_lbmp": {
+          "treated_pre": 30.393342465753424,
+          "treated_post": 46.88517279210093,
+          "treated_pct": 54.26132497579085,
+          "control_pct": 53.66578454652357,
+          "did_pct": 0.595540429267281
+        }
+      }
+    },
+    {
+      "event": "Providence RI corridor DCFC",
+      "iso": "ISONE",
+      "zone": "RI",
+      "online": "2024-02",
+      "dcfc_ports": 10,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 35.74545642731052,
+          "treated_post": 6.80554623006713,
+          "treated_pct": -80.96108733733358,
+          "control_pct": -80.2933873389652,
+          "did_pct": -0.6676999983683771
+        },
+        "daily_range": {
+          "treated_pre": 46.52815789473684,
+          "treated_post": 19.816184210526316,
+          "treated_pct": -57.41034008834491,
+          "control_pct": -55.34790834559596,
+          "did_pct": -2.0624317427489487
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.0,
+          "treated_pct": -100.0,
+          "control_pct": -100.0,
+          "did_pct": 0.0
+        },
+        "mean_lbmp": {
+          "treated_pre": 53.47848684210527,
+          "treated_post": 25.082545255074056,
+          "treated_pct": -53.097877789380924,
+          "control_pct": -52.51943126052496,
+          "did_pct": -0.578446528855963
+        }
+      }
+    },
+    {
+      "event": "Worcester MA DCFC hub",
+      "iso": "ISONE",
+      "zone": "WCMA",
+      "online": "2023-11",
+      "dcfc_ports": 8,
+      "metrics": {
+        "hourly_std": {
+          "treated_pre": 14.117583309741466,
+          "treated_post": 34.26870348238287,
+          "treated_pct": 142.73774576372892,
+          "control_pct": 140.385073542268,
+          "did_pct": 2.352672221460921
+        },
+        "daily_range": {
+          "treated_pre": 27.629736842105263,
+          "treated_post": 40.348947368421044,
+          "treated_pct": 46.03449753793107,
+          "control_pct": 45.764563859583845,
+          "did_pct": 0.26993367834722193
+        },
+        "spike_share": {
+          "treated_pre": 0.05043859649122807,
+          "treated_post": 0.4237938596491228,
+          "treated_pct": 740.2173913043479,
+          "control_pct": 743.4782608695652,
+          "did_pct": -3.2608695652173765
+        },
+        "mean_lbmp": {
+          "treated_pre": 27.830718201754383,
+          "treated_post": 52.03018640350877,
+          "treated_pct": 86.952366900215,
+          "control_pct": 86.87886700178213,
+          "did_pct": 0.07349989843287119
         }
       }
     }

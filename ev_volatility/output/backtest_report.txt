@@ -1,23 +1,39 @@
 ========================================================================
-EV FAST-CHARGER → NODAL VOLATILITY BACKTEST (NYISO, DiD event study)
+EV FAST-CHARGER → NODAL VOLATILITY BACKTEST (NYISO + ISO-NE, DiD)
 ========================================================================
-Events analysed : 8
+Events analysed : 12
 Windows         : 90d pre / 90d post (15d commissioning gap)
 
-HEADLINE CALIBRATION (charger-attributable, market-move removed):
-  • Hourly LBMP volatility (std)      : ▲ increases +13.9% mean DiD (median +3.6%, 62% of sites up, n=8)
-  • Daily price range                 : ▲ increases +22.8% mean DiD (median -3.0%, 38% of sites up, n=8)
-  • Price-spike frequency (>95th pct) : ▲ increases +67.1% mean DiD (median +0.0%, 38% of sites up, n=8)
-  • Mean price level ($/MWh)          : ▲ increases +10.8% mean DiD (median +1.5%, 62% of sites up, n=8)
+HEADLINE — ALL EVENTS (charger-attributable, market-move removed):
+  • Hourly LBMP volatility (std)      : ▲ increases +10.5% mean DiD (median +2.5%, 67% up, n=12)
+  • Daily price range                 : ▲ increases +15.2% mean DiD (median -1.0%, 42% up, n=12)
+  • Price-spike frequency (>95th pct) : ▲ increases +45.3% mean DiD (median +0.0%, 42% up, n=12)
+  • Mean price level ($/MWh)          : ▲ increases +7.2% mean DiD (median +0.3%, 67% up, n=12)
 
-PER-EVENT (DiD % change vs. rest-of-NYISO control):
-  Site                             Zone    Ports     std   range  spikes   price
-  I-90 Corridor DCFC hub (Buffalo) WEST       12     +7%    +46%   +628%    +52%
-  Thruway plaza DCFC (Syracuse)    CENTRL      8     -6%     -3%    -29%     -6%
-  Capital Region megasite (Albany) CAPITL     16    +11%     -3%    -89%     +1%
-  Hudson Valley DCFC (Poughkeepsie HUD VL      8     -2%     -4%     +0%     -2%
-  LI Expressway DCFC (Islip)       LONGIL     10    +95%   +143%    +79%    +33%
-  NYC curbside fast-charge (Manhat N.Y.C.     20     +3%     -3%    -53%     -1%
-  Rochester retail DCFC            GENESE      8     -1%     -3%     +1%     +2%
-  Utica corridor DCFC              MHK VL      6     +4%    +11%     +0%     +7%
+HEADLINE — NYISO only (8 events):
+  • Hourly LBMP volatility (std)      : ▲ increases +13.9% mean DiD (median +3.6%, 62% up, n=8)
+  • Daily price range                 : ▲ increases +22.8% mean DiD (median -3.0%, 38% up, n=8)
+  • Price-spike frequency (>95th pct) : ▲ increases +67.1% mean DiD (median +0.0%, 38% up, n=8)
+  • Mean price level ($/MWh)          : ▲ increases +10.8% mean DiD (median +1.5%, 62% up, n=8)
+
+HEADLINE — ISONE only (4 events):
+  • Hourly LBMP volatility (std)      : ▲ increases +3.7% mean DiD (median +1.3%, 75% up, n=4)
+  • Daily price range                 : ▲ increases +0.1% mean DiD (median +0.1%, 50% up, n=4)
+  • Price-spike frequency (>95th pct) : ▲ increases +1.7% mean DiD (median +0.0%, 50% up, n=4)
+  • Mean price level ($/MWh)          : ▲ increases +0.0% mean DiD (median +0.0%, 75% up, n=4)
+
+PER-EVENT (DiD % change vs. rest-of-ISO control):
+  Site                           ISO    Zone   Prt    std  range  spike  price
+  I-90 Corridor DCFC hub (Buffal NYISO  WEST    12    +7%   +46%  +628%   +52%
+  Thruway plaza DCFC (Syracuse)  NYISO  CENTRL   8    -6%    -3%   -29%    -6%
+  Capital Region megasite (Alban NYISO  CAPITL  16   +11%    -3%   -89%    +1%
+  Hudson Valley DCFC (Poughkeeps NYISO  HUD VL   8    -2%    -4%    +0%    -2%
+  LI Expressway DCFC (Islip)     NYISO  LONGIL  10   +95%  +143%   +79%   +33%
+  NYC curbside fast-charge (Manh NYISO  N.Y.C.  20    +3%    -3%   -53%    -1%
+  Rochester retail DCFC          NYISO  GENESE   8    -1%    -3%    +1%    +2%
+  Utica corridor DCFC            NYISO  MHK VL   6    +4%   +11%    +0%    +7%
+  Boston Seaport Supercharger    ISONE  NEMA    20    +0%    -0%    +0%    +0%
+  Hartford CT retail DCFC        ISONE  CT       8   +13%    +2%   +10%    +1%
+  Providence RI corridor DCFC    ISONE  RI      10    -1%    -2%    +0%    -1%
+  Worcester MA DCFC hub          ISONE  WCMA     8    +2%    +0%    -3%    +0%
 ========================================================================

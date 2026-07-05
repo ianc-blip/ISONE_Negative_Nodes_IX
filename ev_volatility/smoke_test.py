@@ -36,7 +36,8 @@ def main():
     assert report["n_events"] > 0, "backtest produced no events"
     for key in ("hourly_std", "daily_range", "spike_share", "mean_lbmp"):
         assert key in report["aggregate"], f"missing metric {key}"
-    print(f"[ok] backtest ran on {report['n_events']} NYISO events (real prices)")
+    print(f"[ok] backtest ran on {report['n_events']} events "
+          f"(NYISO + ISO-NE, real prices)")
     print(bt.format_report(report))
 
     ranked = nr.apply_calibration(nr.rank_nodes(stations), report)

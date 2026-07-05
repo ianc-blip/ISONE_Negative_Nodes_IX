@@ -87,6 +87,11 @@ BACKTEST_EVENTS = [
     {"name": "NYC curbside fast-charge (Manhattan)","iso": "NYISO", "zone": "N.Y.C.", "dcfc_ports": 20, "max_kw": 250, "online": "2024-07"},
     {"name": "Rochester retail DCFC",               "iso": "NYISO", "zone": "GENESE", "dcfc_ports": 8,  "max_kw": 350, "online": "2023-08"},
     {"name": "Utica corridor DCFC",                 "iso": "NYISO", "zone": "MHK VL", "dcfc_ports": 6,  "max_kw": 150, "online": "2024-02"},
+    # ISO-NE large-DCFC openings (representative; clustered to bound downloads).
+    {"name": "Boston Seaport Supercharger",         "iso": "ISONE", "zone": "NEMA",   "dcfc_ports": 20, "max_kw": 250, "online": "2024-01"},
+    {"name": "Hartford CT retail DCFC",             "iso": "ISONE", "zone": "CT",     "dcfc_ports": 8,  "max_kw": 250, "online": "2023-12"},
+    {"name": "Providence RI corridor DCFC",         "iso": "ISONE", "zone": "RI",     "dcfc_ports": 10, "max_kw": 350, "online": "2024-02"},
+    {"name": "Worcester MA DCFC hub",               "iso": "ISONE", "zone": "WCMA",   "dcfc_ports": 8,  "max_kw": 150, "online": "2023-11"},
 ]
 
 

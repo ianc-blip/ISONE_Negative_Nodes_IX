@@ -123,8 +123,8 @@ def run_event(ev: dict, panel: pd.DataFrame) -> dict | None:
         log.warning("insufficient window data for %s", ev["name"])
         return None
 
-    result = {"event": ev["name"], "zone": zone, "online": ev["online"],
-              "dcfc_ports": ev["dcfc_ports"], "metrics": {}}
+    result = {"event": ev["name"], "iso": ev.get("iso", "NYISO"), "zone": zone,
+              "online": ev["online"], "dcfc_ports": ev["dcfc_ports"], "metrics": {}}
     for key in ("hourly_std", "daily_range", "spike_share", "mean_lbmp"):
         t_chg = _pct_change(t_pre, t_post, key)
         c_chg = _pct_change(c_pre, c_post, key)
@@ -143,27 +143,13 @@ def load_events() -> list[dict]:
         return json.load(f)
 
 
-def run_backtest(events: list[dict] | None = None) -> dict:
-    """Run the event study over all NYISO events; return a structured report."""
-    events = events or load_events()
-    nyiso_events = [e for e in events if e.get("iso", "NYISO") == "NYISO"]
-    if not nyiso_events:
-        raise ValueError("No NYISO events to backtest")
+METRIC_KEYS = ("hourly_std", "daily_range", "spike_share", "mean_lbmp")
 
-    # Fetch one panel spanning the full event range (cached monthly).
-    lows = [_online_date(e) - timedelta(days=PRE_DAYS) for e in nyiso_events]
-    highs = [_online_date(e) + timedelta(days=POST_DAYS) for e in nyiso_events]
-    start, end = min(lows), max(highs)
-    log.info("Fetching NYISO panel %s → %s for %d events", start, end, len(nyiso_events))
-    panel = L.nyiso_zone_panel(start, end)
-    if panel.empty:
-        raise RuntimeError("NYISO panel is empty — no price data fetched")
 
-    per_event = [r for e in nyiso_events if (r := run_event(e, panel))]
-
-    # aggregate DiD across events
+def _aggregate(per_event: list[dict]) -> dict:
+    """DiD aggregation over a list of per-event results."""
     agg = {}
-    for key in ("hourly_std", "daily_range", "spike_share", "mean_lbmp"):
+    for key in METRIC_KEYS:
         dids = [r["metrics"][key]["did_pct"] for r in per_event
                 if r["metrics"][key]["did_pct"] is not None]
         treated = [r["metrics"][key]["treated_pct"] for r in per_event
@@ -180,10 +166,48 @@ def run_backtest(events: list[dict] | None = None) -> dict:
                 "mean_treated_pct": sum(treated) / len(treated) if treated else None,
                 "share_increasing": sum(1 for d in dids if d > 0) / len(dids),
             }
+    return agg
+
+
+def run_backtest(events: list[dict] | None = None) -> dict:
+    """
+    Run the event study across BOTH ISOs (NYISO + ISO-NE). Each ISO's events are
+    measured against that ISO's own zonal price panel and control set.
+    """
+    events = events or load_events()
+    by_iso = {"NYISO": [], "ISONE": []}
+    for e in events:
+        by_iso.setdefault(e.get("iso", "NYISO"), []).append(e)
+
+    per_event = []
+    for iso, iso_events in by_iso.items():
+        if not iso_events:
+            continue
+        lows = [_online_date(e) - timedelta(days=PRE_DAYS) for e in iso_events]
+        highs = [_online_date(e) + timedelta(days=POST_DAYS) for e in iso_events]
+        start, end = min(lows), max(highs)
+        log.info("Fetching %s panel %s → %s for %d events",
+                 iso, start, end, len(iso_events))
+        panel = L.zone_panel(iso, start, end)
+        if panel.empty:
+            log.warning("%s panel empty — skipping %d events", iso, len(iso_events))
+            continue
+        per_event += [r for e in iso_events if (r := run_event(e, panel))]
+
+    if not per_event:
+        raise RuntimeError("No events produced results — no price data fetched")
+
+    by_iso_agg = {}
+    for iso in ("NYISO", "ISONE"):
+        ev = [r for r in per_event if r["iso"] == iso]
+        if ev:
+            by_iso_agg[iso] = {"n_events": len(ev), "aggregate": _aggregate(ev)}
+
     return {
         "n_events": len(per_event),
         "window": {"pre_days": PRE_DAYS, "post_days": POST_DAYS, "gap_days": GAP_DAYS},
-        "aggregate": agg,
+        "aggregate": _aggregate(per_event),
+        "by_iso": by_iso_agg,
         "events": per_event,
     }
 
@@ -192,37 +216,47 @@ def format_report(report: dict) -> str:
     """Human-readable text summary."""
     lines = []
     lines.append("=" * 72)
-    lines.append("EV FAST-CHARGER → NODAL VOLATILITY BACKTEST (NYISO, DiD event study)")
+    lines.append("EV FAST-CHARGER → NODAL VOLATILITY BACKTEST (NYISO + ISO-NE, DiD)")
     lines.append("=" * 72)
     w = report["window"]
     lines.append(f"Events analysed : {report['n_events']}")
     lines.append(f"Windows         : {w['pre_days']}d pre / {w['post_days']}d post "
                  f"({w['gap_days']}d commissioning gap)")
-    lines.append("")
-    lines.append("HEADLINE CALIBRATION (charger-attributable, market-move removed):")
     labels = {"hourly_std": "Hourly LBMP volatility (std)",
               "daily_range": "Daily price range",
               "spike_share": "Price-spike frequency (>95th pct)",
               "mean_lbmp": "Mean price level ($/MWh)"}
-    for key, a in report["aggregate"].items():
-        arrow = "▲ increases" if a["mean_did_pct"] > 0 else "▼ decreases"
-        lines.append(f"  • {labels[key]:34s}: {arrow} "
-                     f"{a['mean_did_pct']:+.1f}% mean DiD "
-                     f"(median {a['median_did_pct']:+.1f}%, "
-                     f"{a['share_increasing']*100:.0f}% of sites up, n={a['n']})")
+
+    def _headline(agg: dict, indent: str = "  "):
+        for key, a in agg.items():
+            arrow = "▲ increases" if a["mean_did_pct"] > 0 else "▼ decreases"
+            lines.append(f"{indent}• {labels[key]:34s}: {arrow} "
+                         f"{a['mean_did_pct']:+.1f}% mean DiD "
+                         f"(median {a['median_did_pct']:+.1f}%, "
+                         f"{a['share_increasing']*100:.0f}% up, n={a['n']})")
+
     lines.append("")
-    lines.append("PER-EVENT (DiD % change vs. rest-of-NYISO control):")
-    lines.append(f"  {'Site':32s} {'Zone':7s} {'Ports':>5s} "
-                 f"{'std':>7s} {'range':>7s} {'spikes':>7s} {'price':>7s}")
+    lines.append("HEADLINE — ALL EVENTS (charger-attributable, market-move removed):")
+    _headline(report["aggregate"])
+
+    for iso, block in report.get("by_iso", {}).items():
+        lines.append("")
+        lines.append(f"HEADLINE — {iso} only ({block['n_events']} events):")
+        _headline(block["aggregate"])
+
+    lines.append("")
+    lines.append("PER-EVENT (DiD % change vs. rest-of-ISO control):")
+    lines.append(f"  {'Site':30s} {'ISO':6s} {'Zone':6s} {'Prt':>3s} "
+                 f"{'std':>6s} {'range':>6s} {'spike':>6s} {'price':>6s}")
     for r in report["events"]:
         m = r["metrics"]
         def fmt(k):
             v = m[k]["did_pct"]
-            return f"{v:+.0f}%" if v is not None else "  n/a"
-        lines.append(f"  {r['event'][:32]:32s} {r['zone']:7s} "
-                     f"{r['dcfc_ports']:5d} {fmt('hourly_std'):>7s} "
-                     f"{fmt('daily_range'):>7s} {fmt('spike_share'):>7s} "
-                     f"{fmt('mean_lbmp'):>7s}")
+            return f"{v:+.0f}%" if v is not None else " n/a"
+        lines.append(f"  {r['event'][:30]:30s} {r['iso']:6s} {r['zone']:6s} "
+                     f"{r['dcfc_ports']:3d} {fmt('hourly_std'):>6s} "
+                     f"{fmt('daily_range'):>6s} {fmt('spike_share'):>6s} "
+                     f"{fmt('mean_lbmp'):>6s}")
     lines.append("=" * 72)
     return "\n".join(lines)
 

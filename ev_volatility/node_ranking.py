@@ -77,13 +77,21 @@ def apply_calibration(rows: list[dict], backtest: dict | None) -> list[dict]:
     """
     if not backtest:
         return rows
-    per_site = (backtest.get("aggregate", {})
-                        .get("hourly_std", {})
-                        .get("mean_did_pct"))
-    if per_site is None:
-        return rows
+
+    def per_site_for(iso: str):
+        # Prefer the ISO's own calibration; fall back to the pooled one.
+        block = backtest.get("by_iso", {}).get(iso, {}).get("aggregate", {})
+        val = block.get("hourly_std", {}).get("mean_did_pct")
+        if val is None:
+            val = (backtest.get("aggregate", {})
+                           .get("hourly_std", {}).get("mean_did_pct"))
+        return val
+
     for r in rows:
+        per_site = per_site_for(r["iso"])
         n = r["large_sites"]
+        if per_site is None:
+            continue
         r["proj_vol_uplift_pct"] = round(per_site * (n ** 0.5), 1) if n else 0.0
         r["calibration_per_site_pct"] = round(per_site, 1)
     return rows

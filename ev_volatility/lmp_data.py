@@ -21,7 +21,8 @@ from __future__ import annotations
 import io
 import logging
 import zipfile
-from datetime import date
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -122,24 +123,87 @@ def zone_series(panel: pd.DataFrame, zone: str) -> pd.Series:
 
 # ── ISONE (optional) ────────────────────────────────────────────────────────────
 
-ISONE_BULK_DA_LMP_URL = (
-    "https://www.iso-ne.com/static-assets/documents/{year}/hourly/da_lmp_{year}.csv"
+# Public daily Day-Ahead hourly LMP report (all locations). 302-redirects to
+# www.iso-ne.com/histRpts/...; requests follows it automatically. No auth.
+ISONE_DAM_DAY_URL = (
+    "https://www.iso-ne.com/static-transform/csv/histRpts/da-lmp/"
+    "WW_DALMP_ISO_{ymd}.csv"
 )
 
+# The 8 ISO-NE load zones (Location IDs 4001-4008) → short zone keys.
+ISONE_ZONE_IDS = {
+    "4001": "ME", "4002": "NH", "4003": "VT", "4004": "CT",
+    "4005": "RI", "4006": "SEMA", "4007": "WCMA", "4008": "NEMA",
+}
+_ISONE_ZONE_CACHE = CACHE_DIR / "isone_zone"
+_ISONE_ZONE_CACHE.mkdir(exist_ok=True)
 
-def isone_annual_lmp(year: int) -> pd.DataFrame:
+
+def isone_zonal_lbmp_day(d: date) -> pd.DataFrame:
     """
-    Best-effort fetch of ISO-NE annual bulk DA LMP (public). Returns
-    [ts, zone, lmp] or empty on failure. Provided for symmetry; the default
-    backtest uses NYISO events.
+    Day-Ahead hourly LMP for the 8 ISO-NE load zones on one day:
+        columns = [ts, zone, lbmp]
+    Only the small filtered (zone-level) slice is cached, so re-runs are cheap.
     """
-    url = ISONE_BULK_DA_LMP_URL.format(year=year)
-    try:
-        r = requests.get(url, timeout=120)
-        r.raise_for_status()
-        df = pd.read_csv(io.StringIO(r.text), low_memory=False)
-    except Exception as e:
-        log.error("ISONE %d bulk LMP failed: %s", year, e)
-        return pd.DataFrame(columns=["ts", "zone", "lmp"])
-    df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
-    return df
+    cache = _ISONE_ZONE_CACHE / f"{d:%Y%m%d}.csv"
+    if cache.exists():
+        c = pd.read_csv(cache, parse_dates=["ts"])
+        return c
+
+    url = ISONE_DAM_DAY_URL.format(ymd=f"{d:%Y%m%d}")
+    r = None
+    for attempt in range(3):                # transient resets are common here
+        try:
+            r = requests.get(url, timeout=90)   # follows the 302 to histRpts
+            r.raise_for_status()
+            break
+        except Exception as e:
+            if attempt == 2:
+                log.error("ISONE %s fetch failed after retries: %s", d, e)
+                return pd.DataFrame(columns=["ts", "zone", "lbmp"])
+    if r is None:
+        return pd.DataFrame(columns=["ts", "zone", "lbmp"])
+
+    # Rows: "D",Date,HE,LocID,LocName,LocType,LMP,Energy,Cong,Loss
+    raw = pd.read_csv(io.StringIO(r.text), header=None, dtype=str,
+                      names=list(range(10)), skip_blank_lines=True,
+                      on_bad_lines="skip")
+    d_rows = raw[(raw[0] == "D") & (raw[3].isin(ISONE_ZONE_IDS))].copy()
+    if d_rows.empty:
+        return pd.DataFrame(columns=["ts", "zone", "lbmp"])
+
+    he = pd.to_numeric(d_rows[2], errors="coerce").fillna(1).astype(int)
+    base = pd.to_datetime(d_rows[1], format="%m/%d/%Y", errors="coerce")
+    out = pd.DataFrame({
+        "ts": base + pd.to_timedelta(he - 1, unit="h"),
+        "zone": d_rows[3].map(ISONE_ZONE_IDS),
+        "lbmp": pd.to_numeric(d_rows[6], errors="coerce"),
+    }).dropna(subset=["ts", "lbmp"])
+    out.to_csv(cache, index=False)
+    return out
+
+
+def isone_zone_panel(start: date, end: date, max_workers: int = 8) -> pd.DataFrame:
+    """
+    Hourly DA LMP panel for ALL ISO-NE load zones between start and end
+    (inclusive). Daily files are fetched concurrently and cached. Returns long
+    DataFrame [ts, zone, lbmp].
+    """
+    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        parts = list(ex.map(isone_zonal_lbmp_day, days))
+    parts = [p for p in parts if not p.empty]
+    if not parts:
+        return pd.DataFrame(columns=["ts", "zone", "lbmp"])
+    panel = pd.concat(parts, ignore_index=True)
+    mask = (panel["ts"].dt.date >= start) & (panel["ts"].dt.date <= end)
+    return panel[mask].reset_index(drop=True)
+
+
+def zone_panel(iso: str, start: date, end: date) -> pd.DataFrame:
+    """Dispatch to the correct ISO's zonal panel fetcher."""
+    if iso.upper() == "NYISO":
+        return nyiso_zone_panel(start, end)
+    if iso.upper() == "ISONE":
+        return isone_zone_panel(start, end)
+    raise ValueError(f"unknown iso {iso}")

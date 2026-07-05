@@ -59,8 +59,11 @@ runs. Get a free key at <https://developer.nrel.gov/signup/>.
 
 ## Part 1 — the volatility backtest
 
-`volatility_backtest.py` runs a **difference-in-differences event study** on real NYISO
-Day-Ahead zonal LBMP (`lmp_data.py`, source: `mis.nyiso.com`, no auth):
+`volatility_backtest.py` runs a **difference-in-differences event study** on real
+Day-Ahead zonal prices from **both ISOs** (`lmp_data.py`, no auth): NYISO zonal LBMP from
+`mis.nyiso.com`, and ISO-NE zonal LMP from the public daily `WW_DALMP_ISO` reports on
+`iso-ne.com`. Each ISO's events are measured against that ISO's own zonal panel and a
+control built from its *other* zones, so the two markets never contaminate each other.
 
 - For each large-DCFC event: **pre** = 90d→15d before energization, **post** = 15d→90d after
   (the 15-day gap drops commissioning noise).
@@ -73,21 +76,23 @@ Day-Ahead zonal LBMP (`lmp_data.py`, source: `mis.nyiso.com`, no auth):
 Events are the real NREL openings from `nrel_stations.historical_openings()` (last 3y,
 >4 DCFC ports); with no NREL access it falls back to `seed_charger_events.json`.
 
-What the data actually shows (NREL-shaped sample of 7 NYISO openings, real prices):
+What the data actually shows (seed event set, 8 NYISO + 4 ISO-NE openings, real prices):
 
 ```
-Hourly LBMP volatility (std)      : +7.7% mean DiD (median -1.9%, 29% of sites up)
-Daily price range                 : +18.9% mean DiD (median -3.0%)
-Price-spike frequency (>95th pct) : -19.6% mean DiD
-Mean price level ($/MWh)          : +3.5% mean DiD (median -1.5%)
+                                     ALL (n=12)      NYISO (n=8)     ISO-NE (n=4)
+Hourly LBMP volatility (std)      : +10.5% (med +2.5)  +13.9% (+3.6)   +3.7% (+1.3)
+Daily price range                 : +15.2% (med -1.0)  +22.8% (-3.0)   +0.1% (+0.1)
+Price-spike frequency (>95th pct) : +45.3% (med  0.0)  +67.1% ( 0.0)   +1.7% ( 0.0)
+Mean price level ($/MWh)          :  +7.2% (med +0.3)  +10.8% (+1.5)   +0.0% ( 0.0)
 ```
 
 **Read honestly:** there is **no clean systematic volatility increase**. The positive
-means are driven almost entirely by one Long Island site (+95% std); the medians hover
-around zero or slightly negative. A single DCFC site (a few MW) is tiny against zonal
-load, so this is the expected result at zonal granularity — the effect, if any, is
-site-specific and easily confounded (a new generator/transmission change in the same
-window). Re-run against the full live NREL opening set to get the population estimate.
+*means* are driven almost entirely by one Long Island site (+95% std); every *median*
+sits near zero. The ISO-NE signal is even flatter than NYISO. A single DCFC site (a few
+MW) is tiny against zonal load, so this is the expected result at zonal granularity — the
+effect, if any, is site-specific and easily confounded (a new generator/transmission
+change in the same window). Swap in the full live NREL opening set for a population
+estimate; both ISOs run through the same machinery.
 
 ## Part 2 — station data (NREL, PlugShare fallback)
 
@@ -138,9 +143,9 @@ ev_volatility/
 | Data | Source | Auth |
 |---|---|---|
 | NYISO Day-Ahead zonal LBMP | `mis.nyiso.com/public/csv/damlbmp/` | None |
+| ISO-NE Day-Ahead zonal LMP | `iso-ne.com/.../histRpts/da-lmp/WW_DALMP_ISO_*.csv` | None |
 | EV stations (open_date, DCFC counts) | NREL Alt Fuel Stations API `developer.nrel.gov` | Key (`NREL_API_KEY`) |
 | EV stations (fallback) | PlugShare region API | Token (`PLUGSHARE_TOKEN`) |
-| ISO-NE bulk LMP (optional) | `iso-ne.com/static-assets/...` | None |
 | ISO-NE pnode geocodes | `../isone_maps/seed_data/node_geocodes.json` | None |
 
 ## Notes & caveats
@@ -152,6 +157,8 @@ ev_volatility/
   small vs. zonal load, so expect a weak/noisy signal at this granularity; the DiD control
   removes market-wide moves but not zone-specific confounders (a new generator or
   transmission upgrade in the same window). Treat it as an association, not causation.
-- ISO-NE results also report the nearest **pnode** so they line up with the negative-price
-  node maps in `isone_maps`. The backtest itself is NYISO-only today (NYISO LBMP is the
-  live price feed); wiring ISO-NE zonal LMP into `lmp_data.py` extends it to New England.
+- The backtest runs on **both ISOs**: NYISO zonal LBMP and ISO-NE zonal LMP, each with its
+  own within-ISO control. ISO-NE daily files are ~2.5 MB each (all locations), fetched
+  concurrently and cached as a small zone-only slice per day, so the first NE run is
+  network-heavy but re-runs are instant. ISO-NE results also report the nearest **pnode**
+  so they line up with the negative-price node maps in `isone_maps`.

@@ -12,8 +12,8 @@
     "nearest_pnode": "SUFFOLK, MA",
     "pnode_dist_km": 0.0,
     "rank": 1,
-    "proj_vol_uplift_pct": 27.9,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 7.4,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -42,8 +42,8 @@
     "nearest_pnode": "LD.S_NAUGTK13.8",
     "pnode_dist_km": 14.5,
     "rank": 3,
-    "proj_vol_uplift_pct": 27.9,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 7.4,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -86,8 +86,8 @@
     "nearest_pnode": "HAMPSHIRE, MA",
     "pnode_dist_km": 5.7,
     "rank": 6,
-    "proj_vol_uplift_pct": 24.1,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 6.4,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -116,8 +116,8 @@
     "nearest_pnode": "SOMERSET, ME",
     "pnode_dist_km": 27.8,
     "rank": 8,
-    "proj_vol_uplift_pct": 19.7,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 5.2,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "ISONE",
@@ -132,8 +132,8 @@
     "nearest_pnode": "BRISTOL, MA",
     "pnode_dist_km": 13.8,
     "rank": 9,
-    "proj_vol_uplift_pct": 19.7,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 5.2,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -218,8 +218,8 @@
     "nearest_pnode": "MERRIMACK, NH",
     "pnode_dist_km": 3.2,
     "rank": 15,
-    "proj_vol_uplift_pct": 13.9,
-    "calibration_per_site_pct": 13.9
+    "proj_vol_uplift_pct": 3.7,
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -249,7 +249,7 @@
     "pnode_dist_km": 14.3,
     "rank": 17,
     "proj_vol_uplift_pct": 0.0,
-    "calibration_per_site_pct": 13.9
+    "calibration_per_site_pct": 3.7
   },
   {
     "iso": "NYISO",
@@ -279,6 +279,6 @@
     "pnode_dist_km": 36.7,
     "rank": 19,
     "proj_vol_uplift_pct": 0.0,
-    "calibration_per_site_pct": 13.9
+    "calibration_per_site_pct": 3.7
   }
 ]
