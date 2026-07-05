@@ -1,0 +1,14 @@
+========================================================================
+ISO-NE NODAL CONGESTION DISPERSION vs EV FAST-CHARGING BUILDOUT
+========================================================================
+Period            : 2022-01 → 2026-06 (54 months)
+Cong. dispersion  : 0.90 → 0.76 $/MWh (cross-node std)
+DC-fast ports     : 912 → 3660
+
+CORRELATIONS (Pearson r):
+  dispersion vs cumulative DC-fast ports : +0.17
+  dispersion vs time index (confounder)  : +0.11
+  ports      vs time index (confounder)  : +0.98
+
+READ: No meaningful relationship: nodal congestion dispersion does not track EV buildout.
+========================================================================

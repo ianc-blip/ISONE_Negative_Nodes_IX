@@ -23,6 +23,7 @@ reuses its ISO-NE pnode geocodes.
 | `output/backtest_report.txt` / `.json` | Difference-in-differences event study: volatility change per charger site + headline calibration |
 | `output/ev_node_ranking.txt` / `.json` | NYISO/ISO-NE zones ranked by planned DC-fast ports, with projected volatility uplift |
 | `output/ev_planned_chargers_map_YYYYMMDD.html` | Interactive Folium map: planned stations + zone bubbles sized by planned DCFC ports |
+| `output/nodal_dispersion.{json,txt,csv}` + `_chart.html` | Sub-zonal angle: ISO-NE cross-node congestion dispersion vs EV buildout over time |
 
 ---
 
@@ -125,9 +126,32 @@ HTTP 401 without an `Authorization` token). Both fall back to
 
 `node_ranking.py` aggregates sites to each priced location, ranks by DC-fast ports, and
 — using the Part-1 calibration — projects a per-zone volatility uplift
-(`mean per-site DiD × √(large-site count)`, sqrt for in-zone overlap). The Folium map
-layers individual stations (by ISO) over zone bubbles sized by DCFC ports, with the
-projected uplift in each tooltip.
+(`median per-site DiD × √(large-site count)`), **but only when the backtest effect is
+significant**. Since the real backtest is null, the projection is gated off and the column
+reads `n/s`; the ranking is presented as *where the infrastructure is*, not a price
+forecast. The Folium map layers stations (by ISO) over zone bubbles sized by DCFC ports.
+
+## Part 4 — pnode-level angle (nodal dispersion)
+
+The zonal null could hide a *local* effect, so we looked below the zone. Two walls:
+
+- **You can't cleanly map a charger to its pnode with public data.** ISO-NE prices ~1,150
+  network nodes, but public geocodes exist for only ~43 of them (rural negative-price
+  generator buses), so only **16 of 261** ISO-NE fast-charger sites fall within 25 km of a
+  priced+geolocated node. NYISO publishes no nodal geocodes at all. A rigorous
+  charger→node event study needs the utility's node-load mapping, which isn't public.
+
+So `nodal_dispersion.py` takes the angle that needs no charger geocoding: EV fast-charging
+is localized load, so if it matters it should widen the **spread between node prices**. It
+builds a monthly series (2022→present, sampled days) of the cross-node std of the
+**congestion component** of ISO-NE Day-Ahead LMP — the purely locational signal — and
+correlates it with real cumulative ISO-NE DC-fast ports.
+
+**Result (54 months): another null.** `r(dispersion, buildout) = +0.17`, while buildout is
+collinear with time (`r = +0.98`) and dispersion barely trends (`r_time = +0.11`) — so even
+that weak correlation is drift, not a charger effect. The series is dominated by
+winter/summer congestion seasonality. Nodal congestion dispersion does not track EV
+buildout.
 
 ---
 
@@ -137,8 +161,9 @@ projected uplift in each tooltip.
 ev_volatility/
 ├── run_pipeline.py          # orchestrator: NREL → backtest → rank → map
 ├── nrel_stations.py         # NREL Alt-Fuel-Stations fetch, parse, event/ranking views
-├── volatility_backtest.py   # DiD event study on NYISO LBMP (vol + price)
-├── lmp_data.py              # NYISO (live) + ISONE price fetchers, cached
+├── volatility_backtest.py   # DiD event study, both ISOs (vol + price)
+├── nodal_dispersion.py      # pnode-level angle: congestion dispersion vs buildout
+├── lmp_data.py              # NYISO + ISO-NE zonal price fetchers, cached
 ├── plugshare_scraper.py     # token-gated PlugShare fallback + seed loader
 ├── node_ranking.py          # zone aggregation, calibration, Folium map
 ├── iso_regions.py           # bboxes, zone geocodes, geo + classification helpers
