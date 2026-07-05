@@ -1,0 +1,17 @@
+{
+  "station_counts": {"total": 12},
+  "fuel_stations": [
+    {"id": 100001, "station_name": "Buffalo Thruway DCFC", "state": "NY", "latitude": 42.8895, "longitude": -78.8784, "open_date": "2023-08-15", "status_code": "E", "ev_dc_fast_num": 12, "ev_level2_evse_num": 4, "ev_network": "Electrify America", "ev_connector_types": ["J1772COMBO", "CHADEMO"]},
+    {"id": 100002, "station_name": "Syracuse Retail Hub", "state": "NY", "latitude": 43.0481, "longitude": -76.1474, "open_date": "2023-10-05", "status_code": "E", "ev_dc_fast_num": 8, "ev_level2_evse_num": 2, "ev_network": "EVgo", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100003, "station_name": "Albany Capital Megasite", "state": "NY", "latitude": 42.6526, "longitude": -73.7562, "open_date": "2023-12-01", "status_code": "E", "ev_dc_fast_num": 16, "ev_level2_evse_num": 0, "ev_network": "Tesla", "ev_connector_types": ["TESLA"]},
+    {"id": 100004, "station_name": "Poughkeepsie DCFC", "state": "NY", "latitude": 41.7004, "longitude": -73.9210, "open_date": "2024-03-20", "status_code": "E", "ev_dc_fast_num": 8, "ev_level2_evse_num": 4, "ev_network": "ChargePoint Network", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100005, "station_name": "Islip LIE Fast Charge", "state": "NY", "latitude": 40.7891, "longitude": -73.1350, "open_date": "2024-05-10", "status_code": "E", "ev_dc_fast_num": 10, "ev_level2_evse_num": 2, "ev_network": "EVgo", "ev_connector_types": ["J1772COMBO", "CHADEMO"]},
+    {"id": 100006, "station_name": "Rochester Market DCFC", "state": "NY", "latitude": 43.1610, "longitude": -77.6109, "open_date": "2023-09-12", "status_code": "E", "ev_dc_fast_num": 6, "ev_level2_evse_num": 0, "ev_network": "Tesla", "ev_connector_types": ["TESLA"]},
+    {"id": 100007, "station_name": "Utica Corridor DCFC", "state": "NY", "latitude": 43.1009, "longitude": -75.2327, "open_date": "2024-02-18", "status_code": "E", "ev_dc_fast_num": 6, "ev_level2_evse_num": 2, "ev_network": "Electrify America", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100008, "station_name": "Boston Seaport Supercharger", "state": "MA", "latitude": 42.3520, "longitude": -71.0450, "open_date": "2024-01-22", "status_code": "E", "ev_dc_fast_num": 20, "ev_level2_evse_num": 0, "ev_network": "Tesla", "ev_connector_types": ["TESLA"]},
+    {"id": 100009, "station_name": "Hartford CT DCFC", "state": "CT", "latitude": 41.7658, "longitude": -72.6734, "open_date": "2023-11-30", "status_code": "E", "ev_dc_fast_num": 8, "ev_level2_evse_num": 4, "ev_network": "EVgo", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100010, "station_name": "Portland ME Planned Hub", "state": "ME", "latitude": 43.6591, "longitude": -70.2568, "open_date": "2026-09-01", "status_code": "P", "ev_dc_fast_num": 8, "ev_level2_evse_num": 2, "ev_network": "Red E", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100011, "station_name": "Providence RI Planned DCFC", "state": "RI", "latitude": 41.8240, "longitude": -71.4128, "open_date": "2027-01-01", "status_code": "P", "ev_dc_fast_num": 6, "ev_level2_evse_num": 0, "ev_network": "Shell Recharge", "ev_connector_types": ["J1772COMBO"]},
+    {"id": 100012, "station_name": "Yonkers L2 Only", "state": "NY", "latitude": 40.9312, "longitude": -73.8988, "open_date": "2022-01-05", "status_code": "E", "ev_dc_fast_num": 0, "ev_level2_evse_num": 6, "ev_network": "ChargePoint Network", "ev_connector_types": ["J1772"]}
+  ]
+}

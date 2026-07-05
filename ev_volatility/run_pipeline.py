@@ -47,13 +47,31 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
     stamp = date.today().strftime("%Y%m%d")
 
+    # 0 ── DATA SOURCE ─────────────────────────────────────────────────────────
+    # Prefer NREL (real open_date + DCFC counts); fall back to the offline seed.
+    import nrel_stations as nrel
+    prefer_live = not args.skip_live
+    log.info("Loading EV stations (source: %s)…",
+             "NREL" if (prefer_live and nrel.api_key()) else "seed")
+    stations = nrel.load_stations(prefer_live=prefer_live)
+    src = stations[0]["source"] if stations else "none"
+    log.info("  %d stations (source=%s)", len(stations), src)
+
+    # Real dated events = large DCFC openings in the last 3 years.
+    events = nrel.historical_openings(stations, years=3)
+    if not events:
+        import json as _json
+        with open(nrel.SEED_DIR / "seed_charger_events.json") as f:
+            events = _json.load(f)
+        log.info("  no NREL openings available — using %d seed events", len(events))
+
     # 1 ── BACKTEST ────────────────────────────────────────────────────────────
     backtest = None
     if not args.no_backtest:
         import volatility_backtest as bt
-        log.info("Step 1/3 — running volatility backtest on NYISO prices…")
+        log.info("Step 1/3 — backtest on NYISO prices over %d events…", len(events))
         try:
-            backtest = bt.run_backtest()
+            backtest = bt.run_backtest(events)
             (OUTPUT_DIR / "backtest_report.json").write_text(json.dumps(backtest, indent=2))
             report_txt = bt.format_report(backtest)
             (OUTPUT_DIR / "backtest_report.txt").write_text(report_txt)
@@ -63,11 +81,8 @@ def main():
     else:
         log.info("Step 1/3 — backtest skipped (--no-backtest)")
 
-    # 2 ── SCRAPE ──────────────────────────────────────────────────────────────
-    import plugshare_scraper as ps
-    log.info("Step 2/3 — loading planned EV stations…")
-    stations = ps.load_stations(prefer_live=not args.skip_live)
-    log.info("  %d planned stations", len(stations))
+    # 2 ── STATIONS FOR RANKING ────────────────────────────────────────────────
+    log.info("Step 2/3 — %d stations for node ranking", len(stations))
 
     # 3 ── RANK + MAP ──────────────────────────────────────────────────────────
     import node_ranking as nr

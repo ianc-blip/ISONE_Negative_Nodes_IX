@@ -1,9 +1,15 @@
 # EV Fast-Charger → Nodal Volatility (NYISO + ISO-NE)
 
-A pipeline that (1) **calibrates** how much local nodal price volatility moves when a
-large (>4-port) DC-fast charging site energizes, and (2) **maps and ranks** the NYISO
-and ISO-NE priced locations with the most *planned* EV fast-charging infrastructure —
-so you can flag which nodes are most likely to see volatility change as the buildout lands.
+A pipeline that (1) **calibrates** how much local nodal price volatility (and price
+level) moves when a large (>4-port) DC-fast charging site energizes, and (2) **maps and
+ranks** the NYISO and ISO-NE priced locations with the most EV fast-charging
+infrastructure — so you can flag which nodes are most likely to see volatility change as
+the buildout lands.
+
+Station data comes from the **NREL Alternative Fuel Stations API** (real `open_date` +
+`ev_dc_fast_num` per site), which lets the backtest run on *real dated openings* — the
+last 3 years of large DCFC energizations — rather than a representative list. A
+token-gated PlugShare scraper and an offline seed set are kept as fallbacks.
 
 It sits alongside the [`isone_maps`](../isone_maps) negative-price/queue pipeline and
 reuses its ISO-NE pnode geocodes.
@@ -25,15 +31,29 @@ reuses its ISO-NE pnode geocodes.
 ```bash
 pip install -r requirements.txt
 
-# Full run: backtest (real NYISO prices) + scrape/seed + rank + map
+# One-time: put your free NREL key where the pipeline can read it (git-ignored)
+echo "NREL_API_KEY=your_key_here" > .env      # or export NREL_API_KEY=...
+
+# Full run: NREL openings → backtest (real NYISO prices) → rank → map
 python run_pipeline.py
 
-# Faster: skip the network-heavy backtest, just scrape + rank + map
+# Faster: skip the network-heavy backtest, just rank + map
 python run_pipeline.py --no-backtest
+
+# Validate the NREL→backtest math offline (no NREL network needed)
+python smoke_test.py
 ```
 
-No credentials are needed for a first run — the backtest uses NYISO's fully public
-Day-Ahead LBMP data, and the charger side falls back to a reproducible seed set.
+The backtest always uses NYISO's fully public Day-Ahead LBMP data. For the charger
+side: with `NREL_API_KEY` set and `developer.nrel.gov` reachable, it pulls live NREL
+stations; otherwise it falls back to the reproducible seed set so the pipeline still
+runs. Get a free key at <https://developer.nrel.gov/signup/>.
+
+> **Sandbox note:** some managed environments block `developer.nrel.gov` at the egress
+> policy (the request never leaves the network). If you see "NREL fetch failed / host may
+> be egress-blocked", run the pipeline where NREL is allow-listed (e.g. locally) or have
+> the environment's network policy add `developer.nrel.gov`. `smoke_test.py` exercises the
+> full NREL parsing + backtest path from a saved payload with no NREL network call.
 
 ---
 
@@ -44,50 +64,51 @@ Day-Ahead zonal LBMP (`lmp_data.py`, source: `mis.nyiso.com`, no auth):
 
 - For each large-DCFC event: **pre** = 90d→15d before energization, **post** = 15d→90d after
   (the 15-day gap drops commissioning noise).
-- Three volatility metrics per window: hourly LBMP std, mean daily price range, and
-  price-spike frequency (>95th percentile, threshold fixed from the pre window).
+- Four metrics per window: hourly LBMP std, mean daily price range, price-spike
+  frequency (>95th percentile, threshold fixed from the pre window), and **mean price
+  level** ($/MWh) — so we capture *"vol or price, or anything else."*
 - **Treated** zone %Δ minus a **control** (median of all other NYISO zones) %Δ = the
   charger-attributable change, net of the market-wide seasonal move.
 
-Headline from the shipped event set (8 sites):
+Events are the real NREL openings from `nrel_stations.historical_openings()` (last 3y,
+>4 DCFC ports); with no NREL access it falls back to `seed_charger_events.json`.
+
+What the data actually shows (NREL-shaped sample of 7 NYISO openings, real prices):
 
 ```
-Hourly LBMP volatility (std)      : +13.9% mean DiD (median +3.6%, 62% of sites up)
-Daily price range                 : +22.8% mean DiD (median -3.0%)
-Price-spike frequency (>95th pct) : +67.1% mean DiD
+Hourly LBMP volatility (std)      : +7.7% mean DiD (median -1.9%, 29% of sites up)
+Daily price range                 : +18.9% mean DiD (median -3.0%)
+Price-spike frequency (>95th pct) : -19.6% mean DiD
+Mean price level ($/MWh)          : +3.5% mean DiD (median -1.5%)
 ```
 
-The mean is pulled up by the Long Island site; the **median +3.6%** is the more robust
-read. The direction is consistent with theory — added fast-charging load raises and
-roughens local prices — but the shipped event *dates/locations are representative*
-(`seed_data/seed_charger_events.json`). Swap in a scraped/known set of dated
-energizations and the same machinery recomputes real DiD numbers.
+**Read honestly:** there is **no clean systematic volatility increase**. The positive
+means are driven almost entirely by one Long Island site (+95% std); the medians hover
+around zero or slightly negative. A single DCFC site (a few MW) is tiny against zonal
+load, so this is the expected result at zonal granularity — the effect, if any, is
+site-specific and easily confounded (a new generator/transmission change in the same
+window). Re-run against the full live NREL opening set to get the population estimate.
 
-## Part 2 — scraping planned chargers
+## Part 2 — station data (NREL, PlugShare fallback)
 
-`plugshare_scraper.py` sweeps PlugShare's region API across the NYISO and ISO-NE
-bounding boxes, keeps **planned / under-construction** pins, classifies DC-fast vs L2
-ports, and snaps each site to its load zone + nearest ISO-NE pnode.
+`nrel_stations.py` is the primary source: it queries the NREL Alternative Fuel Stations
+API for `ELEC` stations (all statuses, incl. `Planned`) across NY + the six New England
+states, then normalizes each into `{iso, zone, dcfc_ports, l2_ports, open_date, status…}`
+and snaps it to a load zone + nearest ISO-NE pnode. Two views:
+`historical_openings()` (dated backtest events) and `planned_and_recent()` (ranking).
 
-PlugShare's API is **token-gated** (anonymous requests return HTTP 401), exactly like the
-ISONE API in the sibling package. To go live:
-
-```bash
-export PLUGSHARE_TOKEN="Basic <token>"   # the Authorization header value the app uses
-python run_pipeline.py
-```
-
-Without a token it uses `seed_data/seed_ev_stations.json` (75 representative planned
-sites across all 19 zones) so the pipeline runs fully offline. **Respect PlugShare's
-Terms of Service and rate limits when using a token.**
+`plugshare_scraper.py` remains as a token-gated alternative (PlugShare's API returns
+HTTP 401 without an `Authorization` token). Both fall back to
+`seed_data/seed_ev_stations.json` (75 representative sites) when no source is reachable.
+**Respect each provider's Terms of Service and rate limits.**
 
 ## Part 3 — ranking + map
 
-`node_ranking.py` aggregates planned sites to each priced location, ranks by planned
-DC-fast ports, and — using the Part-1 calibration — projects a per-zone volatility
-uplift (`mean per-site DiD × √(large-site count)`, sqrt for in-zone overlap). The Folium
-map layers individual stations (by ISO) over zone bubbles sized by planned DCFC ports,
-with the projected uplift in each tooltip.
+`node_ranking.py` aggregates sites to each priced location, ranks by DC-fast ports, and
+— using the Part-1 calibration — projects a per-zone volatility uplift
+(`mean per-site DiD × √(large-site count)`, sqrt for in-zone overlap). The Folium map
+layers individual stations (by ISO) over zone bubbles sized by DCFC ports, with the
+projected uplift in each tooltip.
 
 ---
 
@@ -95,16 +116,20 @@ with the projected uplift in each tooltip.
 
 ```
 ev_volatility/
-├── run_pipeline.py          # orchestrator: backtest → scrape → rank → map
-├── volatility_backtest.py   # DiD event study on NYISO LBMP
+├── run_pipeline.py          # orchestrator: NREL → backtest → rank → map
+├── nrel_stations.py         # NREL Alt-Fuel-Stations fetch, parse, event/ranking views
+├── volatility_backtest.py   # DiD event study on NYISO LBMP (vol + price)
 ├── lmp_data.py              # NYISO (live) + ISONE price fetchers, cached
-├── plugshare_scraper.py     # token-gated PlugShare scraper + seed fallback
+├── plugshare_scraper.py     # token-gated PlugShare fallback + seed loader
 ├── node_ranking.py          # zone aggregation, calibration, Folium map
 ├── iso_regions.py           # bboxes, zone geocodes, geo + classification helpers
+├── smoke_test.py            # offline NREL→backtest→ranking validation
+├── .env                     # NREL_API_KEY (git-ignored, never committed)
 ├── seed_data/
-│   ├── _generate_seed.py        # rebuilds the two seed files (fixed RNG seed)
-│   ├── seed_ev_stations.json    # 75 representative planned sites
-│   └── seed_charger_events.json # 8 large-DCFC backtest events
+│   ├── _generate_seed.py           # rebuilds the seed files (fixed RNG seed)
+│   ├── seed_ev_stations.json       # 75 representative sites
+│   ├── seed_charger_events.json    # fallback backtest events
+│   └── nrel_sample_payload.json    # NREL-shaped fixture for smoke_test.py
 └── output/                  # reports + map land here
 ```
 
@@ -113,19 +138,20 @@ ev_volatility/
 | Data | Source | Auth |
 |---|---|---|
 | NYISO Day-Ahead zonal LBMP | `mis.nyiso.com/public/csv/damlbmp/` | None |
+| EV stations (open_date, DCFC counts) | NREL Alt Fuel Stations API `developer.nrel.gov` | Key (`NREL_API_KEY`) |
+| EV stations (fallback) | PlugShare region API | Token (`PLUGSHARE_TOKEN`) |
 | ISO-NE bulk LMP (optional) | `iso-ne.com/static-assets/...` | None |
 | ISO-NE pnode geocodes | `../isone_maps/seed_data/node_geocodes.json` | None |
-| Planned EV chargers | PlugShare region API | Token (`PLUGSHARE_TOKEN`) |
 
 ## Notes & caveats
 
-- **Charger event dates are representative**, not a scraped energization log. PlugShare
-  gives *planned* pins (Part 2/3); pairing them with realized in-service dates for a
-  bigger backtest is the natural next step once a token is available.
-- NYISO volatility is measured at **zonal** granularity (the level NYISO prices zones);
-  ISO-NE results also report the nearest **pnode** so they line up with the negative-price
-  node maps in `isone_maps`.
-- The DiD control removes market-wide moves but not zone-specific confounders (a new
-  generator or transmission upgrade in the same window). Treat the calibration as an
-  association, not a causal point estimate.
-```
+- **NREL gives real `open_date`s** — the backtest events are genuine dated openings when
+  NREL is reachable. The committed report/ranking were produced from the seed fallback
+  (NREL is egress-blocked in the build sandbox); re-run with NREL access for live numbers.
+- **NYISO volatility is zonal** (the level NYISO prices zones). A single DCFC site is
+  small vs. zonal load, so expect a weak/noisy signal at this granularity; the DiD control
+  removes market-wide moves but not zone-specific confounders (a new generator or
+  transmission upgrade in the same window). Treat it as an association, not causation.
+- ISO-NE results also report the nearest **pnode** so they line up with the negative-price
+  node maps in `isone_maps`. The backtest itself is NYISO-only today (NYISO LBMP is the
+  live price feed); wiring ISO-NE zonal LMP into `lmp_data.py` extends it to New England.

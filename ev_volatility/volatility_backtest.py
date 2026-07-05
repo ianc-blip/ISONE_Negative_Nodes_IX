@@ -125,7 +125,7 @@ def run_event(ev: dict, panel: pd.DataFrame) -> dict | None:
 
     result = {"event": ev["name"], "zone": zone, "online": ev["online"],
               "dcfc_ports": ev["dcfc_ports"], "metrics": {}}
-    for key in ("hourly_std", "daily_range", "spike_share"):
+    for key in ("hourly_std", "daily_range", "spike_share", "mean_lbmp"):
         t_chg = _pct_change(t_pre, t_post, key)
         c_chg = _pct_change(c_pre, c_post, key)
         did = (t_chg - c_chg) if (t_chg is not None and c_chg is not None) else None
@@ -163,7 +163,7 @@ def run_backtest(events: list[dict] | None = None) -> dict:
 
     # aggregate DiD across events
     agg = {}
-    for key in ("hourly_std", "daily_range", "spike_share"):
+    for key in ("hourly_std", "daily_range", "spike_share", "mean_lbmp"):
         dids = [r["metrics"][key]["did_pct"] for r in per_event
                 if r["metrics"][key]["did_pct"] is not None]
         treated = [r["metrics"][key]["treated_pct"] for r in per_event
@@ -202,7 +202,8 @@ def format_report(report: dict) -> str:
     lines.append("HEADLINE CALIBRATION (charger-attributable, market-move removed):")
     labels = {"hourly_std": "Hourly LBMP volatility (std)",
               "daily_range": "Daily price range",
-              "spike_share": "Price-spike frequency (>95th pct)"}
+              "spike_share": "Price-spike frequency (>95th pct)",
+              "mean_lbmp": "Mean price level ($/MWh)"}
     for key, a in report["aggregate"].items():
         arrow = "▲ increases" if a["mean_did_pct"] > 0 else "▼ decreases"
         lines.append(f"  • {labels[key]:34s}: {arrow} "
@@ -211,16 +212,17 @@ def format_report(report: dict) -> str:
                      f"{a['share_increasing']*100:.0f}% of sites up, n={a['n']})")
     lines.append("")
     lines.append("PER-EVENT (DiD % change vs. rest-of-NYISO control):")
-    lines.append(f"  {'Site':38s} {'Zone':7s} {'Ports':>5s} "
-                 f"{'std':>8s} {'range':>8s} {'spikes':>8s}")
+    lines.append(f"  {'Site':32s} {'Zone':7s} {'Ports':>5s} "
+                 f"{'std':>7s} {'range':>7s} {'spikes':>7s} {'price':>7s}")
     for r in report["events"]:
         m = r["metrics"]
         def fmt(k):
             v = m[k]["did_pct"]
             return f"{v:+.0f}%" if v is not None else "  n/a"
-        lines.append(f"  {r['event'][:38]:38s} {r['zone']:7s} "
-                     f"{r['dcfc_ports']:5d} {fmt('hourly_std'):>8s} "
-                     f"{fmt('daily_range'):>8s} {fmt('spike_share'):>8s}")
+        lines.append(f"  {r['event'][:32]:32s} {r['zone']:7s} "
+                     f"{r['dcfc_ports']:5d} {fmt('hourly_std'):>7s} "
+                     f"{fmt('daily_range'):>7s} {fmt('spike_share'):>7s} "
+                     f"{fmt('mean_lbmp'):>7s}")
     lines.append("=" * 72)
     return "\n".join(lines)
 
