@@ -2,19 +2,19 @@
 PLANNED EV FAST-CHARGING BY PRICED LOCATION (NYISO + ISO-NE)
 ====================================================================================
    # ISO    Zone    Sites  DCFC Large     MW  ProjVol  Nearest pnode
-   1 ISONE  NEMA        5    56     4   13.4    +7.4%  SUFFOLK, MA
-   2 NYISO  NORTH       4    50     3   11.3   +24.1%  
-   3 ISONE  CT          5    46     4   12.5    +7.4%  LD.S_NAUGTK13.8
-   4 NYISO  WEST        5    38     3    7.5   +24.1%  
-   5 NYISO  HUD VL      4    32     3    7.2   +24.1%  
-   6 ISONE  WCMA        4    32     3    8.6    +6.4%  HAMPSHIRE, MA
-   7 NYISO  LONGIL      4    26     2    5.8   +19.7%  
-   8 ISONE  ME          3    26     2    7.9    +5.2%  SOMERSET, ME
-   9 ISONE  SEMA        4    24     2    5.8    +5.2%  BRISTOL, MA
-  10 NYISO  CAPITL      5    24     1    3.2   +13.9%  
-  11 NYISO  DUNWOD      4    22     1    2.9   +13.9%  
-  12 NYISO  CENTRL      4    20     2    4.2   +19.7%  
-  13 NYISO  GENESE      3    16     2    2.8   +19.7%  
-  14 NYISO  N.Y.C.      4    14     2    3.7   +19.7%  
-  15 ISONE  NH          5    14     1    1.9    +3.7%  MERRIMACK, NH
+   1 ISONE  NEMA     3478  1288   100  252.3      n/s  SUFFOLK, MA
+   2 NYISO  N.Y.C.    971   496    29  108.8      n/s  
+   3 ISONE  CT       1175   489    33  100.5      n/s  LD.S_NAUGTK13.8
+   4 NYISO  LONGIL    538   473    37  101.0      n/s  
+   5 NYISO  CAPITL   1314   468    33   95.5      n/s  
+   6 NYISO  CENTRL    647   452    30   91.8      n/s  
+   7 ISONE  NH        539   436    32   93.4      n/s  MERRIMACK, NH
+   8 ISONE  WCMA      696   422    26   85.7      n/s  HAMPSHIRE, MA
+   9 NYISO  DUNWOD    395   324    21   71.1      n/s  
+  10 ISONE  SEMA      541   323    24   60.6      n/s  BRISTOL, MA
+  11 NYISO  GENESE    627   311    17   59.1      n/s  
+  12 NYISO  HUD VL    414   302    22   62.7      n/s  
+  13 NYISO  MILLWD    489   288    19   59.7      n/s  
+  14 NYISO  WEST      480   261    14   50.5      n/s  
+  15 ISONE  RI        617   256    18   49.4      n/s  KENT, RI
 ====================================================================================

@@ -103,10 +103,12 @@ def main():
     # Top-line summary tying the two halves together
     top = next((r for r in ranked if r["dcfc_ports"] > 0), None)
     if top:
-        proj = top.get("proj_vol_uplift_pct")
-        proj_s = f" → projected {proj:+.1f}% volatility uplift" if proj else ""
-        log.info("Top node: %s %s with %d planned DCFC ports%s",
-                 top["iso"], top["zone"], top["dcfc_ports"], proj_s)
+        if top.get("calibration_significant"):
+            tail = f" → projected {top.get('proj_vol_uplift_pct'):+.1f}% volatility uplift"
+        else:
+            tail = " (backtest: no significant charger→volatility effect)"
+        log.info("Top node: %s %s with %d DCFC ports%s",
+                 top["iso"], top["zone"], top["dcfc_ports"], tail)
 
 
 if __name__ == "__main__":

@@ -185,7 +185,8 @@ def run_backtest(events: list[dict] | None = None) -> dict:
             continue
         lows = [_online_date(e) - timedelta(days=PRE_DAYS) for e in iso_events]
         highs = [_online_date(e) + timedelta(days=POST_DAYS) for e in iso_events]
-        start, end = min(lows), max(highs)
+        # Cap at today — future-dated price files don't exist yet.
+        start, end = min(lows), min(max(highs), date.today())
         log.info("Fetching %s panel %s → %s for %d events",
                  iso, start, end, len(iso_events))
         panel = L.zone_panel(iso, start, end)

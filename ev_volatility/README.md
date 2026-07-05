@@ -76,31 +76,45 @@ control built from its *other* zones, so the two markets never contaminate each 
 Events are the real NREL openings from `nrel_stations.historical_openings()` (last 3y,
 >4 DCFC ports); with no NREL access it falls back to `seed_charger_events.json`.
 
-What the data actually shows (seed event set, 8 NYISO + 4 ISO-NE openings, real prices):
+What the data actually shows — **288 real large-DCFC openings** (139 NYISO + 149 ISO-NE,
+2023–2026, from the NREL export), measured against real NYISO + ISO-NE Day-Ahead prices:
 
 ```
-                                     ALL (n=12)      NYISO (n=8)     ISO-NE (n=4)
-Hourly LBMP volatility (std)      : +10.5% (med +2.5)  +13.9% (+3.6)   +3.7% (+1.3)
-Daily price range                 : +15.2% (med -1.0)  +22.8% (-3.0)   +0.1% (+0.1)
-Price-spike frequency (>95th pct) : +45.3% (med  0.0)  +67.1% ( 0.0)   +1.7% ( 0.0)
-Mean price level ($/MWh)          :  +7.2% (med +0.3)  +10.8% (+1.5)   +0.0% ( 0.0)
+mean DiD (median)                    ALL (n=288)     NYISO (n=139)    ISO-NE (n=149)
+Hourly LBMP volatility (std)      :  +0.5% (-0.1)    +2.2% (-0.8)     -1.0% (+0.1)
+Daily price range                 :  +3.0% (-0.1)    +5.9% (-1.0)     +0.2% (+0.1)
+Price-spike frequency (>95th pct) :  -2.3% ( 0.0)    -5.4% ( 0.0)     +0.6% ( 0.0)
+Mean price level ($/MWh)          :  +0.2% (-0.1)    +0.3% (-0.4)     +0.0% ( 0.0)
+share of sites where vol went up  :   49%             46%              52%
 ```
 
-**Read honestly:** there is **no clean systematic volatility increase**. The positive
-*means* are driven almost entirely by one Long Island site (+95% std); every *median*
-sits near zero. The ISO-NE signal is even flatter than NYISO. A single DCFC site (a few
-MW) is tiny against zonal load, so this is the expected result at zonal granularity — the
-effect, if any, is site-specific and easily confounded (a new generator/transmission
-change in the same window). Swap in the full live NREL opening set for a population
-estimate; both ISOs run through the same machinery.
+**Conclusion: no. There is no detectable systematic effect.** Across 288 real openings the
+share of sites where volatility rose after the charger came online is **49% — a coin
+flip.** Every median sits within ±1% of zero, the two ISOs disagree on the sign of the
+mean, and the price level is flat (+0.2%). The larger means are just heavy-tailed outliers
+(individual sites swing ±100%, e.g. a Long Island Supercharger at −110%), not a trend.
+
+This is the expected result: a single fast-charging site draws a few MW, which is
+negligible against zonal load, so it does not move zonal Day-Ahead prices. **The ranking
+below therefore reports where the infrastructure is concentrated — it does NOT project a
+volatility uplift, because the backtest found none** (the projection column reads `n/s`).
+A real effect, if it exists, would require nodal (pnode) prices and station-level metered
+load, not zonal LMP — see caveats.
 
 ## Part 2 — station data (NREL, PlugShare fallback)
 
-`nrel_stations.py` is the primary source: it queries the NREL Alternative Fuel Stations
-API for `ELEC` stations (all statuses, incl. `Planned`) across NY + the six New England
-states, then normalizes each into `{iso, zone, dcfc_ports, l2_ports, open_date, status…}`
-and snaps it to a load zone + nearest ISO-NE pnode. Two views:
-`historical_openings()` (dated backtest events) and `planned_and_recent()` (ranking).
+`nrel_stations.py` is the primary source. Two equivalent inputs:
+- **CSV export** (used here): download "Alternative Fuel Stations" from
+  <https://afdc.energy.gov/data_download> (or the API's CSV format), point the pipeline at
+  it via `NREL_CSV=/path/to/export.csv` (or drop it at `.cache/nrel_export.csv`).
+  `from_csv()` parses it — no network needed.
+- **Live API**: `fetch()` queries `ELEC` stations (all statuses incl. `Planned`) across NY
+  + the six New England states when `NREL_API_KEY` is set and the host is reachable.
+
+Either way each station is normalized to
+`{iso, zone, dcfc_ports, l2_ports, open_date, status…}` and snapped to a load zone +
+nearest ISO-NE pnode. Two views: `historical_openings()` (dated backtest events) and
+`planned_and_recent()` (ranking).
 
 `plugshare_scraper.py` remains as a token-gated alternative (PlugShare's API returns
 HTTP 401 without an `Authorization` token). Both fall back to
@@ -150,9 +164,11 @@ ev_volatility/
 
 ## Notes & caveats
 
-- **NREL gives real `open_date`s** — the backtest events are genuine dated openings when
-  NREL is reachable. The committed report/ranking were produced from the seed fallback
-  (NREL is egress-blocked in the build sandbox); re-run with NREL access for live numbers.
+- **The committed report/ranking are REAL** — built from an NREL "Alternative Fuel
+  Stations" CSV export (288 real dated openings) and real NYISO + ISO-NE prices. The live
+  API path is egress-blocked in the build sandbox, so the CSV-export path
+  (`$NREL_CSV` / `.cache/nrel_export.csv`) is the primary loader; the live API and the
+  synthetic seed set are fallbacks.
 - **NYISO volatility is zonal** (the level NYISO prices zones). A single DCFC site is
   small vs. zonal load, so expect a weak/noisy signal at this granularity; the DiD control
   removes market-wide moves but not zone-specific confounders (a new generator or

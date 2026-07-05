@@ -1,39 +1,315 @@
 ========================================================================
 EV FAST-CHARGER → NODAL VOLATILITY BACKTEST (NYISO + ISO-NE, DiD)
 ========================================================================
-Events analysed : 12
+Events analysed : 288
 Windows         : 90d pre / 90d post (15d commissioning gap)
 
 HEADLINE — ALL EVENTS (charger-attributable, market-move removed):
-  • Hourly LBMP volatility (std)      : ▲ increases +10.5% mean DiD (median +2.5%, 67% up, n=12)
-  • Daily price range                 : ▲ increases +15.2% mean DiD (median -1.0%, 42% up, n=12)
-  • Price-spike frequency (>95th pct) : ▲ increases +45.3% mean DiD (median +0.0%, 42% up, n=12)
-  • Mean price level ($/MWh)          : ▲ increases +7.2% mean DiD (median +0.3%, 67% up, n=12)
+  • Hourly LBMP volatility (std)      : ▲ increases +0.5% mean DiD (median -0.1%, 49% up, n=288)
+  • Daily price range                 : ▲ increases +3.0% mean DiD (median -0.1%, 49% up, n=288)
+  • Price-spike frequency (>95th pct) : ▼ decreases -2.3% mean DiD (median +0.0%, 42% up, n=288)
+  • Mean price level ($/MWh)          : ▲ increases +0.2% mean DiD (median -0.1%, 48% up, n=288)
 
-HEADLINE — NYISO only (8 events):
-  • Hourly LBMP volatility (std)      : ▲ increases +13.9% mean DiD (median +3.6%, 62% up, n=8)
-  • Daily price range                 : ▲ increases +22.8% mean DiD (median -3.0%, 38% up, n=8)
-  • Price-spike frequency (>95th pct) : ▲ increases +67.1% mean DiD (median +0.0%, 38% up, n=8)
-  • Mean price level ($/MWh)          : ▲ increases +10.8% mean DiD (median +1.5%, 62% up, n=8)
+HEADLINE — NYISO only (139 events):
+  • Hourly LBMP volatility (std)      : ▲ increases +2.2% mean DiD (median -0.8%, 46% up, n=139)
+  • Daily price range                 : ▲ increases +5.9% mean DiD (median -1.0%, 42% up, n=139)
+  • Price-spike frequency (>95th pct) : ▼ decreases -5.4% mean DiD (median +0.0%, 42% up, n=139)
+  • Mean price level ($/MWh)          : ▲ increases +0.3% mean DiD (median -0.4%, 43% up, n=139)
 
-HEADLINE — ISONE only (4 events):
-  • Hourly LBMP volatility (std)      : ▲ increases +3.7% mean DiD (median +1.3%, 75% up, n=4)
-  • Daily price range                 : ▲ increases +0.1% mean DiD (median +0.1%, 50% up, n=4)
-  • Price-spike frequency (>95th pct) : ▲ increases +1.7% mean DiD (median +0.0%, 50% up, n=4)
-  • Mean price level ($/MWh)          : ▲ increases +0.0% mean DiD (median +0.0%, 75% up, n=4)
+HEADLINE — ISONE only (149 events):
+  • Hourly LBMP volatility (std)      : ▼ decreases -1.0% mean DiD (median +0.1%, 52% up, n=149)
+  • Daily price range                 : ▲ increases +0.2% mean DiD (median +0.1%, 55% up, n=149)
+  • Price-spike frequency (>95th pct) : ▲ increases +0.6% mean DiD (median +0.0%, 42% up, n=149)
+  • Mean price level ($/MWh)          : ▲ increases +0.0% mean DiD (median +0.0%, 52% up, n=149)
 
 PER-EVENT (DiD % change vs. rest-of-ISO control):
   Site                           ISO    Zone   Prt    std  range  spike  price
-  I-90 Corridor DCFC hub (Buffal NYISO  WEST    12    +7%   +46%  +628%   +52%
-  Thruway plaza DCFC (Syracuse)  NYISO  CENTRL   8    -6%    -3%   -29%    -6%
-  Capital Region megasite (Alban NYISO  CAPITL  16   +11%    -3%   -89%    +1%
-  Hudson Valley DCFC (Poughkeeps NYISO  HUD VL   8    -2%    -4%    +0%    -2%
-  LI Expressway DCFC (Islip)     NYISO  LONGIL  10   +95%  +143%   +79%   +33%
-  NYC curbside fast-charge (Manh NYISO  N.Y.C.  20    +3%    -3%   -53%    -1%
-  Rochester retail DCFC          NYISO  GENESE   8    -1%    -3%    +1%    +2%
-  Utica corridor DCFC            NYISO  MHK VL   6    +4%   +11%    +0%    +7%
-  Boston Seaport Supercharger    ISONE  NEMA    20    +0%    -0%    +0%    +0%
-  Hartford CT retail DCFC        ISONE  CT       8   +13%    +2%   +10%    +1%
-  Providence RI corridor DCFC    ISONE  RI      10    -1%    -2%    +0%    -1%
-  Worcester MA DCFC hub          ISONE  WCMA     8    +2%    +0%    -3%    +0%
+  Dansville, NY - Tesla Supercha NYISO  GENESE   8    -7%    -3%   -33%    -7%
+  Carrols Burger King #2086 (Sar NYISO  CAPITL   6    +2%    -0%   +13%    +1%
+  NYE Ford                       NYISO  MHK VL   6    -1%    +0%   -26%    -3%
+  Kirkwood, NY - Tesla Superchar NYISO  CENTRL  12   -60%    -1%   +71%    -6%
+  Jericho, NY - Tesla Supercharg NYISO  LONGIL  12  -110%   -24%  -222%   -11%
+  Brooklyn, NY - Cropsey Avenue  NYISO  N.Y.C.  12   +78%   +19%   -48%    +7%
+  800 Montauk Hwy                NYISO  LONGIL   6  -102%   -19%  -130%    -7%
+  Holiday Inn Express Ithaca     NYISO  CENTRL   8   -16%    +1%  +193%    +2%
+  Bennington, VT - North Street  NYISO  CAPITL  12   -16%   -10%   -15%    -8%
+  Monticello, NY - Tesla Superch NYISO  HUD VL  12    -5%    -4%   -11%    -3%
+  Yonkers, NY - Central Park Ave NYISO  DUNWOD  11    -7%    -5%   -12%    -4%
+  EVolve NY Rensselaer           NYISO  CAPITL   6    -4%   -11%    +0%    -6%
+  Courtyard by Marriott Binghamt NYISO  CENTRL   8    +5%   +12%    +0%    +8%
+  Gansevoort, NY - Tesla Superch NYISO  CAPITL   8    -4%   -10%    +0%    -4%
+  Orangeburg, NY - Tesla Superch NYISO  DUNWOD  12    -0%    -3%    +0%    -1%
+  Gravity Charging Center        NYISO  N.Y.C.  24    -3%   -15%    +0%    -4%
+  Newburgh, NY                   NYISO  HUD VL   6    -2%    -4%    +0%    -2%
+  Manchester Center              NYISO  CAPITL   8    +1%    -4%   -10%    -4%
+  SWTCH Energy Inc.              NYISO  GENESE  16   +19%   +23%   +53%   +10%
+  Morris Ford                    NYISO  CAPITL   6    +1%    -4%   -10%    -4%
+  Lagrangeville, NY - Tesla Supe NYISO  HUD VL  12    +2%    +0%   +14%    +1%
+  Clarence Travel Plaza          NYISO  WEST     6    +2%   +10%   +36%    +1%
+  Applegreen Electric - Clifton  NYISO  GENESE   6    -6%    +3%   +34%    +1%
+  Plattekill Service Area        NYISO  HUD VL   6    +2%    +0%   +14%    +1%
+  Romano Ford                    NYISO  CENTRL   6    -9%    +0%    +4%    -1%
+  Electric Car Corner            NYISO  GENESE   6   -22%    -8%   +18%    -2%
+  Healey Ford - Goshen           NYISO  MILLWD   6   -29%    -4%   -32%    +0%
+  Bob Johnson Ford Avon          NYISO  GENESE   6   -22%    -8%   +18%    -2%
+  Cortland, NY - Tesla Superchar NYISO  CENTRL   8   -25%   -10%   -11%    -3%
+  Bob Johnson Ford Pulaski       NYISO  CENTRL   8    -4%    -0%    +8%    -0%
+  Bard College Daniel Arts Cente NYISO  CAPITL   6    -5%    +2%    +1%    +1%
+  Lucas Ford                     NYISO  LONGIL   6   -23%   -36%    -1%   -21%
+  Hampton Bays, NY - Tesla Super NYISO  LONGIL  12   -23%   -36%    -1%   -21%
+  Harrison, NY - Tesla Superchar NYISO  DUNWOD  12    -3%    -6%    +0%    -3%
+  Painted Post, NY - Tesla Super NYISO  GENESE  16    +4%    +4%    +2%    +1%
+  Glenmont, NY - Tesla Superchar NYISO  CAPITL   8   -26%   -12%    +3%    -3%
+  Elmira, NY - Tesla Supercharge NYISO  CENTRL  12   -10%    -2%   -54%    -4%
+  West Seneca, NY - Tesla Superc NYISO  WEST     8   -15%    -4%   -62%    -6%
+  Seneca Travel Plaza            NYISO  GENESE   6   -12%    -4%   -60%    -5%
+  ChargeSmart EV - Southampton H NYISO  LONGIL   8   -53%    +1%  -123%    -0%
+  Revel - Long Island City       NYISO  N.Y.C.  14   +26%    +8%   -16%    +7%
+  Revel - Bedford-Stuyvesant     NYISO  N.Y.C.  25   +26%    +8%   -16%    +7%
+  Revel - Lower Manhattan        NYISO  N.Y.C.  10   +26%    +8%   -16%    +7%
+  Johnson City, NY - Tesla Super NYISO  CENTRL  12   -70%   -22%   -50%   -21%
+  Nucar Automall of St. Albans   NYISO  NORTH    6   -43%   -10%   -22%   -23%
+  Smithtown, NY - Tesla Supercha NYISO  LONGIL   8   +60%   +62%   +35%   +37%
+  Hewlett, NY - Tesla Supercharg NYISO  N.Y.C.  12  +123%   +42%   +59%   +25%
+  Healey Ford - Poughkeepsie     NYISO  HUD VL   6   +36%   +26%   +34%   +15%
+  Hampton Inn - East Greenbush   NYISO  CAPITL   8  +123%  +125%   +13%   +47%
+  Target Latham #T1915           NYISO  CAPITL   6  +123%  +125%   +13%   +47%
+  33rd Street                    NYISO  N.Y.C.  12  +116%   +50%   +22%   +27%
+  Queensbury, NY                 NYISO  CAPITL  10  +123%  +125%   +13%   +47%
+  Ford of Smithtown              NYISO  LONGIL   6   +43%   +58%   +10%   +40%
+  EVolve NY Jamestown            NYISO  WEST     6    +5%    -2%   +19%    -0%
+  Bridgeport, CT - Tesla Superch NYISO  LONGIL  16    +6%    +3%   +37%    +6%
+  Staten Island, NY - Tesla Supe NYISO  N.Y.C.  12    +0%   +11%   -14%    +4%
+  EVolve NY Pulaski              NYISO  CENTRL   6    +6%    -1%   +23%    +1%
+  Brooklyn, NY - Bay Parkway - T NYISO  N.Y.C.  20    +0%   +11%   -14%    +4%
+  Hampton Inn Owego              NYISO  CENTRL   8    +6%    -1%   +23%    +1%
+  EVolve NY Katonah              NYISO  MILLWD   6    -3%    +0%   -17%    -1%
+  Champlain, NY - Tesla Supercha NYISO  NORTH   16    +2%    -6%   +47%    +6%
+  EVolve NY White Plains         NYISO  DUNWOD   6    -1%    -3%    +0%    -1%
+  JFK Airport - Cell Phone Lot   NYISO  N.Y.C.  12    -3%    -7%    +0%    -1%
+  Whitney Point, NY - Tesla Supe NYISO  CENTRL   8    +5%   +12%    +0%    +4%
+  EVolve NY Southold             NYISO  LONGIL   6   +11%   +16%   +11%    +1%
+  Garden City, NY - Stewart Aven NYISO  DUNWOD  16    +2%    +3%    +1%    +0%
+  Ferrario Ford                  NYISO  CENTRL   6    +1%    +7%    -1%    +4%
+  Latham, NY - Tesla Supercharge NYISO  CAPITL   8    +9%   -16%    +4%    -5%
+  Vision Buick GMC               NYISO  GENESE   6   +14%    +5%   +25%    +9%
+  Syracuse, NY - University Aven NYISO  CENTRL  12    +8%    -3%   +12%    +5%
+  Queens, NY - Springfield Boule NYISO  N.Y.C.  20    +1%    -2%    -3%    -5%
+  Carle Place, NY - Glen Cove Ro NYISO  DUNWOD  12   +59%   +23%   -14%    +1%
+  Clifton Park, NY - Tesla Super NYISO  CAPITL  24   +93%   +37%   -22%    +2%
+  Peru, NY - Tesla Supercharger  NYISO  NORTH    8   +25%   +14%  +243%   +22%
+  Embassy Suites by Hilton Syrac NYISO  CENTRL   8    +7%    +6%   +30%    +7%
+  Norwalk, CT - Tesla Supercharg NYISO  MILLWD  12    -2%    -6%   -40%    -4%
+  Courtyard by Marriott - Fishki NYISO  HUD VL   8    -0%    -2%    +1%    -1%
+  Southampton, NY                NYISO  LONGIL   6   -10%   -19%    -2%   -12%
+  Commack, NY - Tesla Supercharg NYISO  LONGIL  24   -10%   -19%    -2%   -12%
+  Brooklyn, NY - 8923 Bay Parkwa NYISO  N.Y.C.  20    -5%    -8%    -0%    -3%
+  Pembroke Travel Plaza - Eastbo NYISO  WEST     8    +1%    +3%    +1%    +2%
+  Town of Marlborough Cluett Sch NYISO  HUD VL   6    -3%    -1%   -16%    -0%
+  EVolve NY Findley Lake         NYISO  WEST     6    -5%    -2%   -10%    -6%
+  3344 Walden Ave                NYISO  WEST     6    -5%    -2%   -10%    -6%
+  EVolve NY Phelps               NYISO  GENESE   6    -2%    +0%    +6%    -4%
+  Saugerties, NY - Tesla Superch NYISO  HUD VL  16    -3%    -1%   -16%    -0%
+  Aldi Baldwinsville TUL40       NYISO  CENTRL   8    +2%    +3%   +36%    -1%
+  Aldi Yorkville TUL36           NYISO  MHK VL   8    +7%    +5%   +42%    +1%
+  Aldi Tonawanda TUL90           NYISO  WEST     8    -5%    -2%   -10%    -6%
+  Stamford, CT - Greyrock Place  NYISO  MILLWD  24   -11%    -3%    -2%    -1%
+  Holiday Inn - Auburn           NYISO  CENTRL   8    -0%    +1%   -19%    -6%
+  Signature Properties - Hauppau NYISO  LONGIL   6   -26%    -3%   +37%    +1%
+  Northport Meat Farms           NYISO  LONGIL   6   -26%    -3%   +37%    +1%
+  Signature Properties - Hauppau NYISO  LONGIL   6   -26%    -3%   +37%    +1%
+  ChargeSmart EV - Saranac Lake  NYISO  NORTH    8   +13%    +2%   +17%   -11%
+  Aldi Carthage TUL 27           NYISO  MHK VL   8    +7%    +4%    -6%    -4%
+  Aldi Geneseo TUL 95            NYISO  GENESE   8    -7%    -6%   -54%   -12%
+  Albany, NY - Northern Boulevar NYISO  CAPITL   8   -20%    -8%    +2%    -0%
+  Inwood, NY - Tesla Supercharge NYISO  N.Y.C.  20   -20%    -7%   +14%    -2%
+  ChargeSmart EV - Queensbury    NYISO  CAPITL   8   +31%    +9%   +22%   +15%
+  North New Hyde Park, NY - Tesl NYISO  DUNWOD  20   -13%    -6%   -13%    -2%
+  Farmington, NY - Tesla Superch NYISO  GENESE  12   -19%   -15%  -137%   -29%
+  Valley Stream, NY              NYISO  N.Y.C.   6   -13%    -7%   -12%    -3%
+  Albany, NY - Central Avenue -  NYISO  CAPITL  12   +31%    +9%   +22%   +15%
+  Barnes & Noble Liverpool       NYISO  CENTRL   6   -19%    -0%   -45%   -14%
+  ChargeSmart EV - Greece        NYISO  GENESE   8   -19%   -15%  -137%   -29%
+  ChargeSmart EV - Watertown     NYISO  CENTRL   8   -19%    -0%   -45%   -14%
+  ChargeSmart EV - Middletown    NYISO  HUD VL   6    -3%    -3%    -9%    +1%
+  ChargeSmart EV - Olean         NYISO  WEST     8   +12%   -20%  -180%   -37%
+  ChargeSmart EV - Schoharie     NYISO  CAPITL   8   +31%    +9%   +22%   +15%
+  ChargeSmart EV - Plattsburgh   NYISO  NORTH    8  -151%    -9%  -146%   -37%
+  Days Inn - Syracuse            NYISO  CENTRL   8   -19%    -0%   -45%   -14%
+  Aldi Ballston Spa TUL 117      NYISO  CAPITL   8   +31%    +9%   +22%   +15%
+  ChargeSmart EV - Grand Island  NYISO  WEST     8   +63%   -12%  -174%   -22%
+  Newburgh, NY - NY-300 - Tesla  NYISO  HUD VL  16    -8%    -4%   -19%    -1%
+  Bronx, NY - East Gun Hill Road NYISO  DUNWOD  24   -17%    -5%   +15%    -2%
+  Centereach, NY - Tesla Superch NYISO  LONGIL  12  -395%   -16%   +48%   -34%
+  Aldi TUL 46 Saranac Lake       NYISO  NORTH    8   -36%    +1%   -30%   -14%
+  EVolve NY Flushing             NYISO  N.Y.C.   8    +1%    -1%    -4%    -0%
+  Nucar Ford of Saint Albans     NYISO  NORTH    6    +1%    +6%    +3%    +1%
+  Target South Setauket #T1191   NYISO  LONGIL   6   -42%   -18%   -32%    -9%
+  Garden City Park               NYISO  DUNWOD   6    +1%    -1%    -4%    +0%
+  SUNY Ulster - Hasbrouck Hall   NYISO  HUD VL   6    +3%    -2%    -3%    -0%
+  Brown's Ford of Johnstown      NYISO  CAPITL   6    -0%    -2%    +0%    -1%
+  Glen Cove Shopping Center      NYISO  DUNWOD   8    +1%    +1%    +0%    +1%
+  Aldi Johnstown TUL 110         NYISO  CAPITL   8    -0%    -2%    +0%    -1%
+  EVolve NY Queens LaGuardia Air NYISO  N.Y.C.  12    +1%    +1%    +0%    +1%
+  Buffalo Marriott Niagara       NYISO  WEST     8    -2%    -2%    +0%    -2%
+  ChargeSmart EV - Corning       NYISO  GENESE   8    -1%    -0%    +0%    -0%
+  Manhasset, NY Rechargery Relay NYISO  DUNWOD  12    +1%    +2%    +0%    +1%
+  Chrysler Dodge Jeep Ram of Syr NYISO  CENTRL  12    +0%    +1%    +0%    +0%
+  20 Overlook Blvd               NYISO  MILLWD   5   +10%   +11%    +9%    +2%
+  EVolve NY Bayside Municipal    NYISO  N.Y.C.   8   +11%   +16%   +10%    +3%
+  Elmira MB.HPC                  NYISO  CENTRL  12   -47%   -14%   +20%    -0%
+  EVolve NY Rosedale Municipal   NYISO  N.Y.C.   6  +117%   +45%   +20%   +10%
+  Goldman Group                  NYISO  CAPITL   6   -37%   -15%   -20%    -4%
+  2 8 Hawley                     NYISO  CENTRL  10   -47%   -14%   +20%    -0%
+  EVolve NY Sunnyside Municipal  NYISO  N.Y.C.   6  +280%  +210%    +0%   +50%
+  Valley East 900 Merchants Conc NYISO  DUNWOD   8  +291%  +213%   -55%   +52%
+  Warwick, RI - Division Street  ISONE  RI       8    -1%    -1%    -1%    -0%
+  Thornton, NH - Tesla Superchar ISONE  NH       8    +0%    +1%    +1%    +0%
+  SWTCH Energy                   ISONE  CT      22    -2%    -3%    -3%    -1%
+  Enfield, CT - Tesla Supercharg ISONE  WCMA    12    -0%    -1%    -0%    -0%
+  Portsmouth, RI - Tesla Superch ISONE  RI       8    +5%    +5%    +7%    +2%
+  Simon Lee Premium Outlets (Lee ISONE  WCMA     6    -0%    -0%    -8%    -0%
+  EVolve NY North Hudson         ISONE  VT       8    -0%    -1%    +2%    -1%
+  Grappone Ford                  ISONE  NH       6    -8%    -2%    +1%    -1%
+  Framingham, MA - Concord Stree ISONE  NEMA    12    -7%    -1%    +3%    -1%
+  Bangor, ME - Tesla Supercharge ISONE  ME       8    +2%    +1%    +0%    +0%
+  Mathieu Ford                   ISONE  WCMA     6    -0%    -0%    +0%    +0%
+  Rockland, ME - Tesla Superchar ISONE  ME       8    +1%    -1%    +0%    -0%
+  North Hudson, NY - Tesla Super ISONE  VT       8    +1%    +2%    +0%    +1%
+  Provincetown, MA - Tesla Super ISONE  SEMA    12    -0%    -1%    +0%    -0%
+  Lynnfield, MA - US-1 - Tesla S ISONE  NEMA    12    +1%    +0%    +0%    +0%
+  Holyoke, MA                    ISONE  WCMA     9    -0%    -0%    +0%    +0%
+  Foxborough, MA - Tesla Superch ISONE  NEMA    12    +3%    +2%    +0%    +1%
+  Epsom, NH - Tesla Supercharger ISONE  NH       8    +4%    +3%    +0%    +1%
+  West Lebanon, NH               ISONE  VT       6    +0%    +1%    +0%    +1%
+  Salem, NH - Tesla Supercharger ISONE  NEMA    12    +4%    +3%    +0%    +1%
+  Lawrence, MA - Tesla Superchar ISONE  NEMA    12    +4%    +3%    +0%    +1%
+  Canton, MA - Tesla Supercharge ISONE  NEMA    20    +4%    +3%    +0%    +1%
+  New Haven, CT - Whalley Avenue ISONE  CT      12    +4%    +2%   +15%    -0%
+  Brattleboro, VT                ISONE  WCMA    10    +4%    +1%   +11%    +0%
+  Southington, CT - Tesla Superc ISONE  CT      12    -0%    +2%    +9%    -1%
+  Stoughton Lodging              ISONE  NEMA     6    +2%    +1%   +17%    +1%
+  Parkman Brook Shopping Center  ISONE  NH       6    -1%    -0%    +3%    +0%
+  Freeport, ME                   ISONE  ME       6    +0%    +2%   +23%    +2%
+  Kittery, ME                    ISONE  NH       6    -1%    -0%    +3%    +0%
+  Mitchell Selig Ford            ISONE  CT       5    -0%    -1%    -0%    -1%
+  Vergennes, VT - Tesla Supercha ISONE  VT      12    +1%    +2%    -0%    +1%
+  Lowell, MA - Tesla Supercharge ISONE  NEMA    12    -0%    +1%    +1%    -0%
+  Dover, NH - Tesla Supercharger ISONE  NH      12    +2%    +4%    -2%    +1%
+  Peabody, MA - Newbury Street - ISONE  NEMA    10    +3%    +6%    +6%    +1%
+  Dedham, MA - Providence Hwy -  ISONE  NEMA    12    +3%    +6%    +6%    +1%
+  Augusta, ME - Civic Center Dri ISONE  ME      16    +4%   +17%   +15%    +5%
+  Manchester, CT - Tolland Turnp ISONE  CT      12    -0%   -13%   -65%    -5%
+  Orbits Inn                     ISONE  SEMA     6    +3%    -1%    -3%    -1%
+  Newton, MA - Florence Street - ISONE  NEMA    12    +2%   +10%    +8%    +1%
+  Scarborough, ME - Tesla Superc ISONE  NH      12    -7%    +6%    +4%    +1%
+  Georges Bakery Sunshine Foods  ISONE  NEMA     6    +2%   +10%    +8%    +1%
+  Randolph Liquors               ISONE  NEMA     6    +2%   +10%    +8%    +1%
+  Seabrook, NH - New Zealand Roa ISONE  NEMA    12    +2%   +10%    +8%    +1%
+  Target Milford #T1281          ISONE  NEMA     6   -11%    -5%    -7%    -1%
+  Wareham Ford                   ISONE  SEMA     6    +4%    +3%    +7%    +5%
+  Manchaug Mills                 ISONE  RI       6    +9%    +4%   -10%    +7%
+  Portsmouth, NH - Tesla Superch ISONE  NH       8    -8%    -2%   +14%    -2%
+  Patrick Volkswagen             ISONE  WCMA     6   +17%    +6%   +15%    +2%
+  Worcester, MA - Tesla Supercha ISONE  NEMA     8    -4%    -8%    -4%    -1%
+  Cromwell, CT - Tesla Superchar ISONE  CT      12    +0%    +7%    +9%    +3%
+  Gorettis Supermarket           ISONE  NEMA     6    -4%    -8%    -4%    -1%
+  Adirondack Club                ISONE  NEMA     6    +0%    -2%    +0%    -0%
+  ABC Commercial Properties Holb ISONE  NEMA     6    +0%    -2%    +0%    -0%
+  Valley Storage                 ISONE  SEMA     6    +0%    -0%    +0%    +0%
+  Quincy Elks                    ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  BOS Gigahub, McClellan Hwy, Bo ISONE  NEMA    20    +0%    -0%    +0%    +0%
+  45 Washington St               ISONE  NEMA     6    +0%    -0%    +0%    +0%
+  West Hartford, CT              ISONE  CT       6    +1%    +3%    +2%    +1%
+  Fairfield Inn Amesbury         ISONE  NEMA    10    +1%    -1%    +1%    -0%
+  Revere, MA - American Legion H ISONE  NEMA     8    +1%    -1%    +1%    -0%
+  Hooksett, NH - Tesla Superchar ISONE  NH      12    -0%    -1%    +1%    -0%
+  Plymouth, MA - Tesla Superchar ISONE  SEMA     8    -0%    -1%    +1%    -0%
+  Bettys Donuts Plaza            ISONE  RI       6    -1%    -0%    -2%    -1%
+  Maples Crossing                ISONE  NEMA     6    +1%    -1%    +1%    -0%
+  Best Pizza Springfield MA      ISONE  WCMA     6    +1%    +1%    +1%    +0%
+  Vohns Restaurant               ISONE  RI       6    -1%    -0%    -2%    -1%
+  Kellys Place                   ISONE  SEMA     6    -0%    -1%    +1%    -0%
+  Lee Premium Outlets MB.HPC     ISONE  WCMA    10    +1%    -0%    -1%    -0%
+  Stoneham Ford Service Center   ISONE  NEMA     6    -1%    +0%    +0%    -0%
+  Twin City Plaza                ISONE  NEMA     6    -1%    +0%    +0%    -0%
+  Evergreen Walk MB.HPC          ISONE  CT       8    +1%    -1%    +3%    -1%
+  Willington, CT - Tesla Superch ISONE  WCMA    16    +1%    -0%    -1%    -0%
+  Holyoke, MA - Tesla Supercharg ISONE  WCMA    12    +1%    -0%    -1%    -0%
+  ABC Commercial Properties Rand ISONE  NEMA     6    -1%    +0%    +0%    -0%
+  Ruby Wines                     ISONE  NEMA     6    -1%    +0%    +0%    -0%
+  Albertsons Burlington #0495    ISONE  NEMA     6    +0%    +0%    -3%    -0%
+  East GAR Realty                ISONE  SEMA     6    -0%    -1%   -11%    -1%
+  Saugus                         ISONE  NEMA     6    +0%    +0%    -3%    -0%
+  Whole Foods South Windsor      ISONE  CT       8    -1%    -1%    -3%    -1%
+  Keri Plaza                     ISONE  NEMA     6    +0%    +0%    -3%    -0%
+  Bradku Inc                     ISONE  NEMA     6    -0%    +0%    +0%    -0%
+  Fairfield Inn - Tewksbury      ISONE  NEMA    10    -0%    +0%    +0%    -0%
+  Marlborough, MA - Tesla Superc ISONE  NEMA    12    -0%    +0%    +0%    -0%
+  Portland, ME - Brighton Avenue ISONE  NH      12    +1%    +1%    +0%    +1%
+  LF Prospect Retail             ISONE  NEMA     6    -0%    +0%    +0%    -0%
+  Bristol Community College      ISONE  SEMA    12    -0%    -1%    +0%    -1%
+  BES Realty                     ISONE  SEMA     6    -0%    -1%    +0%    -1%
+  Discover Marble                ISONE  NEMA     6    -0%    +0%    +0%    -0%
+  Acumen Properties              ISONE  NEMA     6    -0%    +0%    +0%    -0%
+  East Greenwich, RI             ISONE  RI       6    -0%    -1%    +2%    -0%
+  24 Ford of Easton              ISONE  SEMA     6    -0%    -1%    +1%    -0%
+  Hampton Inn Westport           ISONE  SEMA     6    -0%    -1%    +1%    -0%
+  2027 Post Rd                   ISONE  RI       6    -0%    -1%    +2%    -0%
+  Mick Morgans Restaurant        ISONE  NEMA     8    -0%    -0%    -1%    +0%
+  Sherwood Plaza Front           ISONE  NEMA    10    -0%    -0%    -1%    +0%
+  Farley White                   ISONE  NEMA     6    -0%    -0%    -1%    +0%
+  DC Station                     ISONE  WCMA    10    +0%    -0%    -9%    -0%
+  Interstate Refrigerant         ISONE  NEMA     6    +0%    +0%    +1%    +1%
+  AP Services                    ISONE  NEMA     6    +0%    +0%    +1%    +1%
+  Fermin Family LLC              ISONE  NEMA     6    +0%    +0%    +1%    +1%
+  Roberts Field Town of Chelmsfo ISONE  NEMA     6    +0%    +0%    +1%    +1%
+  Town of Rumford                ISONE  ME       8    +3%    +5%   +21%    +2%
+  Trumbull, CT - Tesla Superchar ISONE  CT      12    -8%    -6%   -19%    -6%
+  Belmont Plaza                  ISONE  NEMA     6    +0%    +0%    +1%    +1%
+  Whitinsville Plaza             ISONE  NEMA     8    -2%    +1%   +29%    +1%
+  Medford, MA - Tesla Supercharg ISONE  NEMA    16    -2%    +1%   +29%    +1%
+  Reading, MA Rechargery Relay - ISONE  NEMA     6    -2%    +1%   +29%    +1%
+  Bhavin Patel Realty Trust      ISONE  SEMA     6    +3%    +3%    +8%    +4%
+  Brewer, ME                     ISONE  ME       6   -51%    -2%   -19%   -16%
+  Portsmouth, NH Rechargery Rela ISONE  NH      12   -19%    -4%   -21%    -4%
+  Chelmsford Senior Center       ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Elite Health and Fitness       ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Tyngsboro Sports Center        ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Malden Catholic High           ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Brattleboro, VT Rechargery Rel ISONE  WCMA     8   +11%    +2%   +13%    +1%
+  Walpole Mall                   ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Methuen, MA - Tesla Supercharg ISONE  NEMA     8    -3%    +2%    +1%    +0%
+  Elite Gas                      ISONE  SEMA     6    +8%    +4%   +29%    +4%
+  ER Real Estate Holdings        ISONE  NEMA     6    -3%    +2%    +1%    +0%
+  Northampton Athletic Club      ISONE  WCMA     6   +11%    +2%   +13%    +1%
+  Harvest Tap and Table          ISONE  SEMA     6    -0%    +2%    -2%    +1%
+  Simsbury, CT Rechargery Relay  ISONE  CT      10    +9%    +3%   +33%    +2%
+  Adams Library                  ISONE  NEMA     6    -1%    +0%    -4%    -0%
+  Anawan Mobil                   ISONE  SEMA     6    +0%    +0%    +0%    +0%
+  Marriott Boston Quincy         ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  Chelmsford Town Hall           ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  Franklin Municipal Building    ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  Franklin Fire Department       ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  Linwood Plaza                  ISONE  NEMA     8    +0%    +0%    +0%    +0%
+  Target Dorchester              ISONE  NEMA     8    +0%    +0%    +0%    +0%
+  Akoya Biosciences Inc          ISONE  NEMA     6    +0%    +0%    +0%    +0%
+  Industrial Park Saco MB.HPC    ISONE  NH      12    -4%    -2%    -2%    -1%
+  Braintree MB.HPC               ISONE  NEMA    10    +1%    -1%    +0%    -0%
+  North Haven MB.HPC             ISONE  CT      10   +10%    +6%    +7%    +2%
+  Clinton Premium Outlets MB.HPC ISONE  CT      10   +10%    +6%    +7%    +2%
+  Bangor MB.HPC                  ISONE  ME       8  -107%   -28%   -22%   -11%
+  Wrentham Village Premium Outle ISONE  NEMA    10    +1%    -1%    +0%    -0%
+  Methuen MB.HPC                 ISONE  NEMA    10    +1%    -1%    +0%    -0%
+  Kittery Premium Outlets MB.HPC ISONE  NH      10    -4%    -2%    -2%    -1%
+  Cape Cod Mall MB.HPC           ISONE  SEMA    10    -2%    -2%    -2%    -0%
+  The Mall of New Hampshire MB.H ISONE  NH      10    -4%    -2%    -2%    -1%
+  Holyoke MB.HPC                 ISONE  WCMA    12    +4%    +2%    +0%    +1%
+  St Johnsbury MB.HPC            ISONE  VT      12    -8%    -0%    +2%    +1%
+  Highland Avenue Shopping Cente ISONE  NEMA     6    +1%    -1%    +0%    -0%
+  The Shops at Blackstone Valley ISONE  NEMA     6    +1%    -1%    +0%    -0%
+  The Street Chestnut Hill (Ches ISONE  NEMA     6    +1%    -1%    +0%    -0%
+  Gabriels Exxon                 ISONE  RI       6   -14%   -17%   -83%    -3%
+  Bow, NH                        ISONE  NH      12    -8%   -10%    +0%    +1%
+  Peabody MA Mercedes Benz HPC   ISONE  NEMA    10    -9%   -11%   -28%    -2%
 ========================================================================

@@ -136,6 +136,48 @@ def from_payload(payload: dict) -> list[dict]:
     return out
 
 
+# CSV export column → API field name (so we can reuse normalize()).
+_CSV_TO_API = {
+    "Station Name": "station_name", "State": "state", "Status Code": "status_code",
+    "EV Level2 EVSE Num": "ev_level2_evse_num", "EV DC Fast Count": "ev_dc_fast_num",
+    "EV Network": "ev_network", "Latitude": "latitude", "Longitude": "longitude",
+    "ID": "id", "Open Date": "open_date", "Expected Date": "estimated_open",
+    "EV Connector Types": "ev_connector_types",
+}
+
+
+def from_csv(path: str | Path, states: list[str] | None = None) -> list[dict]:
+    """
+    Parse an official NREL "Alternative Fuel Stations" CSV export → normalized
+    stations. This is the download-and-point-at-it path (no live API needed):
+    the same export you'd get from https://afdc.energy.gov/stations or the API's
+    CSV format. Filters to ELEC + the NYISO/ISO-NE states.
+    """
+    import pandas as pd
+    states = states or ALL_STATES
+    df = pd.read_csv(path, low_memory=False)
+    df = df[(df["Fuel Type Code"] == "ELEC") & (df["State"].isin(states))]
+
+    out = []
+    for _, row in df.iterrows():
+        raw = {}
+        for csv_col, api_key_ in _CSV_TO_API.items():
+            val = row.get(csv_col)
+            if pd.isna(val):
+                continue
+            if api_key_ == "ev_connector_types":
+                raw[api_key_] = [c.strip() for c in str(val).split()]
+            elif api_key_ in ("ev_level2_evse_num", "ev_dc_fast_num"):
+                raw[api_key_] = int(val)
+            else:
+                raw[api_key_] = val
+        st = normalize(raw)
+        if st:
+            out.append(st)
+    log.info("NREL CSV: %d ELEC stations in %s", len(out), states)
+    return out
+
+
 # ── fetching ────────────────────────────────────────────────────────────────────
 
 def fetch(states: list[str] | None = None, use_cache: bool = True,
@@ -221,9 +263,23 @@ def planned_and_recent(stations: list[dict]) -> list[dict]:
 
 def load_stations(prefer_live: bool = True) -> list[dict]:
     """
-    Return normalized stations from NREL when a key is set and the host is
-    reachable; otherwise fall back to the offline seed set (plugshare_scraper).
+    Station source priority:
+      1. NREL CSV export at $NREL_CSV or .cache/nrel_export.csv  (real, offline)
+      2. Live NREL API (needs key + reachable host)
+      3. Offline seed set (synthetic fallback)
     """
+    csv_path = os.environ.get("NREL_CSV")
+    if not csv_path:
+        default = CACHE_DIR / "nrel_export.csv"
+        csv_path = str(default) if default.exists() else None
+    if csv_path and Path(csv_path).exists():
+        try:
+            stations = from_csv(csv_path)
+            if stations:
+                return stations
+        except Exception as e:
+            log.error("NREL CSV parse failed (%s) — trying API/seed", e)
+
     if prefer_live and api_key():
         try:
             live = fetch()

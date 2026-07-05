@@ -78,22 +78,32 @@ def apply_calibration(rows: list[dict], backtest: dict | None) -> list[dict]:
     if not backtest:
         return rows
 
-    def per_site_for(iso: str):
-        # Prefer the ISO's own calibration; fall back to the pooled one.
+    def calib_for(iso: str):
+        """
+        Return (per_site_median_pct, significant) for an ISO's hourly-vol DiD.
+        We only project an uplift when the effect is materially non-zero AND
+        directionally consistent — otherwise the backtest is a null result and a
+        projection would fabricate precision. Uses the robust median, not mean.
+        """
         block = backtest.get("by_iso", {}).get(iso, {}).get("aggregate", {})
-        val = block.get("hourly_std", {}).get("mean_did_pct")
-        if val is None:
-            val = (backtest.get("aggregate", {})
-                           .get("hourly_std", {}).get("mean_did_pct"))
-        return val
+        m = block.get("hourly_std") or backtest.get("aggregate", {}).get("hourly_std")
+        if not m:
+            return None, False
+        median = m.get("median_did_pct", 0.0)
+        share = m.get("share_increasing", 0.5)
+        significant = abs(median) >= 3.0 and (share < 0.4 or share > 0.6)
+        return median, significant
 
     for r in rows:
-        per_site = per_site_for(r["iso"])
+        median, significant = calib_for(r["iso"])
+        r["calibration_median_pct"] = None if median is None else round(median, 2)
+        r["calibration_significant"] = bool(significant)
         n = r["large_sites"]
-        if per_site is None:
-            continue
-        r["proj_vol_uplift_pct"] = round(per_site * (n ** 0.5), 1) if n else 0.0
-        r["calibration_per_site_pct"] = round(per_site, 1)
+        if significant and median is not None and n:
+            r["proj_vol_uplift_pct"] = round(median * (n ** 0.5), 1)
+        else:
+            # Backtest found no significant charger→volatility link.
+            r["proj_vol_uplift_pct"] = 0.0
     return rows
 
 
@@ -105,8 +115,11 @@ def format_ranking(rows: list[dict], top: int = 15) -> str:
              f"{'Large':>5s} {'MW':>6s} {'ProjVol':>8s}  Nearest pnode"]
     for r in rows[:top]:
         mw = r["planned_kw"] / 1000.0
-        proj = r.get("proj_vol_uplift_pct")
-        proj_s = f"{proj:+.1f}%" if proj else "   —"
+        if not r.get("calibration_significant", False):
+            proj_s = "   n/s"          # backtest found no significant vol effect
+        else:
+            proj = r.get("proj_vol_uplift_pct") or 0.0
+            proj_s = f"{proj:+.1f}%"
         pn = r.get("nearest_pnode", "")
         lines.append(f"  {r['rank']:2d} {r['iso']:6s} {r['zone']:7s} "
                      f"{r['n_sites']:5d} {r['dcfc_ports']:5d} {r['large_sites']:5d} "
@@ -185,9 +198,11 @@ def _legend(m: folium.Map, backtest: dict | None) -> None:
     if backtest:
         a = backtest.get("aggregate", {}).get("hourly_std", {})
         if a:
-            cal = (f"<br><b>Backtest:</b> a large DCFC site is associated with "
-                   f"<b>{a['mean_did_pct']:+.1f}%</b> mean DiD change in hourly "
-                   f"LBMP volatility (n={a['n']}).")
+            cal = (f"<br><b>Backtest (n={a['n']} real openings):</b> median DiD "
+                   f"change in hourly LBMP volatility is "
+                   f"<b>{a['median_did_pct']:+.1f}%</b> (mean {a['mean_did_pct']:+.1f}%) "
+                   f"— <b>no significant charger→volatility effect</b>. Bubbles show "
+                   f"where the infrastructure is, not a projected price impact.")
     html = f"""
     <div style="position:fixed;bottom:20px;left:20px;z-index:9999;
                 background:white;padding:10px 12px;border:1px solid #999;
