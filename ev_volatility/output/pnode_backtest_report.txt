@@ -1,0 +1,264 @@
+==========================================================================
+PNODE-LEVEL CHARGER EVENT STUDY — nearest node vs its zone (DiD)
+==========================================================================
+NYISO coverage: 95 run / 99 snapped ≤10km / 149 large openings
+ISONE coverage: 142 run / 145 snapped ≤10km / 165 large openings
+Window   : 90d pre / 90d post
+
+HEADLINE — ALL (node change net of its own zone):
+  ▼ Node volatility (hourly std): -3.6% mean DiD (median +0.1%, 52% up, n=237)
+  ▲ Node daily price range      : +0.8% mean DiD (median +0.0%, 51% up, n=237)
+  ▲ Node spike freq (>95th)     : +0.7% mean DiD (median +0.0%, 39% up, n=237)
+  ▼ Node price level            : -0.1% mean DiD (median -0.0%, 49% up, n=237)
+
+HEADLINE — NYISO (95 events):
+  ▼ Node volatility (hourly std): -7.9% mean DiD (median +0.3%, 58% up, n=95)
+  ▲ Node daily price range      : +2.0% mean DiD (median +0.5%, 55% up, n=95)
+  ▲ Node spike freq (>95th)     : +2.9% mean DiD (median +0.0%, 46% up, n=95)
+  ▼ Node price level            : -0.3% mean DiD (median +0.1%, 54% up, n=95)
+
+HEADLINE — ISONE (142 events):
+  ▼ Node volatility (hourly std): -0.7% mean DiD (median -0.1%, 48% up, n=142)
+  ▼ Node daily price range      : -0.0% mean DiD (median -0.0%, 49% up, n=142)
+  ▼ Node spike freq (>95th)     : -0.8% mean DiD (median +0.0%, 34% up, n=142)
+  ▼ Node price level            : -0.1% mean DiD (median -0.0%, 46% up, n=142)
+
+  Site                     ISO    Zone    km    std  range  price
+  Warwick, RI - Division S ISONE  RI       2    -1%    -0%    -0%
+  Thornton, NH - Tesla Sup ISONE  NH       5    +1%    -1%    -0%
+  SWTCH Energy             ISONE  CT       2    -5%    -8%    -0%
+  Enfield, CT - Tesla Supe ISONE  WCMA     5    +1%    +0%    +0%
+  Portsmouth, RI - Tesla S ISONE  RI       2    +4%    +2%    +3%
+  Simon Lee Premium Outlet ISONE  WCMA     1    +9%    -0%    -2%
+  Grappone Ford            ISONE  NH       2    -1%    -0%    +0%
+  Framingham, MA - Concord ISONE  NEMA     1    +2%    +1%    +1%
+  Bangor, ME - Tesla Super ISONE  ME       6    +0%    +0%    -0%
+  Mathieu Ford             ISONE  WCMA     1    +0%    +0%    +0%
+  Rockland, ME - Tesla Sup ISONE  ME       2    -0%    -0%    -0%
+  Holyoke, MA              ISONE  WCMA     1    -1%    -1%    -0%
+  Lynnfield, MA - US-1 - T ISONE  NEMA     2    +0%    +1%    +0%
+  Foxborough, MA - Tesla S ISONE  NEMA     2    -3%    -2%    -1%
+  West Lebanon, NH         ISONE  VT       2    +2%    +1%    +1%
+  Salem, NH - Tesla Superc ISONE  NEMA     1    +1%    -0%    -0%
+  Lawrence, MA - Tesla Sup ISONE  NEMA     2    +3%    +2%    +0%
+  Brattleboro, VT          ISONE  WCMA     1    -2%    -1%    -0%
+  Canton, MA - Tesla Super ISONE  NEMA     5    -4%    -2%    -1%
+  New Haven, CT - Whalley  ISONE  CT       1    +1%    +0%    +1%
+  Southington, CT - Tesla  ISONE  CT       4    -5%    -2%    -1%
+  Stoughton Lodging        ISONE  NEMA     2    -2%    -1%    -1%
+  Parkman Brook Shopping C ISONE  NH       3    -2%    -0%    -0%
+  Kittery, ME              ISONE  NH       3    +0%    +0%    +0%
+  Vergennes, VT - Tesla Su ISONE  VT       1    -0%    -1%    -1%
+  Mitchell Selig Ford      ISONE  CT       3    +0%    -0%    +0%
+  Lowell, MA - Tesla Super ISONE  NEMA     0    +0%    +1%    +0%
+  Dover, NH - Tesla Superc ISONE  NH       2    +3%    +3%    +1%
+  Peabody, MA - Newbury St ISONE  NEMA     2    +1%    +1%    +1%
+  Dedham, MA - Providence  ISONE  NEMA     2    -0%    -1%    -1%
+  Orbits Inn               ISONE  SEMA     1    +1%    -0%    -0%
+  Augusta, ME - Civic Cent ISONE  ME       2    -5%    -2%    -1%
+  Manchester, CT - Tolland ISONE  CT       5    +3%    +7%    +3%
+  Newton, MA - Florence St ISONE  NEMA     3    +0%    -1%    -0%
+  Georges Bakery Sunshine  ISONE  NEMA     2    -4%    -0%    -0%
+  Randolph Liquors         ISONE  NEMA     1    +2%    -4%    -0%
+  Scarborough, ME - Tesla  ISONE  NH       1   -13%    -3%    -0%
+  Seabrook, NH - New Zeala ISONE  NEMA     4   -10%    -2%    -2%
+  Portsmouth, NH - Tesla S ISONE  NH       3   -11%    -3%    -1%
+  Target Milford #T1281    ISONE  NEMA     1   +17%    +7%    +4%
+  Manchaug Mills           ISONE  RI       6    -1%    -2%    -3%
+  Wareham Ford             ISONE  SEMA     3    -1%    -0%    -0%
+  Patrick Volkswagen       ISONE  WCMA     2    +1%    +0%    +1%
+  Worcester, MA - Tesla Su ISONE  NEMA     1    +3%    +7%    +1%
+  Gorettis Supermarket     ISONE  NEMA     1    +3%    +7%    +1%
+  Cromwell, CT - Tesla Sup ISONE  CT       4    +0%    -1%    -1%
+  ABC Commercial Propertie ISONE  NEMA     0    -0%    +3%    +1%
+  Adirondack Club          ISONE  NEMA     5    -0%    +2%    +0%
+  Valley Storage           ISONE  SEMA     1    +0%    -0%    -0%
+  Quincy Elks              ISONE  NEMA     2    -0%    +0%    +0%
+  West Hartford, CT        ISONE  CT       1   +11%    +7%    +1%
+  BOS Gigahub, McClellan H ISONE  NEMA     1    +0%    +0%    +0%
+  45 Washington St         ISONE  NEMA     4    +1%    +1%    +0%
+  Fairfield Inn Amesbury   ISONE  NEMA     6    -1%    -1%    -0%
+  Bettys Donuts Plaza      ISONE  RI       2    +1%    +1%    +0%
+  Maples Crossing          ISONE  NEMA     2    -1%    -2%    -0%
+  Revere, MA - American Le ISONE  NEMA     1    +1%    +0%    +0%
+  Best Pizza Springfield M ISONE  WCMA     2    +1%    +2%    +0%
+  Hooksett, NH - Tesla Sup ISONE  NH       2    +0%    -0%    +0%
+  Plymouth, MA - Tesla Sup ISONE  SEMA     3    -1%    -1%    -0%
+  Vohns Restaurant         ISONE  RI       4    +1%    -0%    +0%
+  Kellys Place             ISONE  SEMA     5    -1%    -1%    -0%
+  Lee Premium Outlets MB.H ISONE  WCMA     1    +4%    +2%    +1%
+  Stoneham Ford Service Ce ISONE  NEMA     3    -1%    +1%    +0%
+  ABC Commercial Propertie ISONE  NEMA     1    -1%    -1%    -0%
+  Twin City Plaza          ISONE  NEMA     1    +1%    +0%    +0%
+  Evergreen Walk MB.HPC    ISONE  CT       5   +18%   +12%    +1%
+  Holyoke, MA - Tesla Supe ISONE  WCMA     1    +5%    +2%    +0%
+  Ruby Wines               ISONE  NEMA     2    -2%    -2%    -1%
+  Keri Plaza               ISONE  NEMA     1    +0%    +1%    +0%
+  Albertsons Burlington #0 ISONE  NEMA     4    +0%    +1%    +0%
+  East GAR Realty          ISONE  SEMA     2    -0%    -0%    -0%
+  Saugus                   ISONE  NEMA     3    +0%    +0%    +0%
+  Whole Foods South Windso ISONE  CT       5    +1%    +0%    -0%
+  Bradku Inc               ISONE  NEMA     7    +1%    +1%    +1%
+  Marlborough, MA - Tesla  ISONE  NEMA     1    -0%    -1%    -0%
+  Portland, ME - Brighton  ISONE  NH       4    +1%    +1%    +0%
+  Fairfield Inn - Tewksbur ISONE  NEMA     2    +0%    +0%    +0%
+  LF Prospect Retail       ISONE  NEMA     2    +0%    +1%    +2%
+  Bristol Community Colleg ISONE  SEMA     2    -0%    -0%    -0%
+  Discover Marble          ISONE  NEMA     3    -0%    -0%    -0%
+  Acumen Properties        ISONE  NEMA     3    -1%    -1%    -0%
+  BES Realty               ISONE  SEMA     1    -0%    -0%    +0%
+  East Greenwich, RI       ISONE  RI       3    +0%    +0%    +0%
+  Hampton Inn Westport     ISONE  SEMA     5    +3%    -0%    +0%
+  24 Ford of Easton        ISONE  SEMA     3    +0%    +0%    +0%
+  2027 Post Rd             ISONE  RI       1    -3%    -1%    -1%
+  Mick Morgans Restaurant  ISONE  NEMA     2    -1%    -1%    -1%
+  Farley White             ISONE  NEMA     1    +0%    +1%    +0%
+  Sherwood Plaza Front     ISONE  NEMA     2    -1%    -0%    -0%
+  Belmont Plaza            ISONE  NEMA     2    -2%    -0%    -1%
+  DC Station               ISONE  WCMA     3    +1%    +0%    +0%
+  Interstate Refrigerant   ISONE  NEMA     2    +1%    +0%    +0%
+  AP Services              ISONE  NEMA     2    +0%    +1%    +0%
+  Trumbull, CT - Tesla Sup ISONE  CT       1    -5%    -2%    -6%
+  Fermin Family LLC        ISONE  NEMA     0    -0%    +0%    -0%
+  Roberts Field Town of Ch ISONE  NEMA     4    +1%    +1%    -0%
+  Town of Rumford          ISONE  ME       1   -10%   +10%    -9%
+  Whitinsville Plaza       ISONE  NEMA     3    +8%    +1%    +2%
+  Medford, MA - Tesla Supe ISONE  NEMA     1    -1%    +1%    -0%
+  Reading, MA Rechargery R ISONE  NEMA     3    -5%    -0%    -1%
+  Bhavin Patel Realty Trus ISONE  SEMA     2    +9%    +6%    +3%
+  Brewer, ME               ISONE  ME       6   -23%    -5%    +8%
+  Chelmsford Senior Center ISONE  NEMA     1    -7%    -2%    -2%
+  Elite Health and Fitness ISONE  NEMA     3    +5%    +1%    +2%
+  Tyngsboro Sports Center  ISONE  NEMA     4    -7%    -2%    -2%
+  Portsmouth, NH Recharger ISONE  NH       1    -3%    +1%    -2%
+  Malden Catholic High     ISONE  NEMA     1    -2%    -0%    -1%
+  Brattleboro, VT Recharge ISONE  WCMA     5    +2%    +1%    -0%
+  Methuen, MA - Tesla Supe ISONE  NEMA     1    -0%    -1%    -1%
+  Walpole Mall             ISONE  NEMA     4    +0%    +1%    +1%
+  Elite Gas                ISONE  SEMA     2    -1%    +3%    +3%
+  ER Real Estate Holdings  ISONE  NEMA     1    +2%    +1%    +1%
+  Northampton Athletic Clu ISONE  WCMA     4    -3%    -2%    -0%
+  Harvest Tap and Table    ISONE  SEMA     4    -6%    +2%    +0%
+  Simsbury, CT Rechargery  ISONE  CT       6    -5%    -2%    -1%
+  Adams Library            ISONE  NEMA     3    -0%    -0%    -0%
+  Anawan Mobil             ISONE  SEMA     5    -0%    -0%    -0%
+  Marriott Boston Quincy   ISONE  NEMA     1    +0%    +1%    +0%
+  Chelmsford Town Hall     ISONE  NEMA     2    -0%    -0%    +0%
+  Franklin Municipal Build ISONE  NEMA     3    -0%    +0%    -0%
+  Franklin Fire Department ISONE  NEMA     0    -0%    -0%    -0%
+  Linwood Plaza            ISONE  NEMA     2    -0%    +0%    -0%
+  Target Dorchester        ISONE  NEMA     0    +0%    +0%    +0%
+  Akoya Biosciences Inc    ISONE  NEMA     1    +0%    +0%    -0%
+  Industrial Park Saco MB. ISONE  NH       1   -34%   -14%    -5%
+  Braintree MB.HPC         ISONE  NEMA     1    -0%    -0%    +0%
+  North Haven MB.HPC       ISONE  CT       2    -1%    -0%    -0%
+  Clinton Premium Outlets  ISONE  CT       6    -0%    +0%    -0%
+  Bangor MB.HPC            ISONE  ME       6    -3%    -1%    -1%
+  Wrentham Village Premium ISONE  NEMA     1    -1%    -0%    -0%
+  Methuen MB.HPC           ISONE  NEMA     1    +0%    -1%    -0%
+  Kittery Premium Outlets  ISONE  NH       3    +3%    +0%    -0%
+  Cape Cod Mall MB.HPC     ISONE  SEMA     2    -1%    -1%    -0%
+  The Mall of New Hampshir ISONE  NH       0    -0%    -1%    +0%
+  Holyoke MB.HPC           ISONE  WCMA     1    -0%    -0%    -0%
+  St Johnsbury MB.HPC      ISONE  VT       4    -0%    +0%    -0%
+  Highland Avenue Shopping ISONE  NEMA     1    -4%    -3%    -1%
+  The Shops at Blackstone  ISONE  NEMA     3    +3%    +2%    +1%
+  The Street Chestnut Hill ISONE  NEMA     4    +0%    +1%    +0%
+  Gabriels Exxon           ISONE  RI       1   -27%   -21%    -1%
+  Bow, NH                  ISONE  NH       2    -1%    -1%    +1%
+  NYE Ford                 NYISO  MHK VL   5   -11%    -0%    -4%
+  Kirkwood, NY - Tesla Sup NYISO  CENTRL   1   +11%    +1%    +1%
+  Jericho, NY - Tesla Supe NYISO  LONGIL   6  +120%   +34%   +16%
+  Brooklyn, NY - Cropsey A NYISO  N.Y.C.   8   +11%   +72%    +8%
+  Holiday Inn Express Itha NYISO  CENTRL   4    +8%    +5%    +1%
+  800 Montauk Hwy          NYISO  LONGIL   6   -93%   -21%    -8%
+  Yonkers, NY - Central Pa NYISO  DUNWOD   3    -0%    -0%    -0%
+  EVolve NY Rensselaer     NYISO  CAPITL   4    +0%    +0%    +1%
+  Courtyard by Marriott Bi NYISO  CENTRL   2    -1%    -2%    -2%
+  Gravity Charging Center  NYISO  N.Y.C.   1    +1%    +6%    +1%
+  Gansevoort, NY - Tesla S NYISO  CAPITL   8    +5%    +2%    +0%
+  Orangeburg, NY - Tesla S NYISO  DUNWOD   5    -1%    -2%    -1%
+  SWTCH Energy Inc.        NYISO  GENESE   7    -0%    -0%    -0%
+  Lagrangeville, NY - Tesl NYISO  HUD VL   9   +13%   +10%    +1%
+  Romano Ford              NYISO  CENTRL   6    +3%    +2%    +0%
+  Clarence Travel Plaza    NYISO  WEST     4    -1%    -1%    -1%
+  Applegreen Electric - Cl NYISO  GENESE   6    +4%    +0%    -0%
+  Plattekill Service Area  NYISO  HUD VL   6    +5%    +3%    +0%
+  Electric Car Corner      NYISO  GENESE   9    +4%    +1%    -0%
+  Healey Ford - Goshen     NYISO  MILLWD   6    -9%    -4%    -2%
+  Bob Johnson Ford Avon    NYISO  GENESE   7    +1%    +1%    -0%
+  Lucas Ford               NYISO  LONGIL   4    -6%   -10%   -10%
+  Glenmont, NY - Tesla Sup NYISO  CAPITL   3    +7%    +5%    +2%
+  West Seneca, NY - Tesla  NYISO  WEST     2    +2%    +4%    +0%
+  ChargeSmart EV - Southam NYISO  LONGIL   2   -28%   -17%   -10%
+  Revel - Long Island City NYISO  N.Y.C.   2   +11%    +5%    +0%
+  Revel - Bedford-Stuyvesa NYISO  N.Y.C.   2   +11%    +5%    +0%
+  Revel - Lower Manhattan  NYISO  N.Y.C.   1    -2%    -0%    +1%
+  Johnson City, NY - Tesla NYISO  CENTRL   2    +6%    +1%    +3%
+  Smithtown, NY - Tesla Su NYISO  LONGIL   8   -20%   -11%    -4%
+  Hewlett, NY - Tesla Supe NYISO  N.Y.C.   6  +276%   +96%   +46%
+  Healey Ford - Poughkeeps NYISO  HUD VL   9    -1%    -3%    -2%
+  Hampton Inn - East Green NYISO  CAPITL   2   -41%   -53%    -9%
+  Ford of Smithtown        NYISO  LONGIL   7    -9%   +17%    -1%
+  Queensbury, NY           NYISO  CAPITL   8   +29%   +30%    +8%
+  Target Latham #T1915     NYISO  CAPITL   5   -39%   -30%    -7%
+  33rd Street              NYISO  N.Y.C.   1   -69%   -27%   -18%
+  Staten Island, NY - Tesl NYISO  N.Y.C.   3   -11%   -15%   -45%
+  Brooklyn, NY - Bay Parkw NYISO  N.Y.C.   7   +47%   +91%   +28%
+  EVolve NY White Plains   NYISO  DUNWOD   8    -0%    -0%    +0%
+  Latham, NY - Tesla Super NYISO  CAPITL   4    +7%    +5%    +1%
+  Garden City, NY - Stewar NYISO  DUNWOD   0    +3%   +11%    +0%
+  EVolve NY Southold       NYISO  LONGIL   4   +15%   +10%    +3%
+  Vision Buick GMC         NYISO  GENESE   6    -0%    -0%    -0%
+  Carle Place, NY - Glen C NYISO  DUNWOD   2   +19%    -0%    -3%
+  Embassy Suites by Hilton NYISO  CENTRL   3    +0%    +1%    +0%
+  Courtyard by Marriott -  NYISO  HUD VL   2    -1%    -1%    -0%
+  Southampton, NY          NYISO  LONGIL   2    -9%   -11%    -6%
+  Commack, NY - Tesla Supe NYISO  LONGIL   2    -2%    +2%    +2%
+  Brooklyn, NY - 8923 Bay  NYISO  N.Y.C.   7    +6%    +4%    +2%
+  Pembroke Travel Plaza -  NYISO  WEST     7    +1%    +1%    +0%
+  Town of Marlborough Clue NYISO  HUD VL   9    +0%    -1%    +0%
+  EVolve NY Findley Lake   NYISO  WEST     8    +0%    +1%    +0%
+  3344 Walden Ave          NYISO  WEST     6    +0%    -0%    +0%
+  EVolve NY Phelps         NYISO  GENESE   8    +3%    +2%    +1%
+  Aldi Yorkville TUL36     NYISO  MHK VL   8    +3%    +1%    +1%
+  Aldi Tonawanda TUL90     NYISO  WEST     2    -1%    -1%    -1%
+  Holiday Inn - Auburn     NYISO  CENTRL   2    +1%    +0%    +1%
+  Signature Properties - H NYISO  LONGIL   8    +2%    +2%    +1%
+  Northport Meat Farms     NYISO  LONGIL   4   +50%   +28%   +13%
+  Signature Properties - H NYISO  LONGIL   8    +3%    +3%    +2%
+  Albany, NY - Northern Bo NYISO  CAPITL   1    +2%    -0%    +2%
+  Aldi Carthage TUL 27     NYISO  MHK VL   2    +4%    -2%    -7%
+  Inwood, NY - Tesla Super NYISO  N.Y.C.   2  -246%   -19%   -10%
+  North New Hyde Park, NY  NYISO  DUNWOD   5  -223%    +1%   -18%
+  ChargeSmart EV - Queensb NYISO  CAPITL   8   -44%    -7%    -0%
+  Farmington, NY - Tesla S NYISO  GENESE   9    +8%    +3%    +3%
+  Albany, NY - Central Ave NYISO  CAPITL   1   +34%    +2%    +3%
+  Valley Stream, NY        NYISO  N.Y.C.   6  -610%   -39%   -22%
+  ChargeSmart EV - Greece  NYISO  GENESE   6    +0%    +0%    +1%
+  ChargeSmart EV - Waterto NYISO  CENTRL   3   -16%    +2%    -1%
+  ChargeSmart EV - Middlet NYISO  HUD VL   1   -20%    -5%    -3%
+  ChargeSmart EV - Olean   NYISO  WEST     1   +12%    +8%   +10%
+  ChargeSmart EV - Plattsb NYISO  NORTH    4  +193%   +18%   +28%
+  Aldi Ballston Spa TUL 11 NYISO  CAPITL  10   -50%    -7%    -3%
+  ChargeSmart EV - Grand I NYISO  WEST     6    +7%    -2%    -3%
+  Newburgh, NY - NY-300 -  NYISO  HUD VL   9    -3%    -1%    -1%
+  Bronx, NY - East Gun Hil NYISO  DUNWOD   4    +4%    +1%    -0%
+  Centereach, NY - Tesla S NYISO  LONGIL   5   -63%    -4%    -8%
+  EVolve NY Flushing       NYISO  N.Y.C.   7   -69%    -7%   -12%
+  Target South Setauket #T NYISO  LONGIL   4   -10%    -4%    -1%
+  Garden City Park         NYISO  DUNWOD   3   -19%   -13%    -4%
+  SUNY Ulster - Hasbrouck  NYISO  HUD VL   3    +0%    +0%    -0%
+  Brown's Ford of Johnstow NYISO  CAPITL   4    +0%    -0%    +0%
+  Glen Cove Shopping Cente NYISO  DUNWOD   5    +4%    -7%    +0%
+  Aldi Johnstown TUL 110   NYISO  CAPITL   3    +0%    +0%    +0%
+  EVolve NY Queens LaGuard NYISO  N.Y.C.   2    +1%    +3%    +3%
+  Buffalo Marriott Niagara NYISO  WEST     8    -0%    +1%    +0%
+  Manhasset, NY Rechargery NYISO  DUNWOD   5    +8%    +7%    +3%
+  Chrysler Dodge Jeep Ram  NYISO  CENTRL   3    -1%    -2%    -0%
+  20 Overlook Blvd         NYISO  MILLWD   4    +8%   +10%    +2%
+  Elmira MB.HPC            NYISO  CENTRL   9    -0%    +3%    +7%
+  EVolve NY Rosedale Munic NYISO  N.Y.C.   6    +3%   +17%    +5%
+  2 8 Hawley               NYISO  CENTRL   4    +9%    -4%    -3%
+  EVolve NY Sunnyside Muni NYISO  N.Y.C.   2   -14%   -17%    -7%
+==========================================================================

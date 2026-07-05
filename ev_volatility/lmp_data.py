@@ -36,6 +36,10 @@ CACHE_DIR.mkdir(exist_ok=True)
 NYISO_DAM_ZONE_URL = (
     "http://mis.nyiso.com/public/csv/damlbmp/{ym}01damlbmp_zone_csv.zip"
 )
+# Generator-node Day-Ahead LBMP (hundreds of priced pnodes statewide).
+NYISO_DAM_GEN_URL = (
+    "http://mis.nyiso.com/public/csv/damlbmp/{ym}01damlbmp_gen_csv.zip"
+)
 
 # NYISO "Name" column values that are external proxies / hubs, not load zones.
 _NYISO_NON_ZONE = {"H Q", "NPX", "O H", "PJM"}
@@ -43,12 +47,13 @@ _NYISO_NON_ZONE = {"H Q", "NPX", "O H", "PJM"}
 
 # ── NYISO ──────────────────────────────────────────────────────────────────────
 
-def _nyiso_month_zip(year: int, month: int) -> bytes | None:
+def _nyiso_month_zip(year: int, month: int, kind: str = "zone") -> bytes | None:
     ym = f"{year}{month:02d}"
-    cache = CACHE_DIR / f"nyiso_dam_zone_{ym}.zip"
+    cache = CACHE_DIR / f"nyiso_dam_{kind}_{ym}.zip"
     if cache.exists():
         return cache.read_bytes()
-    url = NYISO_DAM_ZONE_URL.format(ym=ym)
+    tmpl = NYISO_DAM_GEN_URL if kind == "gen" else NYISO_DAM_ZONE_URL
+    url = tmpl.format(ym=ym)
     try:
         r = requests.get(url, timeout=90)
         r.raise_for_status()
@@ -119,6 +124,57 @@ def zone_series(panel: pd.DataFrame, zone: str) -> pd.Series:
     """Hourly LBMP series (indexed by ts) for one zone out of a panel."""
     z = panel[panel["zone"] == zone].sort_values("ts")
     return z.set_index("ts")["lbmp"]
+
+
+# ── NYISO generator-node (pnode) LBMP ───────────────────────────────────────────
+
+def nyiso_gen_lbmp(year: int, month: int, ptids: set[str] | None = None) -> pd.DataFrame:
+    """
+    Tidy hourly DAM generator-node LBMP for one month:
+        columns = [ts, ptid, lbmp]
+    Optional `ptids` whitelist keeps memory small (we only need nodes near chargers).
+    """
+    blob = _nyiso_month_zip(year, month, kind="gen")
+    if blob is None:
+        return pd.DataFrame(columns=["ts", "ptid", "lbmp"])
+    frames = []
+    with zipfile.ZipFile(io.BytesIO(blob)) as zf:
+        for name in zf.namelist():
+            if name.lower().endswith(".csv"):
+                with zf.open(name) as fh:
+                    frames.append(pd.read_csv(fh))
+    if not frames:
+        return pd.DataFrame(columns=["ts", "ptid", "lbmp"])
+    raw = pd.concat(frames, ignore_index=True)
+    raw.columns = [c.strip() for c in raw.columns]
+    ts_col = next(c for c in raw.columns if "time" in c.lower())
+    lbmp_col = next(c for c in raw.columns if "lbmp" in c.lower())
+    out = pd.DataFrame({
+        "ts": pd.to_datetime(raw[ts_col], errors="coerce"),
+        "ptid": raw["PTID"].astype(str),
+        "lbmp": pd.to_numeric(raw[lbmp_col], errors="coerce"),
+    }).dropna(subset=["ts", "lbmp"])
+    if ptids is not None:
+        out = out[out["ptid"].isin(ptids)]
+    return out
+
+
+def nyiso_gen_panel(start: date, end: date,
+                    ptids: set[str] | None = None) -> pd.DataFrame:
+    """Hourly generator-node LBMP panel [ts, ptid, lbmp] over a date range."""
+    months, y, m = [], start.year, start.month
+    while (y, m) <= (end.year, end.month):
+        months.append((y, m))
+        m += 1
+        if m > 12:
+            y, m = y + 1, 1
+    parts = [nyiso_gen_lbmp(y, m, ptids) for y, m in months]
+    parts = [p for p in parts if not p.empty]
+    if not parts:
+        return pd.DataFrame(columns=["ts", "ptid", "lbmp"])
+    panel = pd.concat(parts, ignore_index=True)
+    mask = (panel["ts"].dt.date >= start) & (panel["ts"].dt.date <= end)
+    return panel[mask].reset_index(drop=True)
 
 
 # ── ISONE (optional) ────────────────────────────────────────────────────────────
@@ -195,6 +251,60 @@ def isone_zone_panel(start: date, end: date, max_workers: int = 8) -> pd.DataFra
     parts = [p for p in parts if not p.empty]
     if not parts:
         return pd.DataFrame(columns=["ts", "zone", "lbmp"])
+    panel = pd.concat(parts, ignore_index=True)
+    mask = (panel["ts"].dt.date >= start) & (panel["ts"].dt.date <= end)
+    return panel[mask].reset_index(drop=True)
+
+
+def isone_nodes_day(d: date, node_ids: set[str]) -> pd.DataFrame:
+    """
+    Day-Ahead hourly LMP for specified ISO-NE network node IDs on one day:
+        columns = [ts, ptid, lbmp]
+    Caches a small per-day slice for the tracked node set.
+    """
+    key = f"{abs(hash(frozenset(node_ids))) % 10**8}"
+    cache = _ISONE_ZONE_CACHE.parent / "isone_nodes" / f"{d:%Y%m%d}_{key}.csv"
+    cache.parent.mkdir(exist_ok=True)
+    if cache.exists():
+        return pd.read_csv(cache, parse_dates=["ts"])
+
+    url = ISONE_DAM_DAY_URL.format(ymd=f"{d:%Y%m%d}")
+    for attempt in range(3):
+        try:
+            r = requests.get(url, timeout=90)
+            r.raise_for_status()
+            break
+        except Exception as e:
+            if attempt == 2:
+                log.error("ISONE nodes %s fetch failed: %s", d, e)
+                return pd.DataFrame(columns=["ts", "ptid", "lbmp"])
+    raw = pd.read_csv(io.StringIO(r.text), header=None, dtype=str,
+                      names=list(range(10)), on_bad_lines="skip")
+    rows = raw[(raw[0] == "D") & (raw[3].isin(node_ids))].copy()
+    if rows.empty:
+        out = pd.DataFrame(columns=["ts", "ptid", "lbmp"])
+        out.to_csv(cache, index=False)
+        return out
+    he = pd.to_numeric(rows[2], errors="coerce").fillna(1).astype(int)
+    base = pd.to_datetime(rows[1], format="%m/%d/%Y", errors="coerce")
+    out = pd.DataFrame({
+        "ts": base + pd.to_timedelta(he - 1, unit="h"),
+        "ptid": rows[3],
+        "lbmp": pd.to_numeric(rows[6], errors="coerce"),
+    }).dropna(subset=["ts", "lbmp"])
+    out.to_csv(cache, index=False)
+    return out
+
+
+def isone_node_panel(start: date, end: date, node_ids: set[str],
+                     max_workers: int = 8) -> pd.DataFrame:
+    """Hourly DA LMP panel [ts, ptid, lbmp] for specified ISO-NE nodes."""
+    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        parts = list(ex.map(lambda d: isone_nodes_day(d, node_ids), days))
+    parts = [p for p in parts if not p.empty]
+    if not parts:
+        return pd.DataFrame(columns=["ts", "ptid", "lbmp"])
     panel = pd.concat(parts, ignore_index=True)
     mask = (panel["ts"].dt.date >= start) & (panel["ts"].dt.date <= end)
     return panel[mask].reset_index(drop=True)

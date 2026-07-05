@@ -1,0 +1,4506 @@
+{
+ "24138": {
+  "name": "59TH STREET_GT_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.76612,
+  "lon": -73.99611,
+  "active": "Y"
+ },
+ "24260": {
+  "name": "74TH STREET_GT_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24261": {
+  "name": "74TH STREET_GT_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24011": {
+  "name": "ADK HUDSON___FALLS",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.290067,
+  "lon": -73.606067,
+  "active": "Y"
+ },
+ "23798": {
+  "name": "ADK RESOURCE___RCVRY",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.306154,
+  "lon": -73.591954,
+  "active": "Y"
+ },
+ "24028": {
+  "name": "ADK S GLENS___FALLS",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.290067,
+  "lon": -73.606067,
+  "active": "Y"
+ },
+ "23527": {
+  "name": "ADK_NYS___DAM",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.912214,
+  "lon": -73.357291,
+  "active": "Y"
+ },
+ "24190": {
+  "name": "AIR_PRODUCTS___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "23571": {
+  "name": "ALBANY___1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "23572": {
+  "name": "ALBANY___2",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "23573": {
+  "name": "ALBANY___3",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "23574": {
+  "name": "ALBANY___4",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "323615": {
+  "name": "ALBANY___LFGE",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.691041,
+  "lon": -73.803149,
+  "active": "Y"
+ },
+ "323711": {
+  "name": "ALCOA___DSASP",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.954452,
+  "lon": -74.893775,
+  "active": "Y"
+ },
+ "24188": {
+  "name": "ALCOA_RYNLDS___DRP",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.939156,
+  "lon": -74.875032,
+  "active": "Y"
+ },
+ "23514": {
+  "name": "ALLEGHENY___COGEN",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 42.391981,
+  "lon": -78.155403,
+  "active": "Y"
+ },
+ "323606": {
+  "name": "ALTONA_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.831624,
+  "lon": -73.636424,
+  "active": "Y"
+ },
+ "24010": {
+  "name": "AMERICAN_REF_FUEL",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "323751": {
+  "name": "ARKWRIGHT___SUMMIT_WT_PWR",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.336631,
+  "lon": -79.323597,
+  "active": "Y"
+ },
+ "23512": {
+  "name": "ARTHUR_KILL_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.589204,
+  "lon": -74.197028,
+  "active": "Y"
+ },
+ "23513": {
+  "name": "ARTHUR_KILL_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.589204,
+  "lon": -74.197028,
+  "active": "Y"
+ },
+ "323718": {
+  "name": "ARTHUR_KILL_COGEN",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.589204,
+  "lon": -74.197028,
+  "active": "Y"
+ },
+ "23520": {
+  "name": "ARTHUR KILL_GT_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.589204,
+  "lon": -74.197028,
+  "active": "Y"
+ },
+ "23654": {
+  "name": "ASHOKAN____",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 42.031073,
+  "lon": -74.106742,
+  "active": "Y"
+ },
+ "323581": {
+  "name": "ASTORIA_EAST_ENERGY_CC1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787176,
+  "lon": -73.907032,
+  "active": "Y"
+ },
+ "323582": {
+  "name": "ASTORIA_EAST_ENERGY_CC2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787176,
+  "lon": -73.907032,
+  "active": "Y"
+ },
+ "23523": {
+  "name": "ASTORIA_GT_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24110": {
+  "name": "ASTORIA_GT_10",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "24225": {
+  "name": "ASTORIA_GT_11",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "24226": {
+  "name": "ASTORIA_GT_12",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "24227": {
+  "name": "ASTORIA_GT_13",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "24106": {
+  "name": "ASTORIA_GT_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24107": {
+  "name": "ASTORIA_GT_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24108": {
+  "name": "ASTORIA_GT_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24094": {
+  "name": "ASTORIA_GT2_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24095": {
+  "name": "ASTORIA_GT2_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24096": {
+  "name": "ASTORIA_GT2_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24097": {
+  "name": "ASTORIA_GT2_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24098": {
+  "name": "ASTORIA_GT3_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24099": {
+  "name": "ASTORIA_GT3_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24100": {
+  "name": "ASTORIA_GT3_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24101": {
+  "name": "ASTORIA_GT3_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24102": {
+  "name": "ASTORIA_GT4_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24103": {
+  "name": "ASTORIA_GT4_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24104": {
+  "name": "ASTORIA_GT4_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24105": {
+  "name": "ASTORIA_GT4_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.909326,
+  "active": "Y"
+ },
+ "24149": {
+  "name": "ASTORIA___2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787174,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "23516": {
+  "name": "ASTORIA___3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787174,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "23517": {
+  "name": "ASTORIA___4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787174,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "23518": {
+  "name": "ASTORIA___5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787174,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "323677": {
+  "name": "AST_ENERGY_2_CC3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.78719,
+  "lon": -73.9071,
+  "active": "Y"
+ },
+ "323678": {
+  "name": "AST_ENERGY_2_CC4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.78719,
+  "lon": -73.9071,
+  "active": "Y"
+ },
+ "23668": {
+  "name": "ATHENS_STG_1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.271224,
+  "lon": -73.850326,
+  "active": "Y"
+ },
+ "23670": {
+  "name": "ATHENS_STG_2",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.271224,
+  "lon": -73.850326,
+  "active": "Y"
+ },
+ "23677": {
+  "name": "ATHENS_STG_3",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.271224,
+  "lon": -73.850326,
+  "active": "Y"
+ },
+ "323710": {
+  "name": "AUBURN___LFGE",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.953704,
+  "lon": -76.573474,
+  "active": "Y"
+ },
+ "323704": {
+  "name": "BABYLON_RES_REC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.73589,
+  "lon": -73.387823,
+  "active": "Y"
+ },
+ "323822": {
+  "name": "BARON_WINDS___WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.43988,
+  "lon": -77.52982,
+  "active": "Y"
+ },
+ "23704": {
+  "name": "BARRETT_IC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23701": {
+  "name": "BARRETT_IC_10",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23702": {
+  "name": "BARRETT_IC_11",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23703": {
+  "name": "BARRETT_IC_12",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23705": {
+  "name": "BARRETT_IC_2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23706": {
+  "name": "BARRETT_IC_3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23707": {
+  "name": "BARRETT_IC_4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23708": {
+  "name": "BARRETT_IC_5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23709": {
+  "name": "BARRETT_IC_6",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23710": {
+  "name": "BARRETT_IC_7",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23711": {
+  "name": "BARRETT_IC_8",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23700": {
+  "name": "BARRETT_IC_9",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23545": {
+  "name": "BARRETT___1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "23546": {
+  "name": "BARRETT___2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.61822,
+  "lon": -73.648205,
+  "active": "Y"
+ },
+ "323682": {
+  "name": "BAYONEEC___CTG1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323750": {
+  "name": "BAYONEEC___CTG10",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323683": {
+  "name": "BAYONEEC___CTG2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323684": {
+  "name": "BAYONEEC___CTG3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323685": {
+  "name": "BAYONEEC___CTG4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323686": {
+  "name": "BAYONEEC___CTG5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323687": {
+  "name": "BAYONEEC___CTG6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323688": {
+  "name": "BAYONEEC___CTG7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323689": {
+  "name": "BAYONEEC___CTG8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323749": {
+  "name": "BAYONEEC___CTG9",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.652228,
+  "lon": -74.090857,
+  "active": "Y"
+ },
+ "323632": {
+  "name": "BEACON___LESR",
+  "zone": "CAPITL",
+  "subzone": "NYSEG CAPITAL",
+  "lat": 42.557244,
+  "lon": -73.376326,
+  "active": "Y"
+ },
+ "24048": {
+  "name": "BEAVER RIVER___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.927109,
+  "lon": -75.320825,
+  "active": "Y"
+ },
+ "23619": {
+  "name": "BEEBEE_GT_13",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.151142,
+  "lon": -77.660615,
+  "active": "Y"
+ },
+ "23843": {
+  "name": "BETHLEHEM___GRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "323560": {
+  "name": "BETHLEHEM___GS1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "323561": {
+  "name": "BETHLEHEM___GS2",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "323562": {
+  "name": "BETHLEHEM___GS3",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.661491,
+  "lon": -73.739644,
+  "active": "Y"
+ },
+ "23779": {
+  "name": "BETHLEHEM___STEEL",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.852295,
+  "lon": -78.771766,
+  "active": "Y"
+ },
+ "323564": {
+  "name": "BETHPAGE_CC_5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.747146,
+  "lon": -73.49753,
+  "active": "Y"
+ },
+ "345034": {
+  "name": "BIGTREE_115_KV_TB2_REV_LBMP_A",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 42.745927,
+  "lon": -78.821342,
+  "active": "Y"
+ },
+ "23790": {
+  "name": "BINGHAMTON___COGEN",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.132703,
+  "lon": -75.931693,
+  "active": "Y"
+ },
+ "24047": {
+  "name": "BLACK RIVER___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.003204,
+  "lon": -75.816351,
+  "active": "Y"
+ },
+ "323608": {
+  "name": "BLISS_WT_PWR",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.532246,
+  "lon": -78.306344,
+  "active": "Y"
+ },
+ "24182": {
+  "name": "BLUE_CIRC_CHEM_DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.575123,
+  "lon": -73.861476,
+  "active": "Y"
+ },
+ "24189": {
+  "name": "BOC_GAS_DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.609664,
+  "lon": -73.903956,
+  "active": "Y"
+ },
+ "23824": {
+  "name": "BORALEX_4TH_BRANCH",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.912214,
+  "lon": -73.357291,
+  "active": "Y"
+ },
+ "23526": {
+  "name": "BOWLINE___1",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.204688,
+  "lon": -73.979414,
+  "active": "Y"
+ },
+ "23595": {
+  "name": "BOWLINE___2",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.204688,
+  "lon": -73.979414,
+  "active": "Y"
+ },
+ "24191": {
+  "name": "BROOKHAVEN___DRP",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.855569,
+  "lon": -72.849338,
+  "active": "Y"
+ },
+ "23515": {
+  "name": "BROOKLYN_NAVY_YARD",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.703833,
+  "lon": -73.981228,
+  "active": "Y"
+ },
+ "323595": {
+  "name": "BROOKLYN___ARMY_DRP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "323671": {
+  "name": "BROOME_2_LFGE",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.132703,
+  "lon": -75.931693,
+  "active": "Y"
+ },
+ "323600": {
+  "name": "BROOME___LFGE",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.132703,
+  "lon": -75.931693,
+  "active": "Y"
+ },
+ "23803": {
+  "name": "BURROWS___LYONSDAL",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.618165,
+  "lon": -75.306504,
+  "active": "Y"
+ },
+ "323624": {
+  "name": "CAITHNESS_CC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831064,
+  "lon": -72.93772,
+  "active": "Y"
+ },
+ "323586": {
+  "name": "CALPINE_BETH_PAGE_GT_4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.747099,
+  "lon": -73.497568,
+  "active": "Y"
+ },
+ "23823": {
+  "name": "CALPINE_BP_GT1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.747099,
+  "lon": -73.497568,
+  "active": "Y"
+ },
+ "24209": {
+  "name": "CALPINE BETH_PAGE_GT4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.747099,
+  "lon": -73.497568,
+  "active": "Y"
+ },
+ "24200": {
+  "name": "CALSPAN___DRP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.852295,
+  "lon": -78.771766,
+  "active": "Y"
+ },
+ "323806": {
+  "name": "CALVERTON___SOLAR",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.909451,
+  "lon": -72.746391,
+  "active": "Y"
+ },
+ "323617": {
+  "name": "CANDIGU_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.40095,
+  "lon": -77.468457,
+  "active": "Y"
+ },
+ "24060": {
+  "name": "CARR STREET_E._SYR",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063603,
+  "lon": -76.082595,
+  "active": "Y"
+ },
+ "23857": {
+  "name": "CARTHAGE___PAPER",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.984275,
+  "lon": -75.622432,
+  "active": "Y"
+ },
+ "24195": {
+  "name": "CE_NYC_DRP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.726898,
+  "lon": -73.972955,
+  "active": "Y"
+ },
+ "24202": {
+  "name": "CE_NYC2_DRP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.756396,
+  "lon": -73.937793,
+  "active": "Y"
+ },
+ "24193": {
+  "name": "CE_MILLWOOD___DRP",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.192378,
+  "lon": -73.800577,
+  "active": "Y"
+ },
+ "23765": {
+  "name": "CH_MISC_IPPS",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23895": {
+  "name": "CH_RES_NIAGARA",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "23985": {
+  "name": "CH_RES_SYRACUSE",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "323603": {
+  "name": "CHAFFEE___LFGE",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 42.625404,
+  "lon": -78.712551,
+  "active": "Y"
+ },
+ "323614": {
+  "name": "CHATEAUG_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.890926,
+  "lon": -73.985407,
+  "active": "Y"
+ },
+ "323578": {
+  "name": "CHAT_HIGH_FALL_HYD",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.89345,
+  "lon": -74.073266,
+  "active": "Y"
+ },
+ "323629": {
+  "name": "CHAUTAUQUA___LFGE",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.473324,
+  "lon": -79.290624,
+  "active": "Y"
+ },
+ "24192": {
+  "name": "CH_MIDHUDSON___DRP",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.73952,
+  "lon": -73.83483,
+  "active": "Y"
+ },
+ "23983": {
+  "name": "CH_RES_BVR_FALLS",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.92211,
+  "lon": -75.319707,
+  "active": "Y"
+ },
+ "323605": {
+  "name": "CLINTON_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.890926,
+  "lon": -73.985407,
+  "active": "Y"
+ },
+ "323618": {
+  "name": "CLINTON___LFGE",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.703599,
+  "lon": -73.59581,
+  "active": "Y"
+ },
+ "323577": {
+  "name": "COLONIE_LFGE__",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.787293,
+  "lon": -73.636904,
+  "active": "Y"
+ },
+ "323753": {
+  "name": "COPENHAGEN_WT_PWR",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.9136626,
+  "lon": -75.6987796,
+  "active": "Y"
+ },
+ "23752": {
+  "name": "CORNELL____",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.441493,
+  "lon": -76.474425,
+  "active": "Y"
+ },
+ "23611": {
+  "name": "COXSACKIE___GT",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 42.234265,
+  "lon": -73.868034,
+  "active": "Y"
+ },
+ "323721": {
+  "name": "CPV_VALLEY___CC1",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.412477,
+  "lon": -74.43695,
+  "active": "Y"
+ },
+ "323722": {
+  "name": "CPV_VALLEY___CC2",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.412477,
+  "lon": -74.43695,
+  "active": "Y"
+ },
+ "24018": {
+  "name": "CRESCENT___HYD",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.787293,
+  "lon": -73.636904,
+  "active": "Y"
+ },
+ "323756": {
+  "name": "CRICKET___VALLEY_CC1",
+  "zone": "HUD VL",
+  "subzone": "CON ED HUDSON VLY",
+  "lat": 41.677191,
+  "lon": -73.5817677,
+  "active": "Y"
+ },
+ "323757": {
+  "name": "CRICKET___VALLEY_CC2",
+  "zone": "HUD VL",
+  "subzone": "CON ED HUDSON VLY",
+  "lat": 41.677191,
+  "lon": -73.5817677,
+  "active": "Y"
+ },
+ "323758": {
+  "name": "CRICKET___VALLEY_CC3",
+  "zone": "HUD VL",
+  "subzone": "CON ED HUDSON VLY",
+  "lat": 41.677191,
+  "lon": -73.5817677,
+  "active": "Y"
+ },
+ "24180": {
+  "name": "CRUCIBLE_METL_DRP",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "323763": {
+  "name": "DAHOWA___HYDRO",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.103705,
+  "lon": -73.53658,
+  "active": "Y"
+ },
+ "323619": {
+  "name": "DANC___LFGE",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.003204,
+  "lon": -75.816351,
+  "active": "Y"
+ },
+ "23586": {
+  "name": "DANSKAMMER___1",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23589": {
+  "name": "DANSKAMMER___2",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23590": {
+  "name": "DANSKAMMER___3",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23591": {
+  "name": "DANSKAMMER___4",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23592": {
+  "name": "DANSKAMMER___DIESEL",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.563587,
+  "lon": -73.954582,
+  "active": "Y"
+ },
+ "23610": {
+  "name": "DASHVILLE___HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.822327,
+  "lon": -74.049857,
+  "active": "Y"
+ },
+ "323621": {
+  "name": "DELAWARE___LFGE",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.264436,
+  "lon": -74.926474,
+  "active": "Y"
+ },
+ "23807": {
+  "name": "DOGLEVILLE___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.059,
+  "lon": -74.764,
+  "active": "Y"
+ },
+ "23563": {
+  "name": "DUNKIRK___1",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.490164,
+  "lon": -79.346564,
+  "active": "Y"
+ },
+ "23564": {
+  "name": "DUNKIRK___2",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.490164,
+  "lon": -79.346564,
+  "active": "Y"
+ },
+ "23565": {
+  "name": "DUNKIRK___3",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.490164,
+  "lon": -79.346564,
+  "active": "Y"
+ },
+ "23566": {
+  "name": "DUNKIRK___4",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.490164,
+  "lon": -79.346564,
+  "active": "Y"
+ },
+ "345000": {
+  "name": "DUNWOODS_138_KV_38W08_REV_LBMP_I",
+  "zone": "DUNWOD",
+  "subzone": "CON ED DUNWOODIE",
+  "lat": 40.940217,
+  "lon": -73.85737,
+  "active": "Y"
+ },
+ "345009": {
+  "name": "E.WALDEN_115_KV_TR_1_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.57184,
+  "lon": -74.154668,
+  "active": "Y"
+ },
+ "345001": {
+  "name": "E179THST_138_KV_TB4_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.849414,
+  "lon": -73.893694,
+  "active": "Y"
+ },
+ "23607": {
+  "name": "EAST___DELAWARE_HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.859368,
+  "lon": -74.51059,
+  "active": "Y"
+ },
+ "23717": {
+  "name": "EAST HAMPTON___GT",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.936655,
+  "lon": -72.373212,
+  "active": "Y"
+ },
+ "23660": {
+  "name": "EAST RIVER___6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.727823,
+  "lon": -73.974959,
+  "active": "Y"
+ },
+ "23524": {
+  "name": "EAST RIVER___7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.727823,
+  "lon": -73.974959,
+  "active": "Y"
+ },
+ "345002": {
+  "name": "EASTVIEW_138_KV_38W32_REV_LBMP_I",
+  "zone": "DUNWOD",
+  "subzone": "CON ED DUNWOODIE",
+  "lat": 41.077018,
+  "lon": -73.831967,
+  "active": "Y"
+ },
+ "23722": {
+  "name": "EAST_HAMPTON___DIESEL",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.962046,
+  "lon": -72.208735,
+  "active": "Y"
+ },
+ "323558": {
+  "name": "EAST_RIVER___1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.726898,
+  "lon": -73.972955,
+  "active": "Y"
+ },
+ "323559": {
+  "name": "EAST_RIVER___2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.727823,
+  "lon": -73.974959,
+  "active": "Y"
+ },
+ "24086": {
+  "name": "ELEC_TRO_TEK",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.730425,
+  "lon": -73.610998,
+  "active": "Y"
+ },
+ "323604": {
+  "name": "ELLENBURG_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.890926,
+  "lon": -73.985407,
+  "active": "Y"
+ },
+ "345012": {
+  "name": "ELM_ST_23_KV_LD_REV_LBMP_A",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.884099,
+  "lon": -78.869047,
+  "active": "Y"
+ },
+ "323656": {
+  "name": "EMPIRE_CC_1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.624571,
+  "lon": -73.750085,
+  "active": "Y"
+ },
+ "323658": {
+  "name": "EMPIRE_CC_2",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.624571,
+  "lon": -73.750085,
+  "active": "Y"
+ },
+ "323693": {
+  "name": "ERIE_WT_PWR",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.820763,
+  "lon": -78.838822,
+  "active": "Y"
+ },
+ "345029": {
+  "name": "ETNA_115_KV_TB1_REV_LBMP_C",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.47182,
+  "lon": -76.406434,
+  "active": "Y"
+ },
+ "24051": {
+  "name": "E_CANADA_CAP_HY",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.024736,
+  "lon": -74.741763,
+  "active": "Y"
+ },
+ "24050": {
+  "name": "E_CANADA_MHWK_HY",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.059,
+  "lon": -74.764,
+  "active": "Y"
+ },
+ "23776": {
+  "name": "E_FISHKILL___LBMP",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.568041,
+  "lon": -73.835206,
+  "active": "Y"
+ },
+ "323796": {
+  "name": "FALCON___SEABRD_CC1",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.709583,
+  "lon": -73.454129,
+  "active": "Y"
+ },
+ "323797": {
+  "name": "FALCON___SEABRD_CC2",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.709583,
+  "lon": -73.454129,
+  "active": "Y"
+ },
+ "23548": {
+  "name": "FAR ROCKAWAY___4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.610683,
+  "lon": -73.759891,
+  "active": "Y"
+ },
+ "323566": {
+  "name": "FARRAGUT___LBMP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "345003": {
+  "name": "FARRAGUT_138_KV_32071_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "345016": {
+  "name": "FARRAGUT_138_KV_38B01_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "345017": {
+  "name": "FARRAGUT_138_KV_38M12_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "24204": {
+  "name": "FENNER___WINDPWR",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 42.952779,
+  "lon": -75.764802,
+  "active": "Y"
+ },
+ "23856": {
+  "name": "FIBERTEK___ENERGY",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "23598": {
+  "name": "FITZPATRICK____",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.521205,
+  "lon": -76.397388,
+  "active": "Y"
+ },
+ "345010": {
+  "name": "FORGEBRK_115_KV_TR1_2_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.529097,
+  "lon": -73.916351,
+  "active": "Y"
+ },
+ "23780": {
+  "name": "FORT_DRUM_COGEN",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.0387,
+  "lon": -75.67831,
+  "active": "Y"
+ },
+ "23900": {
+  "name": "FORT ORANGE____",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.539311,
+  "lon": -73.745343,
+  "active": "Y"
+ },
+ "24212": {
+  "name": "FPL FAR_ROCK_GT1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.610683,
+  "lon": -73.759891,
+  "active": "Y"
+ },
+ "23815": {
+  "name": "FPL FAR_ROCK_GT2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.610683,
+  "lon": -73.759891,
+  "active": "Y"
+ },
+ "24054": {
+  "name": "FRANKLIN_FALL_HYD",
+  "zone": "NORTH",
+  "subzone": "NMPC NORTH",
+  "lat": 44.829168,
+  "lon": -74.292445,
+  "active": "Y"
+ },
+ "23764": {
+  "name": "FREEPORT_EQUS_GT1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.667698,
+  "lon": -73.538736,
+  "active": "Y"
+ },
+ "23818": {
+  "name": "FREEPORT___CT2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.667698,
+  "lon": -73.538736,
+  "active": "Y"
+ },
+ "323630": {
+  "name": "FULTON___LFGE",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.04127,
+  "lon": -74.380413,
+  "active": "Y"
+ },
+ "23766": {
+  "name": "FULTON COGEN____",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.377307,
+  "lon": -76.432304,
+  "active": "Y"
+ },
+ "24184": {
+  "name": "G.F.CEMENT___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.290067,
+  "lon": -73.606067,
+  "active": "Y"
+ },
+ "24039": {
+  "name": "GARDENVILLE___LBMP",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 42.852295,
+  "lon": -78.771766,
+  "active": "Y"
+ },
+ "23808": {
+  "name": "GENERAL___MILLS",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.852295,
+  "lon": -78.771766,
+  "active": "Y"
+ },
+ "24183": {
+  "name": "GE_PLASTICS___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.575514,
+  "lon": -73.870168,
+  "active": "Y"
+ },
+ "23756": {
+  "name": "GILBOA___1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.440411,
+  "lon": -74.446754,
+  "active": "Y"
+ },
+ "23757": {
+  "name": "GILBOA___2",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.440411,
+  "lon": -74.446754,
+  "active": "Y"
+ },
+ "23758": {
+  "name": "GILBOA___3",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.440411,
+  "lon": -74.446754,
+  "active": "Y"
+ },
+ "23759": {
+  "name": "GILBOA___4",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.440411,
+  "lon": -74.446754,
+  "active": "Y"
+ },
+ "23599": {
+  "name": "GILBOA____",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.440411,
+  "lon": -74.446754,
+  "active": "Y"
+ },
+ "23603": {
+  "name": "GINNA____",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.270406,
+  "lon": -77.310754,
+  "active": "Y"
+ },
+ "23778": {
+  "name": "GLEN PARK____",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.000829,
+  "lon": -75.961798,
+  "active": "Y"
+ },
+ "23550": {
+  "name": "GLENWOOD___4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.828214,
+  "lon": -73.646517,
+  "active": "Y"
+ },
+ "23614": {
+  "name": "GLENWOOD___5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.828214,
+  "lon": -73.646517,
+  "active": "Y"
+ },
+ "23712": {
+  "name": "GLENWOOD_IC_1_G5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831741,
+  "lon": -73.647631,
+  "active": "Y"
+ },
+ "23688": {
+  "name": "GLENWOOD_IC_2_G1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831741,
+  "lon": -73.647631,
+  "active": "Y"
+ },
+ "23689": {
+  "name": "GLENWOOD_IC_3_G1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831741,
+  "lon": -73.647631,
+  "active": "Y"
+ },
+ "23814": {
+  "name": "GLOBAL GREEN_PORT_GT1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 41.048885,
+  "lon": -72.469556,
+  "active": "Y"
+ },
+ "323697": {
+  "name": "GLOBE___DSASP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "323567": {
+  "name": "GOETHSLN___LBMP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.616982,
+  "lon": -74.195989,
+  "active": "Y"
+ },
+ "323669": {
+  "name": "GOODYEAR_LAKE_HYD",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.501842,
+  "lon": -74.98318,
+  "active": "Y"
+ },
+ "23579": {
+  "name": "GOUDEY___7",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.111776,
+  "lon": -75.976089,
+  "active": "Y"
+ },
+ "23580": {
+  "name": "GOUDEY___8",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.111776,
+  "lon": -75.976089,
+  "active": "Y"
+ },
+ "345031": {
+  "name": "GOUDEY_115_KV_TB6_REV_LBMP_C",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.111776,
+  "lon": -75.976089,
+  "active": "Y"
+ },
+ "24077": {
+  "name": "GOWANUS_GT1_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24078": {
+  "name": "GOWANUS_GT1_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24079": {
+  "name": "GOWANUS_GT1_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24080": {
+  "name": "GOWANUS_GT1_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24084": {
+  "name": "GOWANUS_GT1_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24111": {
+  "name": "GOWANUS_GT1_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24112": {
+  "name": "GOWANUS_GT1_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24113": {
+  "name": "GOWANUS_GT1_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24114": {
+  "name": "GOWANUS_GT2_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24115": {
+  "name": "GOWANUS_GT2_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24116": {
+  "name": "GOWANUS_GT2_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24117": {
+  "name": "GOWANUS_GT2_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24118": {
+  "name": "GOWANUS_GT2_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24119": {
+  "name": "GOWANUS_GT2_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24120": {
+  "name": "GOWANUS_GT2_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24121": {
+  "name": "GOWANUS_GT2_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24122": {
+  "name": "GOWANUS_GT3_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24123": {
+  "name": "GOWANUS_GT3_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24124": {
+  "name": "GOWANUS_GT3_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24125": {
+  "name": "GOWANUS_GT3_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24126": {
+  "name": "GOWANUS_GT3_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24127": {
+  "name": "GOWANUS_GT3_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24128": {
+  "name": "GOWANUS_GT3_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24129": {
+  "name": "GOWANUS_GT3_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6621,
+  "lon": -74.0023,
+  "active": "Y"
+ },
+ "24130": {
+  "name": "GOWANUS_GT4_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24131": {
+  "name": "GOWANUS_GT4_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24132": {
+  "name": "GOWANUS_GT4_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24133": {
+  "name": "GOWANUS_GT4_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24134": {
+  "name": "GOWANUS_GT4_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24135": {
+  "name": "GOWANUS_GT4_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24136": {
+  "name": "GOWANUS_GT4_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "24137": {
+  "name": "GOWANUS_GT4_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.6622,
+  "lon": -74.0024,
+  "active": "Y"
+ },
+ "23582": {
+  "name": "GREENIDGE___3",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.678924,
+  "lon": -76.951213,
+  "active": "Y"
+ },
+ "23583": {
+  "name": "GREENIDGE___4",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.678924,
+  "lon": -76.951213,
+  "active": "Y"
+ },
+ "345004": {
+  "name": "GREENWD_138_KV_38B11_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "323602": {
+  "name": "GROVEVILLE___HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.529097,
+  "lon": -73.916351,
+  "active": "Y"
+ },
+ "323593": {
+  "name": "HAMPSHIRE___PAPER_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.210954,
+  "lon": -75.05862,
+  "active": "Y"
+ },
+ "323673": {
+  "name": "HARDSCRABBLE_WT_PWR",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.062558,
+  "lon": -74.899372,
+  "active": "Y"
+ },
+ "345025": {
+  "name": "HARRIMAN_69_KV_BK771_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.316449,
+  "lon": -74.144342,
+  "active": "Y"
+ },
+ "24016": {
+  "name": "HARZA MOOSE___RIVER",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.618165,
+  "lon": -75.306504,
+  "active": "Y"
+ },
+ "345018": {
+  "name": "HELLGT_W_13_KV_BRUCKNER_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.79932,
+  "lon": -73.909679,
+  "active": "Y"
+ },
+ "23647": {
+  "name": "HEMPSTEAD____",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.725252,
+  "lon": -73.632026,
+  "active": "Y"
+ },
+ "23621": {
+  "name": "HICKLING___1",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.123734,
+  "lon": -76.982933,
+  "active": "Y"
+ },
+ "23622": {
+  "name": "HICKLING___2",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.123734,
+  "lon": -76.982933,
+  "active": "Y"
+ },
+ "23754": {
+  "name": "HIGH FALLS___HY",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.828793,
+  "lon": -74.131901,
+  "active": "Y"
+ },
+ "23639": {
+  "name": "HILLBURN___GT",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.126873,
+  "lon": -74.164874,
+  "active": "Y"
+ },
+ "323625": {
+  "name": "HISHELDN_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.767207,
+  "lon": -78.419186,
+  "active": "Y"
+ },
+ "23690": {
+  "name": "HOLTSVILLE_IC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063987,
+  "active": "Y"
+ },
+ "23699": {
+  "name": "HOLTSVILLE_IC_10",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063988,
+  "active": "Y"
+ },
+ "23691": {
+  "name": "HOLTSVILLE_IC_2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063987,
+  "active": "Y"
+ },
+ "23692": {
+  "name": "HOLTSVILLE_IC_3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063987,
+  "active": "Y"
+ },
+ "23693": {
+  "name": "HOLTSVILLE_IC_4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063987,
+  "active": "Y"
+ },
+ "23694": {
+  "name": "HOLTSVILLE_IC_5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063987,
+  "active": "Y"
+ },
+ "23695": {
+  "name": "HOLTSVILLE_IC_6",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063988,
+  "active": "Y"
+ },
+ "23696": {
+  "name": "HOLTSVILLE_IC_7",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063988,
+  "active": "Y"
+ },
+ "23697": {
+  "name": "HOLTSVILLE_IC_8",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063988,
+  "active": "Y"
+ },
+ "23698": {
+  "name": "HOLTSVILLE_IC_9",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.817198,
+  "lon": -73.063988,
+  "active": "Y"
+ },
+ "323690": {
+  "name": "HOWARD_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.304882,
+  "lon": -77.555244,
+  "active": "Y"
+ },
+ "23644": {
+  "name": "HQ_GEN_CEDARS",
+  "zone": "NORTH",
+  "subzone": "NMPC NORTH",
+  "lat": 44.955078,
+  "lon": -74.861677,
+  "active": "Y"
+ },
+ "24168": {
+  "name": "HUDSON_AVE_10",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.703833,
+  "lon": -73.981228,
+  "active": "Y"
+ },
+ "23810": {
+  "name": "HUDSON AVE_GT_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "23540": {
+  "name": "HUDSON AVE_GT_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "23657": {
+  "name": "HUDSON AVE_GT_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.705005,
+  "lon": -73.984312,
+  "active": "Y"
+ },
+ "323613": {
+  "name": "HUNTER MOUNT___DRP",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 42.234265,
+  "lon": -73.868034,
+  "active": "Y"
+ },
+ "323705": {
+  "name": "HUNTINGTON_RES_REC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.881949,
+  "lon": -73.291327,
+  "active": "Y"
+ },
+ "23557": {
+  "name": "HUNTLEY___63",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "23558": {
+  "name": "HUNTLEY___64",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "23559": {
+  "name": "HUNTLEY___65",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "23560": {
+  "name": "HUNTLEY___66",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "23561": {
+  "name": "HUNTLEY___67",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "23562": {
+  "name": "HUNTLEY___68",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "323620": {
+  "name": "HYLAND___LFGE",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 42.286128,
+  "lon": -78.012971,
+  "active": "Y"
+ },
+ "23802": {
+  "name": "INDECK___CORINTH",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.248624,
+  "lon": -73.819531,
+  "active": "Y"
+ },
+ "23567": {
+  "name": "INDECK___ILION",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.063328,
+  "lon": -75.056977,
+  "active": "Y"
+ },
+ "23982": {
+  "name": "INDECK___OLEAN",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.089498,
+  "lon": -78.457328,
+  "active": "Y"
+ },
+ "23783": {
+  "name": "INDECK___OSWEGO",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.471623,
+  "lon": -76.49314,
+  "active": "Y"
+ },
+ "23781": {
+  "name": "INDECK___YERKES",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "24139": {
+  "name": "INDIAN POINT_GT_1",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.264309,
+  "lon": -73.949255,
+  "active": "Y"
+ },
+ "23659": {
+  "name": "INDIAN POINT_GT_2",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.264309,
+  "lon": -73.949255,
+  "active": "Y"
+ },
+ "24019": {
+  "name": "INDIAN POINT_GT_3",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.264309,
+  "lon": -73.949255,
+  "active": "Y"
+ },
+ "23530": {
+  "name": "INDIAN POINT___2",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.263941,
+  "lon": -73.947615,
+  "active": "Y"
+ },
+ "23531": {
+  "name": "INDIAN POINT___3",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.269758,
+  "lon": -73.952179,
+  "active": "Y"
+ },
+ "23804": {
+  "name": "IP___TICONDEROGA",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.845279,
+  "lon": -73.445886,
+  "active": "Y"
+ },
+ "23988": {
+  "name": "IP CORINTH___1",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.234846,
+  "lon": -73.752935,
+  "active": "Y"
+ },
+ "323679": {
+  "name": "ISLIP_RES_REC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.784928,
+  "lon": -73.114985,
+  "active": "Y"
+ },
+ "23743": {
+  "name": "JARVIS____",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.275177,
+  "lon": -75.157241,
+  "active": "Y"
+ },
+ "23625": {
+  "name": "JENNISON___1",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.275591,
+  "lon": -75.47837,
+  "active": "Y"
+ },
+ "23626": {
+  "name": "JENNISON___2",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.275591,
+  "lon": -75.47837,
+  "active": "Y"
+ },
+ "323719": {
+  "name": "JERICHO_RISE_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.889084,
+  "lon": -74.118278,
+  "active": "Y"
+ },
+ "323755": {
+  "name": "KCE_NY_1",
+  "zone": "CAPITL",
+  "subzone": "NYSEG CAPITAL",
+  "lat": 42.962658,
+  "lon": -73.746439,
+  "active": "Y"
+ },
+ "24219": {
+  "name": "KEDC_GLWD_GT4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831741,
+  "lon": -73.647631,
+  "active": "Y"
+ },
+ "24220": {
+  "name": "KEDC_GLWD_GT5",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.831741,
+  "lon": -73.647631,
+  "active": "Y"
+ },
+ "24210": {
+  "name": "KEDC PORT_JEFF_GT2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.948399,
+  "lon": -73.082874,
+  "active": "Y"
+ },
+ "24211": {
+  "name": "KEDC PORT_JEFF_GT3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.948399,
+  "lon": -73.082874,
+  "active": "Y"
+ },
+ "23655": {
+  "name": "KENSICO____",
+  "zone": "DUNWOD",
+  "subzone": "CON ED DUNWOODIE",
+  "lat": 41.077018,
+  "lon": -73.831967,
+  "active": "Y"
+ },
+ "345021": {
+  "name": "KERHONKS_69_KV_TR1_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.764494,
+  "lon": -74.298579,
+  "active": "Y"
+ },
+ "23541": {
+  "name": "KIAC_JFK_AIRPORT",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66071,
+  "lon": -73.817446,
+  "active": "Y"
+ },
+ "23816": {
+  "name": "KIAC_JFK_GT1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66071,
+  "lon": -73.817446,
+  "active": "Y"
+ },
+ "23817": {
+  "name": "KIAC_JFK_GT2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66071,
+  "lon": -73.817446,
+  "active": "Y"
+ },
+ "323774": {
+  "name": "KIAC_JFK____",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66071,
+  "lon": -73.817446,
+  "active": "Y"
+ },
+ "23543": {
+  "name": "KINTIGH____",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 43.352724,
+  "lon": -78.609027,
+  "active": "Y"
+ },
+ "323717": {
+  "name": "LACHUTE___HYDRO",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 44.1129,
+  "lon": -73.7709,
+  "active": "Y"
+ },
+ "23769": {
+  "name": "LEDERLE____",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.07017,
+  "lon": -74.024535,
+  "active": "Y"
+ },
+ "23786": {
+  "name": "LINDEN COGEN____",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.63039,
+  "lon": -74.214411,
+  "active": "Y"
+ },
+ "23656": {
+  "name": "LIPA_MISC_IPP",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.855569,
+  "lon": -72.849338,
+  "active": "Y"
+ },
+ "323691": {
+  "name": "LISF___SOLAR",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.855569,
+  "lon": -72.849338,
+  "active": "Y"
+ },
+ "24013": {
+  "name": "LITTLE FALLS___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.059,
+  "lon": -74.764,
+  "active": "Y"
+ },
+ "323616": {
+  "name": "LI_NEWBRDGE___DRP",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.732535,
+  "lon": -73.540966,
+  "active": "Y"
+ },
+ "323769": {
+  "name": "LOCKPORT___CC1",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 43.16182,
+  "lon": -78.738675,
+  "active": "Y"
+ },
+ "323770": {
+  "name": "LOCKPORT___CC2",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 43.16182,
+  "lon": -78.738675,
+  "active": "Y"
+ },
+ "323771": {
+  "name": "LOCKPORT___CC3",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 43.16182,
+  "lon": -78.738675,
+  "active": "Y"
+ },
+ "24014": {
+  "name": "LONG_LAKE_PHOENIX",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.377307,
+  "lon": -76.432304,
+  "active": "Y"
+ },
+ "23632": {
+  "name": "LOVETT___3",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.256911,
+  "lon": -73.980685,
+  "active": "Y"
+ },
+ "23642": {
+  "name": "LOVETT___4",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.256911,
+  "lon": -73.980685,
+  "active": "Y"
+ },
+ "23593": {
+  "name": "LOVETT___5",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.256911,
+  "lon": -73.980685,
+  "active": "Y"
+ },
+ "24059": {
+  "name": "LOWER___HUDSON",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.787293,
+  "lon": -73.636904,
+  "active": "Y"
+ },
+ "24057": {
+  "name": "LOWER RAQUET___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.6184,
+  "lon": -74.975749,
+  "active": "Y"
+ },
+ "23850": {
+  "name": "LWR___OSWEGATCHIE_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.210954,
+  "lon": -75.05862,
+  "active": "Y"
+ },
+ "23570": {
+  "name": "LYONS_FALL_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.618165,
+  "lon": -75.306504,
+  "active": "Y"
+ },
+ "323628": {
+  "name": "MADISON___COUNTY_LFGE",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.101984,
+  "lon": -75.631405,
+  "active": "Y"
+ },
+ "323574": {
+  "name": "MAPLE_RIDGE_WT_1",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.765487,
+  "lon": -75.349286,
+  "active": "Y"
+ },
+ "323611": {
+  "name": "MAPLE_RIDGE_WT_2",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.765487,
+  "lon": -75.349286,
+  "active": "Y"
+ },
+ "323696": {
+  "name": "MARBLE_RIVER_WT_PWR",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 44.891996,
+  "lon": -73.942841,
+  "active": "Y"
+ },
+ "323713": {
+  "name": "MARSH_HILL_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.307518,
+  "lon": -77.657265,
+  "active": "Y"
+ },
+ "24185": {
+  "name": "MG INDUSTRY___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.575123,
+  "lon": -73.861476,
+  "active": "Y"
+ },
+ "23849": {
+  "name": "MID___OSWEGATCHIE_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.210954,
+  "lon": -75.05862,
+  "active": "Y"
+ },
+ "23851": {
+  "name": "MID___RAQUETTE_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.6184,
+  "lon": -74.975749,
+  "active": "Y"
+ },
+ "23584": {
+  "name": "MILLIKEN___1",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.602627,
+  "lon": -76.6329,
+  "active": "Y"
+ },
+ "23585": {
+  "name": "MILLIKEN___2",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.602627,
+  "lon": -76.6329,
+  "active": "Y"
+ },
+ "23629": {
+  "name": "MILLIKEN___DIESEL",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.602627,
+  "lon": -76.6329,
+  "active": "Y"
+ },
+ "323607": {
+  "name": "MILLSEAT___LFGE",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 43.062886,
+  "lon": -78.27835,
+  "active": "Y"
+ },
+ "345005": {
+  "name": "MILLWOOD_138_KV_38W41_REV_LBMP_H",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.192378,
+  "lon": -73.800577,
+  "active": "Y"
+ },
+ "24167": {
+  "name": "MODEL_CITY_ENERGY",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.14265,
+  "lon": -78.84141,
+  "active": "Y"
+ },
+ "323580": {
+  "name": "MODERN_LFGE__",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.14265,
+  "lon": -78.84141,
+  "active": "Y"
+ },
+ "24187": {
+  "name": "MOHAWK_PAPER___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.745576,
+  "lon": -73.708692,
+  "active": "Y"
+ },
+ "23641": {
+  "name": "MONGAUP___HYD",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.532771,
+  "lon": -74.763737,
+  "active": "Y"
+ },
+ "23721": {
+  "name": "MONTAUK___DIESEL",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.936655,
+  "lon": -72.373212,
+  "active": "Y"
+ },
+ "345006": {
+  "name": "MOTTHAVN_138_KV_9M4_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.808021,
+  "lon": -73.906516,
+  "active": "Y"
+ },
+ "323609": {
+  "name": "MUNSVILLE_WIND_PWR",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.72814,
+  "lon": -75.471958,
+  "active": "Y"
+ },
+ "24042": {
+  "name": "N SALMON___HYD",
+  "zone": "NORTH",
+  "subzone": "NMPC NORTH",
+  "lat": 44.829168,
+  "lon": -74.292445,
+  "active": "Y"
+ },
+ "345014": {
+  "name": "N.HEMPST_138_KV_BK345_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.151299,
+  "lon": -74.028119,
+  "active": "Y"
+ },
+ "24228": {
+  "name": "NARROWS_GT1_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24229": {
+  "name": "NARROWS_GT1_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24230": {
+  "name": "NARROWS_GT1_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24231": {
+  "name": "NARROWS_GT1_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24232": {
+  "name": "NARROWS_GT1_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24233": {
+  "name": "NARROWS_GT1_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24234": {
+  "name": "NARROWS_GT1_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24235": {
+  "name": "NARROWS_GT1_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24236": {
+  "name": "NARROWS_GT2_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24237": {
+  "name": "NARROWS_GT2_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24238": {
+  "name": "NARROWS_GT2_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24239": {
+  "name": "NARROWS_GT2_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24240": {
+  "name": "NARROWS_GT2_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24241": {
+  "name": "NARROWS_GT2_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24242": {
+  "name": "NARROWS_GT2_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "24243": {
+  "name": "NARROWS_GT2_8",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ },
+ "345022": {
+  "name": "NCATSKLL_69_KV_NC-LINE_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 42.234265,
+  "lon": -73.868034,
+  "active": "Y"
+ },
+ "23528": {
+  "name": "NEG_PENN_ALLEGHNY",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.084511,
+  "lon": -75.815781,
+  "active": "Y"
+ },
+ "24207": {
+  "name": "NEG___GEN_MONROE",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 42.970859,
+  "lon": -77.714831,
+  "active": "Y"
+ },
+ "23645": {
+  "name": "NEG CAPITAL___MECHNVIL",
+  "zone": "CAPITL",
+  "subzone": "NYSEG CAPITAL",
+  "lat": 42.9241,
+  "lon": -73.6831,
+  "active": "Y"
+ },
+ "23767": {
+  "name": "NEG CENTRAL_HIGH_ACRES",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 43.07294,
+  "lon": -77.289917,
+  "active": "Y"
+ },
+ "24199": {
+  "name": "NEG CENTRAL___DRP",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.936142,
+  "lon": -76.769691,
+  "active": "Y"
+ },
+ "23768": {
+  "name": "NEG CENTRAL___INDECK",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.701493,
+  "lon": -77.996815,
+  "active": "Y"
+ },
+ "23627": {
+  "name": "NEG CENTRAL___SENECA",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.879416,
+  "lon": -76.953155,
+  "active": "Y"
+ },
+ "24147": {
+  "name": "NEG CENTRAL___STATE_STREET",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.953704,
+  "lon": -76.573474,
+  "active": "Y"
+ },
+ "24198": {
+  "name": "NEG MILLWOOD___DRP",
+  "zone": "MILLWD",
+  "subzone": "NYSEG MILLWOOD",
+  "lat": 41.571814,
+  "lon": -73.598945,
+  "active": "Y"
+ },
+ "23793": {
+  "name": "NEG NORTH_FLCN_SEA",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.709583,
+  "lon": -73.454129,
+  "active": "Y"
+ },
+ "23792": {
+  "name": "NEG NORTH_KES_CHATEGAY",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.89345,
+  "lon": -74.073266,
+  "active": "Y"
+ },
+ "23915": {
+  "name": "NEG NORTH___ALICE_FALLS",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.703599,
+  "lon": -73.59581,
+  "active": "Y"
+ },
+ "23913": {
+  "name": "NEG NORTH___LWR_SARANAC",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.703599,
+  "lon": -73.59581,
+  "active": "Y"
+ },
+ "23628": {
+  "name": "NEG NORTH___PLATTSBURG",
+  "zone": "NORTH",
+  "subzone": "NYSEG NORTH",
+  "lat": 44.703599,
+  "lon": -73.59581,
+  "active": "Y"
+ },
+ "23791": {
+  "name": "NEG WEST_LEA_LOCKPORT",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 43.16182,
+  "lon": -78.738675,
+  "active": "Y"
+ },
+ "23811": {
+  "name": "NEG WEST___LANCASTR",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 42.832062,
+  "lon": -78.58132,
+  "active": "Y"
+ },
+ "23901": {
+  "name": "NEPA___ENERGY",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.196667,
+  "lon": -79.76006,
+  "active": "Y"
+ },
+ "23608": {
+  "name": "NEVERSINK___HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.820504,
+  "lon": -74.637282,
+  "active": "Y"
+ },
+ "23847": {
+  "name": "NEWTON___FALLS_HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.210954,
+  "lon": -75.05862,
+  "active": "Y"
+ },
+ "323715": {
+  "name": "NIAGARA_115E_LBMP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "323714": {
+  "name": "NIAGARA_115W_LBMP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "323716": {
+  "name": "NIAGARA_230_LBMP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "23760": {
+  "name": "NIAGARA____",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "23575": {
+  "name": "NINE_MILE_1",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.519763,
+  "lon": -76.410197,
+  "active": "Y"
+ },
+ "23744": {
+  "name": "NINE_MILE_2",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.513564,
+  "lon": -76.407047,
+  "active": "Y"
+ },
+ "24208": {
+  "name": "NM_CAPITAL___DRP",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.669628,
+  "lon": -73.73923,
+  "active": "Y"
+ },
+ "24181": {
+  "name": "NM_CENTRAL___DRP",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.088863,
+  "lon": -76.12311,
+  "active": "Y"
+ },
+ "24179": {
+  "name": "NM_FRONTIER___DRP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.139907,
+  "lon": -79.027546,
+  "active": "Y"
+ },
+ "24053": {
+  "name": "NM_ST_REGIS___HYD",
+  "zone": "NORTH",
+  "subzone": "NMPC NORTH",
+  "lat": 44.627596,
+  "lon": -74.815518,
+  "active": "Y"
+ },
+ "23551": {
+  "name": "NORTHPORT___1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.88294,
+  "lon": -73.292579,
+  "active": "Y"
+ },
+ "23552": {
+  "name": "NORTHPORT___2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.88294,
+  "lon": -73.292579,
+  "active": "Y"
+ },
+ "23553": {
+  "name": "NORTHPORT___3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.88294,
+  "lon": -73.292579,
+  "active": "Y"
+ },
+ "23650": {
+  "name": "NORTHPORT___4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.88294,
+  "lon": -73.292579,
+  "active": "Y"
+ },
+ "23718": {
+  "name": "NORTHPORT___IC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.88294,
+  "lon": -73.292579,
+  "active": "Y"
+ },
+ "23858": {
+  "name": "NSINS_S._GLNS_FALLS",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.258334,
+  "lon": -73.66119,
+  "active": "Y"
+ },
+ "24197": {
+  "name": "NUCOR_STEEL___DRP",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.953704,
+  "lon": -76.573474,
+  "active": "Y"
+ },
+ "24008": {
+  "name": "NYISO_LBMP_REFERENCE",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.178744,
+  "lon": -75.222666,
+  "active": "Y"
+ },
+ "323568": {
+  "name": "NYPA___ASTORIA_CC1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "323569": {
+  "name": "NYPA___ASTORIA_CC2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.787725,
+  "lon": -73.908745,
+  "active": "Y"
+ },
+ "23794": {
+  "name": "NYPA___HOLTSVILL",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.816093,
+  "lon": -73.068343,
+  "active": "Y"
+ },
+ "24158": {
+  "name": "NYPA_____HELLGATE_GT1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.79932,
+  "lon": -73.909679,
+  "active": "Y"
+ },
+ "24159": {
+  "name": "NYPA_____HELLGATE_GT2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.79932,
+  "lon": -73.909679,
+  "active": "Y"
+ },
+ "24164": {
+  "name": "NYPA_BRENTWD_____GT",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.787453,
+  "lon": -73.294752,
+  "active": "Y"
+ },
+ "24156": {
+  "name": "NYPA_GOWANUS_____GT5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66207,
+  "lon": -74.002249,
+  "active": "Y"
+ },
+ "24157": {
+  "name": "NYPA_GOWANUS_____GT6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.66207,
+  "lon": -74.002249,
+  "active": "Y"
+ },
+ "24160": {
+  "name": "NYPA_HARLEM__RVR__GT1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.79932,
+  "lon": -73.909679,
+  "active": "Y"
+ },
+ "24161": {
+  "name": "NYPA_HARLEM__RVR__GT2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.79932,
+  "lon": -73.909679,
+  "active": "Y"
+ },
+ "24152": {
+  "name": "NYPA_KENT_____GT",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.714802,
+  "lon": -73.967716,
+  "active": "Y"
+ },
+ "24155": {
+  "name": "NYPA_POUCH1_____GT",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.610555,
+  "lon": -74.077537,
+  "active": "Y"
+ },
+ "24162": {
+  "name": "NYPA_VERNON_____GT2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "24163": {
+  "name": "NYPA_VERNON_____GT3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "23848": {
+  "name": "NYS_BARGE___HYD",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.147357,
+  "lon": -78.719628,
+  "active": "Y"
+ },
+ "24046": {
+  "name": "OAK ORCHARD___HYD",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 43.098892,
+  "lon": -77.647743,
+  "active": "Y"
+ },
+ "24175": {
+  "name": "OCC_CHEM___DRP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "24177": {
+  "name": "OLIN_CORP_DRP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "323712": {
+  "name": "OLIN_CORP_DSASP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007148,
+  "active": "Y"
+ },
+ "323681": {
+  "name": "ONEIDA_HERK_LFGE",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.417623,
+  "lon": -75.40457,
+  "active": "Y"
+ },
+ "23987": {
+  "name": "ONONDAGA_REF_OCCRA",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.004868,
+  "lon": -76.114445,
+  "active": "Y"
+ },
+ "23986": {
+  "name": "ONONDAGA___COGEN",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "23819": {
+  "name": "ONTARIO___LFGE",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.879416,
+  "lon": -76.953155,
+  "active": "Y"
+ },
+ "323706": {
+  "name": "ORANGEVILLE_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.73312,
+  "lon": -78.130143,
+  "active": "Y"
+ },
+ "24044": {
+  "name": "OSWEGATCHIE___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.210954,
+  "lon": -75.05862,
+  "active": "Y"
+ },
+ "23606": {
+  "name": "OSWEGO___5",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.454863,
+  "lon": -76.531583,
+  "active": "Y"
+ },
+ "23613": {
+  "name": "OSWEGO___6",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.454863,
+  "lon": -76.531583,
+  "active": "Y"
+ },
+ "24206": {
+  "name": "OUTOKUMPU-AB___DRP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.972532,
+  "lon": -78.933756,
+  "active": "Y"
+ },
+ "323836": {
+  "name": "OXBOW___BTM",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.0486,
+  "lon": -78.854273,
+  "active": "Y"
+ },
+ "24026": {
+  "name": "OXBOW____",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.0486,
+  "lon": -78.854273,
+  "active": "Y"
+ },
+ "323612": {
+  "name": "OXY_CHEM_DSASP",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "345013": {
+  "name": "PACKARD_115_KV_ADAMS_187_REV_LBMP_A",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 43.09846,
+  "lon": -79.007149,
+  "active": "Y"
+ },
+ "345019": {
+  "name": "PARKCHTR_13_KV_CPCTY_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.842377,
+  "lon": -73.864507,
+  "active": "Y"
+ },
+ "345007": {
+  "name": "PARKCHTR_138_KV_TB2S_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.842377,
+  "lon": -73.864507,
+  "active": "Y"
+ },
+ "345030": {
+  "name": "PAVMNTRD_115_KV_BK1_REV_LBMP_A",
+  "zone": "WEST",
+  "subzone": "NYSEG WEST",
+  "lat": 42.918914,
+  "lon": -78.620593,
+  "active": "Y"
+ },
+ "345028": {
+  "name": "PAWLING_115_KV_BK3_REV_LBMP_H",
+  "zone": "MILLWD",
+  "subzone": "NYSEG MILLWOOD",
+  "lat": 41.571814,
+  "lon": -73.598945,
+  "active": "Y"
+ },
+ "23653": {
+  "name": "PEEKSKILL____",
+  "zone": "MILLWD",
+  "subzone": "CON ED MILLWOOD",
+  "lat": 41.264309,
+  "lon": -73.949255,
+  "active": "Y"
+ },
+ "24146": {
+  "name": "PGE MADISON___WINDPWR",
+  "zone": "MHK VL",
+  "subzone": "NYSEG MOHAWK VLY",
+  "lat": 42.72814,
+  "lon": -75.471958,
+  "active": "Y"
+ },
+ "23852": {
+  "name": "PIERCEFIELD___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.6184,
+  "lon": -74.975749,
+  "active": "Y"
+ },
+ "323563": {
+  "name": "PINELAWN_CC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.73589,
+  "lon": -73.387823,
+  "active": "Y"
+ },
+ "24000": {
+  "name": "PLEASANTVLY___LBMP",
+  "zone": "HUD VL",
+  "subzone": "CON ED HUDSON VLY",
+  "lat": 41.739519,
+  "lon": -73.834827,
+  "active": "Y"
+ },
+ "345020": {
+  "name": "PLSNTVLE_13_KV_13KVDISA_REV_LBMP_I",
+  "zone": "DUNWOD",
+  "subzone": "CON ED DUNWOODIE",
+  "lat": 41.142036,
+  "lon": -73.782007,
+  "active": "Y"
+ },
+ "345023": {
+  "name": "PLSTVYCH_69_KV_RQ-3_RG2_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.73952,
+  "lon": -73.83483,
+  "active": "Y"
+ },
+ "23519": {
+  "name": "POLETTI____",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.781963,
+  "lon": -73.906096,
+  "active": "Y"
+ },
+ "23555": {
+  "name": "PORT_JEFF_3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.948399,
+  "lon": -73.082874,
+  "active": "Y"
+ },
+ "23616": {
+  "name": "PORT_JEFF_4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.948399,
+  "lon": -73.082874,
+  "active": "Y"
+ },
+ "23713": {
+  "name": "PORT_JEFF_IC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.948399,
+  "lon": -73.082874,
+  "active": "Y"
+ },
+ "24213": {
+  "name": "PPL_SHRM_GT3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.958228,
+  "lon": -72.866146,
+  "active": "Y"
+ },
+ "24214": {
+  "name": "PPL_SHRM_GT4",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.958228,
+  "lon": -72.866146,
+  "active": "Y"
+ },
+ "24216": {
+  "name": "PPL PILGRIM_ST_GT1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.787453,
+  "lon": -73.294752,
+  "active": "Y"
+ },
+ "24217": {
+  "name": "PPL PILGRIM_ST_GT2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.787453,
+  "lon": -73.294752,
+  "active": "Y"
+ },
+ "23990": {
+  "name": "PROJECT___ORANGE",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.039775,
+  "lon": -76.152401,
+  "active": "Y"
+ },
+ "24174": {
+  "name": "PROJECT___ORANGE 1",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.039775,
+  "lon": -76.152401,
+  "active": "Y"
+ },
+ "24166": {
+  "name": "PROJECT___ORANGE 2",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.039775,
+  "lon": -76.152401,
+  "active": "Y"
+ },
+ "24023": {
+  "name": "PYRITES___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.51949,
+  "lon": -75.186594,
+  "active": "Y"
+ },
+ "323565": {
+  "name": "RAMAPO___LBMP",
+  "zone": "HUD VL",
+  "subzone": "CON ED HUDSON VLY",
+  "lat": 41.149986,
+  "lon": -74.155854,
+  "active": "Y"
+ },
+ "23646": {
+  "name": "RANKINE____",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.852295,
+  "lon": -78.771766,
+  "active": "Y"
+ },
+ "23729": {
+  "name": "RAVENSWOOD_GT_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "24258": {
+  "name": "RAVENSWOOD_GT_10",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24259": {
+  "name": "RAVENSWOOD_GT_11",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24252": {
+  "name": "RAVENSWOOD_GT_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24254": {
+  "name": "RAVENSWOOD_GT_5",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24253": {
+  "name": "RAVENSWOOD_GT_6",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24255": {
+  "name": "RAVENSWOOD_GT_7",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24256": {
+  "name": "RAVENSWOOD_GT_8  TEMP GRP(8-11)",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24257": {
+  "name": "RAVENSWOOD_GT_9",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24244": {
+  "name": "RAVENSWOOD_GT2_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24245": {
+  "name": "RAVENSWOOD_GT2_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24246": {
+  "name": "RAVENSWOOD_GT2_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24247": {
+  "name": "RAVENSWOOD_GT2_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24248": {
+  "name": "RAVENSWOOD_GT3_1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24249": {
+  "name": "RAVENSWOOD_GT3_2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24250": {
+  "name": "RAVENSWOOD_GT3_3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "24251": {
+  "name": "RAVENSWOOD_GT3_4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "23533": {
+  "name": "RAVENSWOOD___1",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "23534": {
+  "name": "RAVENSWOOD___2",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "23535": {
+  "name": "RAVENSWOOD___3",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.763619,
+  "lon": -73.943008,
+  "active": "Y"
+ },
+ "23820": {
+  "name": "RAVENSWOOD___4",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "24196": {
+  "name": "RCPI_TRUST___DRP",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.76612,
+  "lon": -73.99611,
+  "active": "Y"
+ },
+ "23796": {
+  "name": "RENSSELAER___COGEN",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.605978,
+  "lon": -73.714692,
+  "active": "Y"
+ },
+ "24186": {
+  "name": "REVERE_CPPR_DRP",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.217735,
+  "lon": -75.412619,
+  "active": "Y"
+ },
+ "323610": {
+  "name": "RIVERBAY____",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.842377,
+  "lon": -73.864507,
+  "active": "Y"
+ },
+ "23652": {
+  "name": "ROCHESTER_9_IC",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.151142,
+  "lon": -77.660615,
+  "active": "Y"
+ },
+ "23587": {
+  "name": "ROSETON___1",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.574939,
+  "lon": -73.97868,
+  "active": "Y"
+ },
+ "23588": {
+  "name": "ROSETON___2",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.574939,
+  "lon": -73.97868,
+  "active": "Y"
+ },
+ "23602": {
+  "name": "RUSSELL___1",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.198189,
+  "lon": -77.664933,
+  "active": "Y"
+ },
+ "23532": {
+  "name": "RUSSELL___2",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.198189,
+  "lon": -77.664933,
+  "active": "Y"
+ },
+ "23549": {
+  "name": "RUSSELL___3",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.198189,
+  "lon": -77.664933,
+  "active": "Y"
+ },
+ "23556": {
+  "name": "RUSSELL___4",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.198189,
+  "lon": -77.664933,
+  "active": "Y"
+ },
+ "23914": {
+  "name": "RUSSELL___STATION",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.198189,
+  "lon": -77.664933,
+  "active": "Y"
+ },
+ "24043": {
+  "name": "S SALMON___HYD",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.52338,
+  "lon": -75.971556,
+  "active": "Y"
+ },
+ "345024": {
+  "name": "SAWYER_23_KV_LOAD_REV_LBMP_A",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.97833,
+  "lon": -78.918283,
+  "active": "Y"
+ },
+ "23801": {
+  "name": "SELKIRK___I",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.575123,
+  "lon": -73.861476,
+  "active": "Y"
+ },
+ "23799": {
+  "name": "SELKIRK___II",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.575514,
+  "lon": -73.870168,
+  "active": "Y"
+ },
+ "23797": {
+  "name": "SENECA___ENERGY",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.936142,
+  "lon": -76.769691,
+  "active": "Y"
+ },
+ "24041": {
+  "name": "SENECA OSWGO___HYD",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.377307,
+  "lon": -76.432304,
+  "active": "Y"
+ },
+ "23640": {
+  "name": "SHOEMAKER___GT",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.428457,
+  "lon": -74.41758,
+  "active": "Y"
+ },
+ "23715": {
+  "name": "SHOREHAM_IC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.958228,
+  "lon": -72.866146,
+  "active": "Y"
+ },
+ "23716": {
+  "name": "SHOREHAM_IC_2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.958228,
+  "lon": -72.866146,
+  "active": "Y"
+ },
+ "23735": {
+  "name": "SISSONVILLE____",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.6184,
+  "lon": -74.975749,
+  "active": "Y"
+ },
+ "24169": {
+  "name": "SITHE_IND_GS1",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.49913,
+  "lon": -76.447077,
+  "active": "Y"
+ },
+ "24170": {
+  "name": "SITHE_IND_GS2",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.49913,
+  "lon": -76.447077,
+  "active": "Y"
+ },
+ "24171": {
+  "name": "SITHE_IND_GS3",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.49913,
+  "lon": -76.447077,
+  "active": "Y"
+ },
+ "24172": {
+  "name": "SITHE_IND_GS4",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.49913,
+  "lon": -76.447077,
+  "active": "Y"
+ },
+ "24024": {
+  "name": "SITHE___BATAVIA",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 42.982493,
+  "lon": -78.159298,
+  "active": "Y"
+ },
+ "23800": {
+  "name": "SITHE___INDEPEND",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.49913,
+  "lon": -76.447077,
+  "active": "Y"
+ },
+ "23902": {
+  "name": "SITHE___MASSENA",
+  "zone": "NORTH",
+  "subzone": "NMPC NORTH",
+  "lat": 44.939156,
+  "lon": -74.875032,
+  "active": "Y"
+ },
+ "24021": {
+  "name": "SITHE___OGDNSBRG",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.714009,
+  "lon": -75.440245,
+  "active": "Y"
+ },
+ "23777": {
+  "name": "SITHE___STERLING",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.101984,
+  "lon": -75.631405,
+  "active": "Y"
+ },
+ "23612": {
+  "name": "SOUTH CAIRO___GT",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 42.234265,
+  "lon": -73.868034,
+  "active": "Y"
+ },
+ "23720": {
+  "name": "SOUTH HAMPTN___IC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.892684,
+  "lon": -72.397712,
+  "active": "Y"
+ },
+ "23719": {
+  "name": "SOUTHOLD___IC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 41.048885,
+  "lon": -72.469556,
+  "active": "Y"
+ },
+ "23600": {
+  "name": "ST LAWRENCE____",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 45.004536,
+  "lon": -74.80478,
+  "active": "Y"
+ },
+ "23604": {
+  "name": "STATION 5_MISC_HYD",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.151142,
+  "lon": -77.660615,
+  "active": "Y"
+ },
+ "345032": {
+  "name": "STA_168_34_KV_BK1_2_REV_LBMP_B",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 42.966238,
+  "lon": -77.247249,
+  "active": "Y"
+ },
+ "345033": {
+  "name": "STA_56_34_KV_BUS2_REV_LBMP_B",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.088299,
+  "lon": -77.537183,
+  "active": "Y"
+ },
+ "323596": {
+  "name": "STEEL___WIND",
+  "zone": "WEST",
+  "subzone": "NMPC WEST",
+  "lat": 42.820763,
+  "lon": -78.838822,
+  "active": "Y"
+ },
+ "323667": {
+  "name": "STEUBEN_REC_LFGE",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.315919,
+  "lon": -77.271425,
+  "active": "Y"
+ },
+ "24151": {
+  "name": "STONY___BROOK",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.917685,
+  "lon": -73.129131,
+  "active": "Y"
+ },
+ "23609": {
+  "name": "STURGEON_POOL_HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.847838,
+  "lon": -74.046841,
+  "active": "Y"
+ },
+ "345037": {
+  "name": "ST_LAW_115_BK7_LBMP",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 45.004536,
+  "lon": -74.80478,
+  "active": "Y"
+ },
+ "345038": {
+  "name": "ST_LAW_115_BK8_LBMP",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 45.004536,
+  "lon": -74.80478,
+  "active": "Y"
+ },
+ "345036": {
+  "name": "ST_LAW_230_BK6_LBMP",
+  "zone": "NORTH",
+  "subzone": "NYPA NORTH",
+  "lat": 45.004536,
+  "lon": -74.80478,
+  "active": "Y"
+ },
+ "345026": {
+  "name": "SUGRLOAF_69_KV_LOAD_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.310648,
+  "lon": -74.26004,
+  "active": "Y"
+ },
+ "323694": {
+  "name": "SYNERGY___BIOGAS",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 42.982493,
+  "lon": -78.159298,
+  "active": "Y"
+ },
+ "323597": {
+  "name": "SYRACUSE___ENERGY_ST1",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "323598": {
+  "name": "SYRACUSE___ENERGY_ST2",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 43.063219,
+  "lon": -76.225507,
+  "active": "Y"
+ },
+ "24017": {
+  "name": "SYRACUSE___POWER",
+  "zone": "CENTRL",
+  "subzone": "NMPC CENTRAL",
+  "lat": 42.974155,
+  "lon": -76.121084,
+  "active": "Y"
+ },
+ "323695": {
+  "name": "TRIGEN___CC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.730425,
+  "lon": -73.610998,
+  "active": "Y"
+ },
+ "323587": {
+  "name": "UNION___PROCESSING_DRP",
+  "zone": "GENESE",
+  "subzone": "RG&amp;E GENESEE",
+  "lat": 43.098892,
+  "lon": -77.647743,
+  "active": "Y"
+ },
+ "24058": {
+  "name": "UPPER HUDSON___HYD",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.234846,
+  "lon": -73.752935,
+  "active": "Y"
+ },
+ "24056": {
+  "name": "UPPER RAQUET___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 44.6184,
+  "lon": -74.975749,
+  "active": "Y"
+ },
+ "345011": {
+  "name": "VINEGAR_115_KV_917_CH_LD_REV_LBMP_E",
+  "zone": "MHK VL",
+  "subzone": "CENT HUD MOHAWK VLY",
+  "lat": 42.403383,
+  "lon": -74.628517,
+  "active": "Y"
+ },
+ "24020": {
+  "name": "VISCHER___FERRY HYD",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 42.787293,
+  "lon": -73.636904,
+  "active": "Y"
+ },
+ "345027": {
+  "name": "W.NYACK_69_KV_BK 521_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.093159,
+  "lon": -73.963484,
+  "active": "Y"
+ },
+ "345008": {
+  "name": "W49TH_ST_138_KV_38M43_REV_LBMP_J",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.76612,
+  "lon": -73.99611,
+  "active": "Y"
+ },
+ "23522": {
+  "name": "WADING RIVER_IC_1",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.956178,
+  "lon": -72.877412,
+  "active": "Y"
+ },
+ "23547": {
+  "name": "WADING RIVER_IC_2",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.956178,
+  "lon": -72.877412,
+  "active": "Y"
+ },
+ "23601": {
+  "name": "WADING RIVER_IC_3",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.956178,
+  "lon": -72.877412,
+  "active": "Y"
+ },
+ "24148": {
+  "name": "WALDEN___HYDRO",
+  "zone": "HUD VL",
+  "subzone": "NYSEG HUDSON VLY",
+  "lat": 41.559047,
+  "lon": -74.194769,
+  "active": "Y"
+ },
+ "23737": {
+  "name": "WARRENSBURG____",
+  "zone": "CAPITL",
+  "subzone": "NMPC CAPITAL",
+  "lat": 43.234846,
+  "lon": -73.752935,
+  "active": "Y"
+ },
+ "23538": {
+  "name": "WATERSIDE___6 8 9",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.758433,
+  "lon": -73.947041,
+  "active": "Y"
+ },
+ "323627": {
+  "name": "WDELAWARE___HYD",
+  "zone": "HUD VL",
+  "subzone": "CENT HUD HUDSON VLY",
+  "lat": 41.843475,
+  "lon": -74.542943,
+  "active": "Y"
+ },
+ "23714": {
+  "name": "WEST BABYLON___IC",
+  "zone": "LONGIL",
+  "subzone": "LIPA LONG ISLAND",
+  "lat": 40.694855,
+  "lon": -73.35179,
+  "active": "Y"
+ },
+ "24049": {
+  "name": "WEST CANADA___HYD",
+  "zone": "MHK VL",
+  "subzone": "NMPC MOHAWK VLY",
+  "lat": 43.275177,
+  "lon": -75.157241,
+  "active": "Y"
+ },
+ "24143": {
+  "name": "WESTERN_NY_WIND",
+  "zone": "GENESE",
+  "subzone": "NMPC GENESEE",
+  "lat": 42.996199,
+  "lon": -78.193888,
+  "active": "Y"
+ },
+ "323668": {
+  "name": "WESTOVER___LESR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.111776,
+  "lon": -75.976089,
+  "active": "Y"
+ },
+ "323626": {
+  "name": "WETHRSFD_WT_PWR",
+  "zone": "CENTRL",
+  "subzone": "NYSEG CENTRAL",
+  "lat": 42.726633,
+  "lon": -78.191596,
+  "active": "Y"
+ },
+ "345015": {
+  "name": "WHAVSTOR_138_KV_BK127_REV_LBMP_G",
+  "zone": "HUD VL",
+  "subzone": "O&amp;R HUDSON VLY",
+  "lat": 41.203,
+  "lon": -73.9932,
+  "active": "Y"
+ },
+ "23770": {
+  "name": "YORK___WARBASSE",
+  "zone": "N.Y.C.",
+  "subzone": "CON ED NY CITY",
+  "lat": 40.659384,
+  "lon": -73.993715,
+  "active": "Y"
+ }
+}

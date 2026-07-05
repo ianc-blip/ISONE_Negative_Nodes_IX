@@ -23,7 +23,8 @@ reuses its ISO-NE pnode geocodes.
 | `output/backtest_report.txt` / `.json` | Difference-in-differences event study: volatility change per charger site + headline calibration |
 | `output/ev_node_ranking.txt` / `.json` | NYISO/ISO-NE zones ranked by planned DC-fast ports, with projected volatility uplift |
 | `output/ev_planned_chargers_map_YYYYMMDD.html` | Interactive Folium map: planned stations + zone bubbles sized by planned DCFC ports |
-| `output/nodal_dispersion.{json,txt,csv}` + `_chart.html` | Sub-zonal angle: ISO-NE cross-node congestion dispersion vs EV buildout over time |
+| `output/pnode_backtest_report.{json,txt}` | Pnode-level DiD: 237 openings, nearest node vs its zone, both ISOs |
+| `output/nodal_dispersion.{json,txt,csv}` + `_chart.html` | Supporting: ISO-NE cross-node congestion dispersion vs EV buildout over time |
 
 ---
 
@@ -131,27 +132,45 @@ significant**. Since the real backtest is null, the projection is gated off and 
 reads `n/s`; the ranking is presented as *where the infrastructure is*, not a price
 forecast. The Folium map layers stations (by ISO) over zone bubbles sized by DCFC ports.
 
-## Part 4 — pnode-level angle (nodal dispersion)
+## Part 4 — pnode-level charger event study (`pnode_backtest.py`)
 
-The zonal null could hide a *local* effect, so we looked below the zone. Two walls:
+The zonal null could hide a *local* effect, so we went below the zone. This needs node
+coordinates, which both ISOs actually publish:
 
-- **You can't cleanly map a charger to its pnode with public data.** ISO-NE prices ~1,150
-  network nodes, but public geocodes exist for only ~43 of them (rural negative-price
-  generator buses), so only **16 of 261** ISO-NE fast-charger sites fall within 25 km of a
-  priced+geolocated node. NYISO publishes no nodal geocodes at all. A rigorous
-  charger→node event study needs the utility's node-load mapping, which isn't public.
+- **NYISO** generator-node coords — `mis.nyiso.com/public/htm/generator/generator.htm`
+  → `seed_data/nyiso_gen_geocodes.json` (563 nodes) — join to the `damlbmp_gen` price file.
+- **ISO-NE** full pnode table (substation node list with lat/lon + Zone ID)
+  → `seed_data/isone_pnode_geocodes.json` (1,143 nodes) — join to `WW_DALMP_ISO` by node ID.
 
-So `nodal_dispersion.py` takes the angle that needs no charger geocoding: EV fast-charging
-is localized load, so if it matters it should widen the **spread between node prices**. It
-builds a monthly series (2022→present, sampled days) of the cross-node std of the
-**congestion component** of ISO-NE Day-Ahead LMP — the purely locational signal — and
-correlates it with real cumulative ISO-NE DC-fast ports.
+Each large-DCFC opening is snapped to the nearest priced node within 10 km; the node's
+Day-Ahead LBMP is the treated series and the charger's **own load zone** is the control.
+DiD = node %Δ − zone %Δ: if a charger moved its local node, the node should diverge from
+its zone. Coverage is good — **237 openings** land within 10 km of a priced node
+(95 NYISO, 142 ISO-NE).
 
-**Result (54 months): another null.** `r(dispersion, buildout) = +0.17`, while buildout is
-collinear with time (`r = +0.98`) and dispersion barely trends (`r_time = +0.11`) — so even
-that weak correlation is drift, not a charger effect. The series is dominated by
-winter/summer congestion seasonality. Nodal congestion dispersion does not track EV
-buildout.
+**Result: still null — this is the definitive test.**
+
+```
+node change net of its own zone   ALL (n=237)    NYISO (n=95)    ISO-NE (n=142)
+Node volatility (hourly std)    :  -3.6% (+0.1)   -7.9% (+0.3)    -0.7% (-0.1)
+Node daily price range          :  +0.8% ( 0.0)   +2.0% (+0.5)    -0.0% (-0.0)
+Node price level                :  -0.1% (-0.0)   -0.3% (+0.1)    -0.1% (-0.0)
+share of nodes where vol rose   :   52%            58%             48%
+```
+
+Every median is within ±0.5% of zero and volatility rose at 52% of nodes — a coin flip.
+The nearest *generator* node is a geographic proxy for the charger's load pnode (public
+data has no charger→pnode map), but at hundreds of nodes it is far finer than the zone,
+and it shows nothing.
+
+### Supporting check — nodal dispersion (`nodal_dispersion.py`)
+
+An independent angle that needs no charger geocoding: EV fast-charging is localized load,
+so it should widen the **spread between node prices**. We build a monthly series
+(2022→present) of the cross-node std of the ISO-NE **congestion component** and correlate
+it with cumulative DC-fast ports. `r = +0.17`, but buildout is collinear with time
+(`r = +0.98`) and dispersion barely trends (`r_time = +0.11`) — drift, not a charger
+effect. Dominated by winter/summer congestion seasonality. Same null.
 
 ---
 
@@ -161,9 +180,10 @@ buildout.
 ev_volatility/
 ├── run_pipeline.py          # orchestrator: NREL → backtest → rank → map
 ├── nrel_stations.py         # NREL Alt-Fuel-Stations fetch, parse, event/ranking views
-├── volatility_backtest.py   # DiD event study, both ISOs (vol + price)
-├── nodal_dispersion.py      # pnode-level angle: congestion dispersion vs buildout
-├── lmp_data.py              # NYISO + ISO-NE zonal price fetchers, cached
+├── volatility_backtest.py   # zonal DiD event study, both ISOs (vol + price)
+├── pnode_backtest.py        # pnode-level DiD: nearest node vs its zone, both ISOs
+├── nodal_dispersion.py      # supporting: congestion dispersion vs buildout
+├── lmp_data.py              # NYISO + ISO-NE zonal & nodal price fetchers, cached
 ├── plugshare_scraper.py     # token-gated PlugShare fallback + seed loader
 ├── node_ranking.py          # zone aggregation, calibration, Folium map
 ├── iso_regions.py           # bboxes, zone geocodes, geo + classification helpers
@@ -173,7 +193,9 @@ ev_volatility/
 │   ├── _generate_seed.py           # rebuilds the seed files (fixed RNG seed)
 │   ├── seed_ev_stations.json       # 75 representative sites
 │   ├── seed_charger_events.json    # fallback backtest events
-│   └── nrel_sample_payload.json    # NREL-shaped fixture for smoke_test.py
+│   ├── nrel_sample_payload.json    # NREL-shaped fixture for smoke_test.py
+│   ├── nyiso_gen_geocodes.json     # 563 NYISO generator-node coords (pnode study)
+│   └── isone_pnode_geocodes.json   # 1,143 ISO-NE pnode coords (pnode study)
 └── output/                  # reports + map land here
 ```
 

@@ -1,0 +1,6860 @@
+{
+ "46728": {
+  "name": "LD.2121A_T 34.5",
+  "zone": "ME",
+  "lat": 44.1392,
+  "lon": -69.0967
+ },
+ "4801": {
+  "name": "LD.5CORNRS 13.2T1 LD",
+  "zone": "WCMA",
+  "lat": 42.249705,
+  "lon": -72.535697
+ },
+ "4802": {
+  "name": "LD.5CORNRS 13.2T2 LD",
+  "zone": "WCMA",
+  "lat": 42.249705,
+  "lon": -72.535697
+ },
+ "4240": {
+  "name": "LD.ACUSHNET13.2",
+  "zone": "SEMA",
+  "lat": 41.670892,
+  "lon": -70.913653
+ },
+ "4310": {
+  "name": "LD.ADAMS   23",
+  "zone": "WCMA",
+  "lat": 42.654671,
+  "lon": -73.105972
+ },
+ "4302": {
+  "name": "LD.ADMIRAL 23",
+  "zone": "RI",
+  "lat": 41.841648,
+  "lon": -71.421239
+ },
+ "4519": {
+  "name": "LD.AGAWAM  13.8",
+  "zone": "WCMA",
+  "lat": 42.090607,
+  "lon": -72.635266
+ },
+ "4249": {
+  "name": "LD.ALEWIFE 13.8",
+  "zone": "NEMA",
+  "lat": 42.391567,
+  "lon": -71.143261
+ },
+ "4430": {
+  "name": "LD.ALLINGS 13.8",
+  "zone": "CT",
+  "lat": 41.267147,
+  "lon": -72.974009
+ },
+ "326": {
+  "name": "UN.ALTRESCO13.8ALTR",
+  "zone": "WCMA",
+  "lat": 42.45587,
+  "lon": -73.21809
+ },
+ "4207": {
+  "name": "LD.AMES_ST 13.8",
+  "zone": "SEMA",
+  "lat": 42.101401,
+  "lon": -71.016738
+ },
+ "4376": {
+  "name": "LD.AMHERST 34.5",
+  "zone": "NH",
+  "lat": 42.809003,
+  "lon": -71.592836
+ },
+ "4803": {
+  "name": "LD.AMHRST  13.8EAST LD",
+  "zone": "WCMA",
+  "lat": 42.373659,
+  "lon": -72.507484
+ },
+ "4804": {
+  "name": "LD.AMHRST  13.8WEST LD",
+  "zone": "WCMA",
+  "lat": 42.373659,
+  "lon": -72.507484
+ },
+ "4805": {
+  "name": "LD.ANDREWSQ13.8110AC LD",
+  "zone": "NEMA",
+  "lat": 42.329112,
+  "lon": -71.058546
+ },
+ "4806": {
+  "name": "LD.ANDREWSQ13.8110BD LD",
+  "zone": "NEMA",
+  "lat": 42.329112,
+  "lon": -71.058546
+ },
+ "4407": {
+  "name": "LD.ANHEUSBH12.5",
+  "zone": "NH",
+  "lat": 42.828673,
+  "lon": -71.487222
+ },
+ "4440": {
+  "name": "LD.ANSONIA 13.8",
+  "zone": "CT",
+  "lat": 41.347378,
+  "lon": -73.085694
+ },
+ "4239": {
+  "name": "LD.ARSENE  13.2",
+  "zone": "SEMA",
+  "lat": 41.639936,
+  "lon": -70.875174
+ },
+ "4460": {
+  "name": "LD.ASCUTNEY46",
+  "zone": "VT",
+  "lat": 43.401128,
+  "lon": -72.41952
+ },
+ "329": {
+  "name": "UN.ASCUTNEY46  ASCU",
+  "zone": "VT",
+  "lat": 43.401128,
+  "lon": -72.41952
+ },
+ "4479": {
+  "name": "LD.ASHBRNHM13.8",
+  "zone": "WCMA",
+  "lat": 42.616864,
+  "lon": -71.926728
+ },
+ "4436": {
+  "name": "LD.ASHCREEK13.8",
+  "zone": "CT",
+  "lat": 41.156295,
+  "lon": -73.234142
+ },
+ "4508": {
+  "name": "LD.ASHFIELD23",
+  "zone": "WCMA",
+  "lat": 42.537639,
+  "lon": -72.791151
+ },
+ "4390": {
+  "name": "LD.ASHLAND 34.5",
+  "zone": "NH",
+  "lat": 43.691333,
+  "lon": -71.637667
+ },
+ "357": {
+  "name": "UN.ASHLAND 34.5BRID",
+  "zone": "NH",
+  "lat": 43.691333,
+  "lon": -71.637667
+ },
+ "4165": {
+  "name": "LD.AUGSTA_E34.5",
+  "zone": "ME",
+  "lat": 44.329432,
+  "lon": -69.746281
+ },
+ "4332": {
+  "name": "LD.AYER    69",
+  "zone": "WCMA",
+  "lat": 42.565954,
+  "lon": -71.592952
+ },
+ "4433": {
+  "name": "LD.BAIRD   13.81X_LD",
+  "zone": "CT",
+  "lat": 41.185073,
+  "lon": -73.144435
+ },
+ "67526": {
+  "name": "LD.BAIRD   13.82X_LD",
+  "zone": "CT",
+  "lat": 41.185073,
+  "lon": -73.144435
+ },
+ "4090": {
+  "name": "LD.BAKER_ST24.0",
+  "zone": "NEMA",
+  "lat": 42.2804,
+  "lon": -71.1691
+ },
+ "4538": {
+  "name": "LD.BARBOURH23",
+  "zone": "CT",
+  "lat": 41.853718,
+  "lon": -72.527973
+ },
+ "4443": {
+  "name": "LD.BARNUM  13.8",
+  "zone": "CT",
+  "lat": 41.198313,
+  "lon": -73.126331
+ },
+ "4307": {
+  "name": "LD.BARRE   13.8",
+  "zone": "WCMA",
+  "lat": 42.391484,
+  "lon": -72.098985
+ },
+ "2437": {
+  "name": "LD.BARRE_VT34.5",
+  "zone": "VT",
+  "lat": 44.194315,
+  "lon": -72.52246
+ },
+ "2431": {
+  "name": "UN.BARRE_VT34.5DODF",
+  "zone": "VT",
+  "lat": 44.194315,
+  "lon": -72.52246
+ },
+ "2433": {
+  "name": "UN.BARRE_VT34.5RYGT",
+  "zone": "VT",
+  "lat": 44.194315,
+  "lon": -72.52246
+ },
+ "4593": {
+  "name": "LD.BATES_RK13.8",
+  "zone": "CT",
+  "lat": 41.503278,
+  "lon": -73.236467
+ },
+ "4214": {
+  "name": "LD.BATES_ST13.8",
+  "zone": "SEMA",
+  "lat": 41.680064,
+  "lon": -71.168162
+ },
+ "4176": {
+  "name": "LD.BATH    34.5",
+  "zone": "ME",
+  "lat": 43.903257,
+  "lon": -69.834797
+ },
+ "4584": {
+  "name": "LD.BEACN_FL13.8",
+  "zone": "CT",
+  "lat": 41.443639,
+  "lon": -73.0688
+ },
+ "4475": {
+  "name": "LD.BEAN_HIL13.8",
+  "zone": "CT",
+  "lat": 41.558993,
+  "lon": -72.118571
+ },
+ "67725": {
+  "name": "LD.BEARSWMP13.8",
+  "zone": "WCMA",
+  "lat": 42.683761,
+  "lon": -72.950073
+ },
+ "11761": {
+  "name": "AR.BEARSWMP13.8BSW1P",
+  "zone": "WCMA",
+  "lat": 42.683761,
+  "lon": -72.950073
+ },
+ "11762": {
+  "name": "AR.BEARSWMP13.8BSW2P",
+  "zone": "WCMA",
+  "lat": 42.683761,
+  "lon": -72.950073
+ },
+ "359": {
+  "name": "UN.BEARSWMP13.8BSW1",
+  "zone": "WCMA",
+  "lat": 42.683761,
+  "lon": -72.950073
+ },
+ "360": {
+  "name": "UN.BEARSWMP13.8BSW2",
+  "zone": "WCMA",
+  "lat": 42.683761,
+  "lon": -72.950073
+ },
+ "4291": {
+  "name": "LD.BEAVR_PD13.8",
+  "zone": "SEMA",
+  "lat": 42.074332,
+  "lon": -71.424072
+ },
+ "10850": {
+  "name": "LD.BEDFORD 34.5",
+  "zone": "NH",
+  "lat": 42.944541,
+  "lon": -71.463114
+ },
+ "4141": {
+  "name": "LD.BELFAST 34.5",
+  "zone": "ME",
+  "lat": 44.456941,
+  "lon": -69.039047
+ },
+ "50121": {
+  "name": "UN.BELFAST 34.5GEOR",
+  "zone": "ME",
+  "lat": 44.456941,
+  "lon": -69.039047
+ },
+ "48754": {
+  "name": "UN.BELLNGHM13.2NE1A",
+  "zone": "SEMA",
+  "lat": 42.091861,
+  "lon": -71.483722
+ },
+ "48755": {
+  "name": "UN.BELLNGHM13.2NE1B",
+  "zone": "SEMA",
+  "lat": 42.091861,
+  "lon": -71.483722
+ },
+ "4330": {
+  "name": "LD.BELLWSFL6.9",
+  "zone": "NH",
+  "lat": 43.132576,
+  "lon": -72.44211
+ },
+ "40041": {
+  "name": "LD.BELLWSFL69",
+  "zone": "NH",
+  "lat": 43.132576,
+  "lon": -72.44211
+ },
+ "42637": {
+  "name": "LD.BELLWSFL46",
+  "zone": "NH",
+  "lat": 43.132576,
+  "lon": -72.44211
+ },
+ "335": {
+  "name": "UN.BELLWSFL6.9 BELL",
+  "zone": "NH",
+  "lat": 43.132576,
+  "lon": -72.44211
+ },
+ "1412": {
+  "name": "UN.BELL_30321  BEL1",
+  "zone": "SEMA",
+  "lat": 42.109256,
+  "lon": -71.451785
+ },
+ "1415": {
+  "name": "UN.BELL_30321  BEL2",
+  "zone": "SEMA",
+  "lat": 42.109256,
+  "lon": -71.451785
+ },
+ "10683": {
+  "name": "LD.BELL_RK 34.5",
+  "zone": "SEMA",
+  "lat": 41.737512,
+  "lon": -71.086596
+ },
+ "4209": {
+  "name": "LD.BELMONT 13.8",
+  "zone": "SEMA",
+  "lat": 42.06583,
+  "lon": -71.054667
+ },
+ "4469": {
+  "name": "LD.BENINGTN69",
+  "zone": "VT",
+  "lat": 42.894421,
+  "lon": -73.171434
+ },
+ "4468": {
+  "name": "LD.BENINGTN46",
+  "zone": "VT",
+  "lat": 42.894421,
+  "lon": -73.171434
+ },
+ "4488": {
+  "name": "LD.BERKSHRE23",
+  "zone": "WCMA",
+  "lat": 42.46907,
+  "lon": -73.093301
+ },
+ "1086": {
+  "name": "UN.BERK_PWR21  BERK",
+  "zone": "WCMA",
+  "lat": 42.0481,
+  "lon": -72.6479
+ },
+ "4544": {
+  "name": "LD.BERLIN  13.8",
+  "zone": "CT",
+  "lat": 41.631931,
+  "lon": -72.723246
+ },
+ "47965": {
+  "name": "LD.BERLIN  23",
+  "zone": "CT",
+  "lat": 41.631931,
+  "lon": -72.723246
+ },
+ "4445": {
+  "name": "LD.BERLINVT34.5",
+  "zone": "VT",
+  "lat": 44.249821,
+  "lon": -72.60343
+ },
+ "468": {
+  "name": "UN.BERLINVT34.5MARH",
+  "zone": "VT",
+  "lat": 44.249821,
+  "lon": -72.60343
+ },
+ "336": {
+  "name": "UN.BERLINVT34.5BERL",
+  "zone": "VT",
+  "lat": 44.249821,
+  "lon": -72.60343
+ },
+ "427": {
+  "name": "UN.BERLN_NH34.5GORH",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "10424": {
+  "name": "UN.BERLN_NH22  BERP",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "43580": {
+  "name": "UN.BERLN_NH34.5JERW",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "16653": {
+  "name": "UN.BERLN_NH13.8BURG",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "73290": {
+  "name": "UN.BERLN_NH22  BRLB",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "73291": {
+  "name": "AR.BERLN_NH22  BRLBD",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "4382": {
+  "name": "LD.BERLN_NH22",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "4383": {
+  "name": "LD.BERLN_NH34.5",
+  "zone": "NH",
+  "lat": 44.463,
+  "lon": -71.1797
+ },
+ "10341": {
+  "name": "LD.BEVERLY 13.2",
+  "zone": "NEMA",
+  "lat": 42.545718,
+  "lon": -70.88675
+ },
+ "4188": {
+  "name": "LD.BIDDEFRD34.5",
+  "zone": "ME",
+  "lat": 43.467798,
+  "lon": -70.492975
+ },
+ "46609": {
+  "name": "LD.BIDDEFRD12.5",
+  "zone": "ME",
+  "lat": 43.467798,
+  "lon": -70.492975
+ },
+ "4153": {
+  "name": "LD.BIGELOW 34.5",
+  "zone": "ME",
+  "lat": 45.101612,
+  "lon": -70.353645
+ },
+ "590": {
+  "name": "UN.BIGELOW 115 STRA",
+  "zone": "ME",
+  "lat": 45.101612,
+  "lon": -70.353645
+ },
+ "4811": {
+  "name": "LD.BILERCA 23  T1 LD",
+  "zone": "WCMA",
+  "lat": 42.57474,
+  "lon": -71.274748
+ },
+ "4812": {
+  "name": "LD.BILERCA 23  T2 LD",
+  "zone": "WCMA",
+  "lat": 42.57474,
+  "lon": -71.274748
+ },
+ "46679": {
+  "name": "LD.BILERCA 13.2T5 LD",
+  "zone": "WCMA",
+  "lat": 42.57474,
+  "lon": -71.274748
+ },
+ "46753": {
+  "name": "LD.BILERCA 13.2T6 LD",
+  "zone": "WCMA",
+  "lat": 42.57474,
+  "lon": -71.274748
+ },
+ "37105": {
+  "name": "UN.BINGHAM 34.5BNGW",
+  "zone": "ME",
+  "lat": 45.160446,
+  "lon": -69.389022
+ },
+ "42057": {
+  "name": "LD.BIRD_RD 13.8",
+  "zone": "SEMA",
+  "lat": 42.05234,
+  "lon": -71.177392
+ },
+ "4813": {
+  "name": "LD.BLACKBRN115 1X LD",
+  "zone": "RI",
+  "lat": 41.733002,
+  "lon": -71.443263
+ },
+ "4814": {
+  "name": "LD.BLACKBRN115 2X LD",
+  "zone": "RI",
+  "lat": 41.733002,
+  "lon": -71.443263
+ },
+ "48163": {
+  "name": "LD.BLACK_RK4.8",
+  "zone": "CT",
+  "lat": 41.661956,
+  "lon": -72.80545
+ },
+ "48164": {
+  "name": "LD.BLACK_RK69",
+  "zone": "CT",
+  "lat": 41.661956,
+  "lon": -72.80545
+ },
+ "74366": {
+  "name": "UN.BLACK_RK69  NBFC",
+  "zone": "CT",
+  "lat": 41.661956,
+  "lon": -72.80545
+ },
+ "4574": {
+  "name": "LD.BLACK_RK13.8",
+  "zone": "CT",
+  "lat": 41.661956,
+  "lon": -72.80545
+ },
+ "48165": {
+  "name": "LD.BLAIR_PD13.8",
+  "zone": "NEMA",
+  "lat": 42.395599,
+  "lon": -71.157303
+ },
+ "4506": {
+  "name": "LD.BLANFORD23",
+  "zone": "WCMA",
+  "lat": 42.200308,
+  "lon": -72.965451
+ },
+ "4458": {
+  "name": "LD.BLISVILL46",
+  "zone": "VT",
+  "lat": 43.576178,
+  "lon": -73.23302
+ },
+ "1286": {
+  "name": "UN.BLKSTONE21  BKS1",
+  "zone": "SEMA",
+  "lat": 42.059589,
+  "lon": -71.513654
+ },
+ "1287": {
+  "name": "UN.BLKSTONE21  BKS2",
+  "zone": "SEMA",
+  "lat": 42.059589,
+  "lon": -71.513654
+ },
+ "4319": {
+  "name": "LD.BLOMNGDL13.8",
+  "zone": "WCMA",
+  "lat": 42.270277,
+  "lon": -71.763752
+ },
+ "4532": {
+  "name": "LD.BLOOMFLD23",
+  "zone": "CT",
+  "lat": 41.8287,
+  "lon": -72.728447
+ },
+ "15386": {
+  "name": "LD.BOGGY_BK46",
+  "zone": "ME",
+  "lat": 44.577217,
+  "lon": -68.454008
+ },
+ "4552": {
+  "name": "LD.BOKUM   27.6",
+  "zone": "CT",
+  "lat": 41.31832,
+  "lon": -72.389936
+ },
+ "74831": {
+  "name": "LD.BOKUM   23",
+  "zone": "CT",
+  "lat": 41.31832,
+  "lon": -72.389936
+ },
+ "4163": {
+  "name": "LD.BOWMN_ST34.5",
+  "zone": "ME",
+  "lat": 44.2545,
+  "lon": -69.803508
+ },
+ "1032": {
+  "name": "UN.BPT_ENER16  BHCC",
+  "zone": "CT",
+  "lat": 41.1715,
+  "lon": -73.1841
+ },
+ "4191": {
+  "name": "LD.BRANCH  34.5",
+  "zone": "ME",
+  "lat": 43.365673,
+  "lon": -70.558619
+ },
+ "46610": {
+  "name": "LD.BRANCH  12.5",
+  "zone": "ME",
+  "lat": 43.365673,
+  "lon": -70.558619
+ },
+ "4555": {
+  "name": "LD.BRANFORD23",
+  "zone": "CT",
+  "lat": 41.292761,
+  "lon": -72.793731
+ },
+ "355": {
+  "name": "UN.BRANFORD23  BRAN",
+  "zone": "CT",
+  "lat": 41.292761,
+  "lon": -72.793731
+ },
+ "4527": {
+  "name": "LD.BRECKWOD13.8",
+  "zone": "WCMA",
+  "lat": 42.115483,
+  "lon": -72.523381
+ },
+ "11413": {
+  "name": "LD.BRENTWOD34.5",
+  "zone": "NH",
+  "lat": 42.983679,
+  "lon": -71.083817
+ },
+ "47297": {
+  "name": "LD.BRIDGE_S4.16",
+  "zone": "NH",
+  "lat": 42.7645,
+  "lon": -71.453833
+ },
+ "4409": {
+  "name": "LD.BRIDGE_S34.5",
+  "zone": "NH",
+  "lat": 42.7645,
+  "lon": -71.453833
+ },
+ "4103": {
+  "name": "LD.BRIGHTON13.8",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "13673": {
+  "name": "UN.BRIGHTON13.8MAT1",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "13675": {
+  "name": "UN.BRIGHTON13.8MAT2",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "75433": {
+  "name": "UN.BRIGHTON13.8MAT4",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "75434": {
+  "name": "UN.BRIGHTON13.8MAT5",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "75435": {
+  "name": "UN.BRIGHTON13.8MAT6",
+  "zone": "NEMA",
+  "lat": 42.3573,
+  "lon": -71.1318
+ },
+ "4295": {
+  "name": "LD.BRISTLRI12.5",
+  "zone": "RI",
+  "lat": 41.694576,
+  "lon": -71.268442
+ },
+ "4571": {
+  "name": "LD.BRISTOL 13.8",
+  "zone": "CT",
+  "lat": 41.671226,
+  "lon": -72.940231
+ },
+ "49671": {
+  "name": "LD.BRISTOL 4.8",
+  "zone": "CT",
+  "lat": 41.671226,
+  "lon": -72.940231
+ },
+ "4427": {
+  "name": "LD.BROADWAY13.8",
+  "zone": "CT",
+  "lat": 41.314368,
+  "lon": -72.933953
+ },
+ "49421": {
+  "name": "LD.BROKENGD34.5",
+  "zone": "NH",
+  "lat": 43.23178,
+  "lon": -71.494187
+ },
+ "4554": {
+  "name": "LD.BROOKLYN23",
+  "zone": "CT",
+  "lat": 41.816754,
+  "lon": -71.914692
+ },
+ "40058": {
+  "name": "LD.BROOK_ST23",
+  "zone": "SEMA",
+  "lat": 41.9657,
+  "lon": -70.7668
+ },
+ "4166": {
+  "name": "LD.BROWN_CR12.5",
+  "zone": "ME",
+  "lat": 44.252946,
+  "lon": -69.775017
+ },
+ "46617": {
+  "name": "LD.BUCKSPRT34.5",
+  "zone": "ME",
+  "lat": 44.5752,
+  "lon": -68.8063
+ },
+ "47390": {
+  "name": "UN.BUCKSPRT18.0BCK4",
+  "zone": "ME",
+  "lat": 44.5752,
+  "lon": -68.8063
+ },
+ "4518": {
+  "name": "LD.BUCK_PD 23",
+  "zone": "WCMA",
+  "lat": 42.17557,
+  "lon": -72.734481
+ },
+ "4472": {
+  "name": "LD.BUDDNGTN33.0",
+  "zone": "CT",
+  "lat": 41.373997,
+  "lon": -72.045789
+ },
+ "4590": {
+  "name": "LD.BULLSBDG27.6",
+  "zone": "CT",
+  "lat": 41.659038,
+  "lon": -73.491288
+ },
+ "362": {
+  "name": "UN.BULLSBDG27.6BULL",
+  "zone": "CT",
+  "lat": 41.659038,
+  "lon": -73.491288
+ },
+ "40343": {
+  "name": "UN.BULL_HL 34.5BLHW",
+  "zone": "ME",
+  "lat": 44.722556,
+  "lon": -68.163833
+ },
+ "48082": {
+  "name": "UN.BULL_HL 34.5HANW",
+  "zone": "ME",
+  "lat": 44.722556,
+  "lon": -68.163833
+ },
+ "68734": {
+  "name": "UN.BULL_HL 34.5WEVW",
+  "zone": "ME",
+  "lat": 44.722556,
+  "lon": -68.163833
+ },
+ "4582": {
+  "name": "LD.BUNKR_HL13.8",
+  "zone": "CT",
+  "lat": 41.564016,
+  "lon": -73.086446
+ },
+ "4106": {
+  "name": "LD.BURLNGTN13.8",
+  "zone": "NEMA",
+  "lat": 42.475381,
+  "lon": -71.214285
+ },
+ "10033": {
+  "name": "LD.BURTT_RD13.2",
+  "zone": "NEMA",
+  "lat": 42.602824,
+  "lon": -71.168607
+ },
+ "4568": {
+  "name": "LD.CAMPVILL27.6",
+  "zone": "CT",
+  "lat": 41.737776,
+  "lon": -73.086151
+ },
+ "74830": {
+  "name": "UN.CAMPVILL27.6LITS",
+  "zone": "CT",
+  "lat": 41.737776,
+  "lon": -73.086151
+ },
+ "38310": {
+  "name": "UN.CANAL   25  CAN3",
+  "zone": "SEMA",
+  "lat": 41.769,
+  "lon": -70.51
+ },
+ "365": {
+  "name": "UN.CANAL   18.0CAN1",
+  "zone": "SEMA",
+  "lat": 41.769,
+  "lon": -70.51
+ },
+ "366": {
+  "name": "UN.CANAL   18.0CAN2",
+  "zone": "SEMA",
+  "lat": 41.769,
+  "lon": -70.51
+ },
+ "4498": {
+  "name": "LD.CANAL_NU23",
+  "zone": "CT",
+  "lat": 41.573472,
+  "lon": -72.901919
+ },
+ "16255": {
+  "name": "LD.CANDLE  13.2",
+  "zone": "SEMA",
+  "lat": 41.282491,
+  "lon": -70.096499
+ },
+ "4566": {
+  "name": "LD.CANTON  23",
+  "zone": "CT",
+  "lat": 41.8382,
+  "lon": -72.926697
+ },
+ "4588": {
+  "name": "LD.CARML_HL23",
+  "zone": "CT",
+  "lat": 41.600985,
+  "lon": -73.2411
+ },
+ "4098": {
+  "name": "LD.CARVR_ST13.8",
+  "zone": "NEMA",
+  "lat": 42.3502,
+  "lon": -71.0663
+ },
+ "4815": {
+  "name": "LD.CEDARHTS13.22X LD",
+  "zone": "CT",
+  "lat": 41.106496,
+  "lon": -73.555841
+ },
+ "4816": {
+  "name": "LD.CEDARHTS13.23X LD",
+  "zone": "CT",
+  "lat": 41.106496,
+  "lon": -73.555841
+ },
+ "46727": {
+  "name": "LD.CENTECH 13.8",
+  "zone": "WCMA",
+  "lat": 42.255191,
+  "lon": -71.690729
+ },
+ "10512": {
+  "name": "LD.CHALLENG34.5",
+  "zone": "ME",
+  "lat": 44.068686,
+  "lon": -70.186136
+ },
+ "46624": {
+  "name": "LD.CHALLENG12.5",
+  "zone": "ME",
+  "lat": 44.068686,
+  "lon": -70.186136
+ },
+ "15411": {
+  "name": "LD.CHARLOTT12.5",
+  "zone": "VT",
+  "lat": 44.312436,
+  "lon": -73.261424
+ },
+ "46960": {
+  "name": "LD.CHASE_HL12.5",
+  "zone": "RI",
+  "lat": 41.412559,
+  "lon": -71.769332
+ },
+ "11710": {
+  "name": "LD.CHELSEA 13.8",
+  "zone": "NEMA",
+  "lat": 42.3949,
+  "lon": -71.0248
+ },
+ "536": {
+  "name": "UN.CHEMICAL115 PERC",
+  "zone": "ME",
+  "lat": 44.739069,
+  "lon": -68.824818
+ },
+ "4412": {
+  "name": "LD.CHESTER 34.5",
+  "zone": "NH",
+  "lat": 42.936467,
+  "lon": -71.237208
+ },
+ "4524": {
+  "name": "LD.CHICOPEE13.8",
+  "zone": "WCMA",
+  "lat": 42.167113,
+  "lon": -72.593426
+ },
+ "421": {
+  "name": "UN.CHICOPEE13.8FRST",
+  "zone": "WCMA",
+  "lat": 42.167113,
+  "lon": -72.593426
+ },
+ "4570": {
+  "name": "LD.CHIPINHL13.8",
+  "zone": "CT",
+  "lat": 41.682079,
+  "lon": -72.986721
+ },
+ "4290": {
+  "name": "LD.CHRTLYPD23",
+  "zone": "SEMA",
+  "lat": 41.944876,
+  "lon": -71.237133
+ },
+ "4077": {
+  "name": "LD.CHSTERME46",
+  "zone": "ME",
+  "lat": 45.39729,
+  "lon": -68.525677
+ },
+ "616": {
+  "name": "UN.CHSTERME46  WENF",
+  "zone": "ME",
+  "lat": 45.39729,
+  "lon": -68.525677
+ },
+ "4402": {
+  "name": "LD.CHSTNTHL34.5",
+  "zone": "NH",
+  "lat": 42.797912,
+  "lon": -72.482906
+ },
+ "4125": {
+  "name": "LD.CHURCHIL13.8",
+  "zone": "SEMA",
+  "lat": 42.2223,
+  "lon": -71.0198
+ },
+ "4529": {
+  "name": "LD.CLINTON 13.8",
+  "zone": "WCMA",
+  "lat": 42.10463,
+  "lon": -72.601004
+ },
+ "379": {
+  "name": "UN.COBBLEMT69  COBB",
+  "zone": "WCMA",
+  "lat": 42.117172,
+  "lon": -72.865173
+ },
+ "10831": {
+  "name": "LD.COLBURN 13.8",
+  "zone": "NEMA",
+  "lat": 42.331587,
+  "lon": -71.110886
+ },
+ "14087": {
+  "name": "UN.COLBURN 13.8MAT3",
+  "zone": "NEMA",
+  "lat": 42.331587,
+  "lon": -71.110886
+ },
+ "4470": {
+  "name": "LD.COLD_RV 46",
+  "zone": "VT",
+  "lat": 43.565193,
+  "lon": -72.94568
+ },
+ "4577": {
+  "name": "LD.COLONY  13.8",
+  "zone": "CT",
+  "lat": 41.498922,
+  "lon": -72.811861
+ },
+ "4264": {
+  "name": "LD.COMERFRD34.5",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "473": {
+  "name": "UN.COMERFRD34.5MCIN",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "47366": {
+  "name": "UN.COMERFRD13.8COM1",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "47367": {
+  "name": "UN.COMERFRD13.8COM2",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "47368": {
+  "name": "UN.COMERFRD13.8COM3",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "47369": {
+  "name": "UN.COMERFRD13.8COM4",
+  "zone": "NH",
+  "lat": 44.31958,
+  "lon": -71.993365
+ },
+ "4609": {
+  "name": "LD.COMPO   13.8",
+  "zone": "CT",
+  "lat": 41.121315,
+  "lon": -73.360748
+ },
+ "50815": {
+  "name": "UN.COOLIDGE34.5COLS",
+  "zone": "VT",
+  "lat": 43.429247,
+  "lon": -72.660032
+ },
+ "4823": {
+  "name": "LD.CROSS_RD13.2109A_LD",
+  "zone": "SEMA",
+  "lat": 41.6493,
+  "lon": -71.0082
+ },
+ "4824": {
+  "name": "LD.CROSS_RD13.2111_LD",
+  "zone": "SEMA",
+  "lat": 41.6493,
+  "lon": -71.0082
+ },
+ "4173": {
+  "name": "LD.CROWLEYS34.5",
+  "zone": "ME",
+  "lat": 44.059499,
+  "lon": -70.155111
+ },
+ "40341": {
+  "name": "LD.CROWLEYS12.5",
+  "zone": "ME",
+  "lat": 44.059499,
+  "lon": -70.155111
+ },
+ "4234": {
+  "name": "LD.CRYSTLSP13.2",
+  "zone": "SEMA",
+  "lat": 41.673966,
+  "lon": -70.832248
+ },
+ "4509": {
+  "name": "LD.CUMBRLND13.8",
+  "zone": "WCMA",
+  "lat": 42.571615,
+  "lon": -72.61729
+ },
+ "4608": {
+  "name": "LD.DARIEN  13.2",
+  "zone": "CT",
+  "lat": 41.075818,
+  "lon": -73.480485
+ },
+ "4825": {
+  "name": "LD.DAVISVIL34.5T1 LD",
+  "zone": "RI",
+  "lat": 41.59247,
+  "lon": -71.43523
+ },
+ "4826": {
+  "name": "LD.DAVISVIL34.5T2 LD",
+  "zone": "RI",
+  "lat": 41.59247,
+  "lon": -71.43523
+ },
+ "10178": {
+  "name": "LD.DEBLOIS 34.5",
+  "zone": "ME",
+  "lat": 44.700424,
+  "lon": -67.957027
+ },
+ "393": {
+  "name": "UN.DEERFLD569  DFL5",
+  "zone": "WCMA",
+  "lat": 42.684,
+  "lon": -72.9498
+ },
+ "413": {
+  "name": "UN.DEERFLD569  FIFE",
+  "zone": "WCMA",
+  "lat": 42.684,
+  "lon": -72.9498
+ },
+ "4094": {
+  "name": "LD.DEER_ISL115",
+  "zone": "NEMA",
+  "lat": 42.3515,
+  "lon": -70.9578
+ },
+ "4148": {
+  "name": "LD.DETROIT 34.5",
+  "zone": "ME",
+  "lat": 44.792859,
+  "lon": -69.362162
+ },
+ "396": {
+  "name": "UN.DEVON   13.8DV10",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "397": {
+  "name": "UN.DEVON   13.2DV11",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "398": {
+  "name": "UN.DEVON   13.2DV12",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "399": {
+  "name": "UN.DEVON   13.2DV13",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "400": {
+  "name": "UN.DEVON   13.2DV14",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "12504": {
+  "name": "UN.DEVON   13.2DV15",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "17044": {
+  "name": "UN.DEVON   13.2DV16",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "17045": {
+  "name": "UN.DEVON   13.2DV17",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "17046": {
+  "name": "UN.DEVON   13.2DV18",
+  "zone": "CT",
+  "lat": 41.208111,
+  "lon": -73.106889
+ },
+ "4827": {
+  "name": "LD.DEWAR_ST13.8110A LD",
+  "zone": "NEMA",
+  "lat": 42.3086,
+  "lon": -71.0555
+ },
+ "4829": {
+  "name": "LD.DEWAR_ST13.8110B LD",
+  "zone": "NEMA",
+  "lat": 42.3086,
+  "lon": -71.0555
+ },
+ "42375": {
+  "name": "UN.DEXTER  13.8DX1A",
+  "zone": "CT",
+  "lat": 41.922387,
+  "lon": -72.625379
+ },
+ "42376": {
+  "name": "UN.DEXTER  13.8DX1B",
+  "zone": "CT",
+  "lat": 41.922387,
+  "lon": -72.625379
+ },
+ "17280": {
+  "name": "LD.DEXTER  13.8",
+  "zone": "CT",
+  "lat": 41.922387,
+  "lon": -72.625379
+ },
+ "10474": {
+  "name": "LD.DEXTR_RI13.8",
+  "zone": "RI",
+  "lat": 41.601817,
+  "lon": -71.255393
+ },
+ "4212": {
+  "name": "LD.DIGHTON 13.8",
+  "zone": "SEMA",
+  "lat": 41.816237,
+  "lon": -71.136094
+ },
+ "1005": {
+  "name": "UN.DIGHTON 115 DIGH",
+  "zone": "SEMA",
+  "lat": 41.816237,
+  "lon": -71.136094
+ },
+ "4547": {
+  "name": "LD.DOOLEY  13.2",
+  "zone": "CT",
+  "lat": 41.511341,
+  "lon": -72.672415
+ },
+ "4501": {
+  "name": "LD.DOREEN  23",
+  "zone": "WCMA",
+  "lat": 42.443886,
+  "lon": -73.206102
+ },
+ "4417": {
+  "name": "LD.DOVER   34.5",
+  "zone": "NH",
+  "lat": 43.198333,
+  "lon": -70.864
+ },
+ "4120": {
+  "name": "LD.DOVER_BE13.8",
+  "zone": "NEMA",
+  "lat": 42.2034,
+  "lon": -71.254
+ },
+ "4831": {
+  "name": "LD.DRAGONCT115",
+  "zone": "ME",
+  "lat": 44.083857,
+  "lon": -69.158383
+ },
+ "4280": {
+  "name": "LD.DRUMROCK115",
+  "zone": "RI",
+  "lat": 41.696685,
+  "lon": -71.472958
+ },
+ "4206": {
+  "name": "LD.DUPONT  13.8",
+  "zone": "SEMA",
+  "lat": 42.075411,
+  "lon": -71.004349
+ },
+ "4236": {
+  "name": "LD.DUXBURY 23",
+  "zone": "SEMA",
+  "lat": 42.054,
+  "lon": -70.7223
+ },
+ "4199": {
+  "name": "LD.EASTON  13.8",
+  "zone": "SEMA",
+  "lat": 42.030259,
+  "lon": -71.115301
+ },
+ "4453": {
+  "name": "LD.EAST_AVE13.8",
+  "zone": "VT",
+  "lat": 44.480794,
+  "lon": -73.18841
+ },
+ "474": {
+  "name": "UN.EAST_AVE34.5MCNL",
+  "zone": "VT",
+  "lat": 44.480794,
+  "lon": -73.18841
+ },
+ "622": {
+  "name": "UN.EAST_AVE13.8WINO",
+  "zone": "VT",
+  "lat": 44.480794,
+  "lon": -73.18841
+ },
+ "17147": {
+  "name": "LD.EAST_AVE34.5",
+  "zone": "VT",
+  "lat": 44.480794,
+  "lon": -73.18841
+ },
+ "4396": {
+  "name": "LD.EDDY    34.5",
+  "zone": "NH",
+  "lat": 43.00317,
+  "lon": -71.473301
+ },
+ "327": {
+  "name": "UN.EDDY    34.5AMOS",
+  "zone": "NH",
+  "lat": 43.00317,
+  "lon": -71.473301
+ },
+ "40327": {
+  "name": "UN.EDGAR   18.0ED1A",
+  "zone": "SEMA",
+  "lat": 42.240587,
+  "lon": -70.964997
+ },
+ "40328": {
+  "name": "UN.EDGAR   18.0ED1B",
+  "zone": "SEMA",
+  "lat": 42.240587,
+  "lon": -70.964997
+ },
+ "48080": {
+  "name": "LD.ELECTRIC13.8",
+  "zone": "NEMA",
+  "lat": 42.3571,
+  "lon": -71.1546
+ },
+ "10556": {
+  "name": "LD.ELLIS_AV14.4",
+  "zone": "SEMA",
+  "lat": 42.2063,
+  "lon": -71.1857
+ },
+ "405": {
+  "name": "UN.ELLSWRTH34.5ELLS",
+  "zone": "ME",
+  "lat": 44.543655,
+  "lon": -68.430748
+ },
+ "4631": {
+  "name": "LD.ELLSWRTH34.5",
+  "zone": "ME",
+  "lat": 44.543655,
+  "lon": -68.430748
+ },
+ "4520": {
+  "name": "LD.ELM     23",
+  "zone": "WCMA",
+  "lat": 42.127483,
+  "lon": -72.744378
+ },
+ "4178": {
+  "name": "LD.ELM_ST  34.5",
+  "zone": "ME",
+  "lat": 43.786536,
+  "lon": -70.199093
+ },
+ "46678": {
+  "name": "LD.ELM_ST  12.5",
+  "zone": "ME",
+  "lat": 43.786536,
+  "lon": -70.199093
+ },
+ "4429": {
+  "name": "LD.ELM_WEST13.8",
+  "zone": "CT",
+  "lat": 41.275855,
+  "lon": -72.954382
+ },
+ "46734": {
+  "name": "LD.EMBDEN  12.5",
+  "zone": "ME",
+  "lat": 44.9583,
+  "lon": -69.8853
+ },
+ "4540": {
+  "name": "LD.ENFIELD 27.6",
+  "zone": "CT",
+  "lat": 41.936513,
+  "lon": -72.614125
+ },
+ "47076": {
+  "name": "LD.ENFIELD 23",
+  "zone": "CT",
+  "lat": 41.936513,
+  "lon": -72.614125
+ },
+ "445": {
+  "name": "UN.ENFLD_ME115 IND5",
+  "zone": "ME",
+  "lat": 45.24575,
+  "lon": -68.601833
+ },
+ "4451": {
+  "name": "LD.ESSEX   34.5",
+  "zone": "VT",
+  "lat": 44.481282,
+  "lon": -73.11332
+ },
+ "426": {
+  "name": "UN.ESSEX   34.5GORD",
+  "zone": "VT",
+  "lat": 44.481282,
+  "lon": -73.11332
+ },
+ "1221": {
+  "name": "UN.ESSEX   34.5ESSD",
+  "zone": "VT",
+  "lat": 44.481282,
+  "lon": -73.11332
+ },
+ "410": {
+  "name": "UN.ESSEX   34.5ESSH",
+  "zone": "VT",
+  "lat": 44.481282,
+  "lon": -73.11332
+ },
+ "4335": {
+  "name": "LD.EVERETT 23",
+  "zone": "NEMA",
+  "lat": 42.414697,
+  "lon": -71.071919
+ },
+ "47733": {
+  "name": "LD.EVERETT 13.8",
+  "zone": "NEMA",
+  "lat": 42.414697,
+  "lon": -71.071919
+ },
+ "4833": {
+  "name": "LD.E_BEVRLY34.5T10 LD",
+  "zone": "NEMA",
+  "lat": 42.56431,
+  "lon": -70.849784
+ },
+ "4834": {
+  "name": "LD.E_BEVRLY34.5T20 LD",
+  "zone": "NEMA",
+  "lat": 42.56431,
+  "lon": -70.849784
+ },
+ "46723": {
+  "name": "LD.E_BEVRLY23  T1 LD",
+  "zone": "NEMA",
+  "lat": 42.56431,
+  "lon": -70.849784
+ },
+ "46754": {
+  "name": "LD.E_BEVRLY23  T2 LD",
+  "zone": "NEMA",
+  "lat": 42.56431,
+  "lon": -70.849784
+ },
+ "4210": {
+  "name": "LD.E_BRGWTR13.8",
+  "zone": "SEMA",
+  "lat": 42.023805,
+  "lon": -70.96649
+ },
+ "11136": {
+  "name": "LD.E_CAMBRG13.8",
+  "zone": "NEMA",
+  "lat": 42.36294,
+  "lon": -71.080518
+ },
+ "4356": {
+  "name": "LD.E_DRACUT13.2",
+  "zone": "WCMA",
+  "lat": 42.66942,
+  "lon": -71.252338
+ },
+ "4450": {
+  "name": "LD.E_FAIRFX34.5",
+  "zone": "VT",
+  "lat": 44.636573,
+  "lon": -72.93121
+ },
+ "35555": {
+  "name": "UN.E_FAIRFX34.5GMTW",
+  "zone": "VT",
+  "lat": 44.636573,
+  "lon": -72.93121
+ },
+ "774": {
+  "name": "UN.E_FAIRFX34.5LLAM",
+  "zone": "VT",
+  "lat": 44.636573,
+  "lon": -72.93121
+ },
+ "4536": {
+  "name": "LD.E_HARTFR23",
+  "zone": "CT",
+  "lat": 41.769375,
+  "lon": -72.61676
+ },
+ "4837": {
+  "name": "LD.E_HOLBRK23  T1 LD",
+  "zone": "SEMA",
+  "lat": 42.164692,
+  "lon": -70.97948
+ },
+ "4838": {
+  "name": "LD.E_HOLBRK23  T2 LD",
+  "zone": "SEMA",
+  "lat": 42.164692,
+  "lon": -70.97948
+ },
+ "4271": {
+  "name": "LD.E_MAIN_S13.8",
+  "zone": "WCMA",
+  "lat": 42.288699,
+  "lon": -71.594617
+ },
+ "4575": {
+  "name": "LD.E_MERDEN13.8",
+  "zone": "CT",
+  "lat": 41.510167,
+  "lon": -72.752229
+ },
+ "4351": {
+  "name": "LD.E_METHUE13.2",
+  "zone": "NEMA",
+  "lat": 42.744582,
+  "lon": -71.167116
+ },
+ "4543": {
+  "name": "LD.E_NBRITN13.8",
+  "zone": "CT",
+  "lat": 41.670152,
+  "lon": -72.753868
+ },
+ "4421": {
+  "name": "LD.E_SHORE 13.8",
+  "zone": "CT",
+  "lat": 41.288289,
+  "lon": -72.904739
+ },
+ "513": {
+  "name": "UN.E_SHORE 22  NHHB",
+  "zone": "CT",
+  "lat": 41.288289,
+  "lon": -72.904739
+ },
+ "15477": {
+  "name": "UN.E_SHORE 13.8NHP2",
+  "zone": "CT",
+  "lat": 41.288289,
+  "lon": -72.904739
+ },
+ "40052": {
+  "name": "UN.E_SHORE 13.8NHP3",
+  "zone": "CT",
+  "lat": 41.288289,
+  "lon": -72.904739
+ },
+ "40053": {
+  "name": "UN.E_SHORE 13.8NHP4",
+  "zone": "CT",
+  "lat": 41.288289,
+  "lon": -72.904739
+ },
+ "4526": {
+  "name": "LD.E_SPRFLD13.8",
+  "zone": "WCMA",
+  "lat": 42.143106,
+  "lon": -72.551285
+ },
+ "4333": {
+  "name": "LD.E_TEWKS 13.2",
+  "zone": "NEMA",
+  "lat": 42.615492,
+  "lon": -71.189802
+ },
+ "4839": {
+  "name": "LD.E_WEYMTH23  T1 LD",
+  "zone": "SEMA",
+  "lat": 42.220118,
+  "lon": -70.920455
+ },
+ "4840": {
+  "name": "LD.E_WEYMTH23  T2 LD",
+  "zone": "SEMA",
+  "lat": 42.220118,
+  "lon": -70.920455
+ },
+ "4329": {
+  "name": "LD.E_WINCHD13.8",
+  "zone": "WCMA",
+  "lat": 42.672653,
+  "lon": -72.021604
+ },
+ "16248": {
+  "name": "LD.FALMOUTH25",
+  "zone": "SEMA",
+  "lat": 41.5634,
+  "lon": -70.6121
+ },
+ "4616": {
+  "name": "LD.FALSVL  69",
+  "zone": "CT",
+  "lat": 41.956424,
+  "lon": -73.369054
+ },
+ "412": {
+  "name": "UN.FALSVL  69  FALS",
+  "zone": "CT",
+  "lat": 41.956424,
+  "lon": -73.369054
+ },
+ "4221": {
+  "name": "LD.FARNUM  23",
+  "zone": "RI",
+  "lat": 41.98011,
+  "lon": -71.521372
+ },
+ "4841": {
+  "name": "LD.FIELD_ST23  517-532",
+  "zone": "SEMA",
+  "lat": 42.254165,
+  "lon": -70.992156
+ },
+ "4842": {
+  "name": "LD.FIELD_ST23  517-533",
+  "zone": "SEMA",
+  "lat": 42.254165,
+  "lon": -70.992156
+ },
+ "47661": {
+  "name": "LD.FIELD_ST13.8517-533",
+  "zone": "SEMA",
+  "lat": 42.254165,
+  "lon": -70.992156
+ },
+ "47948": {
+  "name": "LD.FIELD_ST13.8517-532",
+  "zone": "SEMA",
+  "lat": 42.254165,
+  "lon": -70.992156
+ },
+ "4244": {
+  "name": "LD.FISHR_RD13.2",
+  "zone": "SEMA",
+  "lat": 41.592213,
+  "lon": -71.031635
+ },
+ "43591": {
+  "name": "LD.FITCH   27.6",
+  "zone": "CT",
+  "lat": 41.1049,
+  "lon": -73.4036
+ },
+ "4361": {
+  "name": "LD.FITCH_RD69",
+  "zone": "WCMA",
+  "lat": 42.419861,
+  "lon": -71.700768
+ },
+ "4222": {
+  "name": "LD.FLAGG_PD69",
+  "zone": "WCMA",
+  "lat": 42.550614,
+  "lon": -71.843784
+ },
+ "538": {
+  "name": "UN.FLAGG_PD13.8PINE",
+  "zone": "WCMA",
+  "lat": 42.550614,
+  "lon": -71.843784
+ },
+ "4845": {
+  "name": "LD.FLANDERS23",
+  "zone": "CT",
+  "lat": 41.361663,
+  "lon": -72.210318
+ },
+ "4610": {
+  "name": "LD.FLAX_HL 13.8",
+  "zone": "CT",
+  "lat": 41.093612,
+  "lon": -73.442168
+ },
+ "16328": {
+  "name": "LD.FLAX_HL 27.6",
+  "zone": "CT",
+  "lat": 41.093612,
+  "lon": -73.442168
+ },
+ "4312": {
+  "name": "LD.FLORENCE13.8",
+  "zone": "WCMA",
+  "lat": 42.330179,
+  "lon": -72.683101
+ },
+ "4572": {
+  "name": "LD.FORESTVL13.8",
+  "zone": "CT",
+  "lat": 41.663605,
+  "lon": -72.895721
+ },
+ "356": {
+  "name": "UN.FORESTVL13.8BRF",
+  "zone": "CT",
+  "lat": 41.663605,
+  "lon": -72.895721
+ },
+ "4088": {
+  "name": "LD.FRAMNGHM13.8",
+  "zone": "NEMA",
+  "lat": 42.268282,
+  "lon": -71.398317
+ },
+ "417": {
+  "name": "UN.FRAMNGHM13.8FMJ1",
+  "zone": "NEMA",
+  "lat": 42.268282,
+  "lon": -71.398317
+ },
+ "418": {
+  "name": "UN.FRAMNGHM13.8FMJ2",
+  "zone": "NEMA",
+  "lat": 42.268282,
+  "lon": -71.398317
+ },
+ "419": {
+  "name": "UN.FRAMNGHM13.8FMJ3",
+  "zone": "NEMA",
+  "lat": 42.268282,
+  "lon": -71.398317
+ },
+ "4581": {
+  "name": "LD.FREIGHT 13.8",
+  "zone": "CT",
+  "lat": 41.554855,
+  "lon": -73.053229
+ },
+ "4511": {
+  "name": "LD.FRENCHKG13.8",
+  "zone": "WCMA",
+  "lat": 42.611222,
+  "lon": -72.468266
+ },
+ "10846": {
+  "name": "LD.FRIVR_ME12.5",
+  "zone": "ME",
+  "lat": 43.654347,
+  "lon": -70.292566
+ },
+ "4542": {
+  "name": "LD.FRMNGTON23",
+  "zone": "CT",
+  "lat": 41.741559,
+  "lon": -72.793349
+ },
+ "4531": {
+  "name": "LD.FRNCONIA13.8",
+  "zone": "WCMA",
+  "lat": 42.055279,
+  "lon": -72.535929
+ },
+ "4567": {
+  "name": "LD.FRNKLNDR13.2",
+  "zone": "CT",
+  "lat": 41.799557,
+  "lon": -73.116562
+ },
+ "420": {
+  "name": "UN.FRNKLNDR13.2FRDR",
+  "zone": "CT",
+  "lat": 41.799557,
+  "lon": -73.116562
+ },
+ "10813": {
+  "name": "LD.FRNKLNSQ12.5",
+  "zone": "RI",
+  "lat": 41.816349,
+  "lon": -71.405645
+ },
+ "4301": {
+  "name": "LD.FRNKLNSQ11.5",
+  "zone": "RI",
+  "lat": 41.816349,
+  "lon": -71.405645
+ },
+ "321": {
+  "name": "UN.FRNKLNSQ13.810CC",
+  "zone": "RI",
+  "lat": 41.816349,
+  "lon": -71.405645
+ },
+ "322": {
+  "name": "UN.FRNKLNSQ13.811CC",
+  "zone": "RI",
+  "lat": 41.816349,
+  "lon": -71.405645
+ },
+ "323": {
+  "name": "UN.FRNKLNSQ13.89CC",
+  "zone": "RI",
+  "lat": 41.816349,
+  "lon": -71.405645
+ },
+ "4847": {
+  "name": "LD.FRYBROOK23",
+  "zone": "CT",
+  "lat": 41.670702,
+  "lon": -71.921524
+ },
+ "4495": {
+  "name": "LD.GALE_FRY13.8",
+  "zone": "CT",
+  "lat": 41.433775,
+  "lon": -72.07937
+ },
+ "768": {
+  "name": "UN.GARVINS 34.5GARV",
+  "zone": "NH",
+  "lat": 43.1625,
+  "lon": -71.508
+ },
+ "4395": {
+  "name": "LD.GARVINS 34.5",
+  "zone": "NH",
+  "lat": 43.1625,
+  "lon": -71.508
+ },
+ "46680": {
+  "name": "LD.GEORGIA 34.5",
+  "zone": "VT",
+  "lat": 44.7142,
+  "lon": -73.1543
+ },
+ "4849": {
+  "name": "LD.GE_CO_14115 1X LD",
+  "zone": "WCMA",
+  "lat": 42.455998,
+  "lon": -73.218169
+ },
+ "4850": {
+  "name": "LD.GE_CO_14115 2X LD",
+  "zone": "WCMA",
+  "lat": 42.455998,
+  "lon": -73.218169
+ },
+ "4337": {
+  "name": "LD.GE_RIVER13.8",
+  "zone": "NEMA",
+  "lat": 42.447204,
+  "lon": -70.966377
+ },
+ "4602": {
+  "name": "LD.GLENBROK13.2",
+  "zone": "CT",
+  "lat": 41.061443,
+  "lon": -73.520494
+ },
+ "10344": {
+  "name": "LD.GOLDN_RK23",
+  "zone": "NEMA",
+  "lat": 42.742592,
+  "lon": -71.203519
+ },
+ "68257": {
+  "name": "LD.GOLDN_RK13.2",
+  "zone": "NEMA",
+  "lat": 42.742592,
+  "lon": -71.203519
+ },
+ "39990": {
+  "name": "LD.GOOSEFAR12",
+  "zone": "ME",
+  "lat": 43.5168,
+  "lon": -70.4438
+ },
+ "71293": {
+  "name": "LD.GRAFTON 69",
+  "zone": "WCMA",
+  "lat": 42.191645,
+  "lon": -71.742922
+ },
+ "16296": {
+  "name": "UN.GRAHAM  46  MLFH",
+  "zone": "ME",
+  "lat": 44.824186,
+  "lon": -68.705434
+ },
+ "40338": {
+  "name": "UN.GRAHAM  18.0MS1A",
+  "zone": "ME",
+  "lat": 44.824186,
+  "lon": -68.705434
+ },
+ "40339": {
+  "name": "UN.GRAHAM  18.0MS1B",
+  "zone": "ME",
+  "lat": 44.824186,
+  "lon": -68.705434
+ },
+ "4078": {
+  "name": "LD.GRAHAM  46",
+  "zone": "ME",
+  "lat": 44.824186,
+  "lon": -68.705434
+ },
+ "10038": {
+  "name": "LD.GREATBAY34.5",
+  "zone": "NH",
+  "lat": 43.009167,
+  "lon": -70.886833
+ },
+ "4372": {
+  "name": "LD.GREENDAL13.8",
+  "zone": "WCMA",
+  "lat": 42.318134,
+  "lon": -71.794372
+ },
+ "4553": {
+  "name": "LD.GREEN_HL23",
+  "zone": "CT",
+  "lat": 41.319667,
+  "lon": -72.596069
+ },
+ "48120": {
+  "name": "UN.GR_RIDGE16  GR1A",
+  "zone": "NH",
+  "lat": 42.904778,
+  "lon": -71.424
+ },
+ "48121": {
+  "name": "UN.GR_RIDGE16  GR1B",
+  "zone": "NH",
+  "lat": 42.904778,
+  "lon": -71.424
+ },
+ "4150": {
+  "name": "LD.GUILFORD34.5",
+  "zone": "ME",
+  "lat": 45.160448,
+  "lon": -69.389024
+ },
+ "4162": {
+  "name": "LD.GULFISLD34.5",
+  "zone": "ME",
+  "lat": 44.151201,
+  "lon": -70.208445
+ },
+ "328": {
+  "name": "UN.GULFISLD34.5GULF",
+  "zone": "ME",
+  "lat": 44.151201,
+  "lon": -70.208445
+ },
+ "4517": {
+  "name": "LD.GUNN    23",
+  "zone": "WCMA",
+  "lat": 42.236077,
+  "lon": -72.685882
+ },
+ "4551": {
+  "name": "LD.HADDAM  23",
+  "zone": "CT",
+  "lat": 41.460913,
+  "lon": -72.476719
+ },
+ "4851": {
+  "name": "LD.HANOVER 23  1690 LD",
+  "zone": "CT",
+  "lat": 41.526533,
+  "lon": -72.825468
+ },
+ "4852": {
+  "name": "LD.HANOVER 23  1355 LD",
+  "zone": "CT",
+  "lat": 41.526533,
+  "lon": -72.825468
+ },
+ "47755": {
+  "name": "LD.HANOVER 13.81690 LD",
+  "zone": "CT",
+  "lat": 41.526533,
+  "lon": -72.825468
+ },
+ "47949": {
+  "name": "LD.HANOVER 13.81355 LD",
+  "zone": "CT",
+  "lat": 41.526533,
+  "lon": -72.825468
+ },
+ "4309": {
+  "name": "LD.HARRIMAN6.9",
+  "zone": "WCMA",
+  "lat": 42.75829,
+  "lon": -72.930003
+ },
+ "435": {
+  "name": "UN.HARRIMAN6.9 HARR",
+  "zone": "WCMA",
+  "lat": 42.75829,
+  "lon": -72.930003
+ },
+ "4083": {
+  "name": "LD.HARRINGT34.5",
+  "zone": "ME",
+  "lat": 44.6222,
+  "lon": -67.7979
+ },
+ "68505": {
+  "name": "LD.HNDRSNVL13.8",
+  "zone": "NEMA",
+  "lat": 42.3996,
+  "lon": -71.0657
+ },
+ "68506": {
+  "name": "LD.JEPSON  13.8",
+  "zone": "RI",
+  "lat": 41.546301,
+  "lon": -71.278503
+ },
+ "68507": {
+  "name": "LD.JEPSON  69",
+  "zone": "RI",
+  "lat": 41.546301,
+  "lon": -71.278503
+ },
+ "68508": {
+  "name": "LD.JEPSON  23",
+  "zone": "RI",
+  "lat": 41.546301,
+  "lon": -71.278503
+ },
+ "68737": {
+  "name": "UN.CYRO_DR 34.5SANS",
+  "zone": "ME",
+  "lat": 43.407639,
+  "lon": -70.711167
+ },
+ "69268": {
+  "name": "LD.DUNNL_PK13.8",
+  "zone": "RI",
+  "lat": 41.86554,
+  "lon": -71.36562
+ },
+ "69801": {
+  "name": "UN.CANTRBRY34.5QNBS",
+  "zone": "CT",
+  "lat": 41.738509,
+  "lon": -71.924976
+ },
+ "69922": {
+  "name": "LD.ROCKNGHM13.2",
+  "zone": "NEMA",
+  "lat": 42.77326,
+  "lon": -71.22782
+ },
+ "69786": {
+  "name": "UN.FRMINGTN34.5FRMS",
+  "zone": "ME",
+  "lat": 44.645614,
+  "lon": -70.166099
+ },
+ "71608": {
+  "name": "UN.WICKFORD34.5DB1S",
+  "zone": "RI",
+  "lat": 41.5804,
+  "lon": -71.4961
+ },
+ "71609": {
+  "name": "UN.WICKFORD34.5DB2S",
+  "zone": "RI",
+  "lat": 41.5804,
+  "lon": -71.4961
+ },
+ "71610": {
+  "name": "UN.WICKFORD34.5DB3S",
+  "zone": "RI",
+  "lat": 41.5804,
+  "lon": -71.4961
+ },
+ "71611": {
+  "name": "UN.WICKFORD34.5DB4S",
+  "zone": "RI",
+  "lat": 41.5804,
+  "lon": -71.4961
+ },
+ "73279": {
+  "name": "UN.WICKFORD34.5EXTS",
+  "zone": "RI",
+  "lat": 41.5804,
+  "lon": -71.4961
+ },
+ "71308": {
+  "name": "UN.IRNMN_HL34.5IM1S",
+  "zone": "RI",
+  "lat": 41.956554,
+  "lon": -71.520386
+ },
+ "71309": {
+  "name": "UN.IRNMN_HL34.5IM2S",
+  "zone": "RI",
+  "lat": 41.956554,
+  "lon": -71.520386
+ },
+ "71310": {
+  "name": "UN.IRNMN_HL34.5IM3S",
+  "zone": "RI",
+  "lat": 41.956554,
+  "lon": -71.520386
+ },
+ "71311": {
+  "name": "UN.IRNMN_HL34.5IM4S",
+  "zone": "RI",
+  "lat": 41.956554,
+  "lon": -71.520386
+ },
+ "71887": {
+  "name": "UN.CLIFTON 34.5SLVW",
+  "zone": "ME",
+  "lat": 44.7773,
+  "lon": -68.5234
+ },
+ "48645": {
+  "name": "UN.CLIFTON 34.5PSGW",
+  "zone": "ME",
+  "lat": 44.7773,
+  "lon": -68.5234
+ },
+ "73546": {
+  "name": "LD.RYNLD_AV13.2",
+  "zone": "SEMA",
+  "lat": 41.885821,
+  "lon": -71.195305
+ },
+ "4441": {
+  "name": "LD.INDIAN  13.8",
+  "zone": "CT",
+  "lat": 41.325705,
+  "lon": -73.100079
+ },
+ "389": {
+  "name": "UN.INDIAN  13.8DERB",
+  "zone": "CT",
+  "lat": 41.325705,
+  "lon": -73.100079
+ },
+ "73813": {
+  "name": "UN.INDIAN  13.8DPFC",
+  "zone": "CT",
+  "lat": 41.325705,
+  "lon": -73.100079
+ },
+ "73808": {
+  "name": "LD.SNAKE_HL13.2",
+  "zone": "WCMA",
+  "lat": 42.125508,
+  "lon": -72.001217
+ },
+ "73812": {
+  "name": "UN.VNYRDWND115 VINW",
+  "zone": "SEMA",
+  "lat": 41.684401,
+  "lon": -70.284907
+ },
+ "74351": {
+  "name": "UN.GRAVLPIT34.5GRVS",
+  "zone": "CT",
+  "lat": 41.888841,
+  "lon": -72.545048
+ },
+ "74357": {
+  "name": "UN.ALBIONRD34.5TCRS",
+  "zone": "ME",
+  "lat": 44.570789,
+  "lon": -69.509292
+ },
+ "74350": {
+  "name": "LD.STFRD_ST13.8",
+  "zone": "WCMA",
+  "lat": 42.225029,
+  "lon": -71.862108
+ },
+ "4809": {
+  "name": "LD.BALDWIN 13.8",
+  "zone": "CT",
+  "lat": 41.524233,
+  "lon": -73.039899
+ },
+ "4339": {
+  "name": "LD.BARTH_ST115",
+  "zone": "NEMA",
+  "lat": 42.509177,
+  "lon": -70.974421
+ },
+ "4386": {
+  "name": "LD.BEEBE   34.5",
+  "zone": "NH",
+  "lat": 43.828167,
+  "lon": -71.640167
+ },
+ "4556": {
+  "name": "LD.BRANF_RR115",
+  "zone": "CT",
+  "lat": 41.284039,
+  "lon": -72.85377
+ },
+ "38206": {
+  "name": "UN.BPT_5CC 25  BHR5",
+  "zone": "CT",
+  "lat": 41.167235,
+  "lon": -73.181719
+ },
+ "349": {
+  "name": "UN.BPT_RESC13.8BPTR",
+  "zone": "CT",
+  "lat": 41.163018,
+  "lon": -73.208328
+ },
+ "49403": {
+  "name": "LD.CANTN_BE115",
+  "zone": "SEMA",
+  "lat": 42.157024,
+  "lon": -71.1549
+ },
+ "4123": {
+  "name": "LD.CANTN_BE13.8",
+  "zone": "SEMA",
+  "lat": 42.157024,
+  "lon": -71.1549
+ },
+ "4184": {
+  "name": "LD.CAPE    34.5",
+  "zone": "ME",
+  "lat": 43.642438,
+  "lon": -70.255069
+ },
+ "367": {
+  "name": "UN.CAPE    13.2CAP4",
+  "zone": "ME",
+  "lat": 43.642438,
+  "lon": -70.255069
+ },
+ "368": {
+  "name": "UN.CAPE    13.2CAP5",
+  "zone": "ME",
+  "lat": 43.642438,
+  "lon": -70.255069
+ },
+ "4492": {
+  "name": "LD.CARD    23",
+  "zone": "CT",
+  "lat": 41.702382,
+  "lon": -72.233552
+ },
+ "4493": {
+  "name": "LD.CARD    69",
+  "zone": "CT",
+  "lat": 41.702382,
+  "lon": -72.233552
+ },
+ "4817": {
+  "name": "LD.CHATHAM 14.4",
+  "zone": "NEMA",
+  "lat": 42.3595,
+  "lon": -71.0549
+ },
+ "4464": {
+  "name": "LD.CHELSEVT46",
+  "zone": "VT",
+  "lat": 43.960862,
+  "lon": -72.47096
+ },
+ "4821": {
+  "name": "LD.CLARKSON12.5T1 LD",
+  "zone": "RI",
+  "lat": 41.843342,
+  "lon": -71.420848
+ },
+ "4822": {
+  "name": "LD.CLARKSON12.5T2 LD",
+  "zone": "RI",
+  "lat": 41.843342,
+  "lon": -71.420848
+ },
+ "4434": {
+  "name": "LD.CONGRESS13.8",
+  "zone": "CT",
+  "lat": 41.182419,
+  "lon": -73.186785
+ },
+ "16738": {
+  "name": "UN.CONGRESS13.8BPFC",
+  "zone": "CT",
+  "lat": 41.182419,
+  "lon": -73.186785
+ },
+ "44033": {
+  "name": "LD.COOPERML12.5",
+  "zone": "ME",
+  "lat": 44.297012,
+  "lon": -69.556551
+ },
+ "4605": {
+  "name": "LD.COSCOB  26.4",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "14157": {
+  "name": "UN.COSCOB  13.8CC13",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "14158": {
+  "name": "UN.COSCOB  13.8CC14",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "44013": {
+  "name": "LD.COSCOB  27.6",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "44014": {
+  "name": "LD.COSCOB  13.2",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "370": {
+  "name": "UN.COSCOB  13.8CC10",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "371": {
+  "name": "UN.COSCOB  13.8CC11",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "372": {
+  "name": "UN.COSCOB  13.8CC12",
+  "zone": "CT",
+  "lat": 41.029047,
+  "lon": -73.599153
+ },
+ "4305": {
+  "name": "LD.DEPOT   13.8",
+  "zone": "SEMA",
+  "lat": 42.129962,
+  "lon": -71.517338
+ },
+ "388": {
+  "name": "UN.DARTMTH 13.8DART",
+  "zone": "SEMA",
+  "lat": 41.673345,
+  "lon": -70.999246
+ },
+ "15940": {
+  "name": "UN.DARTMTH 13.8DAR3",
+  "zone": "SEMA",
+  "lat": 41.673345,
+  "lon": -70.999246
+ },
+ "4614": {
+  "name": "LD.DEVON_RR115",
+  "zone": "CT",
+  "lat": 41.2074,
+  "lon": -73.1068
+ },
+ "4473": {
+  "name": "LD.DUDLEY  34.5",
+  "zone": "CT",
+  "lat": 41.536111,
+  "lon": -72.102222
+ },
+ "37974": {
+  "name": "LD.DUDLEY  13.8",
+  "zone": "CT",
+  "lat": 41.536111,
+  "lon": -72.102222
+ },
+ "4400": {
+  "name": "LD.EMRLD_ST12.5",
+  "zone": "NH",
+  "lat": 42.929667,
+  "lon": -72.286
+ },
+ "4289": {
+  "name": "LD.FARNPIKE12.5",
+  "zone": "RI",
+  "lat": 41.901223,
+  "lon": -71.53092
+ },
+ "4461": {
+  "name": "LD.FLORNCE 46",
+  "zone": "VT",
+  "lat": 43.708682,
+  "lon": -73.06736
+ },
+ "541": {
+  "name": "UN.FLORNCE 46  PROC",
+  "zone": "VT",
+  "lat": 43.708682,
+  "lon": -73.06736
+ },
+ "2432": {
+  "name": "UN.FLORNCE 46  HNTG",
+  "zone": "VT",
+  "lat": 43.708682,
+  "lon": -73.06736
+ },
+ "4474": {
+  "name": "LD.FORT_HIL34.5",
+  "zone": "CT",
+  "lat": 41.470982,
+  "lon": -72.112177
+ },
+ "6418": {
+  "name": "LD.HALVARSN345 SMDINTLD",
+  "zone": "CT",
+  "lat": 41.2872,
+  "lon": -72.902
+ },
+ "4155": {
+  "name": "LD.HARRIS  13.2",
+  "zone": "ME",
+  "lat": 45.459145,
+  "lon": -69.864761
+ },
+ "432": {
+  "name": "UN.HARRIS  13.2HAR1",
+  "zone": "ME",
+  "lat": 45.459145,
+  "lon": -69.864761
+ },
+ "433": {
+  "name": "UN.HARRIS  13.2HAR2",
+  "zone": "ME",
+  "lat": 45.459145,
+  "lon": -69.864761
+ },
+ "434": {
+  "name": "UN.HARRIS  13.2HAR3",
+  "zone": "ME",
+  "lat": 45.459145,
+  "lon": -69.864761
+ },
+ "757": {
+  "name": "UN.HARRIS  13.2HAR4",
+  "zone": "ME",
+  "lat": 45.459145,
+  "lon": -69.864761
+ },
+ "4854": {
+  "name": "LD.HAWKINS 13.8110A LD",
+  "zone": "NEMA",
+  "lat": 42.3621,
+  "lon": -71.0612
+ },
+ "4856": {
+  "name": "LD.HAWKINS 13.8110B LD",
+  "zone": "NEMA",
+  "lat": 42.3621,
+  "lon": -71.0612
+ },
+ "4437": {
+  "name": "LD.HAWTHORN13.8",
+  "zone": "CT",
+  "lat": 41.21369,
+  "lon": -73.25171
+ },
+ "4388": {
+  "name": "LD.INTERVAL34.5",
+  "zone": "NH",
+  "lat": 44.092679,
+  "lon": -71.152321
+ },
+ "4346": {
+  "name": "LD.IPSWICH 23",
+  "zone": "NEMA",
+  "lat": 42.697596,
+  "lon": -70.869305
+ },
+ "4416": {
+  "name": "LD.KNGSTNPS34.5",
+  "zone": "NH",
+  "lat": 42.8936,
+  "lon": -71.0836
+ },
+ "14614": {
+  "name": "UN.KLEEN   18.0KLEN",
+  "zone": "CT",
+  "lat": 41.552944,
+  "lon": -72.596722
+ },
+ "4378": {
+  "name": "LD.LAWRENCE34.5",
+  "zone": "NH",
+  "lat": 42.790874,
+  "lon": -71.377718
+ },
+ "39676": {
+  "name": "LD.LEEDS_ME34.5",
+  "zone": "ME",
+  "lat": 44.336103,
+  "lon": -70.167289
+ },
+ "75121": {
+  "name": "UN.LEEDS_ME34.5LEES",
+  "zone": "ME",
+  "lat": 44.336103,
+  "lon": -70.167289
+ },
+ "4283": {
+  "name": "LD.LINCOLN 12.5",
+  "zone": "RI",
+  "lat": 41.750416,
+  "lon": -71.439098
+ },
+ "44030": {
+  "name": "UN.LITTLRST13.2WRNS",
+  "zone": "WCMA",
+  "lat": 42.163984,
+  "lon": -72.192814
+ },
+ "4317": {
+  "name": "LD.LITTLRST13.2",
+  "zone": "WCMA",
+  "lat": 42.163984,
+  "lon": -72.192814
+ },
+ "50636": {
+  "name": "UN.MADISON 115 MADH",
+  "zone": "ME",
+  "lat": 44.781105,
+  "lon": -69.913812
+ },
+ "40653": {
+  "name": "UN.MADISON 34.5MADB",
+  "zone": "ME",
+  "lat": 44.781105,
+  "lon": -69.913812
+ },
+ "67492": {
+  "name": "AR.MADISON 34.5MADBD",
+  "zone": "ME",
+  "lat": 44.781105,
+  "lon": -69.913812
+ },
+ "37150": {
+  "name": "LD.MADISON 34.5",
+  "zone": "ME",
+  "lat": 44.781105,
+  "lon": -69.913812
+ },
+ "69877": {
+  "name": "LD.MADISON 115",
+  "zone": "ME",
+  "lat": 44.781105,
+  "lon": -69.913812
+ },
+ "47077": {
+  "name": "LD.MEADOWST69",
+  "zone": "WCMA",
+  "lat": 42.2386,
+  "lon": -72.0101
+ },
+ "42608": {
+  "name": "LD.MEMORIAL13.8",
+  "zone": "WCMA",
+  "lat": 42.1955,
+  "lon": -72.5756
+ },
+ "42609": {
+  "name": "LD.MICHL_AV13.2",
+  "zone": "NH",
+  "lat": 43.265983,
+  "lon": -72.394038
+ },
+ "68738": {
+  "name": "LD.MOSHER_T115",
+  "zone": "VT",
+  "lat": 44.9291,
+  "lon": -72.2366
+ },
+ "4325": {
+  "name": "LD.NASHUA  13.8",
+  "zone": "WCMA",
+  "lat": 42.284143,
+  "lon": -71.799189
+ },
+ "47381": {
+  "name": "LD.N_LONDON12.5",
+  "zone": "RI",
+  "lat": 41.7092,
+  "lon": -71.5038
+ },
+ "48633": {
+  "name": "LD.NLONDNCT115",
+  "zone": "CT",
+  "lat": 41.355831,
+  "lon": -72.099571
+ },
+ "4885": {
+  "name": "LD.NEWTON  13.8",
+  "zone": "NEMA",
+  "lat": 42.317321,
+  "lon": -71.211652
+ },
+ "14220": {
+  "name": "UN.NORTHFLD13.8NFD4",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14217": {
+  "name": "UN.NORTHFLD13.8NFD1",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14218": {
+  "name": "UN.NORTHFLD13.8NFD2",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14219": {
+  "name": "UN.NORTHFLD13.8NFD3",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14224": {
+  "name": "AR.NORTHFLD13.8NFD1P",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14225": {
+  "name": "AR.NORTHFLD13.8NFD2P",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14226": {
+  "name": "AR.NORTHFLD13.8NFD3P",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "14227": {
+  "name": "AR.NORTHFLD13.8NFD4P",
+  "zone": "WCMA",
+  "lat": 42.611139,
+  "lon": -72.468472
+ },
+ "4533": {
+  "name": "LD.NW_HARTF23",
+  "zone": "CT",
+  "lat": 41.783124,
+  "lon": -72.704809
+ },
+ "4349": {
+  "name": "LD.WOODCHUK13.2",
+  "zone": "NEMA",
+  "lat": 42.673471,
+  "lon": -71.057773
+ },
+ "4247": {
+  "name": "LD.WINGLANE13.2",
+  "zone": "SEMA",
+  "lat": 41.677387,
+  "lon": -70.897082
+ },
+ "4546": {
+  "name": "LD.WESTSIDE13.2",
+  "zone": "CT",
+  "lat": 41.563195,
+  "lon": -72.662498
+ },
+ "4371": {
+  "name": "LD.WESTBORO69",
+  "zone": "WCMA",
+  "lat": 42.272994,
+  "lon": -71.621295
+ },
+ "4133": {
+  "name": "LD.WATERBOR12.5",
+  "zone": "ME",
+  "lat": 43.576792,
+  "lon": -70.695793
+ },
+ "39677": {
+  "name": "LD.UNION_AV115",
+  "zone": "CT",
+  "lat": 41.3002,
+  "lon": -72.9242
+ },
+ "4108": {
+  "name": "LD.TRAPELO 13.8",
+  "zone": "NEMA",
+  "lat": 42.4143,
+  "lon": -71.2523
+ },
+ "43588": {
+  "name": "LD.TIMBER  34.5",
+  "zone": "NH",
+  "lat": 42.9498,
+  "lon": -70.8688
+ },
+ "4558": {
+  "name": "LD.STCKHOSE13.8",
+  "zone": "CT",
+  "lat": 41.571753,
+  "lon": -72.144148
+ },
+ "4358": {
+  "name": "LD.S_RANDOL13.8",
+  "zone": "SEMA",
+  "lat": 42.154528,
+  "lon": -71.042662
+ },
+ "4185": {
+  "name": "LD.SEWAL_ST34.5",
+  "zone": "ME",
+  "lat": 43.654549,
+  "lon": -70.292993
+ },
+ "46681": {
+  "name": "LD.SEWAL_ST12.5",
+  "zone": "ME",
+  "lat": 43.654549,
+  "lon": -70.292993
+ },
+ "4377": {
+  "name": "LD.SCOBIE  12.5",
+  "zone": "NH",
+  "lat": 42.903667,
+  "lon": -71.340333
+ },
+ "4342": {
+  "name": "LD.SALEM   23",
+  "zone": "NEMA",
+  "lat": 42.526721,
+  "lon": -70.876853
+ },
+ "48695": {
+  "name": "UN.SALEM   18.0SAL5",
+  "zone": "NEMA",
+  "lat": 42.526721,
+  "lon": -70.876853
+ },
+ "48696": {
+  "name": "UN.SALEM   18.0SAL6",
+  "zone": "NEMA",
+  "lat": 42.526721,
+  "lon": -70.876853
+ },
+ "4449": {
+  "name": "LD.STALBANS34.5",
+  "zone": "VT",
+  "lat": 44.80441,
+  "lon": -73.09893
+ },
+ "16654": {
+  "name": "LD.ROOD_AVE23",
+  "zone": "CT",
+  "lat": 41.828517,
+  "lon": -72.668894
+ },
+ "4304": {
+  "name": "LD.RCKY_HL 13.8",
+  "zone": "SEMA",
+  "lat": 42.15751,
+  "lon": -71.488466
+ },
+ "4899": {
+  "name": "LD.RIVERSDE23  1X LD",
+  "zone": "CT",
+  "lat": 41.747578,
+  "lon": -72.642787
+ },
+ "4901": {
+  "name": "LD.RIVERSDE23  3X LD",
+  "zone": "CT",
+  "lat": 41.747578,
+  "lon": -72.642787
+ },
+ "4550": {
+  "name": "LD.P&WAIRCT115",
+  "zone": "CT",
+  "lat": 41.540502,
+  "lon": -72.563592
+ },
+ "15484": {
+  "name": "UN.POTTER  13.8WAT1",
+  "zone": "SEMA",
+  "lat": 42.233963,
+  "lon": -70.967648
+ },
+ "15485": {
+  "name": "UN.POTTER  13.8WAT2",
+  "zone": "SEMA",
+  "lat": 42.233963,
+  "lon": -70.967648
+ },
+ "539": {
+  "name": "UN.PONTOOK 34.5PONT",
+  "zone": "NH",
+  "lat": 44.617944,
+  "lon": -71.226083
+ },
+ "4523": {
+  "name": "LD.PIPER   13.8",
+  "zone": "WCMA",
+  "lat": 42.138754,
+  "lon": -72.640657
+ },
+ "4379": {
+  "name": "LD.PEMIGWAS34.5",
+  "zone": "NH",
+  "lat": 43.597,
+  "lon": -71.709833
+ },
+ "330": {
+  "name": "UN.PEMIGWAS34.5AYER",
+  "zone": "NH",
+  "lat": 43.597,
+  "lon": -71.709833
+ },
+ "621": {
+  "name": "UN.WILLIAM 6.9 WILL",
+  "zone": "ME",
+  "lat": 44.9592,
+  "lon": -69.8711
+ },
+ "4232": {
+  "name": "LD.VALLEYNB23",
+  "zone": "SEMA",
+  "lat": 41.782901,
+  "lon": -70.601315
+ },
+ "47741": {
+  "name": "UN.VALLEYNB23  FGW",
+  "zone": "SEMA",
+  "lat": 41.782901,
+  "lon": -70.601315
+ },
+ "4435": {
+  "name": "LD.PEQUONCK13.8",
+  "zone": "CT",
+  "lat": 41.172435,
+  "lon": -73.184917
+ },
+ "75108": {
+  "name": "UN.CHASE_PD34.5WMRW",
+  "zone": "ME",
+  "lat": 45.140361,
+  "lon": -69.84923
+ },
+ "75109": {
+  "name": "UN.BASELINE34.5DNEW",
+  "zone": "ME",
+  "lat": 44.700424,
+  "lon": -67.957027
+ },
+ "75124": {
+  "name": "UN.REVWIND 275 REVW",
+  "zone": "RI",
+  "lat": 41.592049,
+  "lon": -71.437066
+ },
+ "4134": {
+  "name": "LD.BOLT_HL 34.5",
+  "zone": "ME",
+  "lat": 43.115985,
+  "lon": -70.768928
+ },
+ "75439": {
+  "name": "UN.VAUGH_PD34.5CARB",
+  "zone": "SEMA",
+  "lat": 41.896518,
+  "lon": -70.788761
+ },
+ "75440": {
+  "name": "AR.VAUGH_PD34.5CARBD",
+  "zone": "SEMA",
+  "lat": 41.896518,
+  "lon": -70.788761
+ },
+ "75651": {
+  "name": "LD.E_EAGLE 13.8",
+  "zone": "NEMA",
+  "lat": 42.38222,
+  "lon": -71.02838
+ },
+ "47382": {
+  "name": "LD.HARRISON13.8",
+  "zone": "SEMA",
+  "lat": 42.119134,
+  "lon": -71.051305
+ },
+ "38115": {
+  "name": "UN.HARRNGTN13.2HARS",
+  "zone": "WCMA",
+  "lat": 42.243009,
+  "lon": -72.037197
+ },
+ "4463": {
+  "name": "LD.HARTFDVT46",
+  "zone": "VT",
+  "lat": 43.683371,
+  "lon": -72.31171
+ },
+ "4151": {
+  "name": "LD.HARTLAND12.5",
+  "zone": "ME",
+  "lat": 44.835852,
+  "lon": -69.476559
+ },
+ "49324": {
+  "name": "UN.HARTLAND12.5PITS",
+  "zone": "ME",
+  "lat": 44.835852,
+  "lon": -69.476559
+ },
+ "4107": {
+  "name": "LD.HARTWELL13.8",
+  "zone": "NEMA",
+  "lat": 42.4704,
+  "lon": -71.2575
+ },
+ "16251": {
+  "name": "LD.HARWICH 23",
+  "zone": "SEMA",
+  "lat": 41.688313,
+  "lon": -70.101002
+ },
+ "4226": {
+  "name": "LD.HATCHVIL23",
+  "zone": "SEMA",
+  "lat": 41.618362,
+  "lon": -70.554253
+ },
+ "47754": {
+  "name": "LD.HATHAWAY23",
+  "zone": "SEMA",
+  "lat": 41.71582,
+  "lon": -71.157646
+ },
+ "4213": {
+  "name": "LD.HATHAWAY13.8",
+  "zone": "SEMA",
+  "lat": 41.71582,
+  "lon": -71.157646
+ },
+ "4448": {
+  "name": "LD.HIGHGATE46",
+  "zone": "VT",
+  "lat": 44.940703,
+  "lon": -73.05126
+ },
+ "565": {
+  "name": "UN.HIGHGATE46  SHEL",
+  "zone": "VT",
+  "lat": 44.940703,
+  "lon": -73.05126
+ },
+ "12510": {
+  "name": "UN.HIGHGATE13.8SWC1",
+  "zone": "VT",
+  "lat": 44.940703,
+  "lon": -73.05126
+ },
+ "12511": {
+  "name": "UN.HIGHGATE13.8SWC2",
+  "zone": "VT",
+  "lat": 44.940703,
+  "lon": -73.05126
+ },
+ "4143": {
+  "name": "LD.HIGHLAND34.5",
+  "zone": "ME",
+  "lat": 44.136436,
+  "lon": -69.204287
+ },
+ "46608": {
+  "name": "LD.HILND_PK13.8",
+  "zone": "RI",
+  "lat": 41.99363,
+  "lon": -71.472661
+ },
+ "4183": {
+  "name": "LD.HNKLY_PD12.5",
+  "zone": "ME",
+  "lat": 43.62777,
+  "lon": -70.255648
+ },
+ "4862": {
+  "name": "LD.HOBRT_ST13.81X LD",
+  "zone": "SEMA",
+  "lat": 42.221466,
+  "lon": -70.905923
+ },
+ "4863": {
+  "name": "LD.HOBRT_ST13.82X LD",
+  "zone": "SEMA",
+  "lat": 42.221466,
+  "lon": -70.905923
+ },
+ "42368": {
+  "name": "LD.HOLLISTN13.8",
+  "zone": "NEMA",
+  "lat": 42.2066,
+  "lon": -71.4009
+ },
+ "4486": {
+  "name": "LD.HOLYOKE 13.8",
+  "zone": "WCMA",
+  "lat": 42.281183,
+  "lon": -72.604673
+ },
+ "12529": {
+  "name": "UN.HOOSAC  69  HOSW",
+  "zone": "WCMA",
+  "lat": 42.720943,
+  "lon": -73.028287
+ },
+ "4549": {
+  "name": "LD.HOPEWELL23",
+  "zone": "CT",
+  "lat": 41.680895,
+  "lon": -72.555159
+ },
+ "4303": {
+  "name": "LD.HOPKINTN13.8",
+  "zone": "SEMA",
+  "lat": 42.19052,
+  "lon": -71.540324
+ },
+ "4171": {
+  "name": "LD.HOTEL_RD34.5",
+  "zone": "ME",
+  "lat": 44.068334,
+  "lon": -70.26717
+ },
+ "37151": {
+  "name": "LD.HOTEL_RD12",
+  "zone": "ME",
+  "lat": 44.068334,
+  "lon": -70.26717
+ },
+ "37050": {
+  "name": "UN.HUCKN_HL34.5GROW",
+  "zone": "NH",
+  "lat": 43.782,
+  "lon": -71.6584
+ },
+ "4223": {
+  "name": "LD.HUDSN_HD13.8",
+  "zone": "WCMA",
+  "lat": 42.387245,
+  "lon": -71.556353
+ },
+ "4408": {
+  "name": "LD.HUDSON  34.5",
+  "zone": "NH",
+  "lat": 42.774333,
+  "lon": -71.429
+ },
+ "4411": {
+  "name": "LD.HUSE_RD 34.5",
+  "zone": "NH",
+  "lat": 42.953167,
+  "lon": -71.430833
+ },
+ "16249": {
+  "name": "LD.HYANIS_J24.0",
+  "zone": "SEMA",
+  "lat": 41.685252,
+  "lon": -70.29837
+ },
+ "4864": {
+  "name": "LD.HYDE_PRK13.8110A",
+  "zone": "NEMA",
+  "lat": 42.273645,
+  "lon": -71.120502
+ },
+ "4866": {
+  "name": "LD.HYDE_PRK13.8110B",
+  "zone": "NEMA",
+  "lat": 42.273645,
+  "lon": -71.120502
+ },
+ "4868": {
+  "name": "LD.IBM     115 K21 LD",
+  "zone": "VT",
+  "lat": 44.479406,
+  "lon": -73.095458
+ },
+ "4870": {
+  "name": "LD.IBM     115 K24 LD",
+  "zone": "VT",
+  "lat": 44.479406,
+  "lon": -73.095458
+ },
+ "4242": {
+  "name": "LD.INDSTLPK13.2",
+  "zone": "SEMA",
+  "lat": 41.719416,
+  "lon": -70.949246
+ },
+ "4487": {
+  "name": "LD.INGLESID13.8",
+  "zone": "WCMA",
+  "lat": 42.170759,
+  "lon": -72.646778
+ },
+ "4447": {
+  "name": "LD.IRASBURG46",
+  "zone": "VT",
+  "lat": 44.844693,
+  "lon": -72.28423
+ },
+ "4399": {
+  "name": "LD.JACKMAN 34.5",
+  "zone": "NH",
+  "lat": 43.112167,
+  "lon": -71.925667
+ },
+ "449": {
+  "name": "UN.JACKMAN 34.5JACK",
+  "zone": "NH",
+  "lat": 43.112167,
+  "lon": -71.925667
+ },
+ "13703": {
+  "name": "UN.JAY     13.8VCG1",
+  "zone": "ME",
+  "lat": 44.505581,
+  "lon": -70.241671
+ },
+ "13704": {
+  "name": "UN.JAY     13.8VCG2",
+  "zone": "ME",
+  "lat": 44.505581,
+  "lon": -70.241671
+ },
+ "13705": {
+  "name": "UN.JAY     13.8VCG3",
+  "zone": "ME",
+  "lat": 44.505581,
+  "lon": -70.241671
+ },
+ "74615": {
+  "name": "UN.JAY     13.8RJOL",
+  "zone": "ME",
+  "lat": 44.5056,
+  "lon": -70.2417
+ },
+ "4167": {
+  "name": "LD.JAY     13.8",
+  "zone": "ME",
+  "lat": 44.505581,
+  "lon": -70.241671
+ },
+ "35979": {
+  "name": "UN.JAY_VT  46  KCW",
+  "zone": "VT",
+  "lat": 44.978444,
+  "lon": -72.482611
+ },
+ "40321": {
+  "name": "LD.JAY_VT  46",
+  "zone": "VT",
+  "lat": 44.978444,
+  "lon": -72.482611
+ },
+ "10684": {
+  "name": "LD.JOHNSTON12.5",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "4286": {
+  "name": "LD.JOHNSTON23",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "10959": {
+  "name": "UN.JOHNSTON23  JLF2",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50637": {
+  "name": "UN.JOHNSTON23  JS1W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50638": {
+  "name": "UN.JOHNSTON23  JS2W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50639": {
+  "name": "UN.JOHNSTON23  JS3W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50640": {
+  "name": "UN.JOHNSTON23  JS4W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50641": {
+  "name": "UN.JOHNSTON23  JS5W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50642": {
+  "name": "UN.JOHNSTON23  JS6W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "50643": {
+  "name": "UN.JOHNSTON23  JS7W",
+  "zone": "RI",
+  "lat": 41.814454,
+  "lon": -71.474959
+ },
+ "4442": {
+  "name": "LD.JUNE_ST 13.8",
+  "zone": "CT",
+  "lat": 41.338303,
+  "lon": -72.982367
+ },
+ "43790": {
+  "name": "LD.KEENE_RD44",
+  "zone": "ME",
+  "lat": 45.397458,
+  "lon": -68.529335
+ },
+ "4250": {
+  "name": "LD.KENDALL 13.8",
+  "zone": "NEMA",
+  "lat": 42.36294,
+  "lon": -71.080518
+ },
+ "452": {
+  "name": "UN.KENDALL 13.8KDJ1",
+  "zone": "NEMA",
+  "lat": 42.36294,
+  "lon": -71.080518
+ },
+ "10349": {
+  "name": "UN.KENDALL 13.8KND3",
+  "zone": "NEMA",
+  "lat": 42.36294,
+  "lon": -71.080518
+ },
+ "1672": {
+  "name": "UN.KENDALL 18.0KEN4",
+  "zone": "NEMA",
+  "lat": 42.36294,
+  "lon": -71.080518
+ },
+ "4255": {
+  "name": "LD.KENTCNTY34.5",
+  "zone": "RI",
+  "lat": 41.683257,
+  "lon": -71.479465
+ },
+ "48168": {
+  "name": "LD.KENTCNTY12.5",
+  "zone": "RI",
+  "lat": 41.683257,
+  "lon": -71.479465
+ },
+ "4277": {
+  "name": "LD.KENYON  12.5",
+  "zone": "RI",
+  "lat": 41.438468,
+  "lon": -71.632259
+ },
+ "12551": {
+  "name": "UN.KIBBY   34.5KIBY",
+  "zone": "ME",
+  "lat": 45.355389,
+  "lon": -70.541611
+ },
+ "10888": {
+  "name": "LD.KILVERT 12.5",
+  "zone": "RI",
+  "lat": 41.729505,
+  "lon": -71.449789
+ },
+ "13951": {
+  "name": "LD.KIMBL_RD34.5",
+  "zone": "ME",
+  "lat": 44.151944,
+  "lon": -70.633889
+ },
+ "4235": {
+  "name": "LD.KINGSTON23",
+  "zone": "SEMA",
+  "lat": 42.0054,
+  "lon": -70.7564
+ },
+ "4347": {
+  "name": "LD.KING_ST 23",
+  "zone": "NEMA",
+  "lat": 42.736454,
+  "lon": -71.012063
+ },
+ "4874": {
+  "name": "LD.KNGSTNAB13.8110A LD",
+  "zone": "NEMA",
+  "lat": 42.3529,
+  "lon": -71.0603
+ },
+ "4876": {
+  "name": "LD.KNGSTNAB13.8110B LD",
+  "zone": "NEMA",
+  "lat": 42.3529,
+  "lon": -71.0603
+ },
+ "47742": {
+  "name": "LD.KNGSTNUT34.5",
+  "zone": "NH",
+  "lat": 42.894,
+  "lon": -71.0844
+ },
+ "4092": {
+  "name": "LD.K_STREET13.8",
+  "zone": "NEMA",
+  "lat": 42.3387,
+  "lon": -71.0397
+ },
+ "4393": {
+  "name": "LD.LACONIA 34.5",
+  "zone": "NH",
+  "lat": 43.525153,
+  "lon": -71.451983
+ },
+ "4157": {
+  "name": "LD.LAKEWOOD34.5",
+  "zone": "ME",
+  "lat": 44.804816,
+  "lon": -69.739139
+ },
+ "617": {
+  "name": "UN.LAKEWOOD34.5WEST",
+  "zone": "ME",
+  "lat": 44.804816,
+  "lon": -69.739139
+ },
+ "1342": {
+  "name": "UN.LAKE_RD 21  LRD1",
+  "zone": "CT",
+  "lat": 41.874821,
+  "lon": -71.895971
+ },
+ "1343": {
+  "name": "UN.LAKE_RD 21  LRD2",
+  "zone": "CT",
+  "lat": 41.874821,
+  "lon": -71.895971
+ },
+ "1344": {
+  "name": "UN.LAKE_RD 21  LRD3",
+  "zone": "CT",
+  "lat": 41.874821,
+  "lon": -71.895971
+ },
+ "482": {
+  "name": "UN.LAUREL  22  MID4",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "12505": {
+  "name": "UN.LAUREL  13.8MI12",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "37366": {
+  "name": "UN.LAUREL  13.8MI13",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "37367": {
+  "name": "UN.LAUREL  13.8MI14",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "37368": {
+  "name": "UN.LAUREL  13.8MI15",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "4263": {
+  "name": "LD.LAUREL_C13.8",
+  "zone": "WCMA",
+  "lat": 42.531054,
+  "lon": -71.670175
+ },
+ "46637": {
+  "name": "LD.LEWSTN_L12.5",
+  "zone": "ME",
+  "lat": 44.0868,
+  "lon": -70.2118
+ },
+ "4085": {
+  "name": "LD.LEXINGTN13.8",
+  "zone": "NEMA",
+  "lat": 42.445149,
+  "lon": -71.266294
+ },
+ "36893": {
+  "name": "LD.LIMEKILN34.5",
+  "zone": "VT",
+  "lat": 44.4874,
+  "lon": -73.1707
+ },
+ "4144": {
+  "name": "LD.LINCOLNV34.5",
+  "zone": "ME",
+  "lat": 44.306981,
+  "lon": -69.114129
+ },
+ "462": {
+  "name": "UN.LISBON  115 LISB",
+  "zone": "CT",
+  "lat": 41.584147,
+  "lon": -72.041268
+ },
+ "4328": {
+  "name": "LD.LITCHFLD13.8",
+  "zone": "WCMA",
+  "lat": 42.508564,
+  "lon": -71.745492
+ },
+ "4484": {
+  "name": "LD.LITTLTN 25",
+  "zone": "WCMA",
+  "lat": 42.563683,
+  "lon": -71.481804
+ },
+ "4410": {
+  "name": "LD.LONGHILL34.5",
+  "zone": "NH",
+  "lat": 42.732333,
+  "lon": -71.4525
+ },
+ "4381": {
+  "name": "LD.LOSTNATN34.5",
+  "zone": "NH",
+  "lat": 44.594173,
+  "lon": -71.494281
+ },
+ "464": {
+  "name": "UN.LOSTNATN34.5LOST",
+  "zone": "NH",
+  "lat": 44.594173,
+  "lon": -71.494281
+ },
+ "4187": {
+  "name": "LD.LOUDEN  34.5",
+  "zone": "ME",
+  "lat": 43.529042,
+  "lon": -70.503201
+ },
+ "569": {
+  "name": "UN.LOUDEN  34.5SKEL",
+  "zone": "ME",
+  "lat": 43.529042,
+  "lon": -70.503201
+ },
+ "369": {
+  "name": "UN.LOUDEN  34.5CATR",
+  "zone": "ME",
+  "lat": 43.529042,
+  "lon": -70.503201
+ },
+ "4193": {
+  "name": "LD.LOVELL  34.5",
+  "zone": "ME",
+  "lat": 44.121765,
+  "lon": -70.888735
+ },
+ "4313": {
+  "name": "LD.LOWRDFLD69",
+  "zone": "WCMA",
+  "lat": 42.479239,
+  "lon": -72.596342
+ },
+ "465": {
+  "name": "UN.LOWRDFLD69  LOWD",
+  "zone": "WCMA",
+  "lat": 42.479239,
+  "lon": -72.596342
+ },
+ "38738": {
+  "name": "UN.LUDDN_LN34.5CANW",
+  "zone": "ME",
+  "lat": 44.496498,
+  "lon": -70.336998
+ },
+ "38173": {
+  "name": "UN.LUDDN_LN34.5SADW",
+  "zone": "ME",
+  "lat": 44.496498,
+  "lon": -70.336998
+ },
+ "49024": {
+  "name": "LD.LUDDN_LN34.5",
+  "zone": "ME",
+  "lat": 44.496498,
+  "lon": -70.336998
+ },
+ "4489": {
+  "name": "LD.LUDLOW  13.8",
+  "zone": "WCMA",
+  "lat": 42.195587,
+  "lon": -72.447711
+ },
+ "463": {
+  "name": "UN.LVER-AEI115 LIVR",
+  "zone": "ME",
+  "lat": 44.431785,
+  "lon": -70.161694
+ },
+ "4161": {
+  "name": "LD.LVERMORE12.5",
+  "zone": "ME",
+  "lat": 44.478414,
+  "lon": -70.171825
+ },
+ "36981": {
+  "name": "LD.LYNDONVL34.5",
+  "zone": "VT",
+  "lat": 44.534648,
+  "lon": -71.99358
+ },
+ "4336": {
+  "name": "LD.LYNN    23",
+  "zone": "NEMA",
+  "lat": 42.455049,
+  "lon": -70.951692
+ },
+ "16846": {
+  "name": "LD.LYNN    13.8",
+  "zone": "NEMA",
+  "lat": 42.455049,
+  "lon": -70.951692
+ },
+ "4418": {
+  "name": "LD.MADBURY 34.5",
+  "zone": "NH",
+  "lat": 43.1605,
+  "lon": -70.931
+ },
+ "4404": {
+  "name": "LD.MAMOTHRD34.5",
+  "zone": "NH",
+  "lat": 42.878574,
+  "lon": -71.383318
+ },
+ "4491": {
+  "name": "LD.MANCHSTR23",
+  "zone": "CT",
+  "lat": 41.771186,
+  "lon": -72.558048
+ },
+ "4231": {
+  "name": "LD.MANOMET 23",
+  "zone": "SEMA",
+  "lat": 41.91902,
+  "lon": -70.577341
+ },
+ "4480": {
+  "name": "LD.MANSFLD 13.8",
+  "zone": "SEMA",
+  "lat": 42.028428,
+  "lon": -71.222198
+ },
+ "4334": {
+  "name": "LD.MAPLWOOD13.8",
+  "zone": "NEMA",
+  "lat": 42.4316,
+  "lon": -71.0386
+ },
+ "4237": {
+  "name": "LD.MARSHFEL23",
+  "zone": "SEMA",
+  "lat": 42.080428,
+  "lon": -70.695077
+ },
+ "4227": {
+  "name": "LD.MASHPEE 23",
+  "zone": "SEMA",
+  "lat": 41.626446,
+  "lon": -70.472609
+ },
+ "4128": {
+  "name": "LD.MASON   34.5",
+  "zone": "ME",
+  "lat": 43.9912,
+  "lon": -69.6713
+ },
+ "4878": {
+  "name": "LD.MAYNARD 13.8110A LD",
+  "zone": "NEMA",
+  "lat": 42.436527,
+  "lon": -71.430627
+ },
+ "4879": {
+  "name": "LD.MAYNARD 13.8110B LD",
+  "zone": "NEMA",
+  "lat": 42.436527,
+  "lon": -71.430627
+ },
+ "4093": {
+  "name": "LD.MBTA    14.4",
+  "zone": "NEMA",
+  "lat": 42.338887,
+  "lon": -71.033655
+ },
+ "472": {
+  "name": "UN.MBTA    14.4MBTA",
+  "zone": "NEMA",
+  "lat": 42.338887,
+  "lon": -71.033655
+ },
+ "4273": {
+  "name": "LD.MEABROOK23",
+  "zone": "WCMA",
+  "lat": 42.612205,
+  "lon": -71.326171
+ },
+ "47997": {
+  "name": "LD.MEABROOK13.2",
+  "zone": "WCMA",
+  "lat": 42.612205,
+  "lon": -71.326171
+ },
+ "4145": {
+  "name": "LD.MEADW_RD34.5",
+  "zone": "ME",
+  "lat": 44.175534,
+  "lon": -69.121304
+ },
+ "4119": {
+  "name": "LD.MEDWAY  13.8",
+  "zone": "SEMA",
+  "lat": 42.136506,
+  "lon": -71.447557
+ },
+ "50115": {
+  "name": "UN.MEDWAY  13.8WMJ4",
+  "zone": "SEMA",
+  "lat": 42.136506,
+  "lon": -71.447557
+ },
+ "50116": {
+  "name": "UN.MEDWAY  13.8WMJ5",
+  "zone": "SEMA",
+  "lat": 42.136506,
+  "lon": -71.447557
+ },
+ "627": {
+  "name": "UN.MEDWAYJ313.8WMJ3",
+  "zone": "SEMA",
+  "lat": 42.136586,
+  "lon": -71.447523
+ },
+ "12104": {
+  "name": "LD.MELROSE 13.8",
+  "zone": "NEMA",
+  "lat": 42.469644,
+  "lon": -71.050499
+ },
+ "4259": {
+  "name": "LD.MELROSE 23",
+  "zone": "NEMA",
+  "lat": 42.469644,
+  "lon": -71.050499
+ },
+ "382": {
+  "name": "UN.MERIMACK13.8CT-1",
+  "zone": "NH",
+  "lat": 43.1406,
+  "lon": -71.4702
+ },
+ "383": {
+  "name": "UN.MERIMACK13.8CT-2",
+  "zone": "NH",
+  "lat": 43.1406,
+  "lon": -71.4702
+ },
+ "489": {
+  "name": "UN.MERIMACK13.8MK1",
+  "zone": "NH",
+  "lat": 43.1406,
+  "lon": -71.4702
+ },
+ "490": {
+  "name": "UN.MERIMACK23  MK2",
+  "zone": "NH",
+  "lat": 43.1406,
+  "lon": -71.4702
+ },
+ "37143": {
+  "name": "LD.ATHENSME12.5",
+  "zone": "ME",
+  "lat": 44.944722,
+  "lon": -69.65925
+ },
+ "48960": {
+  "name": "UN.ATHENSME12.5ATHN",
+  "zone": "ME",
+  "lat": 44.944722,
+  "lon": -69.65925
+ },
+ "13627": {
+  "name": "LD.ME_YK   13.2",
+  "zone": "ME",
+  "lat": 43.953613,
+  "lon": -69.695511
+ },
+ "48670": {
+  "name": "LD.MIDDLEST34.5",
+  "zone": "ME",
+  "lat": 44.1011,
+  "lon": -70.218734
+ },
+ "48671": {
+  "name": "LD.MIDDLEST12.5",
+  "zone": "ME",
+  "lat": 44.1011,
+  "lon": -70.218734
+ },
+ "495": {
+  "name": "UN.MIDDLEST34.5MONY",
+  "zone": "ME",
+  "lat": 44.1011,
+  "lon": -70.218734
+ },
+ "4466": {
+  "name": "LD.MIDDLESX34.5",
+  "zone": "VT",
+  "lat": 44.289091,
+  "lon": -72.67926
+ },
+ "614": {
+  "name": "UN.MIDDLESX34.5WATR",
+  "zone": "VT",
+  "lat": 44.289091,
+  "lon": -72.67926
+ },
+ "346": {
+  "name": "UN.MIDDLESX34.5BOLT",
+  "zone": "VT",
+  "lat": 44.289091,
+  "lon": -72.67926
+ },
+ "478": {
+  "name": "UN.MIDDLETN115 MI10",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "480": {
+  "name": "UN.MIDDLETN13.2MID2",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "481": {
+  "name": "UN.MIDDLETN20.9MID3",
+  "zone": "CT",
+  "lat": 41.55459,
+  "lon": -72.578162
+ },
+ "4348": {
+  "name": "LD.MIDDLTON23",
+  "zone": "NEMA",
+  "lat": 42.629475,
+  "lon": -71.048713
+ },
+ "4880": {
+  "name": "LD.MIDDL_ST13.8T1 LD",
+  "zone": "SEMA",
+  "lat": 42.1559,
+  "lon": -71.007
+ },
+ "4881": {
+  "name": "LD.MIDDL_ST13.8T2 LD",
+  "zone": "SEMA",
+  "lat": 42.1559,
+  "lon": -71.007
+ },
+ "4882": {
+  "name": "LD.MIDLBORO14.4",
+  "zone": "SEMA",
+  "lat": 41.89138,
+  "lon": -70.903745
+ },
+ "4457": {
+  "name": "LD.MIDLEBRY46",
+  "zone": "VT",
+  "lat": 44.014308,
+  "lon": -73.1336
+ },
+ "4597": {
+  "name": "LD.MIDLE_RV13.8",
+  "zone": "CT",
+  "lat": 41.403904,
+  "lon": -73.489234
+ },
+ "4515": {
+  "name": "LD.MIDWAY  13.8",
+  "zone": "WCMA",
+  "lat": 42.2873,
+  "lon": -72.6182
+ },
+ "1385": {
+  "name": "UN.MILFD_CT21  MFD1",
+  "zone": "CT",
+  "lat": 41.227738,
+  "lon": -73.098908
+ },
+ "1386": {
+  "name": "UN.MILFD_CT21  MFD2",
+  "zone": "CT",
+  "lat": 41.227738,
+  "lon": -73.098908
+ },
+ "486": {
+  "name": "UN.MILFORD 13.8MILF",
+  "zone": "SEMA",
+  "lat": 42.129896,
+  "lon": -71.511665
+ },
+ "14065": {
+  "name": "LD.MILLBURY13.8",
+  "zone": "WCMA",
+  "lat": 42.188052,
+  "lon": -71.73759
+ },
+ "4252": {
+  "name": "LD.MILLBURY69",
+  "zone": "WCMA",
+  "lat": 42.188052,
+  "lon": -71.73759
+ },
+ "624": {
+  "name": "UN.MILLBURY13.8WMIM",
+  "zone": "WCMA",
+  "lat": 42.188052,
+  "lon": -71.73759
+ },
+ "1210": {
+  "name": "UN.MILLENUM16  MILN",
+  "zone": "WCMA",
+  "lat": 42.113389,
+  "lon": -72.015333
+ },
+ "46716": {
+  "name": "LD.MILL_PD 12.5",
+  "zone": "NH",
+  "lat": 43.0682,
+  "lon": -70.7783
+ },
+ "4422": {
+  "name": "LD.MILL_RV 13.8",
+  "zone": "CT",
+  "lat": 41.308173,
+  "lon": -72.908367
+ },
+ "4211": {
+  "name": "LD.MILL_ST 13.8",
+  "zone": "SEMA",
+  "lat": 41.995483,
+  "lon": -70.938088
+ },
+ "484": {
+  "name": "UN.MILSTONE24.0MIL2",
+  "zone": "CT",
+  "lat": 41.314877,
+  "lon": -72.165371
+ },
+ "485": {
+  "name": "UN.MILSTONE24.0MIL3",
+  "zone": "CT",
+  "lat": 41.314877,
+  "lon": -72.165371
+ },
+ "4494": {
+  "name": "LD.MILSTONE345",
+  "zone": "CT",
+  "lat": 41.314877,
+  "lon": -72.165371
+ },
+ "4432": {
+  "name": "LD.MILVON  13.8",
+  "zone": "CT",
+  "lat": 41.2123,
+  "lon": -73.0809
+ },
+ "47968": {
+  "name": "LD.MINK    23",
+  "zone": "SEMA",
+  "lat": 41.790397,
+  "lon": -71.330375
+ },
+ "4296": {
+  "name": "LD.MINK    13.8",
+  "zone": "SEMA",
+  "lat": 41.790397,
+  "lon": -71.330375
+ },
+ "4426": {
+  "name": "LD.MIX_AVE 13.8",
+  "zone": "CT",
+  "lat": 41.372077,
+  "lon": -72.923805
+ },
+ "4403": {
+  "name": "LD.MONADNCK34.5",
+  "zone": "NH",
+  "lat": 42.829667,
+  "lon": -72.167167
+ },
+ "40034": {
+  "name": "LD.MONMOUTH12",
+  "zone": "ME",
+  "lat": 44.18893,
+  "lon": -69.99363
+ },
+ "40035": {
+  "name": "LD.MONMOUTH34.5",
+  "zone": "ME",
+  "lat": 44.18893,
+  "lon": -69.99363
+ },
+ "4510": {
+  "name": "LD.MONTAGUE13.8",
+  "zone": "WCMA",
+  "lat": 42.587307,
+  "lon": -72.57738
+ },
+ "14801": {
+  "name": "UN.MONTAGUE13.8CABT",
+  "zone": "WCMA",
+  "lat": 42.587307,
+  "lon": -72.57738
+ },
+ "14808": {
+  "name": "UN.MONTAGUE13.8TURN",
+  "zone": "WCMA",
+  "lat": 42.587307,
+  "lon": -72.57738
+ },
+ "492": {
+  "name": "UN.MONTVLLE69  MO10",
+  "zone": "CT",
+  "lat": 41.428908,
+  "lon": -72.104379
+ },
+ "493": {
+  "name": "UN.MONTVLLE13.8MON5",
+  "zone": "CT",
+  "lat": 41.428908,
+  "lon": -72.104379
+ },
+ "494": {
+  "name": "UN.MONTVLLE22.0MON6",
+  "zone": "CT",
+  "lat": 41.428908,
+  "lon": -72.104379
+ },
+ "4265": {
+  "name": "LD.MOORE   13.8",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "47370": {
+  "name": "UN.MOORE   13.8MOR1",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "47371": {
+  "name": "UN.MOORE   13.8MOR2",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "47372": {
+  "name": "UN.MOORE   13.8MOR3",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "47373": {
+  "name": "UN.MOORE   13.8MOR4",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "69828": {
+  "name": "UN.MOORE   13.8MOR5",
+  "zone": "NH",
+  "lat": 44.329094,
+  "lon": -71.88435
+ },
+ "4177": {
+  "name": "LD.MOSHERS 34.5",
+  "zone": "ME",
+  "lat": 43.683585,
+  "lon": -70.399428
+ },
+ "75633": {
+  "name": "UN.MOSHERS 34.5CRTB",
+  "zone": "ME",
+  "lat": 43.683585,
+  "lon": -70.399428
+ },
+ "75635": {
+  "name": "AR.MOSHERS 34.5CRTBD",
+  "zone": "ME",
+  "lat": 43.683585,
+  "lon": -70.399428
+ },
+ "46655": {
+  "name": "LD.MOSHERS 12.5",
+  "zone": "ME",
+  "lat": 43.683585,
+  "lon": -70.399428
+ },
+ "4267": {
+  "name": "LD.MT_SUPP 13.8",
+  "zone": "NH",
+  "lat": 43.684012,
+  "lon": -72.273908
+ },
+ "14796": {
+  "name": "LD.MUSSEYRD34.5",
+  "zone": "ME",
+  "lat": 43.621858,
+  "lon": -70.330357
+ },
+ "4564": {
+  "name": "LD.MYSTC_NU34.5",
+  "zone": "CT",
+  "lat": 41.366467,
+  "lon": -71.960267
+ },
+ "44031": {
+  "name": "LD.MYSTC_NU13.8",
+  "zone": "CT",
+  "lat": 41.366467,
+  "lon": -71.960267
+ },
+ "4087": {
+  "name": "LD.MYSTIC  24.0",
+  "zone": "NEMA",
+  "lat": 42.3901,
+  "lon": -71.0699
+ },
+ "17227": {
+  "name": "LD.MYSTIC  13.8",
+  "zone": "NEMA",
+  "lat": 42.3901,
+  "lon": -71.0699
+ },
+ "4374": {
+  "name": "LD.M_WEYMTH13.8",
+  "zone": "SEMA",
+  "lat": 42.201954,
+  "lon": -70.953698
+ },
+ "4197": {
+  "name": "LD.NASNVILL13.8",
+  "zone": "RI",
+  "lat": 41.974214,
+  "lon": -71.609791
+ },
+ "4113": {
+  "name": "LD.NEEDHAM 13.8",
+  "zone": "NEMA",
+  "lat": 42.2717,
+  "lon": -71.2394
+ },
+ "4129": {
+  "name": "LD.NEWCASTL34.5",
+  "zone": "ME",
+  "lat": 44.082897,
+  "lon": -69.557984
+ },
+ "36881": {
+  "name": "LD.NEWFANE 46",
+  "zone": "VT",
+  "lat": 42.9677,
+  "lon": -72.652
+ },
+ "508": {
+  "name": "UN.NEWINGTN24.0NEWI",
+  "zone": "NH",
+  "lat": 43.0982,
+  "lon": -70.7923
+ },
+ "4621": {
+  "name": "LD.NEWNGTON23",
+  "zone": "CT",
+  "lat": 41.717601,
+  "lon": -72.750861
+ },
+ "4595": {
+  "name": "LD.NEWTOWN 13.8",
+  "zone": "CT",
+  "lat": 41.391186,
+  "lon": -73.290031
+ },
+ "1649": {
+  "name": "UN.NEW_ENER18.0NEWE",
+  "zone": "NH",
+  "lat": 43.105382,
+  "lon": -70.806023
+ },
+ "4456": {
+  "name": "LD.NEW_HAVN46",
+  "zone": "VT",
+  "lat": 44.121351,
+  "lon": -73.16348
+ },
+ "4565": {
+  "name": "LD.NE_SIMSB23",
+  "zone": "CT",
+  "lat": 41.90839,
+  "lon": -72.792046
+ },
+ "67732": {
+  "name": "UN.NE_SIMSB23  DWWS",
+  "zone": "CT",
+  "lat": 41.90839,
+  "lon": -72.792046
+ },
+ "4324": {
+  "name": "LD.NMARLBRO13.8",
+  "zone": "WCMA",
+  "lat": 42.362908,
+  "lon": -71.600765
+ },
+ "4499": {
+  "name": "LD.NOERA_ST13.8",
+  "zone": "CT",
+  "lat": 41.565905,
+  "lon": -73.025163
+ },
+ "4394": {
+  "name": "LD.NORTH_RD34.5",
+  "zone": "NH",
+  "lat": 43.391647,
+  "lon": -72.099039
+ },
+ "436": {
+  "name": "UN.NORTH_RD34.5HEMP",
+  "zone": "NH",
+  "lat": 43.391647,
+  "lon": -72.099039
+ },
+ "15115": {
+  "name": "UN.NORTH_RD34.5LEMP",
+  "zone": "NH",
+  "lat": 43.391647,
+  "lon": -72.099039
+ },
+ "4600": {
+  "name": "LD.NORWALK 27.6",
+  "zone": "CT",
+  "lat": 41.127026,
+  "lon": -73.428095
+ },
+ "4601": {
+  "name": "LD.NORWALK 13.8",
+  "zone": "CT",
+  "lat": 41.127026,
+  "lon": -73.428095
+ },
+ "47561": {
+  "name": "LD.NORWALK 4.8",
+  "zone": "CT",
+  "lat": 41.127026,
+  "lon": -73.428095
+ },
+ "4170": {
+  "name": "LD.NORWAY  34.5",
+  "zone": "ME",
+  "lat": 44.207224,
+  "lon": -70.528241
+ },
+ "46661": {
+  "name": "LD.NORWAY  12.5",
+  "zone": "ME",
+  "lat": 44.207224,
+  "lon": -70.528241
+ },
+ "4201": {
+  "name": "LD.NORWELL 13.8",
+  "zone": "SEMA",
+  "lat": 42.177824,
+  "lon": -70.802218
+ },
+ "4122": {
+  "name": "LD.NORWOOD 13.8",
+  "zone": "SEMA",
+  "lat": 42.2038,
+  "lon": -71.2534
+ },
+ "4323": {
+  "name": "LD.NRTHBORO69",
+  "zone": "WCMA",
+  "lat": 42.315274,
+  "lon": -71.571518
+ },
+ "4203": {
+  "name": "LD.N_ABNGTN13.8",
+  "zone": "SEMA",
+  "lat": 42.126359,
+  "lon": -70.93462
+ },
+ "4482": {
+  "name": "LD.N_ATTLEB13.8T1_LD",
+  "zone": "SEMA",
+  "lat": 41.9522,
+  "lon": -71.2985
+ },
+ "67525": {
+  "name": "LD.N_ATTLEB13.8T2T3_LD",
+  "zone": "SEMA",
+  "lat": 41.9522,
+  "lon": -71.2985
+ },
+ "4149": {
+  "name": "LD.N_AUGSTA12.5",
+  "zone": "ME",
+  "lat": 44.363549,
+  "lon": -69.797955
+ },
+ "43592": {
+  "name": "LD.N_AUGSTA34.5",
+  "zone": "ME",
+  "lat": 44.363549,
+  "lon": -69.797955
+ },
+ "4490": {
+  "name": "LD.N_BLOOM 23",
+  "zone": "CT",
+  "lat": 41.892308,
+  "lon": -72.757139
+ },
+ "42059": {
+  "name": "LD.N_CANAL 13.8",
+  "zone": "WCMA",
+  "lat": 42.1998,
+  "lon": -72.5972
+ },
+ "769": {
+  "name": "UN.N_CANAL 34.5HADL",
+  "zone": "WCMA",
+  "lat": 42.1998,
+  "lon": -72.5972
+ },
+ "42058": {
+  "name": "LD.N_CANAL 34.5",
+  "zone": "WCMA",
+  "lat": 42.1998,
+  "lon": -72.5972
+ },
+ "4272": {
+  "name": "LD.N_CHELM 23",
+  "zone": "WCMA",
+  "lat": 42.636433,
+  "lon": -71.377503
+ },
+ "4355": {
+  "name": "LD.N_DRACUT13.2",
+  "zone": "WCMA",
+  "lat": 42.688346,
+  "lon": -71.310003
+ },
+ "15412": {
+  "name": "LD.N_FERRIS12.5",
+  "zone": "VT",
+  "lat": 44.253367,
+  "lon": -73.256215
+ },
+ "4424": {
+  "name": "LD.N_HAVEN 13.8",
+  "zone": "CT",
+  "lat": 41.414767,
+  "lon": -72.842966
+ },
+ "48673": {
+  "name": "LD.N_KEENE 12.5",
+  "zone": "NH",
+  "lat": 42.9437,
+  "lon": -72.3
+ },
+ "4254": {
+  "name": "LD.N_OXFORD13.2",
+  "zone": "WCMA",
+  "lat": 42.152997,
+  "lon": -71.881565
+ },
+ "48083": {
+  "name": "UN.N_OXFORD13.2FRS",
+  "zone": "WCMA",
+  "lat": 42.152997,
+  "lon": -71.881565
+ },
+ "4327": {
+  "name": "LD.N_QUINCY13.8",
+  "zone": "SEMA",
+  "lat": 42.278634,
+  "lon": -71.033065
+ },
+ "4471": {
+  "name": "LD.N_READNG13.8",
+  "zone": "NEMA",
+  "lat": 42.567115,
+  "lon": -71.09843
+ },
+ "4459": {
+  "name": "LD.N_RUTLND46",
+  "zone": "VT",
+  "lat": 43.634119,
+  "lon": -72.97274
+ },
+ "4620": {
+  "name": "LD.N_WALFRD13.8",
+  "zone": "CT",
+  "lat": 41.491925,
+  "lon": -72.762128
+ },
+ "4385": {
+  "name": "LD.N_WODSTK34.5",
+  "zone": "NH",
+  "lat": 44.01134,
+  "lon": -71.676967
+ },
+ "46951": {
+  "name": "UN.OAKFIELD34.5OAKW",
+  "zone": "ME",
+  "lat": 46.050639,
+  "lon": -68.051917
+ },
+ "4391": {
+  "name": "LD.OAK_HILL34.5",
+  "zone": "NH",
+  "lat": 43.276573,
+  "lon": -71.543591
+ },
+ "767": {
+  "name": "UN.OAK_HILL34.5CONC",
+  "zone": "NH",
+  "lat": 43.276573,
+  "lon": -71.543591
+ },
+ "10571": {
+  "name": "LD.OAK_ST  23",
+  "zone": "SEMA",
+  "lat": 41.687063,
+  "lon": -70.349858
+ },
+ "4413": {
+  "name": "LD.OCEAN_RD34.5",
+  "zone": "NH",
+  "lat": 43.0425,
+  "lon": -70.815
+ },
+ "529": {
+  "name": "UN.OCEAN_ST13.8OSP2",
+  "zone": "RI",
+  "lat": 42.009503,
+  "lon": -71.669528
+ },
+ "528": {
+  "name": "UN.OCEAN_ST13.8OSP1",
+  "zone": "RI",
+  "lat": 42.009503,
+  "lon": -71.669528
+ },
+ "4893": {
+  "name": "LD.OLD_BAPT12.5T1 LD",
+  "zone": "RI",
+  "lat": 41.609735,
+  "lon": -71.477442
+ },
+ "4894": {
+  "name": "LD.OLD_BAPT12.5T2 LD",
+  "zone": "RI",
+  "lat": 41.609735,
+  "lon": -71.477442
+ },
+ "4438": {
+  "name": "LD.OLD_TOWN13.8",
+  "zone": "CT",
+  "lat": 41.224362,
+  "lon": -73.216803
+ },
+ "4525": {
+  "name": "LD.ORCHARD 13.8",
+  "zone": "WCMA",
+  "lat": 42.160409,
+  "lon": -72.508607
+ },
+ "16252": {
+  "name": "LD.ORLEANS 24.0",
+  "zone": "SEMA",
+  "lat": 41.780333,
+  "lon": -69.999087
+ },
+ "4503": {
+  "name": "LD.OSWALD  23",
+  "zone": "WCMA",
+  "lat": 42.437235,
+  "lon": -73.287714
+ },
+ "4228": {
+  "name": "LD.OTIS    23",
+  "zone": "SEMA",
+  "lat": 41.7189,
+  "lon": -70.579
+ },
+ "14840": {
+  "name": "LD.OXFORD  13.8",
+  "zone": "CT",
+  "lat": 41.465949,
+  "lon": -73.132854
+ },
+ "4315": {
+  "name": "LD.PALMER  13.2",
+  "zone": "WCMA",
+  "lat": 42.145189,
+  "lon": -72.302957
+ },
+ "4316": {
+  "name": "LD.PALMER  69",
+  "zone": "WCMA",
+  "lat": 42.145189,
+  "lon": -72.302957
+ },
+ "40040": {
+  "name": "LD.PALMER  23",
+  "zone": "WCMA",
+  "lat": 42.145189,
+  "lon": -72.302957
+ },
+ "14595": {
+  "name": "UN.PARIS   34.5GRPW",
+  "zone": "NH",
+  "lat": 44.703776,
+  "lon": -71.292318
+ },
+ "4208": {
+  "name": "LD.PARKVIEW13.8",
+  "zone": "SEMA",
+  "lat": 42.1027,
+  "lon": -71.073148
+ },
+ "4146": {
+  "name": "LD.PARK_ST 34.5",
+  "zone": "ME",
+  "lat": 44.10229,
+  "lon": -69.122811
+ },
+ "4500": {
+  "name": "LD.PARTRIDG23",
+  "zone": "WCMA",
+  "lat": 42.487408,
+  "lon": -73.216587
+ },
+ "16614": {
+  "name": "UN.PARTRIDG23  BRKW",
+  "zone": "WCMA",
+  "lat": 42.487408,
+  "lon": -73.216587
+ },
+ "67726": {
+  "name": "UN.PARTRIDG23  BR2W",
+  "zone": "WCMA",
+  "lat": 42.487408,
+  "lon": -73.216587
+ },
+ "38417": {
+  "name": "UN.PASADMKG34.5PASW",
+  "zone": "ME",
+  "lat": 45.03675,
+  "lon": -68.589889
+ },
+ "4230": {
+  "name": "LD.PAVEPAWS23",
+  "zone": "SEMA",
+  "lat": 41.766478,
+  "lon": -70.558105
+ },
+ "4217": {
+  "name": "LD.PAWTUCKT13.8",
+  "zone": "RI",
+  "lat": 41.86732,
+  "lon": -71.381789
+ },
+ "4477": {
+  "name": "LD.PAXTON  13.8",
+  "zone": "WCMA",
+  "lat": 42.29139,
+  "lon": -71.945472
+ },
+ "11727": {
+  "name": "LD.PEACABLE13.8",
+  "zone": "CT",
+  "lat": 41.268204,
+  "lon": -73.429966
+ },
+ "4357": {
+  "name": "LD.PELHAM  13.2",
+  "zone": "NH",
+  "lat": 42.736647,
+  "lon": -71.309837
+ },
+ "4274": {
+  "name": "LD.PERRY_ST13.8",
+  "zone": "WCMA",
+  "lat": 42.638442,
+  "lon": -71.302053
+ },
+ "348": {
+  "name": "UN.PERRY_ST13.8BOOT",
+  "zone": "WCMA",
+  "lat": 42.638442,
+  "lon": -71.302053
+ },
+ "4298": {
+  "name": "LD.PHILIPD 23",
+  "zone": "RI",
+  "lat": 41.845075,
+  "lon": -71.366839
+ },
+ "4200": {
+  "name": "LD.PHILP_LN13.8",
+  "zone": "SEMA",
+  "lat": 42.114321,
+  "lon": -70.870995
+ },
+ "13515": {
+  "name": "UN.PIERCE  13.8ALP",
+  "zone": "CT",
+  "lat": 41.4473,
+  "lon": -72.8343
+ },
+ "4398": {
+  "name": "LD.PINEHILL34.5",
+  "zone": "NH",
+  "lat": 43.056534,
+  "lon": -71.444301
+ },
+ "4260": {
+  "name": "LD.PINEHRST13.2",
+  "zone": "WCMA",
+  "lat": 42.539149,
+  "lon": -71.216565
+ },
+ "4514": {
+  "name": "LD.PINESHED13.8",
+  "zone": "WCMA",
+  "lat": 42.2472,
+  "lon": -72.5901
+ },
+ "4241": {
+  "name": "LD.PINE_ST 13.2",
+  "zone": "SEMA",
+  "lat": 41.6297,
+  "lon": -70.920917
+ },
+ "4507": {
+  "name": "LD.PLAINFLD23",
+  "zone": "WCMA",
+  "lat": 42.522244,
+  "lon": -72.913619
+ },
+ "4124": {
+  "name": "LD.PLAIN_ST13.8",
+  "zone": "SEMA",
+  "lat": 42.197237,
+  "lon": -70.999255
+ },
+ "4505": {
+  "name": "LD.PLEASANT23",
+  "zone": "WCMA",
+  "lat": 42.285092,
+  "lon": -73.240646
+ },
+ "15509": {
+  "name": "UN.PLNFIELD13.8PLFD",
+  "zone": "CT",
+  "lat": 41.664683,
+  "lon": -71.924104
+ },
+ "39719": {
+  "name": "LD.PLSNT_HL12.5",
+  "zone": "ME",
+  "lat": 43.598342,
+  "lon": -70.294053
+ },
+ "4182": {
+  "name": "LD.PLSNT_HL34.5",
+  "zone": "ME",
+  "lat": 43.598342,
+  "lon": -70.294053
+ },
+ "12176": {
+  "name": "LD.PLUMTREE13.8",
+  "zone": "CT",
+  "lat": 41.3917,
+  "lon": -73.4021
+ },
+ "4202": {
+  "name": "LD.PLYMOUTH13.8",
+  "zone": "SEMA",
+  "lat": 42.100485,
+  "lon": -70.926109
+ },
+ "4615": {
+  "name": "LD.PODICK  13.8",
+  "zone": "WCMA",
+  "lat": 42.424545,
+  "lon": -72.536904
+ },
+ "4370": {
+  "name": "LD.PONDVIL 69",
+  "zone": "WCMA",
+  "lat": 42.196974,
+  "lon": -71.821028
+ },
+ "4282": {
+  "name": "LD.PONTIAC 12.5",
+  "zone": "RI",
+  "lat": 41.735838,
+  "lon": -71.455421
+ },
+ "46974": {
+  "name": "LD.POOTATCK13.8",
+  "zone": "CT",
+  "lat": 41.2766,
+  "lon": -73.1183
+ },
+ "4548": {
+  "name": "LD.PORTLAND23",
+  "zone": "CT",
+  "lat": 41.563839,
+  "lon": -72.575768
+ },
+ "10039": {
+  "name": "LD.PORTSMTH34.5",
+  "zone": "NH",
+  "lat": 43.09736,
+  "lon": -70.786033
+ },
+ "424": {
+  "name": "UN.POWERSVL115 GNRT",
+  "zone": "ME",
+  "lat": 45.618,
+  "lon": -68.578306
+ },
+ "10037": {
+  "name": "LD.POWERSVL115",
+  "zone": "ME",
+  "lat": 45.618,
+  "lon": -68.578306
+ },
+ "69256": {
+  "name": "UN.POWERSVL115 MLNB",
+  "zone": "ME",
+  "lat": 45.618,
+  "lon": -68.578306
+ },
+ "69257": {
+  "name": "AR.POWERSVL115 MLNBD",
+  "zone": "ME",
+  "lat": 45.618,
+  "lon": -68.578306
+ },
+ "4189": {
+  "name": "LD.PRATT&W 115",
+  "zone": "ME",
+  "lat": 43.310667,
+  "lon": -70.725332
+ },
+ "4262": {
+  "name": "LD.PRAT_J  13.8",
+  "zone": "WCMA",
+  "lat": 42.471594,
+  "lon": -71.737794
+ },
+ "4186": {
+  "name": "LD.PRID_CRN34.5",
+  "zone": "ME",
+  "lat": 43.710166,
+  "lon": -70.338813
+ },
+ "591": {
+  "name": "UN.PRID_CRN34.5SWBK",
+  "zone": "ME",
+  "lat": 43.710166,
+  "lon": -70.338813
+ },
+ "46726": {
+  "name": "LD.PRID_CRN12.5",
+  "zone": "ME",
+  "lat": 43.710166,
+  "lon": -70.338813
+ },
+ "4895": {
+  "name": "LD.PROSPCT 69  V-22S-3LD",
+  "zone": "WCMA",
+  "lat": 42.538714,
+  "lon": -71.73821
+ },
+ "4896": {
+  "name": "LD.PROSPCT 69  U-21S-3LD",
+  "zone": "WCMA",
+  "lat": 42.538714,
+  "lon": -71.73821
+ },
+ "4164": {
+  "name": "LD.PUDDLDCK34.5",
+  "zone": "ME",
+  "lat": 44.331467,
+  "lon": -69.854102
+ },
+ "4248": {
+  "name": "LD.PUTNAM  13.8",
+  "zone": "NEMA",
+  "lat": 42.3604,
+  "lon": -71.1141
+ },
+ "49406": {
+  "name": "UN.PUTNAMRD34.5DFLW",
+  "zone": "VT",
+  "lat": 42.884049,
+  "lon": -72.974544
+ },
+ "4287": {
+  "name": "LD.PUTNM_PK12.5",
+  "zone": "RI",
+  "lat": 41.866852,
+  "lon": -71.522176
+ },
+ "4190": {
+  "name": "LD.QUAKR_HL34.5",
+  "zone": "ME",
+  "lat": 43.288114,
+  "lon": -70.742779
+ },
+ "4454": {
+  "name": "LD.QUEENCTY34.5",
+  "zone": "VT",
+  "lat": 44.445613,
+  "lon": -73.21874
+ },
+ "4455": {
+  "name": "LD.QUEENCTY13.8",
+  "zone": "VT",
+  "lat": 44.445613,
+  "lon": -73.21874
+ },
+ "363": {
+  "name": "UN.QUEENCTY13.8BURL",
+  "zone": "VT",
+  "lat": 44.445613,
+  "lon": -73.21874
+ },
+ "4423": {
+  "name": "LD.QUINNIPC13.8",
+  "zone": "CT",
+  "lat": 41.317965,
+  "lon": -72.877524
+ },
+ "11846": {
+  "name": "LD.RAILYARD23",
+  "zone": "NEMA",
+  "lat": 42.513543,
+  "lon": -70.896953
+ },
+ "4341": {
+  "name": "LD.RAILYARD13.8",
+  "zone": "NEMA",
+  "lat": 42.513543,
+  "lon": -70.896953
+ },
+ "467": {
+  "name": "UN.RAILYARD23  MARB",
+  "zone": "NEMA",
+  "lat": 42.513543,
+  "lon": -70.896953
+ },
+ "4174": {
+  "name": "LD.RAYMOND 34.5",
+  "zone": "ME",
+  "lat": 43.944116,
+  "lon": -70.494726
+ },
+ "10602": {
+  "name": "LD.RAYNHAM 13.8",
+  "zone": "SEMA",
+  "lat": 41.9721,
+  "lon": -71.017
+ },
+ "4419": {
+  "name": "LD.RCHSTER 34.5",
+  "zone": "NH",
+  "lat": 43.307833,
+  "lon": -70.997667
+ },
+ "4405": {
+  "name": "LD.RDSFERRY34.5",
+  "zone": "NH",
+  "lat": 42.871667,
+  "lon": -71.487667
+ },
+ "49395": {
+  "name": "LD.READING 34.5",
+  "zone": "NEMA",
+  "lat": 42.5089,
+  "lon": -71.1264
+ },
+ "4104": {
+  "name": "LD.READING 13.8",
+  "zone": "NEMA",
+  "lat": 42.5089,
+  "lon": -71.1264
+ },
+ "47732": {
+  "name": "LD.READ_ST 23",
+  "zone": "SEMA",
+  "lat": 41.914341,
+  "lon": -71.342369
+ },
+ "47736": {
+  "name": "LD.READ_ST 69",
+  "zone": "SEMA",
+  "lat": 41.914341,
+  "lon": -71.342369
+ },
+ "4297": {
+  "name": "LD.READ_ST 13.2",
+  "zone": "SEMA",
+  "lat": 41.914341,
+  "lon": -71.342369
+ },
+ "4181": {
+  "name": "LD.REDBROOK34.5",
+  "zone": "ME",
+  "lat": 43.631194,
+  "lon": -70.339521
+ },
+ "546": {
+  "name": "UN.RESCOS  115 RESC",
+  "zone": "NEMA",
+  "lat": 42.446929,
+  "lon": -70.979436
+ },
+ "4338": {
+  "name": "LD.REVERE  23",
+  "zone": "NEMA",
+  "lat": 42.402715,
+  "lon": -71.007804
+ },
+ "4897": {
+  "name": "LD.RIDGEFLD13.82X LD",
+  "zone": "CT",
+  "lat": 41.283092,
+  "lon": -73.487511
+ },
+ "4898": {
+  "name": "LD.RIDGEFLD13.83X LD",
+  "zone": "CT",
+  "lat": 41.283092,
+  "lon": -73.487511
+ },
+ "40054": {
+  "name": "UN.RIDGEWOD13.8RIDG",
+  "zone": "RI",
+  "lat": 41.8035,
+  "lon": -71.5238
+ },
+ "4168": {
+  "name": "LD.RILEY   12.5",
+  "zone": "ME",
+  "lat": 44.507355,
+  "lon": -70.247713
+ },
+ "4380": {
+  "name": "LD.RIMMON  34.5",
+  "zone": "NH",
+  "lat": 43.005707,
+  "lon": -71.503948
+ },
+ "1630": {
+  "name": "UN.RISE    18.0RISE",
+  "zone": "RI",
+  "lat": 41.80259,
+  "lon": -71.51691
+ },
+ "4238": {
+  "name": "LD.ROCHESTR13.2",
+  "zone": "SEMA",
+  "lat": 41.738416,
+  "lon": -70.850095
+ },
+ "4539": {
+  "name": "LD.ROCKVILE27.6",
+  "zone": "CT",
+  "lat": 41.866783,
+  "lon": -72.464038
+ },
+ "49025": {
+  "name": "LD.ROCKVILE13.8",
+  "zone": "CT",
+  "lat": 41.866783,
+  "lon": -72.464038
+ },
+ "4545": {
+  "name": "LD.ROCKY_HL23",
+  "zone": "CT",
+  "lat": 41.652715,
+  "lon": -72.669137
+ },
+ "5779": {
+  "name": "LD.ROCKY_RV13.8",
+  "zone": "CT",
+  "lat": 41.582662,
+  "lon": -73.434252
+ },
+ "11764": {
+  "name": "AR.ROCKY_RV13.8ROCKP",
+  "zone": "CT",
+  "lat": 41.582662,
+  "lon": -73.434252
+ },
+ "15097": {
+  "name": "UN.ROCKY_RV13.8KIMB",
+  "zone": "CT",
+  "lat": 41.582662,
+  "lon": -73.434252
+ },
+ "739": {
+  "name": "UN.ROCKY_RV13.8ROCK",
+  "zone": "CT",
+  "lat": 41.582662,
+  "lon": -73.434252
+ },
+ "10472": {
+  "name": "LD.ROLF_AVE13.8",
+  "zone": "WCMA",
+  "lat": 42.274102,
+  "lon": -71.735551
+ },
+ "4321": {
+  "name": "LD.ROLF_AVE69",
+  "zone": "WCMA",
+  "lat": 42.274102,
+  "lon": -71.735551
+ },
+ "568": {
+  "name": "UN.ROLF_AVE69  SHRW",
+  "zone": "WCMA",
+  "lat": 42.274102,
+  "lon": -71.735551
+ },
+ "37175": {
+  "name": "UN.ROLLINS 34.5ROLL",
+  "zone": "ME",
+  "lat": 45.404111,
+  "lon": -68.364722
+ },
+ "37953": {
+  "name": "LD.ROXBURY 34.5",
+  "zone": "ME",
+  "lat": 44.627762,
+  "lon": -70.596375
+ },
+ "331": {
+  "name": "UN.ROXBURY 34.5AZIS",
+  "zone": "ME",
+  "lat": 44.627762,
+  "lon": -70.596375
+ },
+ "14665": {
+  "name": "UN.ROXBURY 34.5RCHW",
+  "zone": "ME",
+  "lat": 44.627762,
+  "lon": -70.596375
+ },
+ "69789": {
+  "name": "UN.ROXBURY 34.5ROXW",
+  "zone": "ME",
+  "lat": 44.627762,
+  "lon": -70.596375
+ },
+ "73286": {
+  "name": "UN.RUMFD_FL11.5RFRB",
+  "zone": "ME",
+  "lat": 44.550598,
+  "lon": -70.543197
+ },
+ "73287": {
+  "name": "AR.RUMFD_FL11.5RFRBD",
+  "zone": "ME",
+  "lat": 44.550598,
+  "lon": -70.543197
+ },
+ "11424": {
+  "name": "UN.RUMFD_FL11.5RUMH",
+  "zone": "ME",
+  "lat": 44.550598,
+  "lon": -70.543197
+ },
+ "4138": {
+  "name": "LD.RUMFD_IP34.5",
+  "zone": "ME",
+  "lat": 44.531793,
+  "lon": -70.522901
+ },
+ "1255": {
+  "name": "UN.RUMFD_IP18.0RUMF",
+  "zone": "ME",
+  "lat": 44.531793,
+  "lon": -70.522901
+ },
+ "4137": {
+  "name": "LD.RUMFORD 12.5",
+  "zone": "ME",
+  "lat": 44.537316,
+  "lon": -70.544609
+ },
+ "4220": {
+  "name": "LD.RVERSIDE13.8",
+  "zone": "RI",
+  "lat": 42.004104,
+  "lon": -71.507864
+ },
+ "4425": {
+  "name": "LD.SACKETT 13.8",
+  "zone": "CT",
+  "lat": 41.363418,
+  "lon": -72.887072
+ },
+ "4389": {
+  "name": "LD.SACO_VLY34.5",
+  "zone": "NH",
+  "lat": 44.007544,
+  "lon": -71.087803
+ },
+ "4617": {
+  "name": "LD.SALISBRY69",
+  "zone": "CT",
+  "lat": 41.921869,
+  "lon": -73.464992
+ },
+ "4229": {
+  "name": "LD.SANDWICH24.0",
+  "zone": "SEMA",
+  "lat": 41.7175,
+  "lon": -70.4663
+ },
+ "4587": {
+  "name": "LD.SANDY_HK23",
+  "zone": "CT",
+  "lat": 41.383269,
+  "lon": -73.219923
+ },
+ "4251": {
+  "name": "LD.SANDY_PD23",
+  "zone": "WCMA",
+  "lat": 42.570821,
+  "lon": -71.524022
+ },
+ "6421": {
+  "name": "LD.SANDY_PD345 SMDINTLD",
+  "zone": "WCMA",
+  "lat": 42.570821,
+  "lon": -71.524022
+ },
+ "4192": {
+  "name": "LD.SANFORD 34.5",
+  "zone": "ME",
+  "lat": 43.428833,
+  "lon": -70.734583
+ },
+ "75636": {
+  "name": "UN.SANFORD 34.5MRVS",
+  "zone": "ME",
+  "lat": 43.428833,
+  "lon": -70.734583
+ },
+ "4618": {
+  "name": "LD.SASCOCRK115",
+  "zone": "CT",
+  "lat": 41.124323,
+  "lon": -73.307865
+ },
+ "43789": {
+  "name": "LD.SAXONVIL13.8",
+  "zone": "NEMA",
+  "lat": 42.3242,
+  "lon": -71.3863
+ },
+ "4414": {
+  "name": "LD.SCHILLER115",
+  "zone": "NH",
+  "lat": 43.097309,
+  "lon": -70.78633
+ },
+ "559": {
+  "name": "UN.SCHILLER115 SCHC",
+  "zone": "NH",
+  "lat": 43.097309,
+  "lon": -70.78633
+ },
+ "4530": {
+  "name": "LD.SCITICO 23",
+  "zone": "CT",
+  "lat": 41.97885,
+  "lon": -72.510182
+ },
+ "68726": {
+  "name": "UN.SCITICO 34.5NUMS",
+  "zone": "CT",
+  "lat": 41.97885,
+  "lon": -72.510182
+ },
+ "4205": {
+  "name": "LD.SCITUATE13.8",
+  "zone": "SEMA",
+  "lat": 42.19786,
+  "lon": -70.761421
+ },
+ "4102": {
+  "name": "LD.SCOTIA  13.8",
+  "zone": "NEMA",
+  "lat": 42.346778,
+  "lon": -71.085877
+ },
+ "66252": {
+  "name": "LD.SAPHINCK115",
+  "zone": "ME",
+  "lat": 44.703615,
+  "lon": -69.646317
+ },
+ "66234": {
+  "name": "UN.SAPHINCK115 SAPI",
+  "zone": "ME",
+  "lat": 44.703615,
+  "lon": -69.646317
+ },
+ "555": {
+  "name": "UN.SEABROOK24.5SBRK",
+  "zone": "NH",
+  "lat": 42.8987,
+  "lon": -70.8507
+ },
+ "48717": {
+  "name": "LD.SEAFOOD 13.8",
+  "zone": "NEMA",
+  "lat": 42.348044,
+  "lon": -71.032889
+ },
+ "561": {
+  "name": "UN.SEARS   69  SEAR",
+  "zone": "WCMA",
+  "lat": 42.870862,
+  "lon": -72.925162
+ },
+ "4367": {
+  "name": "LD.SEARS   69",
+  "zone": "WCMA",
+  "lat": 42.870862,
+  "lon": -72.925162
+ },
+ "562": {
+  "name": "UN.SECREC  69  SECR",
+  "zone": "CT",
+  "lat": 41.47501,
+  "lon": -72.06868
+ },
+ "563": {
+  "name": "UN.SEMASS  13.8SEM1",
+  "zone": "SEMA",
+  "lat": 41.805743,
+  "lon": -70.78215
+ },
+ "564": {
+  "name": "UN.SEMASS  13.8SEM2",
+  "zone": "SEMA",
+  "lat": 41.805743,
+  "lon": -70.78215
+ },
+ "497": {
+  "name": "UN.SHAWINGN13.8MPWR",
+  "zone": "WCMA",
+  "lat": 42.158417,
+  "lon": -72.537139
+ },
+ "4580": {
+  "name": "LD.SHAWS_HL13.8",
+  "zone": "CT",
+  "lat": 41.591583,
+  "lon": -73.068032
+ },
+ "12530": {
+  "name": "UN.SHEFIELD34.5SHEF",
+  "zone": "VT",
+  "lat": 44.663639,
+  "lon": -72.122972
+ },
+ "15410": {
+  "name": "LD.SHELBURN12.5",
+  "zone": "VT",
+  "lat": 44.383253,
+  "lon": -73.238752
+ },
+ "4592": {
+  "name": "LD.SHEPAUG 69",
+  "zone": "CT",
+  "lat": 41.448858,
+  "lon": -73.294378
+ },
+ "566": {
+  "name": "UN.SHEPAUG 69  SHEP",
+  "zone": "CT",
+  "lat": 41.448858,
+  "lon": -73.294378
+ },
+ "4117": {
+  "name": "LD.SHERBORN13.8",
+  "zone": "NEMA",
+  "lat": 42.2569,
+  "lon": -71.4111
+ },
+ "567": {
+  "name": "UN.SHERMAN 115 SHER",
+  "zone": "WCMA",
+  "lat": 42.721672,
+  "lon": -72.950432
+ },
+ "39679": {
+  "name": "LD.SHERWOOD13.8",
+  "zone": "CT",
+  "lat": 41.1217,
+  "lon": -73.316
+ },
+ "10906": {
+  "name": "LD.SHUNOCK 13.8",
+  "zone": "CT",
+  "lat": 41.41256,
+  "lon": -71.846337
+ },
+ "69246": {
+  "name": "UN.SHUNOCK 13.8NSTS",
+  "zone": "CT",
+  "lat": 41.41256,
+  "lon": -71.846337
+ },
+ "74614": {
+  "name": "UN.SHUNOCK 13.8SRNS",
+  "zone": "CT",
+  "lat": 41.41256,
+  "lon": -71.846337
+ },
+ "42374": {
+  "name": "LD.SHUNPIKE13.2",
+  "zone": "RI",
+  "lat": 41.8015,
+  "lon": -71.5155
+ },
+ "4522": {
+  "name": "LD.SILVER  13.8",
+  "zone": "WCMA",
+  "lat": 42.060987,
+  "lon": -72.641054
+ },
+ "4266": {
+  "name": "LD.SLAYTNHL13.8",
+  "zone": "NH",
+  "lat": 43.63253,
+  "lon": -72.286627
+ },
+ "570": {
+  "name": "UN.SMITH_HY6.9 SMTH",
+  "zone": "NH",
+  "lat": 44.465356,
+  "lon": -71.18405
+ },
+ "4902": {
+  "name": "LD.SNOW_ST 13.2T1 LD",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "4903": {
+  "name": "LD.SNOW_ST 13.2T2 LD",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "68496": {
+  "name": "UN.SNOW_ST 13.2DH1S",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "68497": {
+  "name": "UN.SNOW_ST 13.2DH2S",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "68498": {
+  "name": "UN.SNOW_ST 13.2DH3S",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "68499": {
+  "name": "UN.SNOW_ST 13.2DH4S",
+  "zone": "WCMA",
+  "lat": 42.082848,
+  "lon": -72.031925
+ },
+ "4904": {
+  "name": "LD.SOKANSET23  T1 LD",
+  "zone": "RI",
+  "lat": 41.754298,
+  "lon": -71.440401
+ },
+ "4905": {
+  "name": "LD.SOKANSET23  T2 LD",
+  "zone": "RI",
+  "lat": 41.754298,
+  "lon": -71.440401
+ },
+ "37265": {
+  "name": "LD.SOMERVIL13.8",
+  "zone": "NEMA",
+  "lat": 42.3779,
+  "lon": -71.0953
+ },
+ "43718": {
+  "name": "LD.SONO    13.8",
+  "zone": "CT",
+  "lat": 41.09069,
+  "lon": -73.42579
+ },
+ "11713": {
+  "name": "LD.SOTHNGTN13.8",
+  "zone": "CT",
+  "lat": 41.587386,
+  "lon": -72.867116
+ },
+ "4607": {
+  "name": "LD.SOUTHEND13.2",
+  "zone": "CT",
+  "lat": 41.048059,
+  "lon": -73.537578
+ },
+ "4521": {
+  "name": "LD.SOUTHWCK23",
+  "zone": "WCMA",
+  "lat": 42.014862,
+  "lon": -72.794777
+ },
+ "4444": {
+  "name": "LD.SO_HERO 13.2",
+  "zone": "VT",
+  "lat": 44.666996,
+  "lon": -73.33863
+ },
+ "4114": {
+  "name": "LD.SPEEN_ST13.8",
+  "zone": "NEMA",
+  "lat": 42.3116,
+  "lon": -71.3884
+ },
+ "4179": {
+  "name": "LD.SPRNG_ST34.5",
+  "zone": "ME",
+  "lat": 43.651678,
+  "lon": -70.360151
+ },
+ "46950": {
+  "name": "LD.SPRNG_ST12.5",
+  "zone": "ME",
+  "lat": 43.651678,
+  "lon": -70.360151
+ },
+ "542": {
+  "name": "UN.SPRNG_ST34.5PTRR",
+  "zone": "ME",
+  "lat": 43.651678,
+  "lon": -70.360151
+ },
+ "4219": {
+  "name": "LD.STAPLES 13.8",
+  "zone": "RI",
+  "lat": 41.980681,
+  "lon": -71.445857
+ },
+ "16184": {
+  "name": "LD.STEPSTON23",
+  "zone": "CT",
+  "lat": 41.320736,
+  "lon": -72.697724
+ },
+ "4476": {
+  "name": "LD.STERLING13.8",
+  "zone": "WCMA",
+  "lat": 42.451938,
+  "lon": -71.737354
+ },
+ "15464": {
+  "name": "UN.STETSON 34.5STET",
+  "zone": "ME",
+  "lat": 45.483639,
+  "lon": -67.993639
+ },
+ "16612": {
+  "name": "UN.STETSON 34.5STE2",
+  "zone": "ME",
+  "lat": 45.483639,
+  "lon": -67.993639
+ },
+ "4586": {
+  "name": "LD.STEVENSN27.6",
+  "zone": "CT",
+  "lat": 41.382502,
+  "lon": -73.170669
+ },
+ "587": {
+  "name": "UN.STEVENSN6.9 STEV",
+  "zone": "CT",
+  "lat": 41.382502,
+  "lon": -73.170669
+ },
+ "46729": {
+  "name": "LD.STICKNEY34.5",
+  "zone": "ME",
+  "lat": 44.2381,
+  "lon": -69.3816
+ },
+ "4446": {
+  "name": "LD.STJHNSBY34.5",
+  "zone": "VT",
+  "lat": 44.417915,
+  "lon": -71.9839
+ },
+ "583": {
+  "name": "UN.STONYBRK13.2ST2A",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "584": {
+  "name": "UN.STONYBRK13.2ST2B",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "1185": {
+  "name": "UN.STONYBRK13.2ST1A",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "1186": {
+  "name": "UN.STONYBRK13.2ST1B",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "1187": {
+  "name": "UN.STONYBRK13.2ST1C",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "71885": {
+  "name": "UN.STONYBRK4.16STBS",
+  "zone": "WCMA",
+  "lat": 42.197964,
+  "lon": -72.508501
+ },
+ "4594": {
+  "name": "LD.STONY_HL13.8",
+  "zone": "CT",
+  "lat": 41.434368,
+  "lon": -73.387896
+ },
+ "4198": {
+  "name": "LD.STOUGHTN13.8",
+  "zone": "SEMA",
+  "lat": 42.117453,
+  "lon": -71.096225
+ },
+ "16847": {
+  "name": "LD.STOWE   34.5",
+  "zone": "VT",
+  "lat": 44.4591,
+  "lon": -72.6982
+ },
+ "4160": {
+  "name": "LD.STURTVNT34.5",
+  "zone": "ME",
+  "lat": 44.655163,
+  "lon": -70.127441
+ },
+ "44009": {
+  "name": "LD.STURTVNT12.5",
+  "zone": "ME",
+  "lat": 44.655163,
+  "lon": -70.127441
+ },
+ "4115": {
+  "name": "LD.SUDBURY 13.8",
+  "zone": "NEMA",
+  "lat": 42.360034,
+  "lon": -71.397024
+ },
+ "4215": {
+  "name": "LD.SWANSEA 13.8",
+  "zone": "SEMA",
+  "lat": 41.749033,
+  "lon": -71.210579
+ },
+ "4401": {
+  "name": "LD.SWANZEY 12.5",
+  "zone": "NH",
+  "lat": 42.873369,
+  "lon": -72.317773
+ },
+ "4534": {
+  "name": "LD.SW_HARTF23",
+  "zone": "CT",
+  "lat": 41.750937,
+  "lon": -72.711947
+ },
+ "4196": {
+  "name": "LD.SYKES_RD13.8",
+  "zone": "SEMA",
+  "lat": 41.740386,
+  "lon": -71.115902
+ },
+ "457": {
+  "name": "UN.S_BROADW23  LAWH",
+  "zone": "WCMA",
+  "lat": 42.695243,
+  "lon": -71.161687
+ },
+ "4353": {
+  "name": "LD.S_BROADW23",
+  "zone": "WCMA",
+  "lat": 42.695243,
+  "lon": -71.161687
+ },
+ "4345": {
+  "name": "LD.S_DANVRS115",
+  "zone": "NEMA",
+  "lat": 42.5535,
+  "lon": -70.9538
+ },
+ "4535": {
+  "name": "LD.S_MEADOW23",
+  "zone": "CT",
+  "lat": 41.750102,
+  "lon": -72.653076
+ },
+ "4406": {
+  "name": "LD.S_MILFRD34.5",
+  "zone": "NH",
+  "lat": 42.820171,
+  "lon": -71.644163
+ },
+ "4583": {
+  "name": "LD.S_NAUGTK13.8",
+  "zone": "CT",
+  "lat": 41.474462,
+  "lon": -73.056529
+ },
+ "4537": {
+  "name": "LD.S_WINDSR13.8",
+  "zone": "CT",
+  "lat": 41.840157,
+  "lon": -72.60099
+ },
+ "4293": {
+  "name": "LD.S_WRENTM23",
+  "zone": "SEMA",
+  "lat": 42.030002,
+  "lon": -71.349249
+ },
+ "10494": {
+  "name": "LD.TAFTS_CR34.5",
+  "zone": "VT",
+  "lat": 44.44015,
+  "lon": -73.11175
+ },
+ "37894": {
+  "name": "LD.TAFTS_CR12.5",
+  "zone": "VT",
+  "lat": 44.44015,
+  "lon": -73.11175
+ },
+ "592": {
+  "name": "UN.TAMWORTH115 TAMW",
+  "zone": "NH",
+  "lat": 43.846857,
+  "lon": -71.212008
+ },
+ "43968": {
+  "name": "LD.TASKERFM34.5",
+  "zone": "NH",
+  "lat": 43.3876,
+  "lon": -70.996
+ },
+ "77305": {
+  "name": "UN.TASKERFM34.5NUTS",
+  "zone": "NH",
+  "lat": 43.3876,
+  "lon": -70.996
+ },
+ "4261": {
+  "name": "LD.TEWKSBRY13.8",
+  "zone": "WCMA",
+  "lat": 42.622765,
+  "lon": -71.242223
+ },
+ "4569": {
+  "name": "LD.THOMASTN13.8",
+  "zone": "CT",
+  "lat": 41.675177,
+  "lon": -73.06957
+ },
+ "4314": {
+  "name": "LD.THORNDIK13.2",
+  "zone": "WCMA",
+  "lat": 42.198973,
+  "lon": -72.344617
+ },
+ "40045": {
+  "name": "LD.THORNTON34.5",
+  "zone": "NH",
+  "lat": 42.828683,
+  "lon": -71.487174
+ },
+ "47314": {
+  "name": "LD.TILLSON 13.8",
+  "zone": "WCMA",
+  "lat": 42.3972,
+  "lon": -72.5058
+ },
+ "4275": {
+  "name": "LD.TIVERTON12.5",
+  "zone": "RI",
+  "lat": 41.643771,
+  "lon": -71.184186
+ },
+ "74365": {
+  "name": "UN.TIVERTON12.5BRAS",
+  "zone": "RI",
+  "lat": 41.643771,
+  "lon": -71.184186
+ },
+ "1226": {
+  "name": "UN.TIVERTON18.0TIVR",
+  "zone": "RI",
+  "lat": 41.643771,
+  "lon": -71.184186
+ },
+ "4579": {
+  "name": "LD.TODD    13.8",
+  "zone": "CT",
+  "lat": 41.572664,
+  "lon": -72.975381
+ },
+ "4606": {
+  "name": "LD.TOMAC   27.6",
+  "zone": "CT",
+  "lat": 41.034022,
+  "lon": -73.563337
+ },
+ "4175": {
+  "name": "LD.TOPSHAM 34.5",
+  "zone": "ME",
+  "lat": 43.940222,
+  "lon": -69.970944
+ },
+ "487": {
+  "name": "UN.TOPSHAM 34.5MILR",
+  "zone": "ME",
+  "lat": 43.940222,
+  "lon": -69.970944
+ },
+ "532": {
+  "name": "UN.TOPSHAM 34.5PEJE",
+  "zone": "ME",
+  "lat": 43.940222,
+  "lon": -69.970944
+ },
+ "358": {
+  "name": "UN.TOPSHAM 34.5BRUN",
+  "zone": "ME",
+  "lat": 43.940222,
+  "lon": -69.970944
+ },
+ "595": {
+  "name": "UN.TORRNGTN69  TT10",
+  "zone": "CT",
+  "lat": 41.776369,
+  "lon": -73.120773
+ },
+ "10426": {
+  "name": "LD.TORRNGTN13.2",
+  "zone": "CT",
+  "lat": 41.776369,
+  "lon": -73.120773
+ },
+ "49325": {
+  "name": "UN.TOWANTIC18.0TO1A",
+  "zone": "CT",
+  "lat": 41.4837,
+  "lon": -73.1221
+ },
+ "49326": {
+  "name": "UN.TOWANTIC18.0TO1B",
+  "zone": "CT",
+  "lat": 41.4837,
+  "lon": -73.1221
+ },
+ "15918": {
+  "name": "LD.TOWER_HL13.0",
+  "zone": "RI",
+  "lat": 41.548801,
+  "lon": -71.471461
+ },
+ "4560": {
+  "name": "LD.TRACY   23",
+  "zone": "CT",
+  "lat": 41.883936,
+  "lon": -71.890417
+ },
+ "49370": {
+  "name": "UN.TRACY   23  WODS",
+  "zone": "CT",
+  "lat": 41.883936,
+  "lon": -71.890417
+ },
+ "4439": {
+  "name": "LD.TRAPFALS13.8",
+  "zone": "CT",
+  "lat": 41.267137,
+  "lon": -73.117956
+ },
+ "16256": {
+  "name": "LD.TREASURE13.8",
+  "zone": "WCMA",
+  "lat": 42.32034,
+  "lon": -71.98497
+ },
+ "47991": {
+  "name": "UN.TREASURE24.0SOLS",
+  "zone": "WCMA",
+  "lat": 42.32034,
+  "lon": -71.98497
+ },
+ "4233": {
+  "name": "LD.TREMONT 23",
+  "zone": "SEMA",
+  "lat": 41.801479,
+  "lon": -70.764291
+ },
+ "15417": {
+  "name": "LD.TRENTON 34.5",
+  "zone": "ME",
+  "lat": 44.438907,
+  "lon": -68.374562
+ },
+ "4596": {
+  "name": "LD.TRIANGLE13.8",
+  "zone": "CT",
+  "lat": 41.393674,
+  "lon": -73.435225
+ },
+ "14826": {
+  "name": "LD.TRUMBULL13.8",
+  "zone": "CT",
+  "lat": 41.232463,
+  "lon": -73.160692
+ },
+ "40260": {
+  "name": "LD.TUNK    34.5",
+  "zone": "ME",
+  "lat": 44.544019,
+  "lon": -68.108832
+ },
+ "10034": {
+  "name": "LD.TUNNEL  69",
+  "zone": "CT",
+  "lat": 41.554998,
+  "lon": -72.04274
+ },
+ "14823": {
+  "name": "UN.TUNNEL  69  WWTP",
+  "zone": "CT",
+  "lat": 41.554998,
+  "lon": -72.04274
+ },
+ "4559": {
+  "name": "LD.TUNNEL  23",
+  "zone": "CT",
+  "lat": 41.554998,
+  "lon": -72.04274
+ },
+ "50634": {
+  "name": "UN.TUNNEL  23  FSNS",
+  "zone": "CT",
+  "lat": 41.554998,
+  "lon": -72.04274
+ },
+ "596": {
+  "name": "UN.TUNNEL  23  TUNN",
+  "zone": "CT",
+  "lat": 41.554998,
+  "lon": -72.04274
+ },
+ "4906": {
+  "name": "LD.UNCASVIL13.21X LD",
+  "zone": "CT",
+  "lat": 41.429158,
+  "lon": -72.116371
+ },
+ "4907": {
+  "name": "LD.UNCASVIL13.22X LD",
+  "zone": "CT",
+  "lat": 41.429158,
+  "lon": -72.116371
+ },
+ "42049": {
+  "name": "LD.UNCASVIL27.6",
+  "zone": "CT",
+  "lat": 41.429158,
+  "lon": -72.116371
+ },
+ "46730": {
+  "name": "LD.UNION   34.5",
+  "zone": "ME",
+  "lat": 44.2204,
+  "lon": -69.2849
+ },
+ "4292": {
+  "name": "LD.UNION_ST13.8",
+  "zone": "SEMA",
+  "lat": 42.059705,
+  "lon": -71.398146
+ },
+ "4269": {
+  "name": "LD.UXBRIDGE13.8",
+  "zone": "SEMA",
+  "lat": 42.074168,
+  "lon": -71.6224
+ },
+ "4218": {
+  "name": "LD.VALLEY  13.8",
+  "zone": "RI",
+  "lat": 41.913028,
+  "lon": -71.38474
+ },
+ "47969": {
+  "name": "LD.VALLEY  23",
+  "zone": "RI",
+  "lat": 41.913028,
+  "lon": -71.38474
+ },
+ "40299": {
+  "name": "LD.VALLY_LN34.5",
+  "zone": "ME",
+  "lat": 43.5195,
+  "lon": -70.4121
+ },
+ "14167": {
+  "name": "LD.VERGENNE34.5",
+  "zone": "VT",
+  "lat": 44.179094,
+  "lon": -73.24935
+ },
+ "4365": {
+  "name": "LD.VERNON  69",
+  "zone": "WCMA",
+  "lat": 42.771566,
+  "lon": -72.515227
+ },
+ "599": {
+  "name": "UN.VERNON  69  VERN",
+  "zone": "WCMA",
+  "lat": 42.771566,
+  "lon": -72.515227
+ },
+ "4320": {
+  "name": "LD.VERNONHL13.8",
+  "zone": "WCMA",
+  "lat": 42.238546,
+  "lon": -71.795445
+ },
+ "4467": {
+  "name": "LD.VERNONRD69",
+  "zone": "VT",
+  "lat": 42.8377,
+  "lon": -72.551
+ },
+ "37895": {
+  "name": "LD.VERNONRD46",
+  "zone": "VT",
+  "lat": 42.8377,
+  "lon": -72.551
+ },
+ "4373": {
+  "name": "LD.WACHUS  69",
+  "zone": "WCMA",
+  "lat": 42.360399,
+  "lon": -71.776021
+ },
+ "4908": {
+  "name": "LD.WAKEFLD 13.8",
+  "zone": "NEMA",
+  "lat": 42.4718,
+  "lon": -71.0454
+ },
+ "46977": {
+  "name": "LD.WALLACE 13.8",
+  "zone": "NEMA",
+  "lat": 42.5125,
+  "lon": -71.0432
+ },
+ "50026": {
+  "name": "UN.WALNGFRD13.8WAL7",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "1376": {
+  "name": "UN.WALNGFRD13.8WAL1",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "1377": {
+  "name": "UN.WALNGFRD13.8WAL2",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "1378": {
+  "name": "UN.WALNGFRD13.8WAL3",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "1379": {
+  "name": "UN.WALNGFRD13.8WAL4",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "1380": {
+  "name": "UN.WALNGFRD13.8WAL5",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "4619": {
+  "name": "LD.WALNGFRD13.8",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "50025": {
+  "name": "UN.WALNGFRD13.8WAL6",
+  "zone": "CT",
+  "lat": 41.448618,
+  "lon": -72.834289
+ },
+ "4121": {
+  "name": "LD.WALPOLE 14.4",
+  "zone": "SEMA",
+  "lat": 42.1301,
+  "lon": -71.2566
+ },
+ "4089": {
+  "name": "LD.WALTHAM 13.8",
+  "zone": "NEMA",
+  "lat": 42.377984,
+  "lon": -71.263032
+ },
+ "4299": {
+  "name": "LD.WAMPNOAG12.5",
+  "zone": "RI",
+  "lat": 41.802269,
+  "lon": -71.348391
+ },
+ "14174": {
+  "name": "LD.WARD_HIL13.2",
+  "zone": "NEMA",
+  "lat": 42.744262,
+  "lon": -71.114078
+ },
+ "4350": {
+  "name": "LD.WARD_HIL23",
+  "zone": "NEMA",
+  "lat": 42.744262,
+  "lon": -71.114078
+ },
+ "527": {
+  "name": "UN.WARD_HIL23  OGD",
+  "zone": "NEMA",
+  "lat": 42.744262,
+  "lon": -71.114078
+ },
+ "547": {
+  "name": "UN.WARD_HIL23  RESN",
+  "zone": "NEMA",
+  "lat": 42.744262,
+  "lon": -71.114078
+ },
+ "4364": {
+  "name": "LD.WARE    69",
+  "zone": "WCMA",
+  "lat": 42.274618,
+  "lon": -72.215055
+ },
+ "4245": {
+  "name": "LD.WAREHAM 23",
+  "zone": "SEMA",
+  "lat": 41.7881,
+  "lon": -70.6922
+ },
+ "50866": {
+  "name": "UN.WAREHAM 23  WA1S",
+  "zone": "SEMA",
+  "lat": 41.7881,
+  "lon": -70.6922
+ },
+ "50867": {
+  "name": "UN.WAREHAM 23  WA2S",
+  "zone": "SEMA",
+  "lat": 41.7881,
+  "lon": -70.6922
+ },
+ "50868": {
+  "name": "UN.WAREHAM 23  WA3S",
+  "zone": "SEMA",
+  "lat": 41.7881,
+  "lon": -70.6922
+ },
+ "50869": {
+  "name": "UN.WAREHAM 23  WA4S",
+  "zone": "SEMA",
+  "lat": 41.7881,
+  "lon": -70.6922
+ },
+ "4910": {
+  "name": "LD.WARREN  12.5T1 LD",
+  "zone": "RI",
+  "lat": 41.733937,
+  "lon": -71.280987
+ },
+ "4911": {
+  "name": "LD.WARREN  12.5T2 LD",
+  "zone": "RI",
+  "lat": 41.733937,
+  "lon": -71.280987
+ },
+ "4912": {
+  "name": "LD.WARREN  23  T5 LD",
+  "zone": "RI",
+  "lat": 41.733937,
+  "lon": -71.280987
+ },
+ "4913": {
+  "name": "LD.WARREN  23  T6 LD",
+  "zone": "RI",
+  "lat": 41.733937,
+  "lon": -71.280987
+ },
+ "4082": {
+  "name": "LD.WASHNGTN34.5",
+  "zone": "ME",
+  "lat": 44.675552,
+  "lon": -67.546241
+ },
+ "446": {
+  "name": "UN.WASHNGTN34.5IND6",
+  "zone": "ME",
+  "lat": 44.675552,
+  "lon": -67.546241
+ },
+ "12564": {
+  "name": "UN.WATERBRY13.8WBRY",
+  "zone": "CT",
+  "lat": 41.544174,
+  "lon": -73.041687
+ },
+ "17186": {
+  "name": "LD.WATERFRD23",
+  "zone": "CT",
+  "lat": 41.3765,
+  "lon": -72.1895
+ },
+ "73285": {
+  "name": "UN.WATERFRD23  WFDS",
+  "zone": "CT",
+  "lat": 41.3765,
+  "lon": -72.1895
+ },
+ "4604": {
+  "name": "LD.WATERSDE13.2",
+  "zone": "CT",
+  "lat": 41.037548,
+  "lon": -73.555246
+ },
+ "11842": {
+  "name": "UN.WATERSDE13.8WTSD",
+  "zone": "CT",
+  "lat": 41.037548,
+  "lon": -73.555246
+ },
+ "4109": {
+  "name": "LD.WATERTWN13.8",
+  "zone": "NEMA",
+  "lat": 42.36515,
+  "lon": -71.179307
+ },
+ "4343": {
+  "name": "LD.WATER_RV23",
+  "zone": "NEMA",
+  "lat": 42.543552,
+  "lon": -70.928684
+ },
+ "612": {
+  "name": "UN.WATER_RV23  W_J1",
+  "zone": "NEMA",
+  "lat": 42.543552,
+  "lon": -70.928684
+ },
+ "613": {
+  "name": "UN.WATER_RV115 W_J2",
+  "zone": "NEMA",
+  "lat": 42.543552,
+  "lon": -70.928684
+ },
+ "73282": {
+  "name": "UN.WATER_RV13.8WRGT",
+  "zone": "NEMA",
+  "lat": 42.543552,
+  "lon": -70.928684
+ },
+ "4204": {
+  "name": "LD.WATER_ST13.8",
+  "zone": "SEMA",
+  "lat": 42.10158,
+  "lon": -70.831497
+ },
+ "4428": {
+  "name": "LD.WATRSTUI13.8",
+  "zone": "CT",
+  "lat": 41.301481,
+  "lon": -72.921406
+ },
+ "4306": {
+  "name": "LD.WBSTR_ST13.8",
+  "zone": "WCMA",
+  "lat": 42.243876,
+  "lon": -71.832004
+ },
+ "14841": {
+  "name": "LD.WEARE   34.5",
+  "zone": "NH",
+  "lat": 43.032503,
+  "lon": -71.660148
+ },
+ "4392": {
+  "name": "LD.WEBSTER 34.5",
+  "zone": "NH",
+  "lat": 43.456,
+  "lon": -71.674167
+ },
+ "401": {
+  "name": "UN.WEBSTER 34.5EAST",
+  "zone": "NH",
+  "lat": 43.456,
+  "lon": -71.674167
+ },
+ "16250": {
+  "name": "LD.WELFLEET23",
+  "zone": "SEMA",
+  "lat": 41.947304,
+  "lon": -70.01765
+ },
+ "4308": {
+  "name": "LD.WENDLDPT13.8",
+  "zone": "WCMA",
+  "lat": 42.594875,
+  "lon": -72.364583
+ },
+ "14177": {
+  "name": "UN.WESTBRK 18.0WE1A",
+  "zone": "ME",
+  "lat": 43.656832,
+  "lon": -70.376053
+ },
+ "14178": {
+  "name": "UN.WESTBRK 18.0WE1B",
+  "zone": "ME",
+  "lat": 43.656832,
+  "lon": -70.376053
+ },
+ "10603": {
+  "name": "LD.WESTFORD13.2",
+  "zone": "WCMA",
+  "lat": 42.567119,
+  "lon": -71.460915
+ },
+ "4613": {
+  "name": "LD.WESTON  27.6",
+  "zone": "CT",
+  "lat": 41.189621,
+  "lon": -73.371338
+ },
+ "4384": {
+  "name": "LD.WHITEFLD34.5",
+  "zone": "NH",
+  "lat": 44.379273,
+  "lon": -71.608382
+ },
+ "618": {
+  "name": "UN.WHITEFLD34.5WFPL",
+  "zone": "NH",
+  "lat": 44.379273,
+  "lon": -71.608382
+ },
+ "619": {
+  "name": "UN.WHITE_LK34.5WHLA",
+  "zone": "NH",
+  "lat": 43.848,
+  "lon": -71.206
+ },
+ "4387": {
+  "name": "LD.WHITE_LK34.5",
+  "zone": "NH",
+  "lat": 43.848,
+  "lon": -71.206
+ },
+ "4268": {
+  "name": "LD.WHTNS_PD13.8",
+  "zone": "SEMA",
+  "lat": 42.105627,
+  "lon": -71.671264
+ },
+ "4331": {
+  "name": "LD.WILDER  13.8",
+  "zone": "NH",
+  "lat": 43.668531,
+  "lon": -72.303681
+ },
+ "620": {
+  "name": "UN.WILDER  13.8WILD",
+  "zone": "NH",
+  "lat": 43.668531,
+  "lon": -72.303681
+ },
+ "4562": {
+  "name": "LD.WILLIAMS13.2",
+  "zone": "CT",
+  "lat": 41.36813,
+  "lon": -72.103667
+ },
+ "4914": {
+  "name": "LD.WILMATC 27.61X2 LD",
+  "zone": "CT",
+  "lat": 41.712902,
+  "lon": -72.228902
+ },
+ "4915": {
+  "name": "LD.WILMATC 27.62X2 LD",
+  "zone": "CT",
+  "lat": 41.712902,
+  "lon": -72.228902
+ },
+ "46736": {
+  "name": "LD.WILMATC 4.8 1X3 LD",
+  "zone": "CT",
+  "lat": 41.712902,
+  "lon": -72.228902
+ },
+ "46740": {
+  "name": "LD.WILMATC 4.8 2X3 LD",
+  "zone": "CT",
+  "lat": 41.712902,
+  "lon": -72.228902
+ },
+ "14825": {
+  "name": "LD.WILTON  13.8",
+  "zone": "CT",
+  "lat": 41.200178,
+  "lon": -73.432271
+ },
+ "4366": {
+  "name": "LD.OTTER_RV69",
+  "zone": "WCMA",
+  "lat": 42.6845,
+  "lon": -72.0802
+ },
+ "4462": {
+  "name": "LD.WINDSOR 46",
+  "zone": "VT",
+  "lat": 43.489898,
+  "lon": -72.40852
+ },
+ "4142": {
+  "name": "LD.WINSLOW 34.5",
+  "zone": "ME",
+  "lat": 44.569348,
+  "lon": -69.60334
+ },
+ "460": {
+  "name": "UN.WINSLOW 34.5LCKW",
+  "zone": "ME",
+  "lat": 44.569348,
+  "lon": -69.60334
+ },
+ "761": {
+  "name": "UN.WINSLOW 34.5SHAW",
+  "zone": "ME",
+  "lat": 44.569348,
+  "lon": -69.60334
+ },
+ "2426": {
+  "name": "UN.WINSLOW 34.5UNAH",
+  "zone": "ME",
+  "lat": 44.569348,
+  "lon": -69.60334
+ },
+ "4541": {
+  "name": "LD.WNDSRLKS27.6",
+  "zone": "CT",
+  "lat": 41.91895,
+  "lon": -72.626394
+ },
+ "48161": {
+  "name": "LD.WNDSRLKS23",
+  "zone": "CT",
+  "lat": 41.91895,
+  "lon": -72.626394
+ },
+ "4084": {
+  "name": "LD.WOBURN  13.8",
+  "zone": "NEMA",
+  "lat": 42.4628,
+  "lon": -71.1538
+ },
+ "4288": {
+  "name": "LD.WOLF_HL 23",
+  "zone": "RI",
+  "lat": 41.881516,
+  "lon": -71.527004
+ },
+ "4504": {
+  "name": "LD.WOODLAND23",
+  "zone": "WCMA",
+  "lat": 42.336115,
+  "lon": -73.235237
+ },
+ "4431": {
+  "name": "LD.WOODMONT13.8",
+  "zone": "CT",
+  "lat": 41.237162,
+  "lon": -73.013352
+ },
+ "4362": {
+  "name": "LD.WOODSIDE69",
+  "zone": "WCMA",
+  "lat": 42.330005,
+  "lon": -71.630838
+ },
+ "4169": {
+  "name": "LD.WOODSTCK34.5",
+  "zone": "ME",
+  "lat": 44.389283,
+  "lon": -70.629399
+ },
+ "35693": {
+  "name": "UN.WOODSTCK34.5SPMT",
+  "zone": "ME",
+  "lat": 44.389283,
+  "lon": -70.629399
+ },
+ "4276": {
+  "name": "LD.WOOD_RV 34.5",
+  "zone": "RI",
+  "lat": 41.427524,
+  "lon": -71.704111
+ },
+ "50835": {
+  "name": "UN.WOOD_RV 34.5ABFS",
+  "zone": "RI",
+  "lat": 41.427524,
+  "lon": -71.704111
+ },
+ "39678": {
+  "name": "LD.WOONSCKT13.8",
+  "zone": "RI",
+  "lat": 41.9793,
+  "lon": -71.5235
+ },
+ "4216": {
+  "name": "LD.WSHNGTN 14.4",
+  "zone": "RI",
+  "lat": 41.937191,
+  "lon": -71.462089
+ },
+ "4152": {
+  "name": "LD.WYMAN_HY12.5",
+  "zone": "ME",
+  "lat": 45.071448,
+  "lon": -69.90279
+ },
+ "636": {
+  "name": "UN.WYMAN_HY13.8WYM1",
+  "zone": "ME",
+  "lat": 45.071448,
+  "lon": -69.90279
+ },
+ "637": {
+  "name": "UN.WYMAN_HY13.8WYM2",
+  "zone": "ME",
+  "lat": 45.071448,
+  "lon": -69.90279
+ },
+ "638": {
+  "name": "UN.WYMAN_HY13.8WYM3",
+  "zone": "ME",
+  "lat": 45.071448,
+  "lon": -69.90279
+ },
+ "4322": {
+  "name": "LD.WYMNGRDN115",
+  "zone": "WCMA",
+  "lat": 42.232966,
+  "lon": -71.730096
+ },
+ "16873": {
+  "name": "LD.W_AMESBY23",
+  "zone": "NEMA",
+  "lat": 42.833017,
+  "lon": -70.972595
+ },
+ "16874": {
+  "name": "LD.W_AMESBY13.2",
+  "zone": "NEMA",
+  "lat": 42.833017,
+  "lon": -70.972595
+ },
+ "4916": {
+  "name": "LD.W_ANDOVR34.5T10 LD",
+  "zone": "WCMA",
+  "lat": 42.685509,
+  "lon": -71.188359
+ },
+ "4917": {
+  "name": "LD.W_ANDOVR34.5T20 LD",
+  "zone": "WCMA",
+  "lat": 42.685509,
+  "lon": -71.188359
+ },
+ "49022": {
+  "name": "LD.W_ANDOVR13.8T10 LD",
+  "zone": "WCMA",
+  "lat": 42.685509,
+  "lon": -71.188359
+ },
+ "49023": {
+  "name": "LD.W_ANDOVR13.8T20 LD",
+  "zone": "WCMA",
+  "lat": 42.685509,
+  "lon": -71.188359
+ },
+ "4478": {
+  "name": "LD.W_BOYLST13.8",
+  "zone": "WCMA",
+  "lat": 42.360447,
+  "lon": -71.775784
+ },
+ "4591": {
+  "name": "LD.W_BROKFD13.8",
+  "zone": "CT",
+  "lat": 41.482585,
+  "lon": -73.431271
+ },
+ "4132": {
+  "name": "LD.W_BUXTON34.5",
+  "zone": "ME",
+  "lat": 43.665932,
+  "lon": -70.596579
+ },
+ "440": {
+  "name": "UN.W_BUXTON34.5HIRM",
+  "zone": "ME",
+  "lat": 43.665932,
+  "lon": -70.596579
+ },
+ "755": {
+  "name": "UN.W_BUXTON34.5BONE",
+  "zone": "ME",
+  "lat": 43.665932,
+  "lon": -70.596579
+ },
+ "73278": {
+  "name": "UN.W_BUXTON34.5BONB",
+  "zone": "ME",
+  "lat": 43.665932,
+  "lon": -70.596579
+ },
+ "73280": {
+  "name": "AR.W_BUXTON34.5BONBD",
+  "zone": "ME",
+  "lat": 43.665932,
+  "lon": -70.596579
+ },
+ "4318": {
+  "name": "LD.W_CHRLTN13.2",
+  "zone": "WCMA",
+  "lat": 42.137164,
+  "lon": -72.027869
+ },
+ "4285": {
+  "name": "LD.W_CRNSTN12.5",
+  "zone": "RI",
+  "lat": 41.756863,
+  "lon": -71.521817
+ },
+ "4118": {
+  "name": "LD.W_FRMHAM13.8",
+  "zone": "NEMA",
+  "lat": 42.298393,
+  "lon": -71.481503
+ },
+ "44024": {
+  "name": "LD.W_HAMDEN69",
+  "zone": "WCMA",
+  "lat": 42.0688,
+  "lon": -72.4612
+ },
+ "44025": {
+  "name": "LD.W_HAMDEN13.2",
+  "zone": "WCMA",
+  "lat": 42.0688,
+  "lon": -72.4612
+ },
+ "13692": {
+  "name": "LD.W_KENNEB115",
+  "zone": "ME",
+  "lat": 43.3638,
+  "lon": -70.4673
+ },
+ "4279": {
+  "name": "LD.W_KNGSTN34.5",
+  "zone": "RI",
+  "lat": 41.472698,
+  "lon": -71.57412
+ },
+ "38495": {
+  "name": "UN.W_KNGSTN34.5BIW",
+  "zone": "RI",
+  "lat": 41.472698,
+  "lon": -71.57412
+ },
+ "625": {
+  "name": "UN.W_MEDWAY13.8WMJ1",
+  "zone": "NEMA",
+  "lat": 42.136586,
+  "lon": -71.447523
+ },
+ "626": {
+  "name": "UN.W_MEDWAY13.8WMJ2",
+  "zone": "NEMA",
+  "lat": 42.136586,
+  "lon": -71.447523
+ },
+ "4352": {
+  "name": "LD.W_METHUE23",
+  "zone": "NEMA",
+  "lat": 42.728465,
+  "lon": -71.201397
+ },
+ "4919": {
+  "name": "LD.W_POND  23",
+  "zone": "SEMA",
+  "lat": 41.9275,
+  "lon": -70.703
+ },
+ "48162": {
+  "name": "LD.W_SALEM 23",
+  "zone": "NEMA",
+  "lat": 42.505043,
+  "lon": -70.927307
+ },
+ "4340": {
+  "name": "LD.W_SALEM 13.8",
+  "zone": "NEMA",
+  "lat": 42.505043,
+  "lon": -70.927307
+ },
+ "4528": {
+  "name": "LD.W_SPRFLD13.8",
+  "zone": "WCMA",
+  "lat": 42.095792,
+  "lon": -72.596539
+ },
+ "4130": {
+  "name": "LD.YARMOUTH34.5",
+  "zone": "ME",
+  "lat": 43.751242,
+  "lon": -70.155516
+ },
+ "67487": {
+  "name": "UN.YARMOUTH6.9 CABB",
+  "zone": "ME",
+  "lat": 43.751242,
+  "lon": -70.155516
+ },
+ "67490": {
+  "name": "AR.YARMOUTH6.9 CABBD",
+  "zone": "ME",
+  "lat": 43.751242,
+  "lon": -70.155516
+ },
+ "641": {
+  "name": "UN.YARMOUTH13.8YAR3",
+  "zone": "ME",
+  "lat": 43.751242,
+  "lon": -70.155516
+ },
+ "642": {
+  "name": "UN.YARMOUTH22  YAR4",
+  "zone": "ME",
+  "lat": 43.751242,
+  "lon": -70.155516
+ },
+ "38553": {
+  "name": "UN.TUTTLEHL34.5ANTW",
+  "zone": "NH",
+  "lat": 43.074167,
+  "lon": -72.005222
+ },
+ "68258": {
+  "name": "LD.COUNTYRD34.5",
+  "zone": "ME",
+  "lat": 44.5734,
+  "lon": -69.6771
+ },
+ "4420": {
+  "name": "LD.TAUNTON 13.8",
+  "zone": "SEMA",
+  "lat": 41.86527,
+  "lon": -71.105522
+ },
+ "375": {
+  "name": "UN.TAUNTON 13.8CL9C",
+  "zone": "SEMA",
+  "lat": 41.86527,
+  "lon": -71.105522
+ },
+ "4139": {
+  "name": "LD.9DRAGONS115",
+  "zone": "ME",
+  "lat": 44.549482,
+  "lon": -70.540993
+ },
+ "345": {
+  "name": "UN.9DRAGONS115 BOIS",
+  "zone": "ME",
+  "lat": 44.549482,
+  "lon": -70.540993
+ },
+ "67524": {
+  "name": "LD.PWRCO_RD13.21T_LD",
+  "zone": "WCMA",
+  "lat": 42.623919,
+  "lon": -71.24649
+ },
+ "68274": {
+  "name": "LD.PWRCO_RD13.22T_LD",
+  "zone": "WCMA",
+  "lat": 42.623919,
+  "lon": -71.24649
+ },
+ "68504": {
+  "name": "LD.GREENWCH13.2",
+  "zone": "CT",
+  "lat": 41.020964,
+  "lon": -73.632979
+ },
+ "76047": {
+  "name": "LD.LARRABEE345 SMDINTLD",
+  "zone": "ME",
+  "lat": 44.141081,
+  "lon": -70.186453
+ },
+ "4858": {
+  "name": "LD.HIGH_ST 14.4510 LD",
+  "zone": "NEMA",
+  "lat": 42.3537,
+  "lon": -71.0556
+ },
+ "4859": {
+  "name": "LD.HIGH_ST 14.4511 LD",
+  "zone": "NEMA",
+  "lat": 42.3537,
+  "lon": -71.0556
+ },
+ "4891": {
+  "name": "LD.DRAGNCRT13.8110A LD",
+  "zone": "NEMA",
+  "lat": 42.5089,
+  "lon": -71.1268
+ },
+ "4892": {
+  "name": "LD.DRAGNCRT13.8110B LD",
+  "zone": "NEMA",
+  "lat": 42.5089,
+  "lon": -71.1268
+ },
+ "76172": {
+  "name": "LD.HUNTNGTN69",
+  "zone": "WCMA",
+  "lat": 42.770766,
+  "lon": -72.518027
+ },
+ "76171": {
+  "name": "AR.MEDWAYGR34.5MEDBD",
+  "zone": "SEMA",
+  "lat": 42.136586,
+  "lon": -71.447523
+ },
+ "76169": {
+  "name": "UN.MEDWAYGR34.5MEDB",
+  "zone": "SEMA",
+  "lat": 42.136586,
+  "lon": -71.447523
+ },
+ "77304": {
+  "name": "UN.3RIVRSME34.5TRS",
+  "zone": "ME",
+  "lat": 44.712639,
+  "lon": -68.111222
+ }
+}
