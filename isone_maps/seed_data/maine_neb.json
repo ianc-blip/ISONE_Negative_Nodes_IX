@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "state": "ME",
+    "regulator": "Maine Public Utilities Commission",
+    "regulator_abbr": "MPUC",
+    "topic": "Net Energy Billing (NEB) / distributed-generation compensation",
+    "description": "Maine's distributed-generation compensation record, compiled from the MPUC data response to Dichotomy Energy's request. Feeds the DER-compensation / ratepayer-recovery side of the negative-node model: NEB is the primary driver of behind-the-meter and community solar buildout in Maine, which in turn drives negative-price hours at the ISONE nodes tracked by this platform.",
+    "portal": {
+      "name": "MPUC Case Management System",
+      "case_url_pattern": "https://mpuc-cms.maine.gov/CQM.Public.WebUI/Common/CaseMaster.aspx?CaseNumber={docket}",
+      "reports_to_legislature": "https://www.maine.gov/mpuc/regulated-utilities/electricity/reports"
+    },
+    "source": {
+      "type": "email",
+      "request": {
+        "from": "Ian Clark <ianclark46@gmail.com>",
+        "org": "Dichotomy Energy",
+        "to": "Maine.PUC@maine.gov",
+        "date": "2026-07-12"
+      },
+      "response": {
+        "from": "Sally Zeh <Sally.Zeh@maine.gov>",
+        "title": "Director of Electric and Natural Gas Division, Maine Public Utilities Commission",
+        "date": "2026-07-13"
+      },
+      "note": "Data pointers provided informally; MPUC noted further detail may require a formal FOAA request."
+    },
+    "compiled": "2026-07-13"
+  },
+
+  "neb_tariff": {
+    "docket": "2019-00197",
+    "governing_order_date": "2025-12-17",
+    "governing_order_note": "December 17, 2025 order in Docket 2019-00197 sets NEB tariff rates for calendar years 2026-2046. Prior-year rates are set by earlier orders in the same docket.",
+    "programs": [
+      {
+        "key": "tariff_rate_neb",
+        "name": "Tariff-Rate NEB",
+        "compensation_basis": "fixed_tariff_rate",
+        "rate_unit": "$/kWh",
+        "escalation": "Set per the governing order; see schedule below (rate values not published in the email response — pull from the 2025-12-17 order).",
+        "schedule": [
+          {"vintage_year": 2026, "rate_usd_per_kwh": null},
+          {"vintage_year": 2027, "rate_usd_per_kwh": null},
+          {"vintage_year": 2028, "rate_usd_per_kwh": null},
+          {"vintage_year": 2029, "rate_usd_per_kwh": null},
+          {"vintage_year": 2030, "rate_usd_per_kwh": null},
+          {"vintage_year": 2031, "rate_usd_per_kwh": null},
+          {"vintage_year": 2032, "rate_usd_per_kwh": null},
+          {"vintage_year": 2033, "rate_usd_per_kwh": null},
+          {"vintage_year": 2034, "rate_usd_per_kwh": null},
+          {"vintage_year": 2035, "rate_usd_per_kwh": null},
+          {"vintage_year": 2036, "rate_usd_per_kwh": null},
+          {"vintage_year": 2037, "rate_usd_per_kwh": null},
+          {"vintage_year": 2038, "rate_usd_per_kwh": null},
+          {"vintage_year": 2039, "rate_usd_per_kwh": null},
+          {"vintage_year": 2040, "rate_usd_per_kwh": null},
+          {"vintage_year": 2041, "rate_usd_per_kwh": null},
+          {"vintage_year": 2042, "rate_usd_per_kwh": null},
+          {"vintage_year": 2043, "rate_usd_per_kwh": null},
+          {"vintage_year": 2044, "rate_usd_per_kwh": null},
+          {"vintage_year": 2045, "rate_usd_per_kwh": null},
+          {"vintage_year": 2046, "rate_usd_per_kwh": null}
+        ]
+      },
+      {
+        "key": "commercial_neb",
+        "name": "Commercial NEB (kWh-credit program)",
+        "compensation_basis": "kwh_credit",
+        "rate_unit": "$/kWh (implied by prevailing bill rates)",
+        "escalation": "Not determined in advance.",
+        "note": "kWh-credit compensation is not fixed ahead of time; the credit value depends on the delivery and supply rates in effect at the time each credit is applied. Model this dynamically off CMP / Versant delivery + standard-offer supply rates rather than a static schedule.",
+        "schedule": []
+      }
+    ]
+  },
+
+  "cost_of_neb": {
+    "net_benefits_reports": {
+      "title": "Analysis of Net Benefits of Net Energy Billing",
+      "cadence": "annual",
+      "filed_by": "2026-03-31 (filed each March 31)",
+      "first_year": 2024,
+      "location": "\"Reports to the Legislature\" section of the MPUC website",
+      "url": "https://www.maine.gov/mpuc/regulated-utilities/electricity/reports",
+      "use": "Calibrates the ratepayer-recovery / cost-of-NEB component of the retail-rate model.",
+      "editions": [
+        {"report_year": 2024, "filed": "2024-03-31"},
+        {"report_year": 2025, "filed": "2025-03-31"},
+        {"report_year": 2026, "filed": "2026-03-31"}
+      ]
+    },
+    "stranded_cost_dockets": {
+      "note": "Recent stranded-cost dockets by utility. NOT specific to NEB costs — per MPUC, these are general stranded-cost proceedings and should not be read as isolating NEB cost recovery.",
+      "utilities": {
+        "CMP": ["2025-00019", "2024-00015", "2023-00039", "2022-00042", "2021-00037"],
+        "Versant": ["2025-00115", "2024-00078", "2023-00076", "2022-00102", "2021-00077"]
+      }
+    }
+  },
+
+  "generation_storage_projects": {
+    "published_dataset": false,
+    "note": "MPUC does not publish, and is not in possession of, a comprehensive machine-readable index of generation and storage projects (name, location, capacity, technology, status).",
+    "best_available_source": {
+      "docket": "2020-00199",
+      "description": "Monthly reports filed by the utilities. Closest available substitute for a generation/storage project index.",
+      "cadence": "monthly"
+    },
+    "cross_reference": "For ISONE-interconnected capacity, this platform already tracks the ISONE Interconnection Queue (see isone_data_fetcher.fetch_and_parse_queue); the MPUC docket 2020-00199 filings cover distribution-level projects the ISONE queue omits."
+  }
+}

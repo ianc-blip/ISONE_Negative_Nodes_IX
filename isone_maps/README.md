@@ -27,13 +27,15 @@ All three have a togglable layer panel (top-right). Open in any browser — no s
 isone_maps/
 ├── map_generator.py         # builds the three Folium maps from seed data
 ├── isone_data_fetcher.py    # pulls live ISONE LMP CSVs + queue XLSX
+├── maine_neb_fetcher.py     # Maine NEB / DER-compensation data track (MPUC)
 ├── scheduler.py             # --run-now (cron) or --daemon (long-running)
 ├── requirements.txt
 ├── seed_data/
 │   ├── seed_multiyear.json  # 392 neg-price node records (2022–2025)
 │   ├── seed_totals.json     # same + queue totals layer
 │   ├── seed_year_tech.json  # same + queue by year & tech (658 records)
-│   └── node_geocodes.json   # 135 lat/lon lookups for ISONE nodes & counties
+│   ├── node_geocodes.json   # 135 lat/lon lookups for ISONE nodes & counties
+│   └── maine_neb.json       # Maine NEB tariff dockets, cost-of-NEB reports, gen/storage source
 ├── output/                  # generated HTML maps land here
 └── logs/
     └── scheduler.log
@@ -83,6 +85,40 @@ export ISONE_REFRESH=1           # triggers live data pull before map generation
 
 For negative-hour counting, the annual bulk CSVs (no auth) are sufficient and updated each month
 for the prior year. The authenticated API gives current-year access in real time.
+
+---
+
+## Maine NEB / DER-compensation data track
+
+Net Energy Billing (NEB) is the primary driver of behind-the-meter and community solar in Maine,
+and that distributed solar is what pushes several of the tracked ISONE nodes into negative prices.
+`maine_neb_fetcher.py` + `seed_data/maine_neb.json` give the model a machine-readable handle on
+Maine's DER-compensation policy record, compiled from the Maine Public Utilities Commission (MPUC)
+data response of **2026-07-13** (Director of Electric & Natural Gas Div.).
+
+| Topic | Where it lives | Notes |
+|---|---|---|
+| **NEB tariff rates** | Docket **2019-00197**, order **2025-12-17** | Tariff-rate NEB schedule for CY **2026–2046**. Prior-year rates are in earlier orders in the same docket. |
+| **Commercial NEB (kWh credit)** | same docket | Credit value **not set in advance** — worth the delivery + supply rates in effect when applied. Use `value_kwh_credit(delivery, supply)`. |
+| **Cost of NEB** | "Analysis of Net Benefits of Net Energy Billing" | Annual report filed each **March 31 since 2024**, in the MPUC "Reports to the Legislature" section. Calibrates the ratepayer-recovery component. |
+| **Stranded-cost dockets** | CMP + Versant, 2021–2025 | Indexed in the registry. **Not** NEB-specific — general stranded-cost proceedings. |
+| **Generation / storage index** | Docket **2020-00199** | MPUC publishes no comprehensive machine-readable project dataset; monthly utility filings in this docket are the best-available substitute. |
+
+```bash
+# Print the Maine NEB record + a portal link index for every referenced docket
+python maine_neb_fetcher.py
+```
+
+The tariff schedule ships with `rate_usd_per_kwh: null` because the MPUC response gave the docket
+pointer, not the rate table. Once the numbers are pulled from the 2025-12-17 order, load them with:
+
+```python
+from maine_neb_fetcher import set_tariff_rates
+set_tariff_rates({2026: 0.xxxx, 2027: 0.xxxx, ...})   # persists to seed_data/maine_neb.json
+```
+
+This track is standard-library only — it does **not** require pandas/folium, so it runs even
+before the map dependencies are installed.
 
 ---
 
